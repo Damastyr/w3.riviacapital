@@ -1,0 +1,15 @@
+*.sublime-project
+*.sublime-workspace
+*.bak
+*.yml
+*.fbx
+*.xml
+*.png
+_settings_.bat
+*.log
+_tmp/*
+definition.quest/backups/*.zip
+strings/all.en.strings.csv
+strings/strings.quest.csv
+strings/strings.scene-*.csv
+uncooked/*

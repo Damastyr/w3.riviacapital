@@ -1,0 +1,22 @@
+README.1ST
+-------------
+
+This directory is for files that should be used as is and therefore added to the
+package AFTER cooking but BEFORE packaging the *dlc* part. This allows to add
+files that cannot be generated with the radish tools or to overwrite any
+generated/cooked file with a custom (e.g. edited) file BEFORE the dlc is packed.
+
+Note: files in this folder/subfolders WILL overwrite a generated and cooked file
+from the project EVERY time. If you change some parameter/name in a radish
+generated file, this generated file will still be overwritten with a file that
+matches the path and name.
+
+
+Directory Structure
+-------------------
+
+The root folder (additional.dlc.post-cook) is meant to be the root of the dlc owned
+data, meaning:
+
+  additional.dlc.post-cook   is treated like   dlc/dlc<modid>/
+
