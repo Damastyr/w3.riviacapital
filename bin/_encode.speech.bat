@@ -8,6 +8,11 @@ EXIT /B 1
 rem ---------------------------------------------------
 :SettingsLoaded
 
+if exist "%DIR_STRINGS%\strings.custom.speech.csv" GOTO :EncodeSpeech
+EXIT /B 0
+
+:EncodeSpeech
+echo.
 echo.
 echo --------------------------------------------------------------------------
 echo -- ENCODING SPEECH %PATCHING%
