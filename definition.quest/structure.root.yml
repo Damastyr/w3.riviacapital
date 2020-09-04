@@ -1,0 +1,30 @@
+#
+# quest structure root segment
+# 
+# (version: 1, saved: 2020-08-30 13:44:07)
+#
+---
+structure:
+  quest:
+    blocks:
+      start:
+        ".editor": [ 100.0, 150.0 ]
+        next:
+          - script.HelloWorld
+      
+      script.HelloWorld:
+        ".editor":
+          pos: [ 300.0, 150.0 ]
+          in: [ In ]
+          out: [ Out ]
+        function: radLog
+        parameter:
+          - logChannel: cname_new_quest
+          - msg: Welcome to Rivia!
+        next:
+          - end
+      
+      end:
+        ".editor": [ 500.0, 150.0 ]
+        next: ".done"
+      

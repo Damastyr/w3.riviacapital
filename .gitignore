@@ -1,10 +1,6 @@
 *.sublime-project
 *.sublime-workspace
 *.bak
-*.yml
-*.fbx
-*.xml
-*.png
 _settings_.bat
 *.log
 _tmp/*

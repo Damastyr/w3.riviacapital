@@ -1,0 +1,386 @@
+#
+# world definition for: rivia capital
+#
+---
+WorldDefinition:
+  name: riviacapital
+  worldpath: dlc/dlcriviacapital/levels
+  terrain:
+    heightfield: heightmap.png
+    colormap: colormap.png
+    textures:
+      background: background.png
+      overlay: foreground.png
+      blendcontrol: 15    # bits 0..2 blending of overlay || bits 3..5 scaling of background texture
+
+    clipSize: 1024
+    numClipmapStackLevels: 2
+    tileRes: 256
+    colormapStartingMip: 0
+    terrainSize: 4096.0
+    numTilesPerEdge: 16
+    minHeight: -70.0
+    maxHeight: 400.0
+    colormapStartingMip: 0
+    material: "levels\\prolog_village\\terrain_material.w2mg"
+    textureParams:
+      texture_01:
+        blendSharpness: 0.3650000095
+        rspecScale: 0.3225809932
+        specularity: 0.224999994
+        rspecBase: 0.5161290169
+      texture_02:
+        blendSharpness: 0.163635999
+        specularity: 0.7170000076
+        rspecBase: 0.5279999971
+      texture_03:
+        blendSharpness: 0.2060610056
+        slopeBasedNormalDamp: 0.0121210003
+        specularity: 0.2460000068
+        rspecBase: 0.5360000134
+      texture_04:
+        blendSharpness: 0.3220340014
+        slopeBasedDamp: 0.2711859941
+        slopeBasedNormalDamp: 0.4848479927
+        specularity: 0.2630000114
+        rspecBase: 0.5429999828
+      texture_05:
+        blendSharpness: 0.1557790041
+        specularity: 0.0542169996
+        rspecBase: 0.566264987
+      texture_06:
+        blendSharpness: 0.1700000018
+        rspecScale: 0.0160000008
+        specularity: 0.0903609991
+        rspecBase: 0.566264987
+      texture_07:
+        specularity: 0.4169999957
+        rspecBase: 0.5099999905
+      texture_08:
+        blendSharpness: 0.5921049714
+        slopeBasedDamp: 0.5789470077
+        rspecScale: 0.0160000008
+        specularity: 0.52700001
+        rspecBase: 0.5120000243
+      texture_09:
+        specularity: 0.3870970011
+        rspecBase: 0.5322579741
+      texture_10:
+        blendSharpness: 0.1368419975
+        rspecScale: 0.1700000018
+        specularity: 0.224999994
+        rspecBase: 0.4779999852
+      texture_11:
+        blendSharpness: 0.1684210002
+        slopeBasedDamp: 0.1894740015
+        rspecScale: 0.903226018
+        specularity: 0.3870970011
+        rspecBase: 0.5645160079
+      texture_12:
+        blendSharpness: 0.5368419886
+        slopeBasedDamp: 0.400000006
+        rspecScale: 0.8548390269
+        specularity: 0.370968014
+        rspecBase: 0.596773982
+      texture_13:
+        blendSharpness: 0.1789470017
+        specularity: 0.4609999955
+        rspecBase: 0.5210000277
+      texture_14:
+        blendSharpness: 0.3644070029
+        slopeBasedDamp: 0.3644070029
+        specularity: 0.4838710129
+        rspecBase: 0.548386991
+      texture_15:
+        blendSharpness: 0.2150000036
+        rspecScale: 0.0869999975
+        specularity: 0.351000011
+        rspecBase: 0.4889999926
+      texture_16:
+        slopeBasedNormalDamp: 0.2181819975
+        rspecScale: 0.1640000045
+        specularity: 0.4230000079
+        rspecBase: 0.3619999886
+      texture_17:
+        blendSharpness: 0.1199999973
+        specularity: 0.3790000081
+        rspecBase: 0.5490000248
+      texture_18:
+        blendSharpness: 0.1757580042
+        slopeBasedDamp: 0.9878789783
+        specularity: 0.5161290169
+        rspecBase: 0.5645160079
+      texture_19:
+        blendSharpness: 0.1299999952
+        rspecScale: 0.0049999999
+        specularity: 0.4720000029
+        rspecBase: 0.5870000124
+      texture_20:
+        blendSharpness: 0.1052630022
+        slopeBasedDamp: 0.1016950011
+        specularity: 0.1199999973
+        rspecBase: 0.5870000124
+      texture_21:
+        rspecScale: 0.7741940022
+        specularity: 0.1612900048
+        rspecBase: 0.419355005
+      texture_22:
+        specularity: 0.3449999988
+        rspecBase: 0.5640000105
+      texture_23:
+        specularity: 0.4169999957
+        rspecBase: 0.5490000248
+      texture_25:
+        blendSharpness: 0.4322029948
+        slopeBasedDamp: 0.4067800045
+        specularity: 0.3619999886
+        rspecBase: 0.5149999857
+      texture_26:
+        blendSharpness: 0.174999997
+        specularity: 0.370968014
+        rspecBase: 0.5645160079
+        falloff: 0.0549999997
+      texture_27:
+        blendSharpness: 0.3449999988
+        rspecScale: 0.2586210072
+        specularity: 0.419355005
+        rspecBase: 0.4838710129
+        falloff: 0.3620690107
+      texture_28:
+        blendSharpness: 0.1319440007
+        specularity: 0.3680000007
+        rspecBase: 0.5049999952
+      texture_29:
+        rspecBase: 0.5049999952
+      texture_30:
+        rspecScale: 0.4720000029
+        specularity: 0.4449999928
+        rspecBase: 0.4779999852
+      texture_31:
+        specularity: 0.4889999926
+        rspecBase: 0.5490000248
+    grassBrushes:
+      texture_01: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_default.vbrush"
+      texture_23: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
+      texture_22: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
+      texture_24: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
+      texture_25: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
+      texture_26: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
+      texture_27: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
+      texture_28: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
+      texture_29: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
+      texture_13: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
+  newLayerGroupFormat: true
+  #hasEmbeddedLayerInfos: true
+  # _umbraScene: "dlc\\dlchubtest\\levels\\hubtest\\hubtest.w3occlusiondef"
+  shadowConfig:
+    numCascades: 4
+    cascadeRange1: 3.0
+    cascadeRange2: 16.0
+    cascadeRange3: 80.0
+    cascadeFilterSize1: 0.0299999993
+    cascadeFilterSize2: 0.0599999987
+    cascadeFilterSize3: 0.1199999973
+    cascadeFilterSize4: 0.200000003
+    shadowBiasOffsetSlopeMul: 0.6999999881
+    shadowBiasOffsetConst: 0.0399999991
+    speedTreeShadowFilterSize1: 0.150000006
+    speedTreeShadowFilterSize2: 0.150000006
+    speedTreeShadowFilterSize3: 0.150000006
+    speedTreeShadowFilterSize4: 0.150000006
+    speedTreeShadowGradient: 3.0
+    hiResShadowBiasOffsetSlopeMul: 1.3999999762
+    hiResShadowBiasOffsetConst: 0.0060000001
+    hiResShadowTexelRadius: 3.0
+    terrainShadowsDistance: 1500.0
+    terrainShadowsFadeRange: 150.0
+  environmentParameters:
+    cameraDirtTexture: "fx\\textures\\flares\\fullscreen_flare01.xbm"
+    globalLightingTrajectory:
+      yawDegrees: 1442.0
+      sunCurveShiftFactor: 8.0
+      moonSqueeze: -1.25
+      sunHeight:
+        ScalarEditOrigin: 10.1002710015
+        curve:
+          "00:03":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: -0.2223124206
+          "03:36":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.0193144083
+          "04:38":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.0922925174
+          "07:33":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.263333559
+          "12:00":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.400000006
+          "17:49":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.1712371409
+          "20:01":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.0619400144
+          "21:00":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: -0.0081509277
+          "21:35":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: -0.0863105655
+          "22:27":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: -0.1529645622
+      moonHeight:
+        ScalarEditOrigin: -0.3925410509
+        curve:
+          "06:18":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: -0.0630612373
+          "12:00":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: -0.5254890323
+          "20:34":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.0568198264
+          "23:52":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.3376429677
+      lightHeight:
+        ScalarEditOrigin: 0.129634425
+        curve:
+          "03:58":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.0850176066
+          "12:00":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.400000006
+          "20:05":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.0797097534
+          "21:26":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.0631742328
+          "24:00":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.2940207124
+      lightDirChoice:
+        ScalarEditOrigin: 0.2812512517
+        curve:
+          "03:09":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: -0.1230650544
+          "03:30":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.9951043725
+          "05:54":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 1.0
+          "12:00":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 1.0
+          "21:09":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 1.0058904886
+          "21:32":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: -0.0475572348
+          "22:17":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: -0.1578770578
+      skyDayAmount:
+        ScalarEditOrigin: 0.7653695345
+        curve:
+          "03:02":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: -0.004463613
+          "03:41":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 0.8677108288
+          "06:00":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 1.0
+          "18:00":
+            curveTypeL: 1
+            curveTypeR: 1
+            value: 1.0
+          "20:24":
+            curveTypeL: 1
+            curveTypeR: 1
+      moonShaftsBeginHour: 22.0
+      moonShaftsEndHour: 3.1500000954
+    environmentDefinition: "environment\\definitions\\env_prologue\\env_prolog_colors_v1_b_sunset.env"
+    scenesEnvironmentDefinition: "environment\\definitions\\cutscenes_definition\\cutscen_definition_global.env"
+    speedTreeParameters:
+      alphaScalar3d: 2.0
+      alphaScalarGrass: 4.0
+      alphaScalarGrassDistNear: 3.0
+      alphaScalarGrassDistFar: 15.0
+      alphaScalarBillboards: 0.25
+      grassNormalsVariation: 0.1000000015
+    weatherTemplate: "engine\\environments\\weather_prolog.csv"
+    disableWaterShaders: false
+    skybox:
+      sunMesh: "environment\\skyboxes\\sun\\sun.w2mesh"
+      sunMaterial:
+        baseMaterial: "environment\\skyboxes\\sun\\sun.w2mg"
+      moonMesh: "environment\\skyboxes\\sun\\moon.w2mesh"
+      moonMaterial:
+        baseMaterial: "environment\\skyboxes\\sun\\moonmat.w2mg"
+      skyboxMesh: "environment\\skyboxes\\skybox_2.w2mesh"
+      skyboxMaterial:
+        baseMaterial: "environment\\shaders\\special\\sky_layered.w2mg"
+    renderSettings:
+      cameraNearPlane: 0.200000003
+      cameraFarPlane: 5000.0
+      fakeCloudsShadowSize: 5.0
+      fakeCloudsShadowSpeed: 1.0
+      fakeCloudsShadowTexture: "environment\\skyboxes\\textures\\fakecloudsshadow_array.texarray"
+      bloomLevelsOffset: 1
+      bloomScaleConst: 1.0
+      shaftsIntensity: 1.0
+      motionBlurSettings:
+        strengthNear: 0.1000000015
+        strengthFar: 0.150000006
+    localWindDampers: "levels\\prolog_village\\local_wind_dampers.w3simplex"
+  soundBanksDependency:
+    - amb_nml_global.bnk
+  soundEventsOnAttach:
+    - amb_nml_G_WIND_and_RAIN_START
+  soundEventsOnDetach:
+    - amb_nml_G_WIND_and_RAIN_STOP
+  foliageScene:
+    visibilityDepth: 12
+    editorVisibilityDepth: 12
+    grassMask: "levels\\prolog_village\\prolog_village.grassmask"

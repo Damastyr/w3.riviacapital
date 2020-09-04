@@ -1,0 +1,56 @@
+#
+# production settings
+#
+# (version: 1, saved: 2020-08-30 13:44:07)
+#
+---
+production:
+  settings:
+    id: riviacapital
+    caption: City of Rivia
+    menuvisibile: true
+    enabled: true
+    storesdata: true
+    strings-idspace: 5115
+    strings-idstart: 0
+    directories:
+      scenes: scenes
+      spawnsets: spawnsets
+      entities: entities
+    version: 1
+    mounters:
+      - ".type": CR4WorldDLCMounter
+        worlds:
+          riviacapital:
+            hubSlotId: AN_TestHubSlot_13
+            worldMapCaption: Rivia Capital
+            worldMapDescription: "The land, where the legend has perished... only to be revived again."
+            worldMapPosition:
+              - -450
+              - 1050
+            worldMapSuggestedLevel: 42
+            worldMapPath: "dlc\\dlcriviacapital\\levels\\riviacapital\\riviacapital.w2w"
+            worldMiniMapSize: 2000.0
+            worldMiniMapTileCount: 16
+            worldMiniMapExteriorTextureSize: 512
+            worldMiniMapInteriorTextureSize: 2048
+            worldMiniMapTextureSize: 1024
+            worldMiniMapMinLod: 1
+            worldMiniMapMaxLod: 3
+            worldMiniMapExteriorTextureExtension: jpg
+            worldMiniMapInteriorTextureExtension: png
+            worldMiniMapVminX: -930
+            worldMiniMapVmaxX: 1058
+            worldMiniMapVminY: -720
+            worldMiniMapVmaxY: 485
+            worldMiniMapSminX: -930
+            worldMiniMapSmaxX: 1058
+            worldMiniMapSminY: -720
+            worldMiniMapSmaxY: 485
+            worldMiniMapMinZoom: 0.9
+            worldMiniMapMaxZoom: 3.5
+            worldMiniMapZoom12: 1.5
+            worldMiniMapZoom23: 2.6
+            worldMiniMapZoom34: -1.0
+            worldGradientScale: 1.0
+            worldPreviewHeight: 1.0
