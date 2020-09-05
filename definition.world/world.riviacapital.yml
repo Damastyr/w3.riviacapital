@@ -22,7 +22,7 @@ WorldDefinition:
     minHeight: -70.0
     maxHeight: 400.0
     colormapStartingMip: 0
-    material: "levels\\kaer_morhen\\terrain_material.w2mg"
+    material: "levels\\novigrad\\terrain_material.w2mg"
     textureParams:
       texture_01:
         blendSharpness: 0.3650000095
@@ -161,6 +161,11 @@ WorldDefinition:
         rspecBase: 0.5490000248
     grassBrushes:
       texture_01: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_default.vbrush"
+       
+      texture_08: "environment\\vegetation\\brushes\\generic_grass\\novigrad_grass_default.vbrush"  
+      
+      texture_10: "environment\\vegetation\\brushes\\michal stelmachowicz\\grass1_test.vbrush"  
+      
       texture_23: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
       texture_22: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
       texture_24: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
