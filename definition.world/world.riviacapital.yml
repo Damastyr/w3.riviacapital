@@ -22,7 +22,7 @@ WorldDefinition:
     minHeight: -70.0
     maxHeight: 400.0
     colormapStartingMip: 0
-    material: "levels\\prolog_village\\terrain_material.w2mg"
+    material: "levels\\kaer_morhen\\terrain_material.w2mg"
     textureParams:
       texture_01:
         blendSharpness: 0.3650000095
@@ -172,7 +172,7 @@ WorldDefinition:
       texture_13: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
   newLayerGroupFormat: true
   #hasEmbeddedLayerInfos: true
-  # _umbraScene: "dlc\\dlchubtest\\levels\\hubtest\\hubtest.w3occlusiondef"
+  # _umbraScene: "dlc\\dlcriviacapital\\levels\\riviacapital\\riviacapital.w3occlusiondef"
   shadowConfig:
     numCascades: 4
     cascadeRange1: 3.0
