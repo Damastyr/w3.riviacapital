@@ -23,8 +23,8 @@ production:
         worlds:
           riviacapital:
             hubSlotId: AN_TestHubSlot_13
-            worldMapCaption: Rivia Capital
-            worldMapDescription: "The land, where the legend has perished... only to be revived again."
+            worldMapCaption: Rivia
+            worldMapDescription: "The fiercely independent region and its foggy lakeside city which was once the deathbed of the witcher Geralt"
             worldMapPosition:
               - -450
               - 1050
