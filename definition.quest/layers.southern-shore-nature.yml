@@ -1,0 +1,93 @@
+layers:
+  southern_shore_cliffs: 
+    world: "riviacapital"
+    #context: ""
+    areas.sound: 
+      ssfarm_birds: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -592.8630371094, -1015.9041137695, -33.6722488403 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_bob_g_EM_animal_bird_forest_bird_2_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_bob_g_EM_animal_bird_forest_bird_2_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_bob_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -44.6851806641, 44.6528930664, 0.0, 1.0 ]
+              - [ -36.1370239258, -6.9145507813, 0.0, 1.0 ]
+              - [ 78.5506591797, -18.8049926758, 0.0, 1.0 ]
+              - [ 60.3826293945, 97.3293457031, 0.0, 1.0 ]
+
+      ssfarm: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -592.8630371094, -1015.9041137695, -33.6722488403 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_wind_forest_01_medium_normal"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_wind_forest_01_medium_normal"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -44.6851806641, 44.6528930664, 0.0, 1.0 ]
+              - [ -36.1370239258, -6.9145507813, 0.0, 1.0 ]
+              - [ 78.5506591797, -18.8049926758, 0.0, 1.0 ]
+              - [ 60.3826293945, 97.3293457031, 0.0, 1.0 ]
+    statics.shadows: 
+      rcnf_cliff: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_c.w2ent"
+        pos: [ -648.1884765625, -984.1962280273, 5.0855951309 ]
+        rot: [ 90.0, 0.0, -68.4000244141 ]    
+      rc_ss_cliff: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_d.w2ent"
+        pos: [ -543.0112304688, -1028.4941406250, 8.7737808228 ]
+        rot: [ 30.0, 0.0, -179.9999847412 ]
+
+      rc_ss_cliff_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_c.w2ent"
+        pos: [ -556.5895996094, -1028.1195068359, 3.7337856293 ]
+        rot: [ 30.0, 0.0, -347.5999450684 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      rc_ss_cliff_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e.w2ent"
+        pos: [ -533.3943481445, -1032.1831054688, 12.4183073044 ]
+        rot: [ 90.0, 0.0, -366.7999877930 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      rc_ss_cliff_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_b.w2ent"
+        pos: [ -521.2868652344, -1031.1407470703, 15.6307525635 ]
+        rot: [ 90.0, 0.0, -300.4000549316 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      rc_ss_cliff_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_f.w2ent"
+        pos: [ -536.1637573242, -1027.6068115234, 11.9056587219 ]
+        rot: [ 90.0, 0.0, -377.4000549316 ]
+        scale: [ 2.0, 2.0, 2.0 ]

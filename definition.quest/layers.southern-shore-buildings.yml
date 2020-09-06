@@ -1,0 +1,370 @@
+layers:
+  southern_shore_farm: 
+    world: "riviacapital"
+    #context: ""
+    statics:
+      2rcnf_house_15: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\loam_houses\\entities\\poor_woodenroof_short_thatched_interior.w2ent"
+        pos: [ -677.0571289063, -964.7644042969, 3.9212036133 ]
+        rot: [ 0.0, 0.0, -356.2002563477 ]
+    
+      rcnf_house_7: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\poor_district\\decoration_set\\beds\\deco_poor_bed_double_a.w2ent"
+        pos: [ -562.9395751953, -993.7485351563, 5.2043533325 ]
+        rot: [ 0.0, 0.0, -78.8000183105 ]    
+      rcnf_house_47: 
+        template: "CActionPoint:dlc\\bob\\data\\gameplay\\community\\actionpoints\\sleeping\\lie_mwdc_sleep_bed_l_ap.w2ent"
+        pos: [ -623.1423950195, -988.2484741211, 4.9955787659 ]
+        rot: [ 0.0, 0.0, 122.0000762939 ]
+
+      rcnf_house_48: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\poor_district\\decoration_set\\beds\\deco_poor_bed_double_a.w2ent"
+        pos: [ -621.2919921875, -993.3796386719, 4.9955763817 ]
+        rot: [ 0.0, 0.0, 32.4000587463 ]
+
+      rcnf_house_49: 
+        template: "CEntity:environment\\decorations\\decals\\hay\\hay_px.w2ent"
+        pos: [ -570.7544555664, -1005.5568847656, 4.9027123451 ]
+        rot: [ 10.0, 0.0, 112.0000991821 ]
+        scale: [ 5.0, 5.0, 10.0 ]
+      rcnf_house_50: 
+        template: "CGameplayEntity:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q703_all_for_one\\entities\\castel_ravello_wine_cellar\\q703_castel_ravello_barrel.w2ent"
+        pos: [ -609.6794433594, -988.6538085938, 3.9212036133 ]
+        rot: [ 0.0, 0.0, 32.4000587463 ]
+
+      rcnf_house_51: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_common_junk__crate_pile_a.w2ent"
+        pos: [ -611.1035766602, -987.6785278320, 4.0215249062 ]
+        rot: [ 0.0, 0.0, 133.0000457764 ]
+
+      rcnf_house_52: 
+        template: "W3StallEntity:dlc\\ep1\\environment\\decorations\\decorations_sets\\vehicles\\decoration_set_farm_tools_little_cart_a.w2ent"
+        pos: [ -569.5593872070, -983.6771850586, 4.4806275368 ]
+        rot: [ 15.0, 0.0, -35.9999847412 ]        
+        
+    statics.shadows: 
+      rcnf_house: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted.w2ent"
+        pos: [ -561.9872436523, -989.2648925781, 4.8135900497 ]
+        rot: [ 0.0, 0.0, 102.1999893188 ]
+
+      rcnf_house_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_interior.w2ent"
+        pos: [ -561.9872436523, -989.2648925781, 4.8135900497 ]
+        rot: [ 0.0, 0.0, 102.1999893188 ]
+
+      rcnf_house_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_wall_short.w2ent"
+        pos: [ -565.8555297852, -989.8622436523, 3.4733333588 ]
+        rot: [ 0.0, 0.0, 13.1999845505 ]
+        scale: [ 1.5000000000, 1.2000000477, 1.0 ]
+
+      rcnf_house_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_wall_short.w2ent"
+        pos: [ -566.6161499023, -986.3594360352, 3.4733333588 ]
+        rot: [ 0.0, 0.0, 13.1999845505 ]
+        scale: [ 1.5000000000, 1.2000000477, 1.0 ]
+
+      rcnf_house_12: 
+        template: "W3NewDoor:dlc\\bob\\data\\gameplay\\door\\pushable\\push_bob_warehouse_02_door.w2ent"
+        pos: [ -566.1604614258, -987.2662963867, 5.1533317566 ]
+        rot: [ 0.0, 0.0, -77.8000106812 ]
+
+      rcnf_house_13: 
+        template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\broken_thatched_houses\\broken_thatched_house_smallest.w2ent"
+        pos: [ -559.4440307617, -1006.6429443359, 7.2148084641 ]
+        rot: [ 0.0, 0.0, -27.1000175476 ]
+
+      rcnf_house_14: 
+        template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\broken_thatched_houses\\broken_thatched_house_smallest.w2ent"
+        pos: [ -558.6671752930, -1004.7011718750, 7.2148084641 ]
+        rot: [ 0.0, 0.0, 152.7000732422 ]
+
+      rcnf_house_15: 
+        template: "CEntity:environment\\decorations\\trade\\market_stand_poor\\stall_tent_single_c2_px.w2ent"
+        pos: [ -556.2122802734, -1002.3706054688, 5.3460693359 ]
+        rot: [ 0.0, 0.0, 149.7001495361 ]
+
+      rcnf_house_16: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -563.2879638672, -1003.1549072266, -4.0139260292 ]
+        rot: [ 0.0, 0.0, -27.4997940063 ]
+        scale: [ 1.0, 1.1499999762, 1.0 ]
+
+      rcnf_house_17: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -558.2760009766, -1005.4838256836, -4.0139260292 ]
+        rot: [ 0.0, 0.0, -27.4997940063 ]
+        scale: [ 1.0, 1.1499999762, 1.0 ]
+
+      rcnf_house_18: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -559.1083374023, -1005.2919921875, -4.0139260292 ]
+        rot: [ 0.0, 0.0, 63.9002037048 ]
+        scale: [ 1.0, 1.2500000000, 1.0 ]
+
+      rcnf_house_19: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -561.4287109375, -1009.9259033203, -4.0139260292 ]
+        rot: [ 0.0, 0.0, 62.3001976013 ]
+        scale: [ 1.0, 1.2500000000, 1.0 ]
+
+      rcnf_house_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_volume.w2ent"
+        pos: [ -561.9872436523, -989.2648925781, 4.8135900497 ]
+        rot: [ 0.0, 0.0, 102.1999893188 ]
+
+      rcnf_house_20: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -559.5104980469, -1009.6573486328, 6.6153478622 ]
+        rot: [ 0.0, 0.0, -32.9000205994 ]
+
+      rcnf_house_21: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -560.9758300781, -1011.3512573242, 6.8082494736 ]
+        rot: [ 5.0, 355.0, -48.9000015259 ]
+
+      rcnf_house_22: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -562.6296386719, -1012.6324462891, 7.7373104095 ]
+        rot: [ 5.0, 355.0, -56.4999809265 ]
+
+      rcnf_house_23: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -565.2566528320, -1014.3090820313, 8.7383823395 ]
+        rot: [ 5.0, 355.0, -56.4999809265 ]
+
+      rcnf_house_24: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -568.6348876953, -1015.7257080078, 8.7383823395 ]
+        rot: [ 5.0, 355.0, -271.7000122070 ]
+
+      rcnf_house_25: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -572.7564086914, -1015.5172729492, 8.3783826828 ]
+        rot: [ 15.0, 355.0, -454.7000122070 ]
+
+      rcnf_house_26: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -576.8663330078, -1015.2006225586, 8.5106096268 ]
+        rot: [ 5.0, 0.0, -461.9000244141 ]
+
+      rcnf_house_27: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -581.0231323242, -1014.4008178711, 8.1706047058 ]
+        rot: [ 5.0, 10.0, -469.9000244141 ]
+
+      rcnf_house_28: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -584.8257446289, -1013.3522949219, 7.3906016350 ]
+        rot: [ 5.0, 10.0, -469.9000244141 ]
+
+      rcnf_house_29: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -588.5665893555, -1012.4750366211, 6.6306023598 ]
+        rot: [ 5.0, 5.0, -461.1000061035 ]
+
+      rcnf_house_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_detail.w2ent"
+        pos: [ -561.9872436523, -989.2648925781, 4.8135900497 ]
+        rot: [ 0.0, 0.0, 102.1999893188 ]
+
+      rcnf_house_30: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -592.6473999023, -1011.5667114258, 5.9106030464 ]
+        rot: [ 0.0, 5.0, -462.5000000000 ]
+
+      rcnf_house_31: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -596.5279541016, -1010.0720214844, 5.2106037140 ]
+        rot: [ 0.0, 0.0, -657.7000122070 ]
+
+      rcnf_house_32: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -599.9103393555, -1007.9002075195, 4.9506039619 ]
+        rot: [ 0.0, 0.0, -671.7002563477 ]
+
+      rcnf_house_33: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -603.2105712891, -1005.2360839844, 4.9506039619 ]
+        rot: [ 10.0, 0.0, -671.2999877930 ]
+
+      rcnf_house_34: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -605.9594116211, -1002.4653930664, 4.7284712791 ]
+        rot: [ 10.0, 0.0, -858.4999389648 ]
+
+      rcnf_house_35: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -608.2324829102, -999.3126220703, 4.6084713936 ]
+        rot: [ 10.0, 0.0, -876.4998779297 ]
+
+      rcnf_house_36: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -609.8239746094, -995.7648925781, 4.3084716797 ]
+        rot: [ 5.0, 0.0, -886.2999877930 ]
+
+      rcnf_house_37: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -610.6525268555, -991.4454956055, 4.0433745384 ]
+        rot: [ 5.0, 0.0, -894.4998779297 ]
+
+      rcnf_house_38: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted.w2ent"
+        pos: [ -619.2477416992, -988.9001464844, 4.6484508514 ]
+        rot: [ 0.0, 0.0, 32.3999862671 ]
+
+      rcnf_house_39: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_interior.w2ent"
+        pos: [ -619.2477416992, -988.9001464844, 4.6484508514 ]
+        rot: [ 0.0, 0.0, 32.3999862671 ]
+
+      rcnf_house_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_wall_short.w2ent"
+        pos: [ -563.2244873047, -991.0621337891, 4.9935913086 ]
+        rot: [ 0.0, 0.0, 11.7999820709 ]
+
+      rcnf_house_40: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_volume.w2ent"
+        pos: [ -619.2477416992, -988.9001464844, 4.6484508514 ]
+        rot: [ 0.0, 0.0, 32.3999862671 ]
+
+      rcnf_house_41: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_detail.w2ent"
+        pos: [ -619.2477416992, -988.9001464844, 4.6484508514 ]
+        rot: [ 0.0, 0.0, 32.3999862671 ]
+
+      rcnf_house_42: 
+        template: "W3NewDoor:gameplay\\interactive_objects\\doors\\pushable\\push_village_door_a.w2ent"
+        pos: [ -618.8292236328, -984.2667236328, 4.8755774498 ]
+        rot: [ 0.0, 0.0, -146.4001159668 ]
+        scale: [ 1.1000000238, 1.0, 1.2000000477 ]
+
+      rcnf_house_43: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_floor_stairs.w2ent"
+        pos: [ -619.6039428711, -984.4528808594, 5.0108113289 ]
+        rot: [ 0.0, 0.0, -56.2000122070 ]
+        scale: [ 1.5000000000, 1.0, 1.2999999523 ]
+
+      rcnf_house_44: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_wall_short.w2ent"
+        pos: [ -621.2470092773, -988.6454467773, 4.9284505844 ]
+        rot: [ 0.0, 0.0, -59.3999977112 ]
+
+      rcnf_house_45: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_wall_short.w2ent"
+        pos: [ -618.3417358398, -993.2280883789, 4.9284505844 ]
+        rot: [ 0.0, 0.0, -59.3999977112 ]
+
+      rcnf_house_46: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_wall_short.w2ent"
+        pos: [ -619.3203125000, -991.5414428711, 4.9284505844 ]
+        rot: [ 0.0, 0.0, -59.3999977112 ]
+
+      rcnf_house_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_wall_short.w2ent"
+        pos: [ -561.2526855469, -990.6408081055, 4.9935913086 ]
+        rot: [ 0.0, 0.0, 11.7999820709 ]
+
+
+      rcnf_house_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_wall_short.w2ent"
+        pos: [ -557.6467285156, -989.9449462891, 4.9935913086 ]
+        rot: [ 0.0, 0.0, 11.7999820709 ]
+
+
+      2rcnf_house_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_stairs_stone_b.w2ent"
+        pos: [ -567.0813598633, -988.3165893555, 3.9643545151 ]
+        rot: [ 0.0, 0.0, -260.0 ]
+
+      2rcnf_house_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_thatched_stable_no_volume.w2ent"
+        pos: [ -567.7375488281, -988.4042358398, 5.1043534279 ]
+        rot: [ 0.0, 0.0, -256.9998779297 ]
+        scale: [ 0.5000000000, 0.3499999940, 0.5000000000 ]
+        
+      2rcnf_house_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_thatched_stable.w2ent"
+        pos: [ -657.1760864258, -978.4914550781, 3.9212036133 ]
+        rot: [ 0.0, 0.0, 115.1999969482 ]
+
+      2rcnf_house_10: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -668.3462524414, -969.3907470703, 3.9068603516 ]
+        rot: [ 0.0, 0.0, 182.3999328613 ]
+
+      2rcnf_house_11: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -668.5807495117, -965.1353759766, 3.9068603516 ]
+        rot: [ 0.0, 0.0, 185.9999084473 ]
+
+      2rcnf_house_12: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -669.0344238281, -960.7780151367, 3.9068603516 ]
+        rot: [ 10.0, 0.0, 186.0 ]
+
+      2rcnf_house_13: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_broken_right.w2ent"
+        pos: [ -669.4110107422, -957.9152221680, 3.9068603516 ]
+        rot: [ 10.0, 0.0, 186.0 ]
+
+      2rcnf_house_14: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\loam_houses\\entities\\poor_woodenroof_short_thatched_exterior.w2ent"
+        pos: [ -677.0571289063, -964.7644042969, 3.9212036133 ]
+        rot: [ 0.0, 0.0, -356.2002563477 ]
+
+
+      2rcnf_house_16: 
+        template: "W3NewDoor:dlc\\bob\\data\\gameplay\\door\\pushable\\push_bob_warehouse_02_door.w2ent"
+        pos: [ -681.3668823242, -962.2853393555, 4.8212027550 ]
+        rot: [ 0.0, 0.0, -447.0003051758 ]
+
+      2rcnf_house_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -656.2072143555, -984.6838378906, -4.2387924194 ]
+        rot: [ 0.0, 0.0, 114.1999664307 ]
+        scale: [ 1.0, 1.3999999762, 1.0 ]
+
+      2rcnf_house_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -659.3303222656, -978.3707275391, -3.8787927628 ]
+        rot: [ 0.0, 0.0, 114.5999603271 ]
+        scale: [ 1.0, 1.3999999762, 1.0 ]
+
+      2rcnf_house_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -659.1559448242, -980.0669555664, -4.1787924767 ]
+        rot: [ 0.0, 0.0, 206.1999664307 ]
+        scale: [ 1.0, 1.5000000000, 1.0 ]
+
+      rcnf_house_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_very_rich_wood_pole_long.w2ent"
+        pos: [ -652.8392944336, -976.2647094727, 5.0212030411 ]
+        rot: [ 0.0, 0.0, 206.1999664307 ]
+        scale: [ 1.0, 1.0, 1.5000000000 ]
+
+      rcnf_house_57: 
+        template: "CEntity:environment\\terrain_surroundings\\decoration_sets\\nomansland\\decoration_set_fence_square.w2ent"
+        pos: [ -634.3977050781, -990.9311523438, 4.8407526016 ]
+        rot: [ 355.0, 0.0, 72.0 ]
+
+      rcnf_house_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -652.6941528320, -983.0673217773, -4.1187925339 ]
+        rot: [ 0.0, 0.0, 114.5999603271 ]
+
+      rcnf_house_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -655.8243408203, -976.5746459961, -3.8587927818 ]
+        rot: [ 0.0, 0.0, 115.3999481201 ]
+
+      rcnf_house_8: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_b.w2ent"
+        pos: [ -664.0917968750, -975.9879760742, 3.9068603516 ]
+        rot: [ 0.0, 0.0, 254.5999145508 ]
+
+      rcnf_house_9: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -667.1842041016, -973.5681152344, 3.9068603516 ]
+        rot: [ 0.0, 0.0, 205.3999633789 ]        
