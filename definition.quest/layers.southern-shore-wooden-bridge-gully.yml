@@ -1,0 +1,119 @@
+layers:
+  gully_bridge_vicinity: 
+    world: "riviacapital"
+    #context: ""
+
+    statics.shadows:
+      gullybridgecollisionplane: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -736.1469116211, -1042.1141357422, 8.5281839371 ]
+        rot: [ 92.0, 358.0, 5.5999999046 ]
+
+      gullybridgecollisionplane_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -736.3035888672, -1039.9460449219, 8.4081811905 ]
+        rot: [ 92.0, 358.0, 5.5999999046 ]
+
+      gullybridgecollisionplane_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -738.2170410156, -1021.5462036133, 8.2892818451 ]
+        rot: [ 88.0, 3.0, -174.3999938965 ]
+
+      gullybridgecollisionplane_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -738.4967651367, -1019.6190795898, 8.4092845917 ]
+        rot: [ 88.0, 0.0, -174.3999938965 ]
+
+      gullybridgecollisionplane_12: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -738.6784667969, -1018.1865844727, 8.5292873383 ]
+        rot: [ 92.0, 0.0, -351.6000061035 ]
+
+      gullybridgecollisionplane_13: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -738.6932983398, -1017.0296630859, 8.6292896271 ]
+        rot: [ 92.0, 0.0, -351.6000061035 ]
+
+      gullybridgecollisionplane_14: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -738.9757080078, -1016.0016479492, 8.6972522736 ]
+        rot: [ 92.0, 0.0, -351.6000061035 ]
+
+      gullybridgecollisionplane_15: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -735.9692993164, -1044.0928955078, 8.6172481537 ]
+        rot: [ 92.0, 0.0, -351.6000061035 ]
+
+      gullybridgecollisionplane_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -736.4782104492, -1037.9024658203, 8.2681779861 ]
+        rot: [ 92.0, 358.0, 5.5999999046 ]
+
+      gullybridgecollisionplane_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -736.6013183594, -1036.0535888672, 8.1881761551 ]
+        rot: [ 92.0, 358.0, 5.5999999046 ]
+
+      gullybridgecollisionplane_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -736.6871337891, -1034.1417236328, 8.2681636810 ]
+        rot: [ 92.0, 3.0, 5.5999999046 ]
+
+      gullybridgecollisionplane_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -736.8016967773, -1032.0679931641, 8.4281673431 ]
+        rot: [ 92.0, 3.0, 5.5999999046 ]
+
+      gullybridgecollisionplane_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -736.9824218750, -1029.8240966797, 8.5881710052 ]
+        rot: [ 92.0, 3.0, 5.5999999046 ]
+
+      gullybridgecollisionplane_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -737.3838500977, -1028.0098876953, 8.6492900848 ]
+        rot: [ 88.0, 3.0, -174.3999938965 ]
+
+      gullybridgecollisionplane_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -737.6863403320, -1026.0612792969, 8.5492877960 ]
+        rot: [ 88.0, 3.0, -174.3999938965 ]
+
+      gullybridgecollisionplane_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -738.0689086914, -1023.5773315430, 8.3692836761 ]
+        rot: [ 88.0, 3.0, -174.3999938965 ]    
+
+      old_wooden_bridge_southern_shoreline_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -739.4340820313, -1031.6508789063, 4.7365522385 ]
+        rot: [ 0.0, 0.0, 1.2000107765 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      old_wooden_bridge_southern_shoreline_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -739.5836181641, -1028.7016601563, 4.7365522385 ]
+        rot: [ 0.0, 0.0, 1.2000107765 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      old_wooden_bridge_southern_shoreline_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -735.1052246094, -1030.8780517578, 5.0965518951 ]
+        rot: [ 0.0, 0.0, 1.2000107765 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      old_wooden_bridge_southern_shoreline_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -735.3024291992, -1028.0985107422, 4.8565521240 ]
+        rot: [ 0.0, 0.0, 1.2000107765 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+    statics:        
+      old_wooden_bridge_southern_shoreline: 
+        template: "CEntity:items\\cutscenes\\bridge\\bridge_cs.w2ent"
+        pos: [ -736.4741210938, -1036.6180419922, 8.3965682983 ]
+        rot: [ 0.0, 0.0, 6.4000091553 ]
+
+      old_wooden_bridge_southern_shoreline_1: 
+        template: "CEntity:items\\cutscenes\\bridge\\bridge_cs.w2ent"
+        pos: [ -738.0027465820, -1022.8597412109, 8.5365486145 ]
+        rot: [ 0.0, 0.0, 9.4000110626 ]        

@@ -2,7 +2,7 @@ layers:
   southern_shore_cliffs: 
     world: "riviacapital"
     #context: ""
-    areas.sound: 
+    areas.sound:
       ssfarm_birds: 
         .type: "CEntity"
         transform: 
@@ -58,7 +58,322 @@ layers:
               - [ -36.1370239258, -6.9145507813, 0.0, 1.0 ]
               - [ 78.5506591797, -18.8049926758, 0.0, 1.0 ]
               - [ 60.3826293945, 97.3293457031, 0.0, 1.0 ]
+
+  southern_shore_cliffs: 
+    world: "riviacapital"
+    #context: ""
+    areas.sound:
+    areas.sound: 
+      southernshorefarmfields: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -558.4895019531, -885.6231079102, 5.5097656250 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_BG_field_insects_intense_2_quiet_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_BG_field_insects_intense_2_quiet_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -196.1176757813, 32.2028198242, 0.0, 1.0 ]
+              - [ -148.1746826172, -78.2437744141, 0.0, 1.0 ]
+              - [ 37.3428955078, -87.2191162109, 0.0, 1.0 ]
+              - [ -80.6835937500, 148.1431274414, 0.0, 1.0 ]
+
+      southernshorefarmfields_1: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -558.4895019531, -885.6231079102, 5.5097656250 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_bob_g_EM_animal_bird_thrush_far_2_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_bob_g_EM_animal_bird_thrush_far_2_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_bob_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -196.1176757813, 32.2028198242, 0.0, 1.0 ]
+              - [ -148.1746826172, -78.2437744141, 0.0, 1.0 ]
+              - [ 37.3428955078, -87.2191162109, 0.0, 1.0 ]
+              - [ -80.6835937500, 148.1431274414, 0.0, 1.0 ]
+
+      southernshorefarmfields_2: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -558.4895019531, -885.6231079102, 6.7097644806 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_bob_g_EM_animal_bird_night_nightingale_close_2_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_bob_g_EM_animal_bird_night_nightingale_close_2_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_bob_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -196.1176757813, 32.2028198242, 0.0, 1.0 ]
+              - [ -148.1746826172, -78.2437744141, 0.0, 1.0 ]
+              - [ 37.3428955078, -87.2191162109, 0.0, 1.0 ]
+              - [ -80.6835937500, 148.1431274414, 0.0, 1.0 ]
+
+      southernshorefarmfields_3: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -558.4895019531, -885.6231079102, 6.7097644806 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_rnd_animals_falcon_1"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_rnd_animals_falcon_1"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_ice_giant.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -196.1176757813, 32.2028198242, 0.0, 1.0 ]
+              - [ -148.1746826172, -78.2437744141, 0.0, 1.0 ]
+              - [ 37.3428955078, -87.2191162109, 0.0, 1.0 ]
+              - [ -80.6835937500, 148.1431274414, 0.0, 1.0 ]
+
+      westerncliffhighland_: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -915.4837036133, -814.3513183594, 5.5097656250 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_wind_forest_01_medium_dense"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_wind_forest_01_medium_dense"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -196.1184692383, 32.2028198242, 0.0, 1.0 ]
+              - [ -148.1751098633, -78.2437744141, 0.0, 1.0 ]
+              - [ 37.3428955078, -87.2191162109, 0.0, 1.0 ]
+              - [ 6.8102416992, 39.9332275391, 0.0, 1.0 ]
+
+      westerncliffhighland__1: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -915.4837036133, -814.3513183594, 5.5097656250 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_cuckoo_1_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_cuckoo_1_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -196.1184692383, 32.2028198242, 0.0, 1.0 ]
+              - [ -148.1751098633, -78.2437744141, 0.0, 1.0 ]
+              - [ 37.3428955078, -87.2191162109, 0.0, 1.0 ]
+              - [ 6.8102416992, 39.9332275391, 0.0, 1.0 ]
+
+      westerncliffhighland__2: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -915.4837036133, -814.3513183594, 5.5097656250 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_bob_g_EM_animal_bird_night_nightingale_close_2_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_bob_g_EM_animal_bird_night_nightingale_close_2_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_bob_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -196.1184692383, 32.2028198242, 0.0, 1.0 ]
+              - [ -148.1751098633, -78.2437744141, 0.0, 1.0 ]
+              - [ 37.3428955078, -87.2191162109, 0.0, 1.0 ]
+              - [ 6.8102416992, 39.9332275391, 0.0, 1.0 ]
+
+      marshraven: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -813.9641723633, -899.1568603516, 3.0321769714 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_raven_close_2_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_raven_close_2_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ -51.6530761719, 92.0237426758, 0.0, 1.0 ]
+              - [ -25.6577148438, -7.5176391602, 0.0, 1.0 ]
+              - [ 44.8007202148, 1.2261962891, 0.0, 1.0 ]
+              - [ 34.8116455078, 135.1267700195, 0.0, 1.0 ]
+
+      marshsmallforest_1: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -813.9641723633, -899.1568603516, 3.0321769714 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_FOREST_07_medium_dense_1"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_FOREST_07_medium_dense_1"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ -51.6530761719, 92.0237426758, 0.0, 1.0 ]
+              - [ -38.1734008789, 38.9089355469, 0.0, 1.0 ]
+              - [ 39.3081054688, 71.0137329102, 0.0, 1.0 ]
+              - [ 35.7974243164, 138.9753417969, 0.0, 1.0 ]
     statics.shadows: 
+      sscliffhanging: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
+        pos: [ -533.2561035156, -946.1744995117, 10.4398021698 ]
+        rot: [ 0.0, 180.0, 0.0 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      sscliffhanging_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
+        pos: [ -535.0738525391, -941.8765869141, 7.8448734283 ]
+        rot: [ 10.0, 0.0, 0.0 ]
+        scale: [ 2.0, 1.5000000000, 2.0 ]
+
+      sscliffhanging_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
+        pos: [ -538.3809204102, -946.2648925781, 2.6505918503 ]
+        rot: [ 20.0, 0.0, -721.9996948242 ]
+        scale: [ 2.0, 4.0, 2.0 ]
+
+      sscliffhanging_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
+        pos: [ -542.3214721680, -961.7395629883, 8.1179962158 ]
+        rot: [ 20.0, 0.0, -721.9996948242 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      sscliffhanging_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
+        pos: [ -538.5842895508, -964.5201416016, 18.9809551239 ]
+        rot: [ 50.0, 0.0, -617.8001708984 ]
+        scale: [ 2.0, 2.0, 1.0 ]
+
+      sscliffhanging_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
+        pos: [ -537.4165039063, -985.7496948242, 12.6854858398 ]
+        rot: [ 50.0, 0.0, -685.8001098633 ]
+        scale: [ 2.0, 4.0, 2.0 ]
+
+      sscliffhanging_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
+        pos: [ -538.4065551758, -973.4910278320, 17.1196174622 ]
+        rot: [ 90.0, 0.0, -659.9997558594 ]
+        scale: [ 2.0, 2.0, 1.0 ]
+
+      sscliffhanging_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
+        pos: [ -523.5358886719, -999.1099243164, 19.8796367645 ]
+        rot: [ 90.0, 0.0, -767.7996215820 ]
+
+      sscliffhanging_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
+        pos: [ -536.8070068359, -954.9978637695, 18.8559570313 ]
+        rot: [ 90.0, 0.0, -823.5996704102 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      sscliffhanging_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
+        pos: [ -539.0245971680, -981.4760742188, 6.1296482086 ]
+        rot: [ 90.0, 0.0, -797.1997070313 ]
+        scale: [ 4.0, 4.0, 2.0 ]    
       rcnf_cliff: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_c.w2ent"
         pos: [ -648.1884765625, -984.1962280273, 5.0855951309 ]
@@ -91,3 +406,50 @@ layers:
         pos: [ -536.1637573242, -1027.6068115234, 11.9056587219 ]
         rot: [ 90.0, 0.0, -377.4000549316 ]
         scale: [ 2.0, 2.0, 2.0 ]
+      westerncliffcliffs: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
+        pos: [ -896.9139404297, -876.1666259766, 5.6711120605 ]
+        rot: [ 90.0, 0.0, -126.1999816895 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      westerncliffcliffs_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_g_moss.w2ent"
+        pos: [ -892.3883056641, -843.0228271484, 5.4298276901 ]
+        rot: [ 90.0, 90.0, -56.5999984741 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      westerncliffcliffs_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e_moss.w2ent"
+        pos: [ -891.2550048828, -821.6073608398, 8.4944772720 ]
+        rot: [ 90.0, 90.0, -77.9999847412 ]
+        scale: [ 2.0, 2.0, 3.0 ]
+
+      westerncliffcliffs_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e_moss.w2ent"
+        pos: [ -904.4132080078, -837.4885864258, 10.5554027557 ]
+        rot: [ 90.0, 90.0, 3.0000181198 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      westerncliffcliffs_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e_moss.w2ent"
+        pos: [ -899.7707519531, -837.1741333008, 17.9954109192 ]
+        rot: [ 90.0, 90.0, -28.9999828339 ]
+        scale: [ 2.0, 2.0, 1.0 ]
+
+      westerncliffcliffs_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_d_moss.w2ent"
+        pos: [ -909.5035400391, -784.7089233398, 19.0754184723 ]
+        rot: [ 90.0, 90.0, -55.3999900818 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      westerncliffcliffs_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_c_moss.w2ent"
+        pos: [ -904.0352783203, -811.3489990234, 18.0354118347 ]
+        rot: [ 90.0, 50.0, -50.1999931335 ]
+        scale: [ 2.0, 2.0, 3.0 ]
+
+      westerncliffcliffs_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_a_moss.w2ent"
+        pos: [ -905.2812500000, -796.6415405273, 18.7554168701 ]
+        rot: [ 90.0, 50.0, -62.5999870300 ]
+        scale: [ 2.0, 3.0, 3.0 ]
