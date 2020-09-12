@@ -13354,8 +13354,7 @@ entities:
           .type: CDynamicFoliageComponent
           isStreamed: true
           baseTree: dlc\bob\data\environment\vegetation\trees\castanea\castanea_tree_low_med.srt
-
-    
+     
   marsh_big:
     entityObject:
       .type: CGameplayEntity
@@ -21546,8 +21545,52 @@ entities:
         bridge:
           .type: CStaticMeshComponent
           isStreamed: true
-          forceAutoHideDistance: 2000           
+          forceAutoHideDistance: 200           
           drawableFlags:
             - IsVisible
             - CastShadows
           mesh: environment\architecture\human\redania\novigrad\rich\ochman_house\volume_gf24_golem_estate.w2mesh
+          
+          
+  haystack_1a:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\exterior\haystacks\haystack_1a.w2mesh       
+
+          
+  haystack_poor:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\exterior\haystacks\haystack_poor.w2mesh                    
+          
+  haystack_poor02:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\exterior\haystacks\haystack_poor_02.w2mesh                              

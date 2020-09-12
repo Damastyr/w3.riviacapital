@@ -453,3 +453,632 @@ layers:
         pos: [ -905.2812500000, -796.6415405273, 18.7554168701 ]
         rot: [ 90.0, 50.0, -62.5999870300 ]
         scale: [ 2.0, 3.0, 3.0 ]
+        
+  westernforest: 
+    world: "riviacapital"
+    #context: ""
+
+    areas.sound: 
+      westernforestcrows: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1065.1888427734, -960.9439697266, 14.3786926270 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_raven_close_2_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_raven_close_2_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      westernforestcrows_1: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1070.4772949219, -933.8121948242, 14.5952301025 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_raven_close_1_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_raven_close_1_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      westernforestcrows_2: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1094.7601318359, -913.4854736328, 9.3244934082 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_raven_close_2_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_raven_close_2_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      westernforestcrows_3: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1123.1636962891, -942.4425048828, 11.9028320313 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_raven_close_1_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_raven_close_1_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      westernforestcrows_4: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1096.9838867188, -1003.2067260742, 13.4153137207 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_raven_close_2_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_raven_close_2_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      westernforestcrows_5: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1116.6632080078, -1074.6901855469, 13.4153137207 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_raven_close_1_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_raven_close_1_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      westernforestcrows_6: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1183.0635986328, -1040.8009033203, 13.4153137207 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_raven_close_2_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_raven_close_2_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      westerncliffhighland__4: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1085.8275146484, -1026.1159667969, 5.5097656250 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_wind_forest_01_medium_dense"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_wind_forest_01_medium_dense"
+            #reverb: "<SReverbDefinition>"
+            maxDistance: 30.0
+            #maxDistanceVertical: 0.0
+            parameterEnteringTime: 1.0
+            parameterExitingTime: 1.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -196.1182861328, 32.2028198242, 0.0, 1.0 ]
+              - [ -148.1749267578, -78.2435302734, 0.0, 1.0 ]
+              - [ 37.3428955078, -87.2186279297, 0.0, 1.0 ]
+              - [ 6.8101806641, 39.9332275391, 0.0, 1.0 ]
+
+      westerncliffhighland__5: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1111.2950439453, -1141.8311767578, 5.5097656250 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_wind_forest_01_medium_dense"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_wind_forest_01_medium_dense"
+            #reverb: "<SReverbDefinition>"
+            maxDistance: 30.0
+            #maxDistanceVertical: 0.0
+            parameterEnteringTime: 1.0
+            parameterExitingTime: 1.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -196.1182861328, 32.2027587891, 0.0, 1.0 ]
+              - [ -148.1749267578, -78.2435302734, 0.0, 1.0 ]
+              - [ 37.3428955078, -87.2186279297, 0.0, 1.0 ]
+              - [ 6.8101806641, 39.9332275391, 0.0, 1.0 ]
+
+      westerncliffhighland__6: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1023.3137207031, -1253.1090087891, 5.5097656250 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_wind_forest_01_medium_dense"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_wind_forest_01_medium_dense"
+            #reverb: "<SReverbDefinition>"
+            maxDistance: 30.0
+            #maxDistanceVertical: 0.0
+            parameterEnteringTime: 1.0
+            parameterExitingTime: 1.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -196.1181640625, 32.2027587891, 0.0, 1.0 ]
+              - [ -148.1748046875, -78.2435302734, 0.0, 1.0 ]
+              - [ 37.3428955078, -87.2186279297, 0.0, 1.0 ]
+              - [ 6.8101806641, 39.9332275391, 0.0, 1.0 ]
+
+      westerncliffhighland__7: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -985.9063110352, -1339.4122314453, 5.5097656250 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_wind_forest_01_medium_dense"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_wind_forest_01_medium_dense"
+            #reverb: "<SReverbDefinition>"
+            maxDistance: 30.0
+            #maxDistanceVertical: 0.0
+            parameterEnteringTime: 1.0
+            parameterExitingTime: 1.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -196.1176147461, 32.2027587891, 0.0, 1.0 ]
+              - [ -148.1742553711, -78.2435302734, 0.0, 1.0 ]
+              - [ 37.3428955078, -87.2186279297, 0.0, 1.0 ]
+              - [ 6.8101806641, 39.9332275391, 0.0, 1.0 ]
+
+  before_the_city_bridge: 
+    world: "riviacapital"
+    #context: ""
+
+    areas.sound: 
+      naturebridgerivia: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -643.3320312500, -671.7371826172, -6.2001190186 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_FOREST_02_i_medium_dense_1"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_FOREST_02_i_medium_dense_1"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -81.4542236328, 19.2221679688, 0.0, 1.0 ]
+              - [ -321.6423950195, -299.8602905273, 0.0, 1.0 ]
+              - [ 132.9227600098, -56.5158081055, 0.0, 1.0 ]
+              - [ 28.2366943359, 48.7855224609, 0.0, 1.0 ]
+
+      birdsbridge: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -642.0373535156, -706.4574584961, 3.1119995117 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_blackbird_1_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_blackbird_1_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.2104492188, -1.9702148438, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      birdsbridge_1: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -622.2592163086, -665.3098754883, 2.3555755615 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_blackbird_1_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_blackbird_1_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.2104492188, -1.9702148438, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      birdsbridge_2: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -577.2014160156, -712.9669189453, 2.5796203613 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_blackbird_1_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_blackbird_1_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.2104492188, -1.9702148438, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      birdsbridge_3: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -689.5486450195, -685.5919189453, 3.8363800049 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_chaffinch_2_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_chaffinch_2_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.2104492188, -1.9702148438, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      birdsbridge_4: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -708.6657714844, -769.4266357422, 6.2677154541 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_chaffinch_2_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_chaffinch_2_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.2104492188, -1.9702148438, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      birdsbridge_5: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -666.3225708008, -736.7611694336, 6.0483703613 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.2104492188, -1.9702148438, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      birdsbridge_6: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -611.0924682617, -773.0401000977, 4.5065307617 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.2104492188, -1.9702148438, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      birdsbridge_7: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -714.3299560547, -733.7562255859, 4.4240264893 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_night_owl_2_boreal_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_night_owl_2_boreal_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.2104492188, -1.9702148438, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+      birdsbridge_8: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -714.3299560547, -733.7562255859, 4.4240264893 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_raven_close_2_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_raven_close_2_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 200.0
+            localPoints: 
+              - [ -2.0, 2.0, 0.0, 1.0 ]
+              - [ -2.0, -2.0, 0.0, 1.0 ]
+              - [ 2.2104492188, -1.9702148438, 0.0, 1.0 ]
+              - [ 2.0, 2.0, 0.0, 1.0 ]
+
+
+
+
+              
+  southernshore_road_detail: 
+    world: "riviacapital"
+    #context: ""
+
+    statics.shadows: 
+      ssfroaddetailcliff: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e.w2ent"
+        pos: [ -695.4894409180, -748.4886474609, 2.5009088516 ]
+        rot: [ 0.0, 0.0, 337.4001159668 ]
+
+      ssfroaddetailcliff_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_f.w2ent"
+        pos: [ -723.0360717773, -772.8400268555, 5.5009059906 ]
+        rot: [ 70.0, 0.0, 432.5999450684 ]
+
+      ssfroaddetailcliff_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_b.w2ent"
+        pos: [ -723.5338745117, -807.2471923828, 3.7686319351 ]
+        rot: [ 70.0, 0.0, 645.1999511719 ]
+
+      ssfroaddetailcliff_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e.w2ent"
+        pos: [ -723.5338745117, -807.2471923828, 3.7686319351 ]
+        rot: [ 70.0, 0.0, 569.7999267578 ]
+
+              

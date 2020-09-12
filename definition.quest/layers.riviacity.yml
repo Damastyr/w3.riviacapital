@@ -550,65 +550,7 @@ layers:
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
         pos: [ -611.997436523, -315.90625, 17.9479370117 ]
         rot: [ 0.0, 0.0, -165.9999542236 ]
-      path: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_mud_pebbles.w2ent"
-        pos: [ -662.685180664, -641.519042969, 1.3219457865 ]
-        rot: [ 0.0, 0.0, -133.3999633789 ]
-        scale: [ 2.0, 2.0, 7.0 ]
 
-      path_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_mud_pebbles.w2ent"
-        pos: [ -659.727172852, -647.428222656, 2.0328273773 ]
-        rot: [ 0.0, 0.0, -193.7999114990 ]
-        scale: [ 2.0, 2.0, 7.0 ]
-
-      path_2: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_mud_pebbles.w2ent"
-        pos: [ -655.792114258, -650.440673828, 2.1528272629 ]
-        rot: [ 0.0, 0.0, -119.1998748779 ]
-        scale: [ 2.0, 2.0, 8.0 ]
-
-      path_3: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_mud_pebbles.w2ent"
-        pos: [ -653.60949707, -651.2578125, 2.2728271484 ]
-        rot: [ 0.0, 0.0, -119.1998748779 ]
-        scale: [ 2.0, 2.0, 7.0 ]
-
-      path_4: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_mud_pebbles.w2ent"
-        pos: [ -651.126098633, -653.080810547, 2.1528272629 ]
-        rot: [ 0.0, 0.0, -131.5998535156 ]
-        scale: [ 2.0, 2.0, 9.0 ]
-
-      path_5: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_mud_pebbles.w2ent"
-        pos: [ -648.415405273, -654.331787109, 2.4999074936 ]
-        rot: [ 0.0, 0.0, -230.3998565674 ]
-        scale: [ 2.0, 1.0, 8.0 ]
-
-      path_6: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_mud_pebbles.w2ent"
-        pos: [ -647.639770508, -659.6328125, 3.407790184 ]
-        rot: [ 0.0, 0.0, -240.3998565674 ]
-        scale: [ 2.0, 1.0, 7.0 ]
-
-      path_7: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_mud_pebbles.w2ent"
-        pos: [ -640.152954102, -665.611816406, 2.737830162 ]
-        rot: [ 10.0, 0.0, -383.7999572754 ]
-        scale: [ 2.0, 1.0, 8.0 ]
-
-      path_8: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_mud_pebbles.w2ent"
-        pos: [ -637.12097168, -666.670166016, 2.7977151871 ]
-        rot: [ 10.0, 0.0, -359.7999572754 ]
-        scale: [ 2.0, 1.0, 7.0 ]
-
-      path_9: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_mud_pebbles.w2ent"
-        pos: [ -632.002563477, -670.744384766, 2.222158432 ]
-        rot: [ 15.0, 0.0, -366.2000122070 ]
-        scale: [ 2.0, 1.0, 6.0 ]
       beach_49: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_mud_pebbles.w2ent"
         pos: [ -685.099487305, -446.45654297, -0.2371581793 ]
