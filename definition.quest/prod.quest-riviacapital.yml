@@ -23,8 +23,8 @@ production:
         worlds:
           riviacapital:
             hubSlotId: AN_TestHubSlot_13
-            worldMapCaption: Rivia
-            worldMapDescription: "The fiercely independent region and its foggy lakeside city which was once the deathbed of the witcher Geralt"
+            worldMapCaption: City of Rivia
+            worldMapDescription: "An impregnable stronghold and capital of the Rivia region, which once hosted one of history's bloodiest non-human pogroms in 1268. It is enjoying its independence during a period of tumult for the Northern Realms."
             worldMapPosition:
               - -450
               - 1050
