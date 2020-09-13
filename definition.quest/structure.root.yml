@@ -1,7 +1,7 @@
 #
 # quest structure root segment
 # 
-# (version: 1, saved: 2020-08-30 13:44:07)
+# (version: 2, saved: 2020-09-12 22:08:54)
 #
 ---
 structure:
@@ -10,19 +10,45 @@ structure:
       start:
         ".editor": [ 100.0, 150.0 ]
         next:
-          - script.HelloWorld
+          - script.log_start
+          - waituntil.wait_for_tele_fact
       
-      script.HelloWorld:
+      waituntil.wait_for_tele_fact:
+        factdb: [ tele_player_to_rivia, ">=", 1 ]
         ".editor":
-          pos: [ 300.0, 150.0 ]
+          pos: [ 240.2172546387, 243.5458526611 ]
+          in: [ In ]
+          out: [ Out ]
+        next:
+          - changeworld.tele_player_to_rivia
+      
+      script.log_start:
+        ".editor":
+          pos: [ 297.5505981445, 152.879196167 ]
           in: [ In ]
           out: [ Out ]
         function: radLog
         parameter:
-          - logChannel: cname_new_quest
+          - logChannel: cname_RiviaCapital
           - msg: Welcome to Rivia!
+        next: ".done"
+      
+      script.remove_tele_fact:
+        ".editor":
+          pos: [ 338.2172546387, 367.5458068848 ]
+          in: [ In ]
+          out: [ Out ]
+        function: RemoveFactQuest
+        parameter:
+          - factId: cname_tele_player_to_rivia
         next:
-          - end
+          - waituntil.wait_for_tele_fact
+      
+      changeworld.tele_player_to_rivia:
+        ".editor": [ 298.8838806152, 306.2124938965 ]
+        destination: riviacapital/telepoint
+        next:
+          - script.remove_tele_fact
       
       end:
         ".editor": [ 500.0, 150.0 ]
