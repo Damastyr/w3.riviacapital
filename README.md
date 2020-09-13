@@ -1,4 +1,4 @@
-HOW TO BUILD THE MOD
+# How to build the mod
 
 Before you unzip and build the mod, make sure you fulfill these steps:
 1) download and install Github Desktop https://desktop.github.com/, get an account.
