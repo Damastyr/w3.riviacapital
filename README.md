@@ -6,14 +6,14 @@ Before you unzip and build the mod, make sure you fulfill these steps:
 2) It's necessary to make adjustments to the Radish Tools directory (your folder with Radish exe files). Look inside repo.quests folder and open theworld.repo.yml
 Inside theworld.repo.yml you will find this:
 
-```
+```yaml
     hubtest:
       id: 14
       world: dlc/dlchubtest/levels/hubtest/hubtest.w2w
       level: levels/hubtest/
 ```
 Right below it, insert these lines:
-```
+```yaml
     riviacapital:
       id: 13
       world: dlc/dlcriviacapital/levels/riviacapital/riviacapital.w2w
