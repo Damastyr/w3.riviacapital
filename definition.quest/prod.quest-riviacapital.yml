@@ -1,7 +1,7 @@
 #
 # production settings
 # 
-# (version: 2, saved: 2020-09-12 22:08:54)
+# (version: 5, saved: 2020-09-13 22:31:02)
 #
 ---
 production:
@@ -13,7 +13,7 @@ production:
     storesdata: true
     strings-idspace: 5115
     strings-idstart: 0
-    version: 2
+    version: 5
     mounters:
       - ".type": CR4WorldDLCMounter
         worlds:

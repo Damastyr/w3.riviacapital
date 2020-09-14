@@ -12,3 +12,5 @@ SET FULL_REBUILD=1
 SET START_GAME=1
 
 call "%DIR_PROJECT_BIN%\build.bat"
+
+pause
