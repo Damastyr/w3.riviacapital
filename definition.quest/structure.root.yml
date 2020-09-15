@@ -1,7 +1,7 @@
 #
 # quest structure root segment
 # 
-# (version: 4, saved: 2020-09-14 15:48:24)
+# (version: 5, saved: 2020-09-15 20:15:42)
 #
 ---
 structure:
@@ -49,6 +49,17 @@ structure:
         parameter:
           - logChannel: cname_RiviaCapital
           - msg: Use command gotorc for traveling to Rivia
+        next: ".done"
+      
+      script.new_logmsg:
+        ".editor":
+          pos: [ 373.3492126465, 25.8095397949 ]
+          in: [ In ]
+          out: [ Out ]
+        function: radLog
+        parameter:
+          - logChannel: cname_RIVIACAPITAL
+          - msg: ""
         next: ".done"
       
       script.remove_tele_fact:
