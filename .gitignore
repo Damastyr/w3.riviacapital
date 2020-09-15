@@ -9,3 +9,4 @@ strings/all.en.strings.csv
 strings/strings.quest.csv
 strings/strings.scene-*.csv
 uncooked/*
+imgui.ini
