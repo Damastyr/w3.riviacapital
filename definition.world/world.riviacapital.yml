@@ -14,13 +14,13 @@ WorldDefinition:
       blendcontrol: 15    # bits 0..2 blending of overlay || bits 3..5 scaling of background texture
 
     clipSize: 1024
-    numClipmapStackLevels: 2
+    numClipmapStackLevels: 3
     tileRes: 256
-    colormapStartingMip: 0
-    terrainSize: 4096.0
-    numTilesPerEdge: 16
+    colormapStartingMip: 1
+    terrainSize: 8192.0
+    numTilesPerEdge: 32
     minHeight: -70.0
-    maxHeight: 400.0
+    maxHeight: 956.0
     colormapStartingMip: 0
     material: "levels\\novigrad\\terrain_material.w2mg"
     textureParams:
