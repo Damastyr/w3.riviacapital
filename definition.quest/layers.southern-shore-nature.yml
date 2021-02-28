@@ -1,12 +1,12 @@
 layers:
   southern_shore_cliffs: 
     world: "riviacapital"
-    #context: ""
+    #context: ""  
     areas.sound:
       ssfarm_birds: 
         .type: "CEntity"
         transform: 
-          pos: [ -592.8630371094, -1015.9041137695, -33.6722488403 ]
+          pos: [ -592.863037109, -43.9041137695, -33.6722488403 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -34,7 +34,7 @@ layers:
       ssfarm: 
         .type: "CEntity"
         transform: 
-          pos: [ -592.8630371094, -1015.9041137695, -33.6722488403 ]
+          pos: [ -592.863037109, -43.9041137695, -33.6722488403 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -67,7 +67,7 @@ layers:
       southernshorefarmfields: 
         .type: "CEntity"
         transform: 
-          pos: [ -558.4895019531, -885.6231079102, 5.5097656250 ]
+          pos: [ -558.489501953, 86.3768920898, 5.509765625 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -95,7 +95,7 @@ layers:
       southernshorefarmfields_1: 
         .type: "CEntity"
         transform: 
-          pos: [ -558.4895019531, -885.6231079102, 5.5097656250 ]
+          pos: [ -558.489501953, 86.3768920898, 5.509765625 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -123,7 +123,7 @@ layers:
       southernshorefarmfields_2: 
         .type: "CEntity"
         transform: 
-          pos: [ -558.4895019531, -885.6231079102, 6.7097644806 ]
+          pos: [ -558.489501953, 86.3768920898, 6.7097644806 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -151,7 +151,7 @@ layers:
       southernshorefarmfields_3: 
         .type: "CEntity"
         transform: 
-          pos: [ -558.4895019531, -885.6231079102, 6.7097644806 ]
+          pos: [ -558.489501953, 86.3768920898, 6.7097644806 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -179,7 +179,7 @@ layers:
       westerncliffhighland_: 
         .type: "CEntity"
         transform: 
-          pos: [ -915.4837036133, -814.3513183594, 5.5097656250 ]
+          pos: [ -915.483703613, 157.648681641, 5.509765625 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -207,7 +207,7 @@ layers:
       westerncliffhighland__1: 
         .type: "CEntity"
         transform: 
-          pos: [ -915.4837036133, -814.3513183594, 5.5097656250 ]
+          pos: [ -915.483703613, 157.648681641, 5.509765625 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -235,7 +235,7 @@ layers:
       westerncliffhighland__2: 
         .type: "CEntity"
         transform: 
-          pos: [ -915.4837036133, -814.3513183594, 5.5097656250 ]
+          pos: [ -915.483703613, 157.648681641, 5.509765625 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -263,7 +263,7 @@ layers:
       marshraven: 
         .type: "CEntity"
         transform: 
-          pos: [ -813.9641723633, -899.1568603516, 3.0321769714 ]
+          pos: [ -813.964172363, 72.8431396484, 3.0321769714 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -291,7 +291,7 @@ layers:
       marshsmallforest_1: 
         .type: "CEntity"
         transform: 
-          pos: [ -813.9641723633, -899.1568603516, 3.0321769714 ]
+          pos: [ -813.964172363, 72.8431396484, 3.0321769714 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -318,139 +318,139 @@ layers:
     statics.shadows: 
       sscliffhanging: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
-        pos: [ -533.2561035156, -946.1744995117, 10.4398021698 ]
+        pos: [ -533.256103516, 25.8255004883, 10.4398021698 ]
         rot: [ 0.0, 180.0, 0.0 ]
         scale: [ 2.0, 2.0, 2.0 ]
 
       sscliffhanging_1: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
-        pos: [ -535.0738525391, -941.8765869141, 7.8448734283 ]
+        pos: [ -535.073852539, 30.1234130859, 7.8448734283 ]
         rot: [ 10.0, 0.0, 0.0 ]
         scale: [ 2.0, 1.5000000000, 2.0 ]
 
       sscliffhanging_2: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
-        pos: [ -538.3809204102, -946.2648925781, 2.6505918503 ]
+        pos: [ -538.38092041, 25.7351074219, 2.6505918503 ]
         rot: [ 20.0, 0.0, -721.9996948242 ]
         scale: [ 2.0, 4.0, 2.0 ]
 
       sscliffhanging_3: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
-        pos: [ -542.3214721680, -961.7395629883, 8.1179962158 ]
+        pos: [ -542.321472168, 10.2604370117, 8.1179962158 ]
         rot: [ 20.0, 0.0, -721.9996948242 ]
         scale: [ 2.0, 2.0, 2.0 ]
 
       sscliffhanging_4: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
-        pos: [ -538.5842895508, -964.5201416016, 18.9809551239 ]
+        pos: [ -538.584289551, 7.4798583984, 18.9809551239 ]
         rot: [ 50.0, 0.0, -617.8001708984 ]
         scale: [ 2.0, 2.0, 1.0 ]
 
       sscliffhanging_5: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
-        pos: [ -537.4165039063, -985.7496948242, 12.6854858398 ]
+        pos: [ -537.416503906, -13.7496948242, 12.6854858398 ]
         rot: [ 50.0, 0.0, -685.8001098633 ]
         scale: [ 2.0, 4.0, 2.0 ]
 
       sscliffhanging_6: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
-        pos: [ -538.4065551758, -973.4910278320, 17.1196174622 ]
+        pos: [ -538.406555176, -1.491027832, 17.1196174622 ]
         rot: [ 90.0, 0.0, -659.9997558594 ]
         scale: [ 2.0, 2.0, 1.0 ]
 
       sscliffhanging_7: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
-        pos: [ -523.5358886719, -999.1099243164, 19.8796367645 ]
+        pos: [ -523.535888672, -27.1099243164, 19.8796367645 ]
         rot: [ 90.0, 0.0, -767.7996215820 ]
 
       sscliffhanging_8: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
-        pos: [ -536.8070068359, -954.9978637695, 18.8559570313 ]
+        pos: [ -536.807006836, 17.0021362305, 18.8559570313 ]
         rot: [ 90.0, 0.0, -823.5996704102 ]
         scale: [ 1.0, 1.0, 2.0 ]
 
       sscliffhanging_9: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
-        pos: [ -539.0245971680, -981.4760742188, 6.1296482086 ]
+        pos: [ -539.024597168, -9.4760742188, 6.1296482086 ]
         rot: [ 90.0, 0.0, -797.1997070313 ]
         scale: [ 4.0, 4.0, 2.0 ]    
       rcnf_cliff: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_c.w2ent"
-        pos: [ -648.1884765625, -984.1962280273, 5.0855951309 ]
+        pos: [ -648.188476562, -12.1962280273, 5.0855951309 ]
         rot: [ 90.0, 0.0, -68.4000244141 ]    
       rc_ss_cliff: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_d.w2ent"
-        pos: [ -543.0112304688, -1028.4941406250, 8.7737808228 ]
+        pos: [ -543.011230469, -56.494140625, 8.7737808228 ]
         rot: [ 30.0, 0.0, -179.9999847412 ]
 
       rc_ss_cliff_1: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_c.w2ent"
-        pos: [ -556.5895996094, -1028.1195068359, 3.7337856293 ]
+        pos: [ -556.589599609, -56.1195068359, 3.7337856293 ]
         rot: [ 30.0, 0.0, -347.5999450684 ]
         scale: [ 2.0, 2.0, 2.0 ]
 
       rc_ss_cliff_2: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e.w2ent"
-        pos: [ -533.3943481445, -1032.1831054688, 12.4183073044 ]
+        pos: [ -533.394348144, -60.1831054688, 12.4183073044 ]
         rot: [ 90.0, 0.0, -366.7999877930 ]
         scale: [ 2.0, 2.0, 2.0 ]
 
       rc_ss_cliff_3: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_b.w2ent"
-        pos: [ -521.2868652344, -1031.1407470703, 15.6307525635 ]
+        pos: [ -521.286865234, -59.1407470703, 15.6307525635 ]
         rot: [ 90.0, 0.0, -300.4000549316 ]
         scale: [ 2.0, 2.0, 2.0 ]
 
       rc_ss_cliff_4: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_f.w2ent"
-        pos: [ -536.1637573242, -1027.6068115234, 11.9056587219 ]
+        pos: [ -536.163757324, -55.6068115234, 11.9056587219 ]
         rot: [ 90.0, 0.0, -377.4000549316 ]
         scale: [ 2.0, 2.0, 2.0 ]
       westerncliffcliffs: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h_dark.w2ent"
-        pos: [ -896.9139404297, -876.1666259766, 5.6711120605 ]
+        pos: [ -896.91394043, 95.8333740234, 5.6711120605 ]
         rot: [ 90.0, 0.0, -126.1999816895 ]
         scale: [ 2.0, 2.0, 2.0 ]
 
       westerncliffcliffs_1: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_g_moss.w2ent"
-        pos: [ -892.3883056641, -843.0228271484, 5.4298276901 ]
+        pos: [ -892.388305664, 128.977172852, 5.4298276901 ]
         rot: [ 90.0, 90.0, -56.5999984741 ]
         scale: [ 2.0, 2.0, 2.0 ]
 
       westerncliffcliffs_2: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e_moss.w2ent"
-        pos: [ -891.2550048828, -821.6073608398, 8.4944772720 ]
+        pos: [ -891.255004883, 150.39263916, 8.494477272 ]
         rot: [ 90.0, 90.0, -77.9999847412 ]
         scale: [ 2.0, 2.0, 3.0 ]
 
       westerncliffcliffs_3: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e_moss.w2ent"
-        pos: [ -904.4132080078, -837.4885864258, 10.5554027557 ]
+        pos: [ -904.413208008, 134.511413574, 10.5554027557 ]
         rot: [ 90.0, 90.0, 3.0000181198 ]
         scale: [ 2.0, 2.0, 2.0 ]
 
       westerncliffcliffs_4: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e_moss.w2ent"
-        pos: [ -899.7707519531, -837.1741333008, 17.9954109192 ]
+        pos: [ -899.770751953, 134.825866699, 17.9954109192 ]
         rot: [ 90.0, 90.0, -28.9999828339 ]
         scale: [ 2.0, 2.0, 1.0 ]
 
       westerncliffcliffs_5: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_d_moss.w2ent"
-        pos: [ -909.5035400391, -784.7089233398, 19.0754184723 ]
+        pos: [ -909.503540039, 187.29107666, 19.0754184723 ]
         rot: [ 90.0, 90.0, -55.3999900818 ]
         scale: [ 2.0, 2.0, 2.0 ]
 
       westerncliffcliffs_6: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_c_moss.w2ent"
-        pos: [ -904.0352783203, -811.3489990234, 18.0354118347 ]
+        pos: [ -904.03527832, 160.651000977, 18.0354118347 ]
         rot: [ 90.0, 50.0, -50.1999931335 ]
         scale: [ 2.0, 2.0, 3.0 ]
 
       westerncliffcliffs_7: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_a_moss.w2ent"
-        pos: [ -905.2812500000, -796.6415405273, 18.7554168701 ]
+        pos: [ -905.28125, 175.358459473, 18.7554168701 ]
         rot: [ 90.0, 50.0, -62.5999870300 ]
         scale: [ 2.0, 3.0, 3.0 ]
         
@@ -462,7 +462,7 @@ layers:
       westernforestcrows: 
         .type: "CEntity"
         transform: 
-          pos: [ -1065.1888427734, -960.9439697266, 14.3786926270 ]
+          pos: [ -1065.18884277, 11.0560302734, 14.378692627 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -490,7 +490,7 @@ layers:
       westernforestcrows_1: 
         .type: "CEntity"
         transform: 
-          pos: [ -1070.4772949219, -933.8121948242, 14.5952301025 ]
+          pos: [ -1070.47729492, 38.1878051758, 14.5952301025 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -518,7 +518,7 @@ layers:
       westernforestcrows_2: 
         .type: "CEntity"
         transform: 
-          pos: [ -1094.7601318359, -913.4854736328, 9.3244934082 ]
+          pos: [ -1094.76013184, 58.5145263672, 9.3244934082 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -546,7 +546,7 @@ layers:
       westernforestcrows_3: 
         .type: "CEntity"
         transform: 
-          pos: [ -1123.1636962891, -942.4425048828, 11.9028320313 ]
+          pos: [ -1123.16369629, 29.5574951172, 11.9028320313 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -574,7 +574,7 @@ layers:
       westernforestcrows_4: 
         .type: "CEntity"
         transform: 
-          pos: [ -1096.9838867188, -1003.2067260742, 13.4153137207 ]
+          pos: [ -1096.98388672, -31.2067260742, 13.4153137207 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -602,7 +602,7 @@ layers:
       westernforestcrows_5: 
         .type: "CEntity"
         transform: 
-          pos: [ -1116.6632080078, -1074.6901855469, 13.4153137207 ]
+          pos: [ -1116.66320801, -102.690185547, 13.4153137207 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -630,7 +630,7 @@ layers:
       westernforestcrows_6: 
         .type: "CEntity"
         transform: 
-          pos: [ -1183.0635986328, -1040.8009033203, 13.4153137207 ]
+          pos: [ -1183.06359863, -68.8009033203, 13.4153137207 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -658,7 +658,7 @@ layers:
       westerncliffhighland__4: 
         .type: "CEntity"
         transform: 
-          pos: [ -1085.8275146484, -1026.1159667969, 5.5097656250 ]
+          pos: [ -1085.82751465, -54.1159667969, 5.509765625 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -686,7 +686,7 @@ layers:
       westerncliffhighland__5: 
         .type: "CEntity"
         transform: 
-          pos: [ -1111.2950439453, -1141.8311767578, 5.5097656250 ]
+          pos: [ -1111.29504395, -169.831176758, 5.509765625 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -714,7 +714,7 @@ layers:
       westerncliffhighland__6: 
         .type: "CEntity"
         transform: 
-          pos: [ -1023.3137207031, -1253.1090087891, 5.5097656250 ]
+          pos: [ -1023.3137207, -281.109008789, 5.509765625 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -742,7 +742,7 @@ layers:
       westerncliffhighland__7: 
         .type: "CEntity"
         transform: 
-          pos: [ -985.9063110352, -1339.4122314453, 5.5097656250 ]
+          pos: [ -985.906311035, -367.412231445, 5.509765625 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -775,7 +775,7 @@ layers:
       naturebridgerivia: 
         .type: "CEntity"
         transform: 
-          pos: [ -643.3320312500, -671.7371826172, -6.2001190186 ]
+          pos: [ -643.33203125, 300.262817383, -6.2001190186 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -803,7 +803,7 @@ layers:
       birdsbridge: 
         .type: "CEntity"
         transform: 
-          pos: [ -642.0373535156, -706.4574584961, 3.1119995117 ]
+          pos: [ -642.037353516, 265.542541504, 3.1119995117 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -831,7 +831,7 @@ layers:
       birdsbridge_1: 
         .type: "CEntity"
         transform: 
-          pos: [ -622.2592163086, -665.3098754883, 2.3555755615 ]
+          pos: [ -622.259216309, 306.690124512, 2.3555755615 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -859,7 +859,7 @@ layers:
       birdsbridge_2: 
         .type: "CEntity"
         transform: 
-          pos: [ -577.2014160156, -712.9669189453, 2.5796203613 ]
+          pos: [ -577.201416016, 259.033081055, 2.5796203613 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -887,7 +887,7 @@ layers:
       birdsbridge_3: 
         .type: "CEntity"
         transform: 
-          pos: [ -689.5486450195, -685.5919189453, 3.8363800049 ]
+          pos: [ -689.548645019, 286.408081055, 3.8363800049 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -915,7 +915,7 @@ layers:
       birdsbridge_4: 
         .type: "CEntity"
         transform: 
-          pos: [ -708.6657714844, -769.4266357422, 6.2677154541 ]
+          pos: [ -708.665771484, 202.573364258, 6.2677154541 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -943,7 +943,7 @@ layers:
       birdsbridge_5: 
         .type: "CEntity"
         transform: 
-          pos: [ -666.3225708008, -736.7611694336, 6.0483703613 ]
+          pos: [ -666.322570801, 235.238830566, 6.0483703613 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -971,7 +971,7 @@ layers:
       birdsbridge_6: 
         .type: "CEntity"
         transform: 
-          pos: [ -611.0924682617, -773.0401000977, 4.5065307617 ]
+          pos: [ -611.092468262, 198.959899902, 4.5065307617 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -999,7 +999,7 @@ layers:
       birdsbridge_7: 
         .type: "CEntity"
         transform: 
-          pos: [ -714.3299560547, -733.7562255859, 4.4240264893 ]
+          pos: [ -714.329956055, 238.243774414, 4.4240264893 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -1027,7 +1027,7 @@ layers:
       birdsbridge_8: 
         .type: "CEntity"
         transform: 
-          pos: [ -714.3299560547, -733.7562255859, 4.4240264893 ]
+          pos: [ -714.329956055, 238.243774414, 4.4240264893 ]
           scale: [ 1.0, 1.0, 1.0 ]
         components: 
           soundarea: 
@@ -1061,24 +1061,33 @@ layers:
     #context: ""
 
     statics.shadows: 
+      rcnf_mill: 
+        template: "CEntity:environment\\architecture\\human\\redania\\common\\windmill\\windmill_closed.w2ent"
+        pos: [ -590.962097168, -11.2863769531, 3.936630249 ]
+        rot: [ 0.0, 0.0, -152.5999145508 ]
+
+      rcnf_mill_1: 
+        template: "CGameplayEntity:environment\\architecture\\human\\redania\\common\\windmill\\windmill_closed_blades.w2ent"
+        pos: [ -590.590026856, -10.6815795898, 25.3214492798 ]
+        rot: [ 180.0, 0.0, -152.6000061035 ]  
       ssfroaddetailcliff: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e.w2ent"
-        pos: [ -695.4894409180, -748.4886474609, 2.5009088516 ]
+        pos: [ -695.489440918, 223.511352539, 2.5009088516 ]
         rot: [ 0.0, 0.0, 337.4001159668 ]
 
       ssfroaddetailcliff_1: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_f.w2ent"
-        pos: [ -723.0360717773, -772.8400268555, 5.5009059906 ]
+        pos: [ -723.036071777, 199.159973144, 5.5009059906 ]
         rot: [ 70.0, 0.0, 432.5999450684 ]
 
       ssfroaddetailcliff_2: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_b.w2ent"
-        pos: [ -723.5338745117, -807.2471923828, 3.7686319351 ]
+        pos: [ -723.533874512, 164.752807617, 3.7686319351 ]
         rot: [ 70.0, 0.0, 645.1999511719 ]
 
       ssfroaddetailcliff_3: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e.w2ent"
-        pos: [ -723.5338745117, -807.2471923828, 3.7686319351 ]
+        pos: [ -723.533874512, 164.752807617, 3.7686319351 ]
         rot: [ 70.0, 0.0, 569.7999267578 ]
 
               

@@ -1,0 +1,1716 @@
+layers:
+  east_coast_pine_forest_sounds: 
+    world: "riviacapital"
+    #context: ""
+
+    areas.sound: 
+      ecpw: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 250.9394378662, 653.5944213867, 2.1549072266 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_FOREST_07_medium_dense_1"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_FOREST_07_medium_dense_1"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 2000.0
+            localPoints: 
+              - [ 134.2386016846, 185.2755737305, 0.0, 1.0 ]
+              - [ 47.2000579834, 157.7846679688, 0.0, 1.0 ]
+              - [ -166.0429687500, -0.0480346680, 0.0, 1.0 ]
+              - [ -86.3331604004, -204.6729736328, 0.0, 1.0 ]
+              - [ 107.4615631104, -72.1411132813, 0.0, 1.0 ]
+
+      ecpwbirds: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 165.0151367188, 555.8173828125, 4.9021301270 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_kaer_trodle.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180267334, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180267334, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180267334, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180267334, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_1: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 190.6470642090, 525.9751586914, 7.8457031250 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_kaer_trodle.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180267334, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180267334, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180267334, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180267334, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_10: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 305.0013427734, 774.8501586914, 6.8363342285 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_black_woodpecker_call_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_black_woodpecker_call_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_11: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 335.6514587402, 723.6238403320, 12.8216705322 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_black_woodpecker_call_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_black_woodpecker_call_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_12: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 202.4040679932, 570.9603271484, 9.9743194580 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_black_woodpecker_call_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_black_woodpecker_call_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_13: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 241.3552856445, 582.8259277344, 10.8569946289 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_g_EM_animal_bird_woodpecker_drm_1_med_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_g_EM_animal_bird_woodpecker_drm_1_med_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_kaer_trodle.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_14: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 207.5626220703, 530.5611572266, 10.8569946289 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_g_EM_animal_bird_woodpecker_drm_1_med_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_g_EM_animal_bird_woodpecker_drm_1_med_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_kaer_trodle.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_15: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 303.1950683594, 653.1647338867, 9.9646911621 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_g_EM_animal_bird_woodpecker_drm_1_med_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_g_EM_animal_bird_woodpecker_drm_1_med_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_kaer_trodle.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_16: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 302.8962402344, 585.7693481445, 12.8325042725 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_g_EM_animal_bird_woodpecker_drm_1_med_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_g_EM_animal_bird_woodpecker_drm_1_med_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_kaer_trodle.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_17: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 267.4725952148, 608.2644042969, 9.7381134033 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_oriole_m_1_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_oriole_m_1_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_18: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 177.8677215576, 569.7103881836, 4.9381179810 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_oriole_m_1_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_oriole_m_1_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_19: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 251.9385986328, 638.6128540039, 4.0931396484 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_oriole_m_1_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_oriole_m_1_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_2: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 231.7488708496, 555.1504516602, 15.8075256348 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_kaer_trodle.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180267334, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180267334, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180267334, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180267334, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_20: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 312.3577270508, 650.7411499023, 12.2531318665 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_oriole_m_1_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_oriole_m_1_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_21: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 260.1607971191, 688.3790283203, 2.8931396008 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_oriole_m_1_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_oriole_m_1_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_22: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 303.3716735840, 755.7333374023, 2.8931396008 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_oriole_m_1_120m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_oriole_m_1_120m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_23: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 208.2713165283, 540.5759887695, 10.0931339264 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000152588, 0.0, 0.0, 1.0 ]
+              - [ 0.6180419922, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180419922, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_24: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 238.2433319092, 546.5936889648, 14.6531295776 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000152588, 0.0, 0.0, 1.0 ]
+              - [ 0.6180419922, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180419922, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_25: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 238.3339385986, 623.6458129883, 7.6353225708 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000152588, 0.0, 0.0, 1.0 ]
+              - [ 0.6180419922, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180419922, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_26: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 289.6028442383, 649.0191040039, 9.7953205109 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000305176, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_27: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 284.7643737793, 721.0886230469, 7.3953227997 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000305176, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_28: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 281.9154968262, 585.9192504883, 11.4753189087 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000305176, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_29: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 195.6653137207, 499.5275268555, 7.4592552185 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000457764, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9021301270, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_3: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 223.8515167236, 507.3721008301, 14.5997009277 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_kaer_trodle.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180267334, 1.9021301270, 0.0, 1.0 ]
+              - [ -1.6180267334, 1.1755676270, 0.0, 1.0 ]
+              - [ -1.6180267334, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180267334, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_30: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 131.5158691406, 594.2193603516, 7.4592552185 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000457764, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_31: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 136.5038604736, 669.0489501953, 2.8992583752 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000610352, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_32: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 205.0854644775, 659.9603881836, 1.8414001465 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000610352, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_33: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 213.4195098877, 725.0441894531, 1.1576538086 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000610352, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_34: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 140.8292846680, 708.0166015625, 0.6396331787 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000610352, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_35: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 77.0110397339, 633.8543701172, 0.6396331787 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000686646, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_36: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 350.5852355957, 643.6146240234, 17.7875499725 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_swallow_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000915527, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_4: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 232.1874237061, 601.8429565430, 16.5994567871 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_kaer_trodle.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180267334, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180267334, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180267334, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180267334, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_5: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 278.9748229980, 577.9343872070, 15.8757781982 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_kaer_trodle.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_6: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 323.3656616211, 628.0009765625, 14.4586791992 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_kaer_trodle.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_7: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 270.5550842285, 666.3134155273, 14.4586791992 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_kaer_trodle.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_8: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 311.2088012695, 714.6029052734, 14.4586791992 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_sk_g_EM_animal_bird_woodpecker_drm_2_thin_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_sk_kaer_trodle.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      ecpwbirds_9: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 268.2215270996, 736.4751586914, 4.2241973877 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_bird_black_woodpecker_call_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_bird_black_woodpecker_call_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9021606445, 0.0, 1.0 ]
+              - [ -1.6180114746, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180114746, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforest: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 277.5334472656, 857.5844726563, 3.5531311035 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_FOREST_01_medium_dense_1"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_FOREST_01_medium_dense_1"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 2000.0
+            localPoints: 
+              - [ 152.3025512695, 7.8546752930, 0.0, 1.0 ]
+              - [ 79.7761230469, 91.4591674805, 0.0, 1.0 ]
+              - [ 33.4150695801, 171.5704345703, 0.0, 1.0 ]
+              - [ -78.8850555420, -12.3737182617, 0.0, 1.0 ]
+              - [ 115.4860534668, -91.8915405273, 0.0, 1.0 ]
+
+      betulaforestbirds: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 240.3987121582, 876.1698608398, 2.7522583008 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_woodpecker_A_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_woodpecker_A_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0, 0.0, 0.0, 1.0 ]
+              - [ 0.6180267334, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180267334, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180267334, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180267334, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_1: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 264.9577941895, 865.9657592773, 3.6439208984 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_woodpecker_C_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_woodpecker_C_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000305176, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.6180419922, -1.1755981445, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_10: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 319.9174194336, 951.9528808594, 5.7674884796 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_C_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_C_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_11: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 299.2151184082, 926.1541748047, 6.7274875641 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_squirrel_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_squirrel_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_12: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 317.7434997559, 898.9838867188, 8.4074859619 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_squirrel_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_squirrel_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_13: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 343.4015502930, 872.7962646484, 7.4474868774 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_squirrel_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_squirrel_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_14: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 336.7037353516, 904.1241455078, 7.4474868774 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_B_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_B_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_15: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 331.5291137695, 884.2906494141, 7.4474868774 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_16: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 302.3913879395, 841.1286010742, 3.4520294666 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_17: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 293.8054809570, 805.0684204102, 3.5426940918 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_18: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 335.1544799805, 815.1449584961, 7.3719959259 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_19: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 285.3955383301, 888.8841552734, 8.9216003418 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_animal_f3_mix_bird_1_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_nml_global.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_2: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 238.0536193848, 847.4473266602, 2.9114837646 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_woodpecker_B_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_woodpecker_B_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 2.0000152588, 0.0, 0.0, 1.0 ]
+              - [ 0.6180114746, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409271240, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180114746, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_3: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 261.8356323242, 906.9906616211, 5.7328033447 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_close_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_close_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180419922, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180419922, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_4: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 274.4685668945, 827.2498168945, 3.3385314941 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_close_80m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_close_80m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999389648, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_5: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 248.1906738281, 812.2162475586, 3.3385314941 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_C_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_C_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999542236, 0.0, 0.0, 1.0 ]
+              - [ 0.6180572510, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180572510, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_6: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 235.3970489502, 720.5369873047, 1.6651153564 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_C_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_C_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999542236, 0.0, 0.0, 1.0 ]
+              - [ 0.6180572510, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180572510, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_7: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 167.8274993896, 666.7207641602, 1.6651153564 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_C_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_C_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999542236, 0.0, 0.0, 1.0 ]
+              - [ 0.6180572510, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180572510, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_8: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 315.2910766602, 835.2781372070, 5.4362392426 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_C_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_C_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]
+
+      betulaforestbirds_9: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 314.1666870117, 877.0177612305, 9.0950794220 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_qu_q704_EM_meadow_bird_C_140m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_qu_q704_EM_meadow_bird_C_140m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_qu_ep2_fairytale_land_meadow.bnk" ]
+            #triggerPriority: 0
+            height: 20.0
+            localPoints: 
+              - [ 1.9999694824, 0.0, 0.0, 1.0 ]
+              - [ 0.6180725098, 1.9020996094, 0.0, 1.0 ]
+              - [ -1.6180419922, 1.1755981445, 0.0, 1.0 ]
+              - [ -1.8409118652, -1.6685180664, 0.0, 1.0 ]
+              - [ 0.6180725098, -1.9020996094, 0.0, 1.0 ]

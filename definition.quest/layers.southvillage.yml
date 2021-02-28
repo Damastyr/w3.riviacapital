@@ -1,0 +1,70 @@
+layers:
+  village_south: 
+    world: "riviacapital"
+    #context: ""
+
+    statics.shadow: 
+      villagesouth1: 
+        template: "CEntity:environment\\architecture\\human\\redania\\common\\windmill\\windmill_closed.w2ent"
+        pos: [ -300.2800903320, -532.7902832031, 11.4802093506 ]
+        rot: [ 0.0, 0.0, -51.3999710083 ]
+
+      villagesouth1_1: 
+        template: "CGameplayEntity:environment\\architecture\\human\\redania\\common\\windmill\\windmill_closed_blades.w2ent"
+        pos: [ -300.4348449707, -532.6501464844, 32.8801956177 ]
+        rot: [ 0.0, 0.0, -235.0000610352 ]
+
+      villagesouth1_10: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -288.8895568848, -517.3167114258, 11.6867733002 ]
+        rot: [ 0.0, 0.0, -309.5997924805 ]
+
+      villagesouth1_11: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -292.0817871094, -515.2495727539, 11.6867733002 ]
+        rot: [ 0.0, 0.0, -289.7997741699 ]
+
+      villagesouth1_12: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -295.8512573242, -513.8660278320, 11.6867733002 ]
+        rot: [ 0.0, 0.0, -296.5999145508 ]
+
+      villagesouth1_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_palisade_gate.w2ent"
+        pos: [ -280.5382385254, -544.9621582031, 11.4228363037 ]
+        rot: [ 0.0, 0.0, -247.2000122070 ]
+
+      villagesouth1_3: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -282.0798645020, -540.3851318359, 11.7828359604 ]
+        rot: [ 0.0, 0.0, -351.1999816895 ]
+
+      villagesouth1_4: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -282.3992919922, -536.5187377930, 11.7828359604 ]
+        rot: [ 0.0, 0.0, -373.8000488281 ]
+
+      villagesouth1_5: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -280.8165588379, -532.9835205078, 11.4867734909 ]
+        rot: [ 0.0, 0.0, -403.8001098633 ]
+
+      villagesouth1_6: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -280.0876770020, -529.6850585938, 11.6467733383 ]
+        rot: [ 0.0, 0.0, -344.4001159668 ]
+
+      villagesouth1_7: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -281.4962463379, -526.0715332031, 11.5267734528 ]
+        rot: [ 0.0, 0.0, -330.8001098633 ]
+
+      villagesouth1_8: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -283.4976196289, -522.8750000000, 11.5267734528 ]
+        rot: [ 0.0, 0.0, -322.1999206543 ]
+
+      villagesouth1_9: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -286.0014038086, -519.9035644531, 11.5267734528 ]
+        rot: [ 0.0, 0.0, -317.5998840332 ]

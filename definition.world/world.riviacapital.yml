@@ -11,7 +11,7 @@ WorldDefinition:
     textures:
       background: background.png
       overlay: foreground.png
-      blendcontrol: 15    # bits 0..2 blending of overlay || bits 3..5 scaling of background texture
+      blendcontrol: blendmap.png    # bits 0..2 blending of overlay || bits 3..5 scaling of background texture
 
     clipSize: 1024
     numClipmapStackLevels: 2
@@ -161,18 +161,13 @@ WorldDefinition:
         rspecBase: 0.5490000248
     grassBrushes:
       texture_01: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_default.vbrush"
-       
-      texture_08: "environment\\vegetation\\brushes\\generic_grass\\novigrad_grass_default.vbrush"  
-      
-      texture_10: "environment\\vegetation\\brushes\\michal stelmachowicz\\grass1_test.vbrush"  
       
       texture_23: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
-      texture_22: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
       texture_24: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
       texture_25: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
       texture_26: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
       texture_27: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
-      texture_28: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
+
       texture_29: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
       texture_13: "environment\\vegetation\\brushes\\generic_grass\\prologue_grass_to_sand.vbrush"
   newLayerGroupFormat: true
@@ -345,7 +340,7 @@ WorldDefinition:
             curveTypeR: 1
       moonShaftsBeginHour: 22.0
       moonShaftsEndHour: 3.1500000954
-    environmentDefinition: "environment\\definitions\\env_prologue\\env_prolog_colors_v1_b_sunset.env"
+    environmentDefinition: "dlc\\bob\\data\\environment\\definitions\\sunny\\sunny_bob_v7.env"
     scenesEnvironmentDefinition: "environment\\definitions\\cutscenes_definition\\cutscen_definition_global.env"
     speedTreeParameters:
       alphaScalar3d: 2.0
@@ -354,7 +349,7 @@ WorldDefinition:
       alphaScalarGrassDistFar: 15.0
       alphaScalarBillboards: 0.25
       grassNormalsVariation: 0.1000000015
-    weatherTemplate: "engine\\environments\\weather_prolog.csv"
+    weatherTemplate: "engine\\environments\\weather_kaer_morhen.csv"
     disableWaterShaders: false
     skybox:
       sunMesh: "environment\\skyboxes\\sun\\sun.w2mesh"

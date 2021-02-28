@@ -21593,4 +21593,1700 @@ entities:
           drawableFlags:
             - IsVisible
             - CastShadows
-          mesh: environment\decorations\exterior\haystacks\haystack_poor_02.w2mesh                              
+          mesh: environment\decorations\exterior\haystacks\haystack_poor_02.w2mesh                        
+
+  human_gravestones_a:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\human_gravestones\human_gravestones_a.w2mesh      
+
+  human_gravestones_b:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\human_gravestones\human_gravestones_b.w2mesh   
+          
+  human_gravestones_c:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\human_gravestones\human_gravestones_c.w2mesh    
+          
+  human_gravestones_d:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\human_gravestones\human_gravestones_d.w2mesh 
+          
+  human_gravestones_e:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\human_gravestones\human_gravestones_e.w2mesh 
+          
+  human_gravestones_f:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\human_gravestones\human_gravestones_f.w2mesh   
+          
+  human_gravestones_g:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\human_gravestones\human_gravestones_g.w2mesh      
+
+  river_waterfall_start:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\fx\environment\water\waterfall_strips_3_1.w2mesh   
+
+  waterfall_strips_3_1:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\fx\environment\water\waterfall_strips_3_1.w2mesh   
+  waterfall_strips_3_2:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\fx\environment\water\waterfall_strips_3_2.w2mesh   
+  waterfall_strips_3_3:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\fx\environment\water\waterfall_strips_3_3.w2mesh   
+
+  baron_castle_exterior:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_castle_exterior.w2mesh 
+
+  baron_castle_shadowmesh:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_castle_shadowmesh.w2mesh 
+          
+  baron_inner_entrance:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_inner_entrance.w2mesh 
+
+  baron_stables_destroyed_exterior_roof:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_destroyed_exterior_roof.w2mesh 
+          
+  baron_stables_destroyed_exterior_roof_alpha:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_destroyed_exterior_roof_alpha.w2mesh 
+          
+  baron_stables_destroyed_interior:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_destroyed_interior.w2mesh 
+          
+  baron_stables_destroyed_interior_platforms:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_destroyed_interior_platforms.w2mesh 
+          
+  baron_stables_destroyed_interior_roof:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_destroyed_interior_roof.w2mesh 
+          
+  baron_stables_exterior:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_exterior.w2mesh 
+          
+  baron_stables_interior:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_interior.w2mesh 
+          
+  baron_stables_interior_q102:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_interior_q102.w2mesh 
+          
+  baron_stables_interior_stables:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_interior_stables.w2mesh 
+          
+  baron_stables_palisade_a_proxy:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_palisade_a_proxy.w2mesh 
+          
+  baron_stables_palisade_b_proxy:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_palisade_b_proxy.w2mesh 
+          
+  baron_stables_palisade_proxy:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_palisade_proxy.w2mesh 
+          
+  baron_stables_platforms_interior:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_platforms_interior.w2mesh 
+          
+  baron_stables_roof_alpha_exterior:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_roof_alpha_exterior.w2mesh 
+          
+  baron_stables_roof_alpha_interior:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_roof_alpha_interior.w2mesh 
+          
+  baron_stables_roof_exterior:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_roof_exterior.w2mesh 
+          
+  baron_stables_roof_interior:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_stables_roof_interior.w2mesh 
+          
+  baron_storage:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\baron_storage.w2mesh 
+          
+  barons_castle_chimney:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\barons_castle_chimney.w2mesh 
+          
+  barons_castle_wooden_frame:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\barons_castle_wooden_frame.w2mesh 
+          
+  barons_quarters:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\barons_quarters.w2mesh 
+          
+  barons_tower:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\barons_tower.w2mesh 
+          
+  inner_entrance_roof:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\inner_entrance_roof.w2mesh 
+          
+  interior_bottom:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\interior_bottom.w2mesh 
+          
+  interior_bottom_tower:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\interior_bottom_tower.w2mesh 
+          
+  interior_middle:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\interior_middle.w2mesh 
+                                        
+  interior_middle_tower:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\interior_middle_tower.w2mesh 
+                                        
+  interior_stairs:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\interior_stairs.w2mesh 
+                                        
+  interior_top:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\interior_top.w2mesh 
+                                        
+  interior_top_tower:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\interior_top_tower.w2mesh 
+                                        
+  poor_shed_door:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 200          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\poor_shed_door.w2mesh 
+                                        
+  poor_stables_door:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 200          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\poor_stables_door.w2mesh 
+                                        
+  stable_broken_beams:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\stable_broken_beams.w2mesh 
+                                        
+  stable_gate_left:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\stable_gate_left.w2mesh 
+                                        
+  stable_gate_right:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\stable_gate_right.w2mesh 
+                                        
+  stables_divider_short_wide_a:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\stables_divider_short_wide_a.w2mesh 
+                                        
+  stables_divider_short_wide_b:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\stables_divider_short_wide_b.w2mesh 
+                                        
+  stables_divider_small:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\stables_divider_small.w2mesh 
+                                        
+  stables_divider_tall_a:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\stables_divider_tall_a.w2mesh 
+                                        
+  stables_divider_tall_b:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\stables_divider_tall_b.w2mesh 
+                                        
+  wall_shed:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\baron_castle\wall_shed.w2mesh 
+
+                                        
+  entrance_tunnel_vertex_paint:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\entrance_tunnel_vertex_paint.w2mesh 
+                                        
+  fortmar_proxy:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\fortmar_proxy.w2mesh 
+                                        
+  guard_tower_brick:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\guard_tower_brick.w2mesh 
+                                        
+  guard_tower_small:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\guard_tower_small.w2mesh 
+                                        
+  tower_gate:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\tower_gate.w2mesh 
+                                        
+  watch_platform:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\watch_platform.w2mesh 
+                                        
+  wooden_arc:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\wooden_arc.w2mesh 
+                                        
+  wooden_arc_gate_left:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\wooden_arc_gate_left.w2mesh 
+                                        
+  wooden_arc_gate_right:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\architecture\human\redania\nomans_land\wooden_arc_gate_right.w2mesh 
+                                                                                
+  melitele_statue_girl:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statue_girl.w2mesh 
+                                          
+  melitele_statue_girl_broken_piece1:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 100          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statue_girl_broken_piece1.w2mesh 
+                                          
+  melitele_statue_girl_broken_piece2:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 100          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statue_girl_broken_piece2.w2mesh 
+                                          
+  melitele_statue_girl_broken_piece2_wood:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 100          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statue_girl_broken_piece2_wood.w2mesh 
+                                          
+  melitele_statue_girl_broken_piece3:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 100          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statue_girl_broken_piece3.w2mesh 
+                                          
+  melitele_statue_girl_broken_piece3_wood:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 100          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statue_girl_broken_piece3_wood.w2mesh 
+                                          
+  melitele_statue_girl_broken_piece4:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 100          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statue_girl_broken_piece4.w2mesh 
+                                          
+  melitele_statue_girl_broken_piece4_wood:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 100          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statue_girl_broken_piece4_wood.w2mesh 
+                                          
+  melitele_statue_girl_wood:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statue_girl_wood.w2mesh 
+                                          
+  melitele_statues_hag:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statues_hag.w2mesh 
+                                          
+  melitele_statues_hag_broken_wood:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statues_hag_broken_wood.w2mesh 
+                                          
+  melitele_statues_hag_wood:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statues_hag_wood.w2mesh 
+                                          
+  melitele_statues_mother:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statues_mother.w2mesh 
+                                          
+  melitele_statues_mother_broken:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statues_mother_broken.w2mesh 
+                                             
+  melitele_statues_mother_wood:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 500          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\melitele_statues\melitele_statues_mother_wood.w2mesh 
+                                             
+                                             
+  trebuchet_broken:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\battleground\balista\trebuchet\trebuchet_broken.w2mesh 
+                                             
+  trebuchet_broken_proxy:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\battleground\balista\trebuchet\trebuchet_broken_proxy.w2mesh 
+                                             
+  nilfgaardian_flag_long_px:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CClothComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          resource: environment\decorations\flags\nilfgaardian\nilfgaardian_flag_long_px.redcloth 
+
+  castle_rivia_flag:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CClothComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          resource: dlc\dlcriviacapital\environment\decorations\flags\nilfgaardian\castle_rivia_flag.redcloth 
+
+
+  temeria_tall_flag_px_copy:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CClothComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          resource: environment\decorations\flags\temeria\temeria_tall_flag_px_copy.redcloth 
+
+  lavalette_banner_px:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CClothComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          resource: environment\decorations\flags\redania\novigrad\lavalette\lavalette_banner_px.redcloth 
+
+  lavalette_flag_big_px:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CClothComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          resource: environment\decorations\flags\redania\novigrad\lavalette\lavalette_flag_big_px.redcloth 
+
+  lavalette_flag_long_px:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CClothComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          resource: environment\decorations\flags\redania\novigrad\lavalette\lavalette_flag_long_px.redcloth 
+                                             
+  lavalette_banner_poles:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\flags\redania\novigrad\lavalette\lavalette_banner_poles.w2mesh 
+                                             
+  flag_racing_pole:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\flags\common\flag_racing_pole.w2mesh 
+
+  novigrad_tall_flag_pole:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\flags\redania\novigrad\novigrad_tall_flag_pole.w2mesh     
+
+  nilfgaardian_flag_pick:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\flags\nilfgaardian\nilfgaardian_flag_pick.w2mesh     
+
+  bob_tower_top_volume:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_tower_top_volume.w2mesh 
+          
+  bob_arena_wooden_stairs_wide:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_arena_wooden_stairs_wide.w2mesh 
+          
+  bob_palisade_spiked_part:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_palisade_spiked_part.w2mesh 
+          
+  bob_palisade_thin:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_palisade_thin.w2mesh 
+          
+  bob_palisade_short_spiked:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_palisade_short_spiked.w2mesh 
+          
+  bob_palisade_short_base:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_palisade_short_base.w2mesh 
+          
+  bob_palisade_short_flat:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_palisade_short_flat.w2mesh 
+          
+  bob_palisade_short_mixed:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_palisade_short_mixed.w2mesh 
+          
+  bob_palisade_long_mixed:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_palisade_long_mixed.w2mesh 
+          
+  bob_palisade_long_old:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_palisade_long_old.w2mesh 
+          
+  bob_gate_wing_b:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_gate_wing_b.w2mesh 
+          
+  bob_palisade_entrance_a:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_palisade_entrance_a.w2mesh 
+          
+  bob_palisade_gate:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_palisade_gate.w2mesh 
+          
+  bob_gate_wing_a:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\palisade\bob_gate_wing_a.w2mesh 
+          
+  bob_mine_support_beam:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\mines_supports\bob_mine_support_beam.w2mesh 
+          
+  bob_mine_support_beam_long:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\mines_supports\bob_mine_support_beam_long.w2mesh 
+                    
+  bob_mine_support_full:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\mines_supports\bob_mine_support_full.w2mesh 
+                    
+  bob_ground_scarp_slope:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\scarps\bob_ground_scarp_slope.w2mesh 
+                    
+  bob_ground_scarp_flat:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\scarps\bob_ground_scarp_flat.w2mesh 
+                                        
+  bob_scarp_cone:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\scarps\bob_scarp_cone.w2mesh 
+                                        
+  bob_scarp_curve:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\scarps\bob_scarp_curve.w2mesh 
+                                        
+  bob_scarp_flat:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\scarps\bob_scarp_flat.w2mesh 
+                                        
+  bob_scarp_flat_round:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\scarps\bob_scarp_flat_round.w2mesh 
+                                        
+  bob_scarp_round:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\scarps\bob_scarp_round.w2mesh 
+                                        
+  bob_scarp_round_short:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\scarps\bob_scarp_round_short.w2mesh 
+                                        
+  bob_scarp_straight:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 2000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\scarps\bob_scarp_straight.w2mesh 
+                                        
+  countryside_fence_a:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\exterior\fences\countryside_fence_a.w2mesh 
+                                        
+  countryside_fence_c:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\exterior\fences\countryside_fence_c.w2mesh 
+                                         
+  countryside_fence_b:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment\decorations\exterior\fences\countryside_fence_b.w2mesh 
+
+                                         
+  bob_tournament_fence_RC:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 800          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\architecture\tournament\structures\bob_tournament_fence_3a.w2mesh                                                                                  

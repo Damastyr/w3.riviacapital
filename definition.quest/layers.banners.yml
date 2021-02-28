@@ -1,0 +1,104 @@
+layers:
+  banners_bridge: 
+    world: "riviacapital"
+    #context: ""
+
+    statics: 
+      banner_entrance: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nilfgaardian_flag_pick.w2ent"
+        pos: [ -661.0036621094, 330.8139953613, 10.6946229935 ]
+        rot: [ 0.0, 0.0, 15.7999982834 ]
+
+      banner_entrance_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\lavalette_flag_big_px.w2ent"
+        pos: [ -661.0711669922, 330.7956237793, 10.6946229935 ]
+        rot: [ 0.0, 0.0, 195.7999114990 ]
+
+      banner_entrance_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -662.3803100586, 331.4293823242, 10.6556444168 ]
+        rot: [ 0.0, 0.0, 15.7999982834 ]
+
+      banner_entrance_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -660.2180175781, 332.0334472656, 10.6556444168 ]
+        rot: [ 0.0, 0.0, 15.7999982834 ]
+
+      banner_entrance_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nilfgaardian_flag_pick.w2ent"
+        pos: [ -658.6746826172, 331.7142639160, 9.0556459427 ]
+        rot: [ 0.0, 0.0, 15.7999982834 ]
+        scale: [ 0.3499999940, 1.0, 1.0 ]
+
+      banner_entrance_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nilfgaardian_flag_pick.w2ent"
+        pos: [ -663.4616699219, 330.3424987793, 9.0556459427 ]
+        rot: [ 0.0, 0.0, 15.7999982834 ]
+        scale: [ 0.3499999940, 1.0, 1.0 ]
+
+      banner_entrance_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\lavalette_flag_long_px.w2ent"
+        pos: [ -663.4616699219, 330.3424987793, 9.0556459427 ]
+        rot: [ 0.0, 0.0, 15.7999982834 ]
+
+      banner_entrance_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\lavalette_flag_long_px.w2ent"
+        pos: [ -658.6746826172, 331.7142639160, 9.0556459427 ]
+        rot: [ 0.0, 0.0, 15.7999982834 ]
+
+      banner_entrance_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -658.6059570313, 332.7370605469, 9.0156459808 ]
+        rot: [ 0.0, 0.0, 15.7999982834 ]
+
+      banner_entrance_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -659.3285522461, 332.5247802734, 9.0156459808 ]
+        rot: [ 0.0, 0.0, 15.7999982834 ]
+
+      banner_entrance_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -663.3887329102, 331.3525085449, 9.0156459808 ]
+        rot: [ 0.0, 0.0, 15.7999982834 ]
+
+      banner_entrance_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -664.0266113281, 331.1754150391, 9.0156459808 ]
+        rot: [ 0.0, 0.0, 15.7999982834 ]
+
+      bridgeflag_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\lavalette_flag_big_px.w2ent"
+        pos: [ -703.7755126953, 510.1216430664, 16.3145809174 ]
+        rot: [ 0.0, 0.0, 190.1998748779 ]
+        scale: [ 1.2999999523, 1.2999999523, 1.2999999523 ]
+
+      bridgeflag_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\lavalette_banner_poles.w2ent"
+        pos: [ -706.2965698242, 506.3030090332, 6.9860720634 ]
+        rot: [ 0.0, 0.0, -38.6001396179 ]
+
+      bridgeflag_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\lavalette_banner_px.w2ent"
+        pos: [ -706.2965698242, 506.3030090332, 6.9860720634 ]
+        rot: [ 0.0, 0.0, -38.6001396179 ]
+
+      bridgeflag_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\lavalette_banner_poles.w2ent"
+        pos: [ -698.6159057617, 508.4040527344, 6.9860720634 ]
+        rot: [ 0.0, 0.0, 70.3998565674 ]
+
+      bridgeflag_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\lavalette_banner_px.w2ent"
+        pos: [ -698.6159057617, 508.4040527344, 6.9860720634 ]
+        rot: [ 0.0, 0.0, 70.3998565674 ]
+        
+        
+  inner_camp_boot_flags: 
+    world: "riviacapital"
+    #context: ""
+
+    statics:         
+      bootfortcommand_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\temeria_tall_flag_px_copy.w2ent"
+        pos: [ -361.6567382813, -185.8831329346, 31.4842643738 ]
+        rot: [ 0.0, 0.0, 284.4000244141 ]

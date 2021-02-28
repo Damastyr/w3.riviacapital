@@ -1,0 +1,585 @@
+layers:
+  horsefarmRC: 
+    world: "riviacapital"
+    #context: ""
+    statics:
+      horsefarm4_40: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -307.1319580078, -423.2405090332, 11.4791917801 ]
+        rot: [ 90.0, 358.0, 115.2000427246 ]
+
+      horsefarm4_41: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -305.0690002441, -422.2768859863, 11.4791917801 ]
+        rot: [ 90.0, 358.0, 110.6000442505 ]
+
+      horsefarm4_42: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -302.9382934570, -421.6378784180, 11.4791917801 ]
+        rot: [ 90.0, 358.0, 110.6000442505 ]
+
+      horsefarm4_19: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -323.1453247070, -411.2413024902, 11.3168420792 ]
+        rot: [ 90.0, 0.0, 29.7999992371 ]
+
+      horsefarm4_20: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -322.0465393066, -413.2239685059, 11.3568420410 ]
+        rot: [ 88.0, 0.0, 29.7999992371 ]
+
+      horsefarm4_21: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -321.0996093750, -414.9255676270, 11.3968420029 ]
+        rot: [ 86.0, 0.0, 29.7999992371 ]
+
+      horsefarm4_22: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -319.8927001953, -416.8437194824, 11.4368419647 ]
+        rot: [ 86.0, 0.0, 29.7999992371 ]
+
+      horsefarm4_23: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -318.8367614746, -418.6985778809, 11.4368419647 ]
+        rot: [ 86.0, 0.0, 29.7999992371 ]
+
+      horsefarm4_24: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -317.8424987793, -420.4641418457, 11.3968420029 ]
+        rot: [ 86.0, 0.0, 22.4000034332 ]
+
+      horsefarm4_25: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_3_planks.w2ent"
+        pos: [ -317.2366638184, -421.8684082031, 11.3568420410 ]
+        rot: [ 88.0, 0.0, 18.6000003815 ]
+
+      horsefarm4_26: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_3_planks.w2ent"
+        pos: [ -317.0477600098, -422.8213195801, 11.3568420410 ]
+        rot: [ 90.0, 0.0, 15.3999996185 ]
+
+      horsefarm4_27: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -316.7931518555, -424.3613281250, 11.3968420029 ]
+        rot: [ 90.0, 0.0, 15.3999996185 ]
+
+      horsefarm4_28: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -316.0980529785, -426.4173278809, 11.3968420029 ]
+        rot: [ 88.0, 0.0, 23.2000007629 ]
+
+      horsefarm4_29: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -315.0117492676, -428.4369506836, 11.3591918945 ]
+        rot: [ 88.0, 0.0, 30.8000030518 ]
+
+      horsefarm4_30: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -313.9666137695, -430.3118286133, 11.3591918945 ]
+        rot: [ 88.0, 0.0, 30.8000030518 ]
+
+      horsefarm4_31: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -312.4189147949, -432.3670043945, 11.2791919708 ]
+        rot: [ 88.0, 0.0, 44.8000106812 ]
+
+      horsefarm4_32: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -310.9737854004, -433.9259338379, 11.2391920090 ]
+        rot: [ 88.0, 0.0, 44.8000106812 ]
+
+      horsefarm4_33: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -309.5065917969, -435.4729003906, 11.2391920090 ]
+        rot: [ 88.0, 0.0, 44.8000106812 ]
+
+      horsefarm4_34: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -308.0922851563, -437.0815734863, 11.2391920090 ]
+        rot: [ 88.0, 0.0, 44.8000106812 ]
+
+      horsefarm4_35: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -306.4217224121, -438.4683227539, 11.2391920090 ]
+        rot: [ 89.0, 0.0, 59.7999992371 ]
+
+      horsefarm4_36: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -304.7496948242, -439.4188232422, 11.2391920090 ]
+        rot: [ 88.5000000000, 0.0, 66.0 ]
+
+      horsefarm4_37: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -312.6478271484, -426.3835754395, 11.4391918182 ]
+        rot: [ 90.0, 359.0, 122.0 ]
+
+      horsefarm4_38: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -310.8084106445, -425.3118591309, 11.4791917801 ]
+        rot: [ 90.0, 358.0, 122.0 ]
+
+      horsefarm4_39: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -308.9530944824, -424.2062072754, 11.4791917801 ]
+        rot: [ 90.0, 358.0, 122.0 ]        
+    statics.shadows:
+      horsefarm4: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -325.7592163086, -414.6199340820, 11.5168418884 ]
+        rot: [ 0.0, 0.0, 29.7999992371 ]
+
+      horsefarm4_1: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -323.7369079590, -417.9887695313, 11.4368419647 ]
+        rot: [ 0.0, 0.0, 15.9999990463 ]
+
+      horsefarm4_10: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -308.3828125000, -443.3450012207, 11.4768419266 ]
+        rot: [ 0.0, 0.0, 51.9999885559 ]
+
+      horsefarm4_11: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -305.2520751953, -445.6892395020, 11.3568420410 ]
+        rot: [ 0.0, 0.0, 57.5999946594 ]
+
+      horsefarm4_12: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -301.8419494629, -448.0020446777, 11.3568420410 ]
+        rot: [ 0.0, 0.0, 56.1999931335 ]
+
+      horsefarm4_13: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -298.4916687012, -450.2237548828, 11.2368421555 ]
+        rot: [ 0.0, 0.0, 58.0 ]
+
+      horsefarm4_14: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -295.5323181152, -452.1325683594, 11.3968420029 ]
+        rot: [ 0.0, 0.0, 64.6000061035 ]
+
+      horsefarm4_15: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -292.4201660156, -453.4436645508, 11.3968420029 ]
+        rot: [ 0.0, 0.0, 62.0 ]
+
+      horsefarm4_16: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -289.1386108398, -455.1703796387, 11.3968420029 ]
+        rot: [ 0.0, 0.0, 52.2000122070 ]
+
+      horsefarm4_17: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -286.4509887695, -456.9940185547, 11.3968420029 ]
+        rot: [ 0.0, 0.0, 65.6000137329 ]
+
+      horsefarm4_18: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -282.6323852539, -457.9018249512, 11.3968420029 ]
+        rot: [ 0.0, 0.0, 94.9999847412 ]
+
+      horsefarm4_2: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -322.4980468750, -421.6630859375, 11.4368419647 ]
+        rot: [ 0.0, 0.0, 25.6000118256 ]
+
+      horsefarm4_3: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -322.4980468750, -421.6630859375, 11.4368419647 ]
+        rot: [ 0.0, 0.0, 25.6000118256 ]    
+      horsefarm4_4: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -321.1659240723, -425.0403442383, 11.4368419647 ]
+        rot: [ 0.0, 0.0, 25.6000118256 ]
+
+      horsefarm4_43: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_palisade_short_flat.w2ent"
+        pos: [ -303.2249755859, -436.2925720215, 10.5191926956 ]
+        rot: [ 0.0, 0.0, 104.8000106812 ]
+
+      horsefarm4_44: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_palisade_short_flat.w2ent"
+        pos: [ -305.0863647461, -441.8423461914, 10.5191926956 ]
+        rot: [ 10.0, 0.0, 194.3999938965 ]
+
+      horsefarm4_45: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_short_extended.w2ent"
+        pos: [ -280.7636718750, -443.7610778809, 11.9290790558 ]
+        rot: [ 0.0, 0.0, 170.9998474121 ]
+
+      horsefarm4_46: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_palisade_short_flat.w2ent"
+        pos: [ -305.9362792969, -442.9800109863, 10.8939790726 ]
+        rot: [ 0.0, 0.0, 268.3999633789 ]
+
+      horsefarm4_47: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_palisade_short_flat.w2ent"
+        pos: [ -305.5315856934, -444.4086608887, 10.8939790726 ]
+        rot: [ 0.0, 0.0, 306.1998596191 ]
+
+      horsefarm4_48: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_palisade_gate.w2ent"
+        pos: [ -303.6409606934, -439.4123229980, 11.1616706848 ]
+        rot: [ 0.0, 0.0, 252.9996948242 ]
+
+      horsefarm4_49: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_short_extended.w2ent"
+        pos: [ -282.0548095703, -451.9047546387, 11.9290790558 ]
+        rot: [ 0.0, 0.0, 170.9998474121 ]
+
+      horsefarm4_5: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -319.8071899414, -428.6148986816, 11.4368419647 ]
+        rot: [ 0.0, 0.0, 25.6000118256 ]
+
+      horsefarm4_50: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_short_extended.w2ent"
+        pos: [ -281.6403503418, -441.8219604492, 12.5290784836 ]
+        rot: [ 0.0, 0.0, 261.1999206543 ]
+
+      horsefarm4_51: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_short_extended.w2ent"
+        pos: [ -289.7459106445, -440.5975341797, 12.5290784836 ]
+        rot: [ 0.0, 0.0, 261.1999206543 ]
+
+      horsefarm4_52: 
+        template: "CEntity:dlc\\bob\\data\\environment\\architecture\\harbour\\bob_harbour_objects_set\\entities\\bob_harbour_wood_stairs_short.w2ent"
+        pos: [ -283.9699096680, -452.9497070313, 11.3000659943 ]
+        rot: [ 0.0, 0.0, 82.1999740601 ]
+
+      horsefarm4_53: 
+        template: "CEntity:dlc\\bob\\data\\environment\\architecture\\harbour\\bob_harbour_objects_set\\entities\\bob_harbour_wood_stairs_short.w2ent"
+        pos: [ -279.4415283203, -443.9513549805, 11.8600654602 ]
+        rot: [ 0.0, 0.0, 172.8000793457 ]
+
+      horsefarm4_54: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -270.8195800781, -458.6119995117, 11.2200660706 ]
+        rot: [ 0.0, 0.0, 170.8000183105 ]
+        scale: [ 2.2999999523, 1.0, 1.5000000000 ]
+
+      horsefarm4_6: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -317.5925598145, -431.9480895996, 11.2368421555 ]
+        rot: [ 0.0, 0.0, 40.8000144958 ]
+
+      horsefarm4_7: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -315.7408447266, -434.6231384277, 11.4768419266 ]
+        rot: [ 0.0, 0.0, 20.0000152588 ]
+
+      horsefarm4_8: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -313.4450378418, -437.8450927734, 11.4768419266 ]
+        rot: [ 0.0, 0.0, 44.1999816895 ]
+
+      horsefarm4_9: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
+        pos: [ -310.9132995605, -440.3993530273, 11.4768419266 ]
+        rot: [ 0.0, 0.0, 34.7999763489 ]
+      horsefarm2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -274.2883300781, -436.4006958008, 5.0327520370 ]
+        rot: [ 0.0, 0.0, -187.8000030518 ]
+        scale: [ 1.0, 1.5000000000, 1.0 ]
+
+      horsefarm2_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_thatched_stable_no_volume.w2ent"
+        pos: [ -281.2613220215, -435.2212524414, 12.7927446365 ]
+        rot: [ 0.0, 0.0, -97.7999877930 ]
+
+      horsefarm2_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -268.6564941406, -455.1361389160, 4.3927526474 ]
+        rot: [ 0.0, 0.0, -187.8000030518 ]
+        scale: [ 1.0, 1.7000000477, 1.0 ]
+
+      horsefarm2_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -280.0281372070, -459.4092102051, 4.3927526474 ]
+        rot: [ 0.0, 0.0, -279.1999511719 ]
+
+      horsefarm2_12: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -274.4650268555, -460.2763061523, 4.3927526474 ]
+        rot: [ 0.0, 0.0, -279.1999511719 ]
+
+      horsefarm2_13: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamred_outhouse_a.w2ent"
+        pos: [ -276.4653320313, -455.9286804199, 5.2327528000 ]
+        rot: [ 0.0, 0.0, -369.1999511719 ]
+        scale: [ 1.0, 2.0, 1.0 ]
+
+      horsefarm2_14: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -273.2585144043, -452.1677856445, 4.5927524567 ]
+        rot: [ 0.0, 0.0, -279.1999511719 ]
+
+      horsefarm2_15: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -278.5127868652, -451.3426818848, 4.5927524567 ]
+        rot: [ 0.0, 0.0, -279.1999511719 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+
+      horsefarm2_16: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -275.9790039063, -447.1995849609, 4.4727525711 ]
+        rot: [ 0.0, 0.0, -189.7999877930 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+
+      horsefarm2_17: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -275.1635742188, -442.5112915039, 4.4727525711 ]
+        rot: [ 0.0, 0.0, -189.7999877930 ]
+
+      horsefarm2_18: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -288.6730957031, -435.4985656738, 3.9927530289 ]
+        rot: [ 0.0, 0.0, -99.2000122070 ]
+
+      horsefarm2_19: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -293.3233947754, -434.7235412598, 3.7127532959 ]
+        rot: [ 0.0, 0.0, -99.2000122070 ]
+
+      horsefarm2_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -282.6529846191, -440.9502563477, 4.1527528763 ]
+        rot: [ 0.0, 0.0, -278.4000854492 ]
+        scale: [ 1.0, 2.0, 1.1499999762 ]
+
+      horsefarm2_20: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -299.0441284180, -433.6941223145, 4.4727525711 ]
+        rot: [ 0.0, 0.0, -98.2000198364 ]
+        scale: [ 1.0, 1.5000000000, 1.0 ]
+
+      horsefarm2_21: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -301.0604248047, -433.5417480469, 3.9927530289 ]
+        rot: [ 0.0, 0.0, -185.8000335693 ]
+
+      horsefarm2_22: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -300.4382019043, -428.9588623047, 3.6327533722 ]
+        rot: [ 0.0, 0.0, -189.9999847412 ]
+
+      horsefarm2_23: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\chimneys\\chimney_poor_big_smoke.w2ent"
+        pos: [ -276.8141174316, -449.9297180176, 19.8728141785 ]
+        rot: [ 0.0, 0.0, -189.7999877930 ]
+
+      horsefarm2_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -281.6677246094, -433.4833068848, 5.2327518463 ]
+        rot: [ 0.0, 0.0, -278.4000854492 ]
+        scale: [ 1.0, 2.0, 1.0 ]
+
+      horsefarm2_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -283.9380798340, -434.8591003418, 5.1927518845 ]
+        rot: [ 0.0, 0.0, -187.8000030518 ]
+        scale: [ 1.0, 1.5000000000, 1.0 ]
+
+      horsefarm2_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\baron_stables_interior_stables.w2ent"
+        pos: [ -272.5741271973, -448.9511718750, 11.4327459335 ]
+        rot: [ 0.0, 0.0, -457.2001342773 ]
+
+      horsefarm2_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_thatched_stable.w2ent"
+        pos: [ -271.5554809570, -436.3817138672, 11.4327459335 ]
+        rot: [ 0.0, 0.0, -457.2001342773 ]
+
+      horsefarm2_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_thatched_stable.w2ent"
+        pos: [ -273.9519958496, -444.2991943359, 11.4327459335 ]
+        rot: [ 0.0, 0.0, -548.4002075195 ]
+
+      horsefarm2_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_loam_roofa_short_thatch.w2ent"
+        pos: [ -276.5553283691, -453.0399475098, 4.7527523041 ]
+        rot: [ 0.0, 0.0, -639.6001586914 ]
+
+      horsefarm2_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -279.1056518555, -453.5348205566, 4.3927526474 ]
+        rot: [ 0.0, 0.0, -187.8000030518 ]
+        scale: [ 1.0, 1.7000000477, 1.0 ]    
+      horsefarm: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -271.5239257813, -396.5625000000, 11.4945526123 ]
+        rot: [ 0.0, 0.0, -39.7999992371 ]
+        scale: [ 2.0, 1.0, 1.5000000000 ]
+
+      horsefarm_1: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -277.3341979980, -391.8175354004, 11.4945526123 ]
+        rot: [ 0.0, 0.0, -22.0000057220 ]
+        scale: [ 2.0, 1.0, 1.3999999762 ]
+
+      horsefarm_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_palisade_short_flat.w2ent"
+        pos: [ -301.4431457520, -424.6775817871, 11.6198062897 ]
+        rot: [ 0.0, 0.0, 116.5999526978 ]
+
+      horsefarm_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_palisade_short_flat.w2ent"
+        pos: [ -301.5723876953, -426.0917663574, 11.6198062897 ]
+        rot: [ 0.0, 0.0, 42.9999427795 ]
+
+      horsefarm_12: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\baron_stables_interior_stables.w2ent"
+        pos: [ -286.4882812500, -431.9168090820, 11.4395599365 ]
+        rot: [ 0.0, 0.0, -6.4000558853 ]
+
+      horsefarm_13: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_thatched_stable.w2ent"
+        pos: [ -290.7117004395, -433.5038146973, 11.4156036377 ]
+        rot: [ 0.0, 0.0, 81.1999588013 ]
+
+      horsefarm_14: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_thatched_stable.w2ent"
+        pos: [ -299.0303344727, -431.0762329102, 11.4156036377 ]
+        rot: [ 0.0, 0.0, -7.8000516891 ]
+
+      horsefarm_15: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -300.9757080078, -425.8433227539, 11.4802093506 ]
+        rot: [ 0.0, 0.0, -134.5999755859 ]
+        scale: [ 1.0, 1.0, 1.5000000000 ]
+
+      horsefarm_16: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -298.2393798828, -423.3117065430, 11.4866485596 ]
+        rot: [ 0.0, 0.0, -134.5999755859 ]
+        scale: [ 1.0, 1.0, 1.3999999762 ]
+
+      horsefarm_17: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -298.6477355957, -413.9959716797, 11.4117126465 ]
+        rot: [ 0.0, 0.0, -64.7999725342 ]
+        scale: [ 1.0, 1.0, 1.5000000000 ]
+
+      horsefarm_18: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -266.7886352539, -402.4487609863, 11.4945526123 ]
+        rot: [ 0.0, 0.0, -51.0000038147 ]
+        scale: [ 2.0, 1.0, 1.3999999762 ]
+
+      horsefarm_19: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -261.0586853027, -407.3744506836, 11.4371795654 ]
+        rot: [ 0.0, 0.0, -41.0 ]
+        scale: [ 2.0, 1.0, 1.5000000000 ]
+
+      horsefarm_2: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -284.2119750977, -389.0506896973, 11.4945526123 ]
+        rot: [ 0.0, 0.0, 13.5999870300 ]
+        scale: [ 2.0, 1.0, 1.5000000000 ]
+
+      horsefarm_20: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -255.6579437256, -412.5484313965, 11.4371795654 ]
+        rot: [ 0.0, 0.0, -44.0000114441 ]
+        scale: [ 2.0, 1.0, 1.3999999762 ]
+
+      horsefarm_21: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -251.2665405273, -418.6569824219, 11.4371795654 ]
+        rot: [ 0.0, 0.0, -55.0000114441 ]
+        scale: [ 2.0, 1.0, 1.5000000000 ]
+
+      horsefarm_22: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -246.4346008301, -424.3869323730, 11.4371795654 ]
+        rot: [ 0.0, 0.0, -50.2000007629 ]
+        scale: [ 2.0, 1.0, 1.3999999762 ]
+
+      horsefarm_23: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -241.8689575195, -430.2404479980, 11.4371795654 ]
+        rot: [ 0.0, 0.0, -53.4000129700 ]
+        scale: [ 2.0, 1.0, 1.5000000000 ]
+
+      horsefarm_24: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -237.4269104004, -436.2669677734, 11.4371795654 ]
+        rot: [ 0.0, 0.0, -53.4000129700 ]
+        scale: [ 2.0, 1.0, 1.3999999762 ]
+
+      horsefarm_25: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -236.1872863770, -443.5068969727, 11.4371795654 ]
+        rot: [ 0.0, 0.0, -82.0000076294 ]
+        scale: [ 2.0, 1.0, 1.5000000000 ]
+
+      horsefarm_26: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -238.4336242676, -450.4751586914, 11.4371795654 ]
+        rot: [ 0.0, 0.0, -108.2000122070 ]
+        scale: [ 2.0, 1.0, 1.3999999762 ]
+
+      horsefarm_27: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -244.0683288574, -455.2317199707, 11.4371795654 ]
+        rot: [ 0.0, 0.0, -140.6000213623 ]
+        scale: [ 2.0, 1.0, 1.5000000000 ]
+
+      horsefarm_28: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -247.9224395752, -461.4273071289, 11.4371795654 ]
+        rot: [ 0.0, 0.0, -122.4000167847 ]
+        scale: [ 2.0, 1.0, 1.3999999762 ]
+
+      horsefarm_29: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -254.9683074951, -461.1831054688, 11.3941497803 ]
+        rot: [ 0.0, 0.0, -184.5999908447 ]
+        scale: [ 2.0, 1.0, 1.5000000000 ]
+
+      horsefarm_3: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -291.1735839844, -391.0710754395, 11.4945526123 ]
+        rot: [ 0.0, 0.0, 70.5999908447 ]
+        scale: [ 2.0, 1.0, 1.3999999762 ]
+
+      horsefarm_30: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -262.2965698242, -459.8867492676, 11.3941497803 ]
+        rot: [ 0.0, 0.0, -190.7999725342 ]
+        scale: [ 2.0, 1.0, 1.3999999762 ]
+
+      horsefarm_4: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -293.8258056641, -398.0927734375, 11.4945526123 ]
+        rot: [ 0.0, 0.0, 46.1999816895 ]
+        scale: [ 2.0, 1.0, 1.5000000000 ]
+
+      horsefarm_5: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -298.8197326660, -403.5970153809, 11.3798065186 ]
+        rot: [ 0.0, 0.0, 79.5999832153 ]
+        scale: [ 2.0, 1.0, 1.3999999762 ]
+
+      horsefarm_6: 
+        template: "CEntity:dlc\\dlcriviacapital\\data\\entities\\bob_tournament_fence_RC.w2ent"
+        pos: [ -300.3540954590, -410.9107971191, 11.3798065186 ]
+        rot: [ 0.0, 0.0, 49.1999816895 ]
+        scale: [ 2.0, 1.0, 1.5000000000 ]
+
+      horsefarm_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_palisade_short_flat.w2ent"
+        pos: [ -305.0563964844, -417.1770324707, 11.6198062897 ]
+        rot: [ 0.0, 0.0, 96.5999679565 ]
+
+      horsefarm_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_palisade_short_flat.w2ent"
+        pos: [ -304.4858703613, -418.7531433105, 11.6198062897 ]
+        rot: [ 0.0, 0.0, 116.5999526978 ]
+
+      horsefarm_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_palisade_gate.w2ent"
+        pos: [ -302.9570007324, -421.8118286133, 11.6198062897 ]
+        rot: [ 0.0, 0.0, 116.5999526978 ]

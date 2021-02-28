@@ -3,16 +3,6 @@ layers:
     world: "riviacapital"
     #context: ""
 
-    statics.shadows: 
-      rcnf_mill: 
-        template: "CEntity:environment\\architecture\\human\\redania\\common\\windmill\\windmill_closed.w2ent"
-        pos: [ -590.9620971680, -983.2863769531, 3.9366302490 ]
-        rot: [ 0.0, 0.0, -152.5999145508 ]
-
-      rcnf_mill_1: 
-        template: "CGameplayEntity:environment\\architecture\\human\\redania\\common\\windmill\\windmill_closed_blades.w2ent"
-        pos: [ -590.5900268555, -982.6815795898, 25.3214492798 ]
-        rot: [ 180.0, 0.0, -152.6000061035 ]
   forest_experimental_rivia1: 
     world: "riviacapital"
     #context: ""

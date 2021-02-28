@@ -1,0 +1,209 @@
+layers:
+  rocks_camp_waterfall: 
+    world: "riviacapital"
+    #context: ""
+
+    statics: 
+      rockswaterfall: 
+        template: "CEntity:dlc\\dlc12\\data\\quest\\quest_files\\entities\\mq2052_boulder.w2ent"
+        pos: [ -1466.1835937500, 598.3220214844, 74.4475173950 ]
+        rot: [ 0.0, 0.0, 0.0 ]
+
+      rockswaterfall_1: 
+        template: "CEntity:environment\\terrain_surroundings\\dwarf_rocks\\rock_solid_round_ore.w2ent"
+        pos: [ -1464.7286376953, 598.1995849609, 74.0688858032 ]
+        rot: [ 0.0, 0.0, 109.9999923706 ]
+
+      rockswaterfall_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_b_moss.w2ent"
+        pos: [ -1486.6610107422, 589.5395507813, 82.1779632568 ]
+        rot: [ 245.0, 90.0, -464.5999755859 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      rockswaterfall_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_b_moss.w2ent"
+        pos: [ -1483.3903808594, 588.8185424805, 80.4283142090 ]
+        rot: [ 245.0, 90.0, -796.9999389648 ]
+
+      rockswaterfall_12: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_g_moss.w2ent"
+        pos: [ -1468.2447509766, 567.6297607422, 93.5322113037 ]
+        rot: [ 245.0, 90.0, -877.5997314453 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      rockswaterfall_2: 
+        template: "CEntity:environment\\terrain_surroundings\\dwarf_rocks\\rock_dwarf_bits_a_ore.w2ent"
+        pos: [ -1467.0283203125, 600.1062011719, 72.3106765747 ]
+        rot: [ 0.0, 0.0, 133.8000030518 ]
+        scale: [ 1.0, 1.5000000000, 1.0 ]
+
+      rockswaterfall_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_debris_round.w2ent"
+        pos: [ -1452.9873046875, 594.4208984375, 73.4688796997 ]
+        rot: [ 0.0, 0.0, 109.9999923706 ]
+
+      rockswaterfall_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_debris_straight_bigstones.w2ent"
+        pos: [ -1458.6413574219, 597.8958740234, 72.7511444092 ]
+        rot: [ 0.0, 0.0, 158.5999908447 ]
+
+      rockswaterfall_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_debris_section_moss_big.w2ent"
+        pos: [ -1455.1224365234, 598.3358764648, 72.5543289185 ]
+        rot: [ 20.0, 350.0, 56.8000144958 ]
+
+      rockswaterfall_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_debris_section.w2ent"
+        pos: [ -1462.2840576172, 597.1043090820, 74.4120483398 ]
+        rot: [ 50.0, 0.0, 428.9998168945 ]
+
+      rockswaterfall_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_debris_straight_bigstones.w2ent"
+        pos: [ -1463.7198486328, 599.2695312500, 73.1111297607 ]
+        rot: [ 0.0, 0.0, 145.8000335693 ]
+
+      rockswaterfall_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_debris_section_moss_big.w2ent"
+        pos: [ -1458.6936035156, 593.7067871094, 76.8448181152 ]
+        rot: [ 45.0, 0.0, 64.1999969482 ]
+
+      rockswaterfall_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_b_moss.w2ent"
+        pos: [ -1465.2547607422, 597.1011962891, 77.6489334106 ]
+        rot: [ 145.0, 0.0, -78.4000091553 ]
+
+  assets_camp_waterfall: 
+    world: "riviacapital"
+    #context: ""
+
+    statics: 
+      waterfallcamp: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1461.8236083984, 593.9445190430, 78.0044860840 ]
+        rot: [ 40.0, 0.0, 73.2000045776 ]
+
+      waterfallcamp_1: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1468.7297363281, 594.4032592773, 78.2444915771 ]
+        rot: [ 40.0, 0.0, 121.1999816895 ]
+
+      waterfallcamp_10: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\average\\beds\\decoration_set_average_beds_skellige_bed_b.w2ent"
+        pos: [ -1462.3369140625, 608.3152465820, 71.9151687622 ]
+        rot: [ 340.0, 10.0, -560.9000854492 ]
+
+      waterfallcamp_11: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\average\\beds\\decoration_set_average_beds_skellige_bed_b.w2ent"
+        pos: [ -1464.9099121094, 605.6364746094, 73.3628768921 ]
+        rot: [ 350.0, 350.0, -472.5000000000 ]
+
+      waterfallcamp_12: 
+        template: "W3Campfire:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\campfire\\gen_pole_campfire_3lights.w2ent"
+        pos: [ -1451.8823242188, 605.5589599609, 70.5877380371 ]
+        rot: [ 350.0, 350.0, -424.7001037598 ]
+
+      waterfallcamp_13: 
+        template: "CEntity:dlc\\bob\\data\\environment\\architecture\\tournament\\entities\\bob_tournament_fence_pole_a.w2ent"
+        pos: [ -1455.4135742188, 615.4381713867, 69.7077178955 ]
+        rot: [ 0.0, 350.0, -424.7000122070 ]
+        scale: [ 0.5000000000, 0.5000000000, 1.0 ]
+
+      waterfallcamp_14: 
+        template: "CEntity:dlc\\bob\\data\\quests\\minor_quests\\quest_files\\mq7007_gargoyles\\entities\\additional_deco\\mq7024_decoration_set_vehicles_trader_cart_a_closed.w2ent"
+        pos: [ -1456.3304443359, 600.7596435547, 72.3120880127 ]
+        rot: [ 0.0, 350.0, -381.5000000000 ]
+
+      waterfallcamp_15: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\impoverished\\bed\\decoration_set_impoverished_bed_b.w2ent"
+        pos: [ -1452.0340576172, 604.0557861328, 71.1477661133 ]
+        rot: [ 350.0, 350.0, -453.0998840332 ]
+
+      waterfallcamp_16: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\poor_district\\decoration_set\\junk\\backup\\backup_deco_poor_junk_b.w2ent"
+        pos: [ -1450.2241210938, 603.8159179688, 70.8677597046 ]
+        rot: [ 350.0, 350.0, -424.0999145508 ]
+
+      waterfallcamp_17: 
+        template: "W3AnimatedContainer:gameplay\\containers\\new_locations\\gameplay\\unique\\crate_1_junk_small.w2ent"
+        pos: [ -1451.4182128906, 603.3873291016, 71.1877670288 ]
+        rot: [ 350.0, 350.0, -424.0999145508 ]
+
+      waterfallcamp_18: 
+        template: "W3AnimatedContainer:gameplay\\containers\\new_locations\\gameplay\\unique\\crate_1_junk_small.w2ent"
+        pos: [ -1465.4909667969, 606.9827270508, 73.7078247070 ]
+        rot: [ 350.0, 350.0, -467.4997558594 ]
+
+      waterfallcamp_19: 
+        template: "W3AnimatedContainer:gameplay\\containers\\new_locations\\gameplay\\the_descent\\windmill_sack_junk.w2ent"
+        pos: [ -1465.1656494141, 607.3278198242, 73.5078201294 ]
+        rot: [ 350.0, 350.0, -467.4997558594 ]
+
+      waterfallcamp_2: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\tents\\stall_tent_single_c2_px_dynamic.w2ent"
+        pos: [ -1462.8121337891, 588.7559204102, 79.0717620850 ]
+        rot: [ 350.0, 350.0, -132.7999877930 ]
+
+      waterfallcamp_20: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_quarry__farm_tools_little_cart_a_closed.w2ent"
+        pos: [ -1446.2020263672, 583.1384887695, 77.7250595093 ]
+        rot: [ 0.0, 350.0, -429.5000000000 ]
+
+      waterfallcamp_21: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_quarry__crate_pile_j.w2ent"
+        pos: [ -1461.6800537109, 582.1917724609, 79.8034973145 ]
+        rot: [ 0.0, 350.0, -415.0999755859 ]
+
+      waterfallcamp_22: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\poor\\tables\\decoration_set_poor_table_c.w2ent"
+        pos: [ -1457.4920654297, 604.4697875977, 71.9635848999 ]
+        rot: [ 5.0, 350.0, -373.7000122070 ]
+
+      waterfallcamp_23: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_junk_poor__vehicle_crate_a.w2ent"
+        pos: [ -1448.5902099609, 603.3167114258, 70.6362457275 ]
+        rot: [ 350.0, 350.0, -463.8999938965 ]
+
+      waterfallcamp_24: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\camp\\deco_gen_camp_bench_b_dynamic.w2ent"
+        pos: [ -1453.2363281250, 607.0362548828, 70.2334518433 ]
+        rot: [ 350.0, 345.0, -428.1000061035 ]
+
+      waterfallcamp_25: 
+        template: "W3Campfire:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\campfire\\gen_pole_campfire_3lights.w2ent"
+        pos: [ -1456.5385742188, 585.6978149414, 78.3839645386 ]
+        rot: [ 350.0, 350.0, -452.9000549316 ]
+
+      waterfallcamp_3: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\cave_skelige__crate.w2ent"
+        pos: [ -1461.6184082031, 588.7417602539, 79.3517684937 ]
+        rot: [ 350.0, 355.0, -132.8000030518 ]
+
+      waterfallcamp_4: 
+        template: "CActionPoint:gameplay\\community\\actionpoints\\household\\sit_w_brushing_hair_stool_ap.w2ent"
+        pos: [ -1462.2160644531, 589.2553710938, 79.1117553711 ]
+        rot: [ 350.0, 355.0, -123.0 ]
+
+      waterfallcamp_5: 
+        template: "CActionPoint:gameplay\\community\\actionpoints\\household\\sit_w_brushing_hair_stool_ap.w2ent"
+        pos: [ -1461.8601074219, 587.6293945313, 79.3517608643 ]
+        rot: [ 350.0, 355.0, -105.7999725342 ]
+
+      waterfallcamp_6: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\tents\\bob_stall_tent_high_twoside_px_ah200.w2ent"
+        pos: [ -1461.1672363281, 605.8345336914, 72.5538330078 ]
+        rot: [ 350.0, 350.0, -112.3999710083 ]
+
+      waterfallcamp_7: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\impoverished\\bed\\decoration_set_impoverished_bed_h.w2ent"
+        pos: [ -1460.7565917969, 603.9882202148, 72.2168655396 ]
+        rot: [ 350.0, 340.0, -100.8000030518 ]
+
+      waterfallcamp_8: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\average\\beds\\decoration_set_average_beds_skellige_bed_b.w2ent"
+        pos: [ -1462.6007080078, 604.3983154297, 72.6042938232 ]
+        rot: [ 350.0, 340.0, -468.7002563477 ]
+
+      waterfallcamp_9: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\average\\beds\\decoration_set_average_beds_skellige_bed_b.w2ent"
+        pos: [ -1463.8854980469, 605.0090332031, 73.0043029785 ]
+        rot: [ 350.0, 340.0, -471.7003479004 ]

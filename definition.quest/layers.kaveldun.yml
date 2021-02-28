@@ -1,0 +1,741 @@
+layers:
+  kaveldun_bridge_north: 
+    world: "riviacapital"
+    #context: ""
+
+    statics.shadows: 
+      kaveldunbridgenorth: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
+        pos: [ -486.1601867676, -734.8456420898, 8.4210586548 ]
+        rot: [ 0.0, 0.0, -89.7999649048 ]
+
+      kaveldunbridgenorth_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
+        pos: [ -486.1724548340, -701.5133666992, 8.4210586548 ]
+        rot: [ 0.0, 0.0, 89.6999740601 ]
+
+      kaveldunbridgenorth_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -481.4321899414, -701.7567138672, 8.5410585403 ]
+        rot: [ 0.0, 0.0, 87.7999954224 ]
+
+      kaveldunbridgenorth_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -481.6132507324, -685.2547607422, 8.5610580444 ]
+        rot: [ 180.0, 0.0, 82.4000167847 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgenorth_12: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -481.6535644531, -685.2918090820, 8.5410585403 ]
+        rot: [ 0.0, 0.0, 87.7999954224 ]
+
+      kaveldunbridgenorth_13: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -481.5339355469, -673.3640747070, 8.5410585403 ]
+        rot: [ 0.0, 0.0, 87.7999954224 ]
+
+      kaveldunbridgenorth_14: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -489.9511108398, -672.0881958008, 8.5410585403 ]
+        rot: [ 0.0, 0.0, 87.7999954224 ]
+
+      kaveldunbridgenorth_15: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -490.5838623047, -685.1023559570, 8.5610580444 ]
+        rot: [ 180.0, 0.0, 92.4000015259 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgenorth_16: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -490.5991516113, -685.1325073242, 8.5410585403 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+
+      kaveldunbridgenorth_17: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -490.4284057617, -701.6728515625, 8.5610580444 ]
+        rot: [ 180.0, 0.0, 92.4000015259 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgenorth_18: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -490.4466552734, -701.7467041016, 8.5410585403 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+
+      kaveldunbridgenorth_19: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -490.7670898438, -718.2184448242, 8.5610580444 ]
+        rot: [ 180.0, 0.0, 92.4000015259 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgenorth_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
+        pos: [ -486.1910705566, -701.8436279297, 8.4210586548 ]
+        rot: [ 0.0, 0.0, -90.3000183105 ]
+
+      kaveldunbridgenorth_20: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -490.7573852539, -718.2459716797, 8.5410585403 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+
+      kaveldunbridgenorth_21: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -490.4317932129, -734.6921386719, 8.5610580444 ]
+        rot: [ 180.0, 0.0, 92.4000015259 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgenorth_22: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -490.4785766602, -734.7123413086, 8.5410585403 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+        
+    statics: 
+      kaveldunbridgenorth_23: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -490.4790039063, -734.7119750977, 12.6260995865 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+
+      kaveldunbridgenorth_24: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -481.9060974121, -734.6209716797, 12.6260995865 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+
+      kaveldunbridgenorth_25: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -481.6123046875, -718.0176391602, 12.6260995865 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+
+      kaveldunbridgenorth_26: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -490.7088623047, -718.2606201172, 12.6260995865 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+
+      kaveldunbridgenorth_27: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -490.4757385254, -701.7646484375, 12.6260995865 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+
+      kaveldunbridgenorth_28: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -481.3162536621, -701.7608642578, 12.6260995865 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+
+      kaveldunbridgenorth_29: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -481.6223144531, -685.3068237305, 12.6260995865 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+
+      kaveldunbridgenorth_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
+        pos: [ -486.1509704590, -734.2932128906, 8.4210586548 ]
+        rot: [ 0.0, 0.0, 87.7999954224 ]
+
+      kaveldunbridgenorth_30: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -490.5737915039, -685.0859375000, 12.6260995865 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+
+      kaveldunbridgenorth_31: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -489.9099426270, -672.0701293945, 12.6260995865 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+
+      kaveldunbridgenorth_32: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -481.3879699707, -673.4019165039, 12.6260995865 ]
+        rot: [ 0.0, 0.0, 89.6000213623 ]
+
+      kaveldunbridgenorth_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
+        pos: [ -485.5010986328, -668.6107788086, 8.4210586548 ]
+        rot: [ 0.0, 0.0, 87.7999954224 ]
+
+      kaveldunbridgenorth_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -481.8718872070, -734.6406250000, 8.5410585403 ]
+        rot: [ 0.0, 0.0, 87.7999954224 ]
+
+      kaveldunbridgenorth_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -481.8669128418, -734.6005249023, 8.5610580444 ]
+        rot: [ 180.0, 0.0, 82.4000167847 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgenorth_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -481.6530761719, -718.0750122070, 8.5610580444 ]
+        rot: [ 180.0, 0.0, 82.4000167847 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgenorth_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -481.6296081543, -718.0628051758, 8.5410585403 ]
+        rot: [ 0.0, 0.0, 87.7999954224 ]
+
+      kaveldunbridgenorth_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -481.4234008789, -701.7203369141, 8.5610580444 ]
+        rot: [ 180.0, 0.0, 82.4000167847 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+      kaveldunbridgenorthfence: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.6151428223, -726.4031982422, 11.9747447968 ]
+        rot: [ 90.0, 0.0, -91.0000076294 ]
+        scale: [ 2.0, 2.0, 3.2000000477 ]
+
+      kaveldunbridgenorthfence_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.6787109375, -726.2705078125, 11.9747447968 ]
+        rot: [ 90.0, 0.0, -90.1999969482 ]
+        scale: [ 2.0, 2.0, 3.2000000477 ]
+
+      kaveldunbridgenorthfence_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.7279663086, -719.9494018555, 10.5857381821 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6000000238 ]
+
+      kaveldunbridgenorthfence_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.4649658203, -719.9472656250, 10.5857381821 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.5000000000 ]
+
+      kaveldunbridgenorthfence_12: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.6282958984, -726.6489868164, 10.5857381821 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6000000238 ]
+
+      kaveldunbridgenorthfence_13: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.7297363281, -733.1144409180, 10.7057380676 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.5000000000 ]
+
+      kaveldunbridgenorthfence_14: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.5392761230, -716.0704345703, 10.5857381821 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6000000238 ]
+
+      kaveldunbridgenorthfence_15: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.4750061035, -709.7055664063, 10.5857381821 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6100000143 ]
+
+      kaveldunbridgenorthfence_16: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.5191650391, -704.0947265625, 10.5857381821 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6000000238 ]
+
+      kaveldunbridgenorthfence_17: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.5347595215, -698.7785034180, 10.5857381821 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6100000143 ]
+
+      kaveldunbridgenorthfence_18: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.5334777832, -692.6141357422, 10.5857381821 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6119999886 ]
+
+      kaveldunbridgenorthfence_19: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.6106872559, -686.8538208008, 10.5857381821 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6100000143 ]
+
+      kaveldunbridgenorthfence_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.6437377930, -709.9677734375, 11.9747447968 ]
+        rot: [ 90.0, 0.0, -90.1999969482 ]
+        scale: [ 2.0, 2.0, 3.2000000477 ]
+
+      kaveldunbridgenorthfence_20: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.5752563477, -682.8515625000, 10.4257383347 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6200000048 ]
+
+      kaveldunbridgenorthfence_21: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.4635009766, -678.0149536133, 10.4257383347 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6000000238 ]
+
+      kaveldunbridgenorthfence_22: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.5122680664, -674.3523559570, 10.4257383347 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6100000143 ]
+
+      kaveldunbridgenorthfence_23: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.1105346680, -673.5444335938, 10.4257383347 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6200000048 ]
+
+      kaveldunbridgenorthfence_24: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.3400573730, -678.0463867188, 10.4257383347 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6100000143 ]
+
+      kaveldunbridgenorthfence_25: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.5969848633, -683.2387084961, 10.4257383347 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6200000048 ]
+
+      kaveldunbridgenorthfence_26: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.6873474121, -687.7979736328, 10.4257383347 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6100000143 ]
+
+      kaveldunbridgenorthfence_27: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.6143493652, -693.1817626953, 10.4257383347 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6200000048 ]
+
+      kaveldunbridgenorthfence_28: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.6513671875, -698.3900146484, 10.4257383347 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6100000143 ]
+
+      kaveldunbridgenorthfence_29: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.6567993164, -705.2985229492, 10.4257383347 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6200000048 ]
+
+      kaveldunbridgenorthfence_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.6428222656, -693.1306152344, 11.9747447968 ]
+        rot: [ 90.0, 0.0, -89.8000183105 ]
+        scale: [ 2.0, 2.0, 3.2000000477 ]
+
+      kaveldunbridgenorthfence_30: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.7099914551, -710.6004638672, 10.4257383347 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6100000143 ]
+
+      kaveldunbridgenorthfence_31: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.6862487793, -715.9544067383, 10.4257383347 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.6200000048 ]
+
+      kaveldunbridgenorthfence_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.3513183594, -678.6137695313, 11.9747447968 ]
+        rot: [ 90.0, 0.0, -92.9999847412 ]
+        scale: [ 2.0, 2.0, 2.5000000000 ]
+
+      kaveldunbridgenorthfence_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.5011596680, -679.3521118164, 11.9747447968 ]
+        rot: [ 90.0, 0.0, -90.2000045776 ]
+        scale: [ 2.0, 2.0, 2.4000000954 ]
+
+      kaveldunbridgenorthfence_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.5023803711, -693.9191284180, 11.9747447968 ]
+        rot: [ 90.0, 0.0, -89.8000183105 ]
+        scale: [ 2.0, 2.0, 3.2000000477 ]
+
+      kaveldunbridgenorthfence_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -482.5018920898, -710.2154541016, 11.9747447968 ]
+        rot: [ 90.0, 0.0, -90.6000137329 ]
+        scale: [ 2.0, 2.0, 3.2000000477 ]
+
+      kaveldunbridgenorthfence_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.6980285645, -733.1737060547, 9.5347471237 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 1.0 ]
+
+      kaveldunbridgenorthfence_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -489.6969909668, -726.6715087891, 10.5857381821 ]
+        rot: [ 0.0, 0.0, -175.6998748779 ]
+        scale: [ 2.0, 2.0, 0.5000000000 ]
+        
+  kaveldun_bridge_south: 
+    world: "riviacapital"
+    #context: ""
+
+    statics.shadows: 
+      kaveldunbridgesouth: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
+        pos: [ -486.3643493652, -879.3377075195, 7.9470777512 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
+        pos: [ -486.8620910645, -895.9011840820, 7.9470777512 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -483.1752624512, -912.8331909180, 8.6670770645 ]
+        rot: [ 180.0, 0.0, 81.3999938965 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgesouth_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -482.7374572754, -896.3414916992, 8.6670770645 ]
+        rot: [ 180.0, 0.0, 81.3999938965 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgesouth_12: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -482.7574157715, -896.4353027344, 8.5070772171 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_13: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -483.1755371094, -912.8865966797, 8.5070772171 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_14: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -483.5391235352, -928.8518676758, 8.5070772171 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_15: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -491.1707153320, -895.9351196289, 8.6670770645 ]
+        rot: [ 180.0, 0.0, 87.9999771118 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgesouth_16: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -491.9004821777, -912.5159912109, 8.7470769882 ]
+        rot: [ 180.0, 0.0, 87.9999771118 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgesouth_17: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -492.3415527344, -928.6879272461, 8.6670770645 ]
+        rot: [ 180.0, 0.0, 87.9999771118 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgesouth_18: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -492.6309204102, -945.2684936523, 8.6670770645 ]
+        rot: [ 180.0, 0.0, 87.9999771118 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgesouth_19: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -492.6450500488, -945.2719726563, 8.5470771790 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
+        pos: [ -487.4223632813, -912.3869018555, 7.9470777512 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_20: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -492.3141479492, -928.6977539063, 8.5470771790 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_21: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -491.9289245605, -912.5206909180, 8.5470771790 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_22: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -491.2210083008, -895.9244384766, 8.5470771790 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+        
+    statics: 
+      kaveldunbridgesouth_23: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -492.1354370117, -952.6417236328, 11.9070739746 ]
+        rot: [ 90.0, 0.0, 87.2000122070 ]
+        scale: [ 2.0, 2.0, 2.7999999523 ]
+
+      kaveldunbridgesouth_24: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -491.7547912598, -936.3759765625, 11.9070739746 ]
+        rot: [ 90.0, 0.0, 88.2000122070 ]
+        scale: [ 2.0, 2.0, 2.8099999428 ]
+
+      kaveldunbridgesouth_25: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -491.3635864258, -920.7435302734, 11.9070739746 ]
+        rot: [ 90.0, 0.0, 88.2000122070 ]
+        scale: [ 2.0, 2.0, 2.7999999523 ]
+
+      kaveldunbridgesouth_26: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -490.7518615723, -903.5949096680, 11.9070739746 ]
+        rot: [ 90.0, 0.0, 87.2000198364 ]
+        scale: [ 2.0, 2.0, 2.8099999428 ]
+
+      kaveldunbridgesouth_27: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -483.5955200195, -904.5717163086, 11.9070739746 ]
+        rot: [ 90.0, 0.0, 88.2000122070 ]
+        scale: [ 2.0, 2.0, 2.7999999523 ]
+
+      kaveldunbridgesouth_28: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -484.0210266113, -921.0531005859, 11.9070739746 ]
+        rot: [ 90.0, 0.0, 87.2000198364 ]
+        scale: [ 2.0, 2.0, 2.8099999428 ]
+
+      kaveldunbridgesouth_29: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -484.4235839844, -937.6731567383, 11.9070739746 ]
+        rot: [ 90.0, 0.0, 88.2000122070 ]
+        scale: [ 2.0, 2.0, 2.8099999428 ]
+
+      kaveldunbridgesouth_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
+        pos: [ -487.9263916016, -928.6840209961, 7.9470777512 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_30: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -484.7948303223, -953.0368041992, 11.9070739746 ]
+        rot: [ 90.0, 0.0, 88.2000122070 ]
+        scale: [ 2.0, 2.0, 2.7999999523 ]
+
+      kaveldunbridgesouth_31: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -492.3241271973, -958.0307006836, 10.4270753860 ]
+        rot: [ 0.0, 0.0, -3.0 ]
+        scale: [ 2.0, 2.0, 0.6000000238 ]
+
+      kaveldunbridgesouth_32: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -492.1230773926, -952.5575561523, 10.4270753860 ]
+        rot: [ 0.0, 0.0, -3.0 ]
+        scale: [ 2.0, 2.0, 0.6100000143 ]
+
+      kaveldunbridgesouth_33: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -491.9290161133, -947.4016113281, 10.4270753860 ]
+        rot: [ 0.0, 0.0, -3.0 ]
+        scale: [ 2.0, 2.0, 0.6200000048 ]
+
+      kaveldunbridgesouth_34: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -484.7350463867, -953.2547607422, 10.4270753860 ]
+        rot: [ 0.0, 0.0, -3.0 ]
+        scale: [ 2.0, 2.0, 0.6200000048 ]
+
+      kaveldunbridgesouth_35: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -485.0189819336, -958.5714111328, 10.4270753860 ]
+        rot: [ 0.0, 0.0, -3.0 ]
+        scale: [ 2.0, 2.0, 0.6100000143 ]
+
+      kaveldunbridgesouth_36: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -484.6706848145, -947.7089233398, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6200000048 ]
+
+      kaveldunbridgesouth_37: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -484.4748229980, -941.9364013672, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6209999919 ]
+
+      kaveldunbridgesouth_38: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -484.4176330566, -937.5674438477, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211000085 ]
+
+      kaveldunbridgesouth_39: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -484.2287292480, -932.8919067383, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211100221 ]
+
+      kaveldunbridgesouth_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
+        pos: [ -488.4293823242, -945.1516113281, 7.9470777512 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_40: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -484.1924743652, -925.8190307617, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211100221 ]
+
+      kaveldunbridgesouth_41: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -484.0506286621, -920.9435424805, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211109757 ]
+
+      kaveldunbridgesouth_42: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -483.7750549316, -916.1241455078, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211110950 ]
+
+      kaveldunbridgesouth_43: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -491.3036193848, -919.7534790039, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211110950 ]
+
+      kaveldunbridgesouth_44: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -491.2341613770, -915.2387695313, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211000085 ]
+
+      kaveldunbridgesouth_45: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -491.4364624023, -924.6805419922, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211100221 ]
+
+      kaveldunbridgesouth_46: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -491.5728454590, -932.7066040039, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211000085 ]
+
+      kaveldunbridgesouth_47: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -491.7831115723, -937.9686279297, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6209999919 ]
+
+      kaveldunbridgesouth_48: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -491.8404541016, -941.6568603516, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211000085 ]
+
+      kaveldunbridgesouth_49: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -490.9382629395, -907.6774902344, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211100221 ]
+
+      kaveldunbridgesouth_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -484.5364379883, -960.6575927734, 8.5070772171 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_50: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -490.4996643066, -898.8587036133, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211109757 ]
+
+      kaveldunbridgesouth_51: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -490.6927795410, -902.7911987305, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211100221 ]
+
+      kaveldunbridgesouth_52: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -483.5307006836, -903.9057006836, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211000085 ]
+
+      kaveldunbridgesouth_53: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -483.6586303711, -909.3169555664, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211100221 ]
+
+      kaveldunbridgesouth_54: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_beam.w2ent"
+        pos: [ -483.4107055664, -899.1644287109, 10.4270753860 ]
+        rot: [ 0.0, 0.0, 1.2000024319 ]
+        scale: [ 2.0, 2.0, 0.6211000085 ]
+
+      kaveldunbridgesouth_55: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -493.2603759766, -960.0273437500, 12.5870742798 ]
+        rot: [ 0.0, 0.0, -4.0 ]
+
+      kaveldunbridgesouth_56: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -484.5790710449, -960.5883178711, 12.5870742798 ]
+        rot: [ 0.0, 0.0, -4.0 ]
+
+      kaveldunbridgesouth_57: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -484.0870361328, -945.6079711914, 12.5870742798 ]
+        rot: [ 0.0, 0.0, 1.4000028372 ]
+
+      kaveldunbridgesouth_58: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -492.5338134766, -945.2290039063, 12.6406660080 ]
+        rot: [ 0.0, 0.0, 1.4000028372 ]
+
+      kaveldunbridgesouth_59: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -492.3210754395, -928.7452392578, 12.6406660080 ]
+        rot: [ 0.0, 0.0, 1.4000028372 ]
+
+      kaveldunbridgesouth_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -493.3036804199, -960.0106811523, 8.5070772171 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_60: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -483.4765930176, -928.6959228516, 12.6406660080 ]
+        rot: [ 0.0, 0.0, 1.4000028372 ]
+
+      kaveldunbridgesouth_61: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -483.1094360352, -912.8113403320, 12.6406660080 ]
+        rot: [ 0.0, 0.0, 1.4000028372 ]
+
+      kaveldunbridgesouth_62: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -491.8978881836, -912.5434570313, 12.6406660080 ]
+        rot: [ 0.0, 0.0, 1.4000028372 ]
+
+      kaveldunbridgesouth_63: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -482.7900390625, -896.3762207031, 12.6006660461 ]
+        rot: [ 0.0, 0.0, 1.4000028372 ]
+
+      kaveldunbridgesouth_64: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -491.1535644531, -895.9775390625, 12.6406660080 ]
+        rot: [ 0.0, 0.0, 1.4000028372 ]
+
+      kaveldunbridgesouth_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -484.1251220703, -945.5664672852, 8.5070772171 ]
+        rot: [ 0.0, 0.0, 88.1999816895 ]
+
+      kaveldunbridgesouth_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -484.0953979492, -945.5137329102, 8.6670770645 ]
+        rot: [ 180.0, 0.0, 81.3999938965 ]
+        scale: [ 1.0, 1.0, 2.0 ]
+
+      kaveldunbridgesouth_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square.w2ent"
+        pos: [ -483.5387268066, -928.7999267578, 8.6670770645 ]
+        rot: [ 180.0, 0.0, 81.3999938965 ]
+        scale: [ 1.0, 1.0, 2.0 ]        

@@ -1,0 +1,46 @@
+communities:
+  nsw_animals:
+    actors:
+      pig_nsw:
+        template: characters\npc_entities\animals\pig.w2ent
+      chick_nsw:
+        template: characters\npc_entities\animals\chicken.w2ent
+      goose_nsw:
+        template: characters\npc_entities\animals\goose.w2ent
+      horse_nsw:
+        template: characters/npc_entities/animals\horse\horse_background_no_saddle.w2ent        
+        
+    phases:
+      phase1:
+        chick_nsw:
+          start_in_ap: false
+          use_last_ap: false
+          spawn_at: riviacapital/nswchicks          
+
+          spawntimes:
+            "00:00": [5, true, 5]  
+            
+        goose_nsw:
+          start_in_ap: false
+          use_last_ap: false
+          spawn_at: riviacapital/nswgeese          
+
+          spawntimes:
+            "00:00": [4, true, 5]
+            
+        pig_nsw:
+          start_in_ap: false
+          use_last_ap: false
+          spawn_at: riviacapital/nswpigs          
+
+          spawntimes:
+            "00:00": [4, true, 5]            
+
+        horse_nsw:
+          appearance: horse_background_cart_02        
+          start_in_ap: false
+          use_last_ap: false
+          spawn_at: riviacapital/nswhorse 
+
+          spawntimes:
+            "00:00": [1, true, 60]   # 2 wolves, respawn, 5 sec respawn delay            

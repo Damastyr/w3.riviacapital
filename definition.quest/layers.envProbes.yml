@@ -1,0 +1,21 @@
+layers:
+   envProbes_Rivia: 
+     world: "riviacapital"
+     #context: ""
+     statics: 
+      envprobeexp: 
+        .type: "CEntity"
+        streamingDistance: 0            
+        transform: 
+          pos: [ -808.7728881836, 44.2333526611, 7.5282821655]
+          rot: [ 0.0, 0.0, 0.0 ]
+          scale: [ 100.0, 100.0, 100.0 ]
+        components: 
+          particles: 
+            .type: "CEnvProbeComponent"
+            pos: [ -808.7728881836, 44.2333526611, 7.5282821655]
+            contribution: 0
+            genParams:
+              ambientIntensity: 0.45
+            
+

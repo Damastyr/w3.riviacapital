@@ -1,0 +1,1051 @@
+layers:
+   waterfall_household: 
+     world: "riviacapital"
+     #context: ""
+     statics:
+      nswhouse8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1358.0653076172, 803.0252075195, 41.8448181152 ]
+        rot: [ 180.0, 0.0, -129.2000122070 ]
+
+      nswhouse8_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1354.5942382813, 799.6854858398, 42.1648254395 ]
+        rot: [ 180.0, 0.0, -130.0000762939 ]
+
+      nswhouse8_10: 
+        template: "CActionPoint:gameplay\\community\\actionpoints\\household\\stand_mw_cleaning_carpet_rack_ap_3.w2ent"
+        pos: [ -1263.6474609375, 792.6326904297, 15.4366750717 ]
+        rot: [ 355.0, 5.0, -524.3999023438 ]
+
+      nswhouse8_11: 
+        template: "W3MonsterClue:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q701_wine_festival\\entities\\q701_vineyard_wheel.w2ent"
+        pos: [ -1266.8822021484, 794.1701660156, 16.7598495483 ]
+        rot: [ 355.0, 65.0, -345.5999755859 ]
+
+      nswhouse8_12: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_junk_poor_dye_uncommon__crate_pile_j.w2ent"
+        pos: [ -1272.6793212891, 791.2012329102, 17.2510833740 ]
+        rot: [ 10.0, 0.0, -33.5999984741 ]
+
+      nswhouse8_13: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_junk_poor__gen_crate_pile_a.w2ent"
+        pos: [ -1264.5234375000, 794.6450805664, 15.7820739746 ]
+        rot: [ 10.0, 0.0, -28.4000110626 ]
+
+      nswhouse8_14: 
+        template: "CActionPoint:gameplay\\community\\actionpoints\\work\\stand_mw_tanning_rack_ap.w2ent"
+        pos: [ -1267.5534667969, 779.6378784180, 15.1542358398 ]
+        rot: [ 5.0, 350.0, -136.1999969482 ]
+
+      nswhouse8_15: 
+        template: "CActionPoint:gameplay\\community\\actionpoints\\resting\\sit_mw_sleep_bucket_ap.w2ent"
+        pos: [ -1265.1705322266, 780.8513183594, 15.2660217285 ]
+        rot: [ 5.0, 350.0, -150.4000091553 ]
+
+      nswhouse8_16: 
+        template: "CActionPoint:gameplay\\community\\actionpoints\\work\\stand_m_butcher_stump_ap.w2ent"
+        pos: [ -1282.2829589844, 779.3439331055, 17.5380401611 ]
+        rot: [ 5.0, 350.0, -45.8000068665 ]
+
+      nswhouse8_17: 
+        template: "W3MonsterClue:quests\\part_1\\quest_files\\q202_giant\\entities\\q202_focus_folan_arrows.w2ent"
+        pos: [ -1285.7397460938, 779.4534301758, 18.2580432892 ]
+        rot: [ 5.0, 350.0, -312.8000183105 ]
+
+      nswhouse8_18: 
+        template: "W3DestroyableClue:dlc\\bob\\data\\quests\\sidequests\\quest_files\\sq701_tournament\\entities\\sq701_target_race.w2ent"
+        pos: [ -1287.1046142578, 780.8372802734, 22.4580421448 ]
+        rot: [ 0.0, 0.0, -398.6001281738 ]
+
+      nswhouse8_19: 
+        template: "CItemEntity:items\\weapons\\ranged\\bow\\bow_elven_01_rigid.w2ent"
+        pos: [ -1285.0158691406, 780.9547119141, 18.4840316772 ]
+        rot: [ 70.0, 76.0, -322.8001403809 ]
+
+      nswhouse8_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1350.8116455078, 796.5189208984, 42.1648254395 ]
+        rot: [ 180.0, 0.0, -130.0000762939 ]
+
+      nswhouse8_20: 
+        template: "CActionPoint:dlc\\bob\\data\\gameplay\\community\\actionpoints\\work\\sit_m_sharpening_scythe_stool_ap.w2ent"
+        pos: [ -1284.9056396484, 779.2964477539, 17.9239788055 ]
+        rot: [ 0.0, 0.0, -322.7999877930 ]
+
+      nswhouse8_21: 
+        template: "CEntity:environment\\decorations\\trade\\market_stand_poor\\stall_tent_high_oneside_px.w2ent"
+        pos: [ -1278.7999267578, 793.2948608398, 17.5618057251 ]
+        rot: [ 350.0, 0.0, -164.1999969482 ]
+
+      nswhouse8_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\druid_cave_floor_wood.w2ent"
+        pos: [ -1236.2457275391, 779.4702148438, 12.2049303055 ]
+        rot: [ 0.0, 0.0, -268.5998535156 ]
+        scale: [ 1.0, 0.5000000000, 1.0 ]
+
+      nswhouse8_4: 
+        template: "CEntity:environment\\decorations\\exterior\\chopped_wood_pile_px.w2ent"
+        pos: [ -1244.2950439453, 789.3140258789, 12.1146926880 ]
+        rot: [ 0.0, 0.0, -302.5998840332 ]
+
+      nswhouse8_5: 
+        template: "CEntity:environment\\decorations\\exterior\\logpile_1_px.w2ent"
+        pos: [ -1240.4764404297, 787.4725952148, 12.2711486816 ]
+        rot: [ 0.0, 0.0, -357.1998596191 ]
+
+      nswhouse8_6: 
+        template: "W3AnimatedContainer:environment\\decorations\\decoration_sets\\boxes\\decoration_set_boxes_wash_basin_pile_a.w2ent"
+        pos: [ -1261.9598388672, 793.0386352539, 15.3230285645 ]
+        rot: [ 0.0, 0.0, -357.1998596191 ]
+
+      nswhouse8_7: 
+        template: "CActionPoint:gameplay\\community\\actionpoints\\household\\stand_w_washing_cloths_washtub_ap.w2ent"
+        pos: [ -1259.7862548828, 791.6869506836, 15.2215871811 ]
+        rot: [ 0.0, 0.0, -597.1998291016 ]
+
+      nswhouse8_8: 
+        template: "CEntity:environment\\decorations\\rag_wawing\\rag_wawing_laundry_sail.w2ent"
+        pos: [ -1255.1992187500, 794.0214233398, 14.1437511444 ]
+        rot: [ 0.0, 15.0, -961.9999389648 ]
+
+      nswhouse8_9: 
+        template: "CEntity:environment\\decorations\\rag_wawing\\rag_wawing_laundry_b.w2ent"
+        pos: [ -1258.0234375000, 794.0512084961, 14.4215850830 ]
+        rot: [ 0.0, 10.0, -599.0 ]     
+      nsbuildings_2: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\houses\\thatched_houses\\decoration_set_thatched_small_c\\decoration_set_thatched_small_c_static.w2ent"
+        pos: [ -1259.51635742, 775.916290283, 14.9946889877 ]
+        rot: [ 0.0, 0.0, 88.4000396729 ]
+      nswhouse6_26: 
+        template: "CEntity:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q701_wine_festival\\entities\\q701_victim_water_trash_e_full.w2ent"
+        pos: [ -1336.67297363, 797.566802978, 31.539812088 ]
+        rot: [ 0.0, 0.0, -669.6013183594 ] 
+      nsbuildings_3: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\houses\\thatched_houses\\decoration_set_thatched_small_c\\decoration_set_thatched_small_c_nonstatic.w2ent"
+        pos: [ -1259.51635742, 775.916290283, 14.9946889877 ]
+        rot: [ 0.0, 0.0, 88.4000396729 ]
+      nswhouse2_2: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\houses\\thatched_houses\\decoration_set_thatched_small_a\\decoration_set_thatched_small_a_nonstatic.w2ent"
+        pos: [ -1295.45727539, 780.781707764, 21.1914138794 ]
+        rot: [ 0.0, 0.0, -37.7999687195 ]     
+      nswhouse2_1: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\houses\\thatched_houses\\decoration_set_thatched_small_a\\decoration_set_thatched_small_a_static.w2ent"
+        pos: [ -1295.45727539, 780.781707764, 21.1914138794 ]
+        rot: [ 0.0, 0.0, -37.7999687195 ]   
+      nswhouse2_12: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\houses\\thatched_houses\\decoration_set_thatched_medium_a\\decoration_set_thatched_medium_a_nonstatic.w2ent"
+        pos: [ -1349.15820312, 805.067321777, 34.9147644043 ]
+        rot: [ 0.0, 0.0, -39.7999801636 ]
+      nswhouse6_31: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\houses\\thatched_houses\\decoration_set_thatched_medium_b\\decoration_set_thatched_medium_b_static.w2ent"
+        pos: [ -1237.4005127, 782.562530518, 12.1798305511 ]
+        rot: [ 0.0, 0.0, -628.8013305664 ]
+      nswhouse6_71: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\flags\\bob_party_flag_banner_px.w2ent"
+        pos: [ -1239.30773926, 795.89743042, 15.0266675949 ]
+        rot: [ 20.0, 0.0, -248.2020263672 ]
+      nswhouse7_4: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\torch_wall_wooden_complex.w2ent"
+        pos: [ -1285.83764648, 779.717056274, 19.8366947174 ]
+        rot: [ 0.0, 0.0, -231.2000579834 ]
+      nswhouse6_9: 
+        template: "CEntity:dlc\\bob\\data\\quests\\minor_quests\\quest_files\\mq7024_home\\entities\\animation_points\\mq7024_deco_hill_bench.w2ent"
+        pos: [ -1341.28076172, 796.545227051, 30.3590888977 ]
+        rot: [ 0.0, 0.0, -130.2000274658 ]        
+      nswhouse7: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\torch_wall_wooden_complex.w2ent"
+        pos: [ -1239.08544922, 796.771881103, 13.596660614 ]
+        rot: [ 0.0, 0.0, -143.3999328613 ]
+      nswhouse7_35: 
+        template: "CEntity:environment\\decorations\\exterior\\chopped_wood_low_wall_medium.w2ent"
+        pos: [ -1329.84692383, 782.891876221, 27.9290447235 ]
+        rot: [ 0.0, 0.0, -485.9995727539 ]
+
+      nswhouse7_3: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\torch_wall_wooden_complex.w2ent"
+        pos: [ -1289.04980469, 782.931838989, 19.8366947174 ]
+        rot: [ 0.0, 0.0, -119.0001068115 ]
+
+      nswhouse7_29: 
+        template: "W3Campfire:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\campfire\\gen_campfire_a_3lights.w2ent"
+        pos: [ -1335.18896484, 784.557952881, 28.6403579712 ]
+        rot: [ 0.0, 0.0, -181.5999603271 ]
+      nswhouse7_1: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\torch_wall_wooden_complex.w2ent"
+        pos: [ -1236.76550293, 792.880996704, 13.596660614 ]
+        rot: [ 0.0, 0.0, -148.7999877930 ]
+
+      nswhouse7_10: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\torch_hand_long_complex.w2ent"
+        pos: [ -1307.05859375, 787.580001831, 23.8756790161 ]
+        rot: [ 0.0, 0.0, -84.4000015259 ]
+      nswhouse7_2: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\torch_wall_wooden_complex.w2ent"
+        pos: [ -1271.13916016, 789.162872314, 18.4766635895 ]
+        rot: [ 0.0, 0.0, -213.0000152588 ]
+      nswhouse7_11: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\torch_hand_long_complex.w2ent"
+        pos: [ -1315.99719238, 793.563034058, 25.7866249084 ]
+        rot: [ 0.0, 0.0, -260.3999023438 ]
+      nswhouse7_14: 
+        template: "CEntity:environment\\decorations\\exterior\\chopped_wood_pile_px.w2ent"
+        pos: [ -1244.6907959, 788.8853302, 13.0979614258 ]
+        rot: [ 0.0, 0.0, -173.3999023438 ]
+      nswhouse7_17: 
+        template: "CEntity:environment\\decorations\\exterior\\chopped_wood_low_wall_medium.w2ent"
+        pos: [ -1271.16479492, 793.468521118, 17.3709602356 ]
+        rot: [ 355.0, 0.0, -198.3999938965 ]
+
+      nswhouse7_18: 
+        template: "CEntity:environment\\decorations\\exterior\\chopped_wood_low_wall.w2ent"
+        pos: [ -1271.7824707, 793.127365112, 17.8147640228 ]
+        rot: [ 350.0, 0.0, -207.7999877930 ]
+      nswhouse7_27: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\haystack_poor02.w2ent"
+        pos: [ -1248.68505859, 772.314804077, 12.1338853836 ]
+        rot: [ 0.0, 0.0, -181.5999603271 ]
+        scale: [ 0.5000000000, 0.5000000000, 1.0 ]
+
+      nswhouse7_28: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\haystack_poor02.w2ent"
+        pos: [ -1249.01403809, 771.950775147, 11.4403762817 ]
+        rot: [ 0.0, 0.0, -181.5999603271 ]
+      nswhouse7_6: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\torch_wall_wooden_complex.w2ent"
+        pos: [ -1337.26623535, 802.539962769, 32.0573387146 ]
+        rot: [ 0.0, 0.0, -219.4000701904 ]
+
+      nswhouse7_7: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\torch_wall_wooden_complex.w2ent"
+        pos: [ -1344.94128418, 805.010314941, 34.457359314 ]
+        rot: [ 0.0, 0.0, -124.6000671387 ]
+
+      nswhouse7_8: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\torch_hand_long_complex.w2ent"
+        pos: [ -1302.41308594, 793.26008606, 21.8572807312 ]
+        rot: [ 0.0, 0.0, -267.8000183105 ]
+
+      nswhouse7_9: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\torch_hand_long_complex.w2ent"
+        pos: [ -1309.27941895, 793.13923645, 24.8757019043 ]
+        rot: [ 0.0, 0.0, -267.8000183105 ]          
+      nswhouse6_77: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\torch_hand\\torch_hand_long.w2ent"
+        pos: [ -1264.74560547, 769.948425293, 17.0696964264 ]
+        rot: [ 0.0, 0.0, -840.0014648438 ]
+  
+      nswhouse6_78: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\torch_hand\\torch_hand_long.w2ent"
+        pos: [ -1241.35961914, 783.726913452, 13.9894723892 ]
+        rot: [ 0.0, 0.0, -716.2015991211 ]  
+      nswhouse6_32: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\houses\\thatched_houses\\decoration_set_thatched_medium_b\\decoration_set_thatched_medium_b_nonstatic.w2ent"
+        pos: [ -1237.4005127, 782.562530518, 12.1798305511 ]
+        rot: [ 0.0, 0.0, -628.8013305664 ]
+      nswhouse7_5: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\torch_wall_wooden_complex.w2ent"
+        pos: [ -1325.33154297, 790.141265869, 27.4973430634 ]
+        rot: [ 0.0, 0.0, -44.0000534058 ]
+      nswhouse6_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_wooden_window_closed_a.w2ent"
+        pos: [ -1344.68432617, 803.786880493, 32.3368148804 ]
+        rot: [ 0.0, 0.0, -393.0000610352 ]
+        scale: [ 0.5000000000, 0.5000000000, 0.5000000000 ]
+
+      nswhouse6_33: 
+        template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\entities\\nml_thatched_house_medium_exterior.w2ent"
+        pos: [ -1237.4005127, 782.562530518, 12.1798305511 ]
+        rot: [ 0.0, 0.0, -628.8013305664 ]
+      nswhouse2_13: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\houses\\thatched_houses\\decoration_set_thatched_medium_b\\decoration_set_thatched_medium_b_static.w2ent"
+        pos: [ -1349.15820312, 805.067321777, 34.9147644043 ]
+        rot: [ 0.0, 0.0, -39.7999801636 ]    
+     
+     statics.shadows:
+        
+      nswhouse2: 
+        template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\thatched_house_small_exterior.w2ent"
+        pos: [ -1295.45727539, 780.781707764, 21.1914138794 ]
+        rot: [ 0.0, 0.0, -37.7999687195 ]
+
+      nswhouse2_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_stairs_wood_a.w2ent"
+        pos: [ -1295.50463867, 785.916244507, 19.4685173035 ]
+        rot: [ 0.0, 0.0, 55.4000358582 ]
+
+      nswhouse2_11: 
+        template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\entities\\nml_thatched_house_medium_exterior.w2ent"
+        pos: [ -1349.15820312, 805.067321777, 34.9147644043 ]
+        rot: [ 0.0, 0.0, -39.7999801636 ]
+
+      nswhouse2_14: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\druid_cave_floor_wood.w2ent"
+        pos: [ -1351.86694336, 804.930526733, 34.9068603516 ]
+        rot: [ 0.0, 0.0, -40.9999618530 ]
+        scale: [ 0.8999999762, 0.6499999762, 1.0 ]
+
+      nswhouse2_15: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\druid_cave_floor_wood.w2ent"
+        pos: [ -1348.0480957, 800.77204895, 34.9068603516 ]
+        rot: [ 0.0, 0.0, -40.9999618530 ]
+        scale: [ 0.5000000000, 0.5000000000, 1.0 ]
+
+      nswhouse2_16: 
+        template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\entities\\nml_thatched_house_small_corner_exterior_closed.w2ent"
+        pos: [ -1346.3659668, 794.786773682, 30.3547458649 ]
+        rot: [ 0.0, 0.0, -311.4002990723 ]
+
+      nswhouse2_17: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1343.31677246, 798.955123901, 39.1084671021 ]
+        rot: [ 180.0, 0.0, -130.0 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+
+      nswhouse2_18: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1342.41259766, 792.012451172, 38.9484634399 ]
+        rot: [ 180.0, 0.0, -131.5999755859 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+
+      nswhouse2_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\druid_cave_floor_wood.w2ent"
+        pos: [ -1295.59069824, 780.547744751, 21.1914138794 ]
+        rot: [ 0.0, 0.0, -37.7999687195 ]
+        scale: [ 0.8999999762, 0.6499999762, 1.0 ]
+
+      nswhouse2_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamred_wall_with_windows.w2ent"
+        pos: [ -1291.43701172, 778.116973877, 18.9961071014 ]
+        rot: [ 0.0, 0.0, 53.0000228882 ]
+        scale: [ 1.7999999523, 1.0, 1.0 ]
+
+      nswhouse2_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1289.9822998, 783.479873657, 9.9085683823 ]
+        rot: [ 0.0, 0.0, -127.8000030518 ]
+
+      nswhouse2_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1296.64904785, 782.707473755, 28.3884048462 ]
+        rot: [ 180.0, 0.0, -127.8000030518 ]
+
+      nswhouse2_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1297.2130127, 782.885818481, 29.828420639 ]
+        rot: [ 180.0, 0.0, -37.7999992371 ]
+        scale: [ 1.0, 1.1000000238, 1.0 ]
+
+      nswhouse2_8: 
+        template: "CEntity:dlc\\bob\\data\\environment\\architecture\\wooden_parts\\entities\\bob_platform_slim_tall.w2ent"
+        pos: [ -1289.87927246, 781.741668701, 21.2012138367 ]
+        rot: [ 0.0, 0.0, -37.7999687195 ]
+
+      nswhouse2_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_stairs_wood_a.w2ent"
+        pos: [ -1293.91552734, 784.820556641, 20.8285484314 ]
+        rot: [ 0.0, 0.0, 55.4000358582 ]     
+      nsbuildings: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\favela_kiln_roof.w2ent"
+        pos: [ -1271.77233887, 791.987060547, 17.678855896 ]
+        rot: [ 0.0, 0.0, 59.2000083923 ]
+ 
+      nsbuildings_1: 
+         template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\entities\\nml_thatched_house_small_exterior.w2ent"
+         pos: [ -1259.51635742, 775.916290283, 14.9946889877 ]
+         rot: [ 0.0, 0.0, 88.4000396729 ]
+ 
+      nsbuildings_10: 
+         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_outhouse.w2ent"
+         pos: [ -1262.59643555, 779.134048462, 12.9146842957 ]
+         rot: [ 0.0, 0.0, -95.7999572754 ]
+ 
+      nsbuildings_11: 
+         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_stairs_short.w2ent"
+         pos: [ -1266.42272949, 774.496658325, 13.474404335 ]
+         rot: [ 0.0, 0.0, -178.0000152588 ]
+ 
+      nsbuildings_12: 
+         template: "CEntity:environment\\decorations\\wooden_parts\\platform_slim_fence.w2ent"
+         pos: [ -1263.74072266, 773.794418335, 13.9628076553 ]
+         rot: [ 0.0, 0.0, -269.9998779297 ]
+ 
+      nsbuildings_13: 
+         template: "W3AnimatedContainer:gameplay\\containers\\_container_definitions\\autogen\\barrel_closed_rope__cave__everywhere.w2ent"
+         pos: [ -1263.31481934, 770.525115967, 15.0027933121 ]
+         rot: [ 0.0, 0.0, -269.9998779297 ]
+ 
+      nsbuildings_14: 
+         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+         pos: [ -1264.64343262, 771.865234375, 15.7627925873 ]
+         rot: [ 90.0, 0.0, -269.6000366211 ]
+         scale: [ 1.0, 1.0, 1.1000000238 ]
+ 
+      nsbuildings_15: 
+         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+         pos: [ -1264.67224121, 776.565414429, 15.7627925873 ]
+         rot: [ 90.0, 0.0, -269.6000366211 ]
+         scale: [ 1.0, 1.0, 0.6000000238 ]
+ 
+      nsbuildings_16: 
+         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+         pos: [ -1264.70300293, 775.509658813, 15.0427932739 ]
+         rot: [ 0.0, 0.0, -269.6000061035 ]
+         scale: [ 1.0, 1.0, 0.6000000238 ]
+ 
+ 
+      nsbuildings_4: 
+         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\druid_cave_floor_wood.w2ent"
+         pos: [ -1260.12219238, 775.296005249, 15.0746889114 ]
+         rot: [ 0.0, 0.0, 88.4000396729 ]
+         scale: [ 0.8000000119, 0.5000000000, 1.0 ]
+ 
+      nsbuildings_5: 
+         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+         pos: [ -1254.7878418, 773.703674316, 22.0346755981 ]
+         rot: [ 180.0, 0.0, -1.1999957561 ]
+ 
+      nsbuildings_6: 
+         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+         pos: [ -1254.70544434, 778.187438965, 22.0346755981 ]
+         rot: [ 180.0, 0.0, -1.1999957561 ]
+ 
+      nsbuildings_7: 
+         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+         pos: [ -1259.84301758, 782.944168091, 23.8747177124 ]
+         rot: [ 180.0, 0.0, 88.0000152588 ]
+         scale: [ 1.0, 1.1000000238, 1.0 ]
+ 
+      nsbuildings_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1260.19140625, 773.221374512, 23.8747177124 ]
+        rot: [ 180.0, 0.0, 88.0000152588 ]
+        scale: [ 1.0, 1.1000000238, 1.0 ]
+ 
+      nsbuildings_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1260.38317871, 773.781967163, 22.0346755981 ]
+        rot: [ 180.0, 0.0, -1.1999957561 ]
+      nswhouse3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1342.39990234, 810.772644043, 43.4653167725 ]
+        rot: [ 180.0, 0.0, 50.2000007629 ]
+        scale: [ 3.0, 1.7000000477, 1.2000000477 ]
+
+      nswhouse3_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1348.58251953, 815.908554077, 43.4653167725 ]
+        rot: [ 180.0, 0.0, 50.2000007629 ]
+        scale: [ 3.0, 0.8500000238, 1.2000000477 ]
+
+      nswhouse3_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1348.33215332, 801.431655884, 45.265335083 ]
+        rot: [ 180.0, 0.0, 140.1999969482 ]
+        scale: [ 1.5000000000, 1.3999999762, 1.2000000477 ]
+
+      nswhouse3_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1359.73632812, 811.013549805, 43.5452957153 ]
+        rot: [ 180.0, 0.0, 140.1999969482 ]
+        scale: [ 1.5000000000, 1.2999999523, 1.0 ]
+
+      nswhouse3_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1348.78955078, 809.790481567, 41.1053085327 ]
+        rot: [ 180.0, 0.0, 51.8000068665 ]
+      nswhouse4: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_short_extended.w2ent"
+        pos: [ -1352.08068848, 811.068252563, 34.9115333557 ]
+        rot: [ 0.0, 0.0, -128.0000610352 ]
+
+      nswhouse4_1: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_slim_fence.w2ent"
+        pos: [ -1355.48815918, 812.445465088, 33.9675598145 ]
+        rot: [ 0.0, 0.0, 50.3999252319 ]
+
+      nswhouse4_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nvg_harbour_wood_stairs_long.w2ent"
+        pos: [ -1348.43505859, 809.263839722, 35.0975036621 ]
+        rot: [ 0.0, 0.0, 322.6997070313 ]
+
+      nswhouse4_3: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_short_extended.w2ent"
+        pos: [ -1342.6282959, 802.925994873, 31.7114906311 ]
+        rot: [ 0.0, 0.0, -128.0000610352 ]
+
+      nswhouse4_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nvg_harbour_wood_stairs_short.w2ent"
+        pos: [ -1338.93530273, 801.258560181, 31.9374313354 ]
+        rot: [ 0.0, 0.0, 322.6997070313 ]
+
+      nswhouse4_5: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_short_extended.w2ent"
+        pos: [ -1339.44152832, 799.093444824, 30.3776092529 ]
+        rot: [ 0.0, 0.0, -219.5999908447 ]
+
+      nswhouse4_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nvg_harbour_wood_stairs_short.w2ent"
+        pos: [ -1338.87463379, 795.42338562, 30.5774173737 ]
+        rot: [ 0.0, 0.0, 322.6997070313 ]
+
+      nswhouse4_7: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_short_extended.w2ent"
+        pos: [ -1340.4230957, 793.575286865, 30.3776321411 ]
+        rot: [ 0.0, 0.0, -307.1999206543 ]
+
+      nswhouse4_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -1334.60778809, 800.257629394, 30.9376125336 ]
+        rot: [ 0.0, 90.0, -218.6000671387 ]
+        scale: [ 1.0, 0.5000000000, 1.0 ]
+
+      nswhouse4_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -1337.15283203, 797.204742432, 30.9802780151 ]
+        rot: [ 0.0, 90.0, -218.6000671387 ]
+        scale: [ 1.0, 0.5000000000, 1.0 ]
+      nswhouse5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1335.9029541, 798.705154419, 31.442325592 ]
+        rot: [ 90.0, 0.0, 50.2000122070 ]
+        scale: [ 1.0, 1.0, 1.2000000477 ]
+
+      nswhouse5_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1336.10021973, 801.499099731, 31.442325592 ]
+        rot: [ 90.0, 0.0, 139.8000793457 ]
+        scale: [ 1.0, 1.0, 1.2000000477 ]
+
+      nswhouse5_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1350.26452637, 813.355438232, 35.3762817383 ]
+        rot: [ 0.0, 0.0, 143.3999938965 ]
+        scale: [ 1.0, 1.0, 0.5099999905 ]
+
+      nswhouse5_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1348.65686035, 812.080780029, 36.0562973022 ]
+        rot: [ 90.0, 0.0, 141.9000244141 ]
+        scale: [ 1.0, 1.0, 1.2000000477 ]
+
+      nswhouse5_12: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1352.00585938, 814.702392578, 35.736289978 ]
+        rot: [ 90.0, 0.0, 141.9000244141 ]
+        scale: [ 1.0, 1.0, 1.2100000381 ]
+
+      nswhouse5_13: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1354.95056152, 814.459213257, 35.736289978 ]
+        rot: [ 90.0, 0.0, 51.9000015259 ]
+        scale: [ 1.0, 1.0, 1.2000000477 ]
+
+      nswhouse5_14: 
+        template: "CEntity:dlc\\bob\\data\\environment\\architecture\\harbour\\bob_harbour_objects_set\\entities\\bob_harbour_wood_stairs_short.w2ent"
+        pos: [ -1358.48059082, 811.849090576, 34.199924469 ]
+        rot: [ 0.0, 0.0, 53.4999771118 ]
+
+      nswhouse5_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1339.19494629, 804.074005127, 32.6823158264 ]
+        rot: [ 90.0, 0.0, 141.0000610352 ]
+        scale: [ 1.0, 1.0, 1.2000000477 ]
+
+      nswhouse5_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -1337.63134766, 802.802917481, 32.2423057556 ]
+        rot: [ 90.0, 90.0, 139.8000030518 ]
+        scale: [ 1.0, 0.5000000000, 1.0 ]
+
+      nswhouse5_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -1340.7689209, 805.290618897, 32.1985015869 ]
+        rot: [ 90.0, 90.0, 139.8000030518 ]
+        scale: [ 1.0, 0.5000000000, 1.0 ]
+
+      nswhouse5_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -1343.92480469, 807.680496216, 32.1985015869 ]
+        rot: [ 90.0, 90.0, 139.8000030518 ]
+        scale: [ 1.0, 0.5000000000, 1.0 ]
+
+      nswhouse5_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1342.37390137, 806.530090332, 32.6562423706 ]
+        rot: [ 90.0, 0.0, 143.4000244141 ]
+        scale: [ 1.0, 1.0, 1.2000000477 ]
+
+      nswhouse5_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1345.98583984, 809.207672119, 34.6962890625 ]
+        rot: [ 55.0, 0.0, 143.3999938965 ]
+        scale: [ 1.0, 1.0, 1.3999999762 ]
+
+      nswhouse5_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1347.61865234, 810.450363159, 35.3762817383 ]
+        rot: [ 0.0, 0.0, 143.3999938965 ]
+        scale: [ 1.0, 1.0, 0.5000000000 ]
+
+      nswhouse5_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1347.08776855, 810.883621216, 35.3762817383 ]
+        rot: [ 0.0, 0.0, 143.3999938965 ]
+        scale: [ 1.0, 1.0, 0.5000000000 ]  
+      nswhouse6: 
+        template: "CActionPoint:dlc\\bob\\data\\gameplay\\community\\actionpoints\\sleeping\\lie_mwdc_sleep_bed_l_ap.w2ent"
+        pos: [ -1351.35424805, 802.170211792, 35.178527832 ]
+        rot: [ 0.0, 0.0, -40.0000381470 ]
+        scale: [ 1.5000000000, 1.0, 1.0 ]
+  
+      nswhouse6_1: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\average\\beds\\decoration_set_average_beds_skellige_bed_b.w2ent"
+        pos: [ -1354.39453125, 804.351867676, 34.8792190552 ]
+        rot: [ 0.0, 0.0, -129.4000396729 ]
+  
+      nswhouse6_10: 
+        template: "W3AnimatedContainer:environment\\decorations\\decoration_sets\\boxes\\decoration_set_boxes_crate_pile_d_container.w2ent"
+        pos: [ -1339.97766113, 790.368133545, 30.3906230927 ]
+        rot: [ 0.0, 0.0, -215.0000457764 ]
+  
+      nswhouse6_11: 
+        template: "W3AnimatedContainer:environment\\decorations\\decoration_sets\\boxes\\decoration_set_boxes_crate_pile_c.w2ent"
+        pos: [ -1339.02282715, 791.175094605, 30.3906230927 ]
+        rot: [ 0.0, 0.0, -306.4000244141 ]
+  
+      nswhouse6_12: 
+        template: "W3AnimatedContainer:environment\\decorations\\decoration_sets\\boxes\\decoration_set_boxes_crate_pile_b.w2ent"
+        pos: [ -1338.93139648, 789.837692261, 30.4306240082 ]
+        rot: [ 0.0, 0.0, -370.8003234863 ]
+  
+      nswhouse6_13: 
+        template: "CEntity:environment\\decorations\\trade\\market_stand_poor\\stall_tent_single_a_px.w2ent"
+        pos: [ -1339.26721191, 790.236557007, 29.3404903412 ]
+        rot: [ 0.0, 0.0, -394.2005310059 ]
+  
+      nswhouse6_14: 
+        template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\entities\\nml_thatched_house_small_corner_exterior_closed.w2ent"
+        pos: [ -1325.35266113, 781.070205688, 27.4070205688 ]
+        rot: [ 0.0, 0.0, -668.2008056641 ]
+  
+      nswhouse6_15: 
+        template: "CGameplayEntity:gameplay\\interactive_objects\\doors\\fake_door\\fake_door_common_decorative_dynamic.w2ent"
+        pos: [ -1325.77197266, 786.77432251, 27.48919487 ]
+        rot: [ 0.0, 0.0, -127.4003677368 ]
+        scale: [ 1.2000000477, 1.0, 1.0 ]
+  
+      nswhouse6_16: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1320.20910645, 789.445053101, 35.8069915771 ]
+        rot: [ 180.0, 0.0, -668.2009887695 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+  
+      nswhouse6_17: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1330.84082031, 784.224609375, 36.2470016479 ]
+        rot: [ 180.0, 0.0, -577.8010864258 ]
+        scale: [ 1.0, 1.1000000238, 1.0 ]
+  
+      nswhouse6_18: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1322.43078613, 778.091262817, 35.8869934082 ]
+        rot: [ 180.0, 0.0, -667.2008666992 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+  
+      nswhouse6_19: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1318.71008301, 782.432907105, 35.8869934082 ]
+        rot: [ 180.0, 0.0, -670.8010864258 ]
+  
+      nswhouse6_2: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\average\\beds\\decoration_set_average_beds_skellige_bed_b.w2ent"
+        pos: [ -1356.21191406, 806.000167847, 34.9192199707 ]
+        rot: [ 0.0, 0.0, -131.2000122070 ]
+  
+      nswhouse6_20: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1322.27685547, 784.571289062, 35.8869934082 ]
+        rot: [ 180.0, 0.0, -576.0009765625 ]
+  
+      nswhouse6_21: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1321.67297363, 777.714172363, 35.6069869995 ]
+        rot: [ 180.0, 0.0, -577.2008666992 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+  
+      nswhouse6_22: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamred_outhouse_d.w2ent"
+        pos: [ -1324.2421875, 787.809463501, 26.526971817 ]
+        rot: [ 0.0, 0.0, -489.2010803223 ]
+        scale: [ 0.8000000119, 1.0, 1.0 ]
+  
+      nswhouse6_23: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_wooden_window_roof_attachment.w2ent"
+        pos: [ -1321.67907715, 775.688140869, 28.3797397614 ]
+        rot: [ 0.0, 0.0, -395.4011840820 ]
+  
+      nswhouse6_24: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_wooden_window_frame_g.w2ent"
+        pos: [ -1321.32373047, 787.509613037, 28.3397388458 ]
+        rot: [ 0.0, 0.0, -577.2014770508 ]
+  
+      nswhouse6_25: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_c.w2ent"
+        pos: [ -1321.33825684, 787.472122192, 28.3397388458 ]
+        rot: [ 0.0, 0.0, -577.6015014648 ]
+        scale: [ 1.2000000477, 1.0, 2.0 ]
+  
+
+  
+      nswhouse6_27: 
+        template: "W3AnimatedContainer:gameplay\\containers\\new_locations\\gameplay\\unique\\crate_2_junk_small.w2ent"
+        pos: [ -1318.55456543, 785.660873413, 26.4677371979 ]
+        rot: [ 0.0, 0.0, -669.6013183594 ]
+  
+      nswhouse6_28: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_winecellar_junk__vehicle_watermill_c.w2ent"
+        pos: [ -1319.36669922, 787.014083862, 25.666387558 ]
+        rot: [ 0.0, 0.0, -722.6013793945 ]
+  
+      nswhouse6_29: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_winecellar_junk__gen_barrel_set_d.w2ent"
+        pos: [ -1322.8392334, 789.448104858, 25.8263912201 ]
+        rot: [ 0.0, 0.0, -945.0017089844 ]
+  
+      nswhouse6_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1344.39916992, 808.016464233, 32.8791732788 ]
+        rot: [ 0.0, 0.0, -131.2000122070 ]
+        scale: [ 1.0, 1.0, 0.3000000119 ]
+  
+      nswhouse6_30: 
+        template: "CEntity:dlc\\bob\\data\\environment\\architecture\\wooden_parts\\entities\\bob_platform_slim_high.w2ent"
+        pos: [ -1332.12805176, 770.051239014, 23.3633728027 ]
+        rot: [ 0.0, 0.0, -1155.6019287109 ]
+  
+  
+      nswhouse6_34: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1236.19226074, 791.30595398, 21.3797473907 ]
+        rot: [ 180.0, 0.0, -628.8010253906 ]
+        scale: [ 1.0, 1.3999999762, 1.0 ]
+  
+      nswhouse6_35: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1234.41137695, 785.150772095, 19.3397006989 ]
+        rot: [ 180.0, 0.0, -538.8010253906 ]
+        scale: [ 1.0, 1.3999999762, 1.0 ]
+  
+      nswhouse6_36: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1234.2434082, 777.798034668, 19.3397006989 ]
+        rot: [ 180.0, 0.0, -538.8010253906 ]
+        scale: [ 1.0, 1.6000000238, 1.0 ]
+  
+      nswhouse6_37: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1235.60058594, 776.470550537, 21.779756546 ]
+        rot: [ 180.0, 0.0, -628.8010253906 ]
+        scale: [ 1.0, 1.3999999762, 1.1000000238 ]
+  
+      nswhouse6_38: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1241.43444824, 783.984451294, 19.5397052765 ]
+        rot: [ 180.0, 0.0, -538.8010253906 ]
+        scale: [ 1.0, 1.7000000477, 1.0 ]
+  
+      nswhouse6_39: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -1241.22802734, 775.920043945, 19.5397052765 ]
+        rot: [ 180.0, 0.0, -537.4009399414 ]
+        scale: [ 1.0, 0.8000000119, 1.0 ]
+  
+      nswhouse6_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1345.64355469, 808.933029175, 32.1191558838 ]
+        rot: [ 0.0, 0.0, -131.2000122070 ]
+        scale: [ 1.0, 1.0, 1.2999999523 ]
+  
+      nswhouse6_40: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_porch.w2ent"
+        pos: [ -1239.10510254, 778.734603882, 12.1680231094 ]
+        rot: [ 180.0, 0.0, -630.0012817383 ]
+  
+      nswhouse6_41: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_stairs_wood_a.w2ent"
+        pos: [ -1240.0378418, 775.981140137, 11.4480247498 ]
+        rot: [ 180.0, 0.0, -720.8015136719 ]
+  
+      nswhouse6_42: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\chimneys\\chimney_poor_big_smoke.w2ent"
+        pos: [ -1232.88305664, 787.855407715, 17.1027946472 ]
+        rot: [ 0.0, 0.0, -720.8020019531 ]
+  
+      nswhouse6_43: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\chimneys\\chimney_poor_big_smoke.w2ent"
+        pos: [ -1296.62866211, 779.483520508, 26.2800827026 ]
+        rot: [ 0.0, 0.0, -668.8020019531 ]
+  
+      nswhouse6_44: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\chimneys\\chimney_poor_big_smoke.w2ent"
+        pos: [ -1325.56359863, 779.851165772, 33.4000816345 ]
+        rot: [ 0.0, 0.0, -668.8020019531 ]
+  
+      nswhouse6_45: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\chimneys\\chimney_poor_big_smoke.w2ent"
+        pos: [ -1344.26782227, 791.642471313, 36.2801017761 ]
+        rot: [ 0.0, 0.0, -668.8020019531 ]
+  
+      nswhouse6_46: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\chimneys\\chimney_poor_big_smoke.w2ent"
+        pos: [ -1347.6965332, 798.293823242, 39.9297866821 ]
+        rot: [ 0.0, 0.0, -668.8020019531 ]
+  
+      nswhouse6_47: 
+        template: "W3NewDoor:gameplay\\interactive_objects\\doors\\pushable\\push_basement_door_b.w2ent"
+        pos: [ -1238.91540527, 779.964111328, 12.277545929 ]
+        rot: [ 0.0, 0.0, -808.0021362305 ]
+  
+      nswhouse6_48: 
+        template: "W3NewDoor:gameplay\\interactive_objects\\doors\\pushable\\push_basement_door_b.w2ent"
+        pos: [ -1262.50390625, 777.60319519, 15.1575298309 ]
+        rot: [ 0.0, 0.0, -808.0021362305 ]
+  
+      nswhouse6_49: 
+        template: "W3NewDoor:gameplay\\interactive_objects\\doors\\pushable\\push_basement_door_b.w2ent"
+        pos: [ -1292.33032227, 782.186065674, 21.3574829102 ]
+        rot: [ 0.0, 0.0, -936.8019409180 ]
+  
+      nswhouse6_5: 
+        template: "CGameplayEntity:gameplay\\interactive_objects\\doors\\fake_door\\fake_door_common_decorative_dynamic.w2ent"
+        pos: [ -1340.73840332, 793.719604492, 30.369260788 ]
+        rot: [ 0.0, 0.0, -221.8003845215 ]
+  
+      nswhouse6_50: 
+        template: "W3NewDoor:gameplay\\interactive_objects\\doors\\pushable\\push_basement_door_b.w2ent"
+        pos: [ -1350.10949707, 807.931442261, 34.9174919128 ]
+        rot: [ 0.0, 0.0, -941.0021972656 ]
+  
+      nswhouse6_51: 
+        template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\thatched_pigsty.w2ent"
+        pos: [ -1254.21813965, 773.394851685, 12.9174995422 ]
+        rot: [ 355.0, 0.0, -902.0020141602 ]
+  
+      nswhouse6_52: 
+        template: "CEntity:environment\\terrain_surroundings\\decoration_sets\\nomansland\\decoration_set_fence_square.w2ent"
+        pos: [ -1254.39660645, 777.526519775, 13.6291399002 ]
+        rot: [ 355.0, 0.0, -599.8019409180 ]
+  
+      nswhouse6_53: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1236.65124512, 790.830703735, 11.915514946 ]
+        rot: [ 355.0, 0.0, -523.2019653320 ]
+  
+      nswhouse6_54: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1241.10998535, 797.182632446, 12.3955144882 ]
+        rot: [ 5.0, 10.0, -287.8020019531 ]
+  
+      nswhouse6_55: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1244.26379395, 797.806518555, 13.1955137253 ]
+        rot: [ 15.0, 10.0, -267.2019958496 ]
+  
+      nswhouse6_56: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1247.86779785, 797.504425049, 13.6355133057 ]
+        rot: [ 15.0, 10.0, -272.6020202637 ]
+  
+      nswhouse6_57: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1251.02490234, 797.051391602, 14.5555124283 ]
+        rot: [ 15.0, 10.0, -242.0020141602 ]
+  
+      nswhouse6_58: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1254.20605469, 796.183532715, 14.915512085 ]
+        rot: [ 15.0, 10.0, -274.2020874023 ]
+  
+      nswhouse6_59: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1257.55908203, 795.703109741, 14.915512085 ]
+        rot: [ 15.0, 10.0, -248.0020141602 ]
+  
+      nswhouse6_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1340.74316406, 793.588287353, 30.8391265869 ]
+        rot: [ 0.0, 0.0, -131.2000122070 ]
+  
+      nswhouse6_60: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1260.51708984, 794.592056274, 15.2504558563 ]
+        rot: [ 15.0, 10.0, -257.4020080566 ]
+  
+      nswhouse6_61: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1263.35217285, 794.871063232, 15.9419021606 ]
+        rot: [ 15.0, 10.0, -306.6020507813 ]
+  
+      nswhouse6_62: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1265.86352539, 794.951507568, 16.6218948364 ]
+        rot: [ 15.0, 10.0, -250.4021148682 ]
+  
+      nswhouse6_63: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1268.91687012, 795.08895874, 17.6765365601 ]
+        rot: [ 15.0, 10.0, -278.6021728516 ]
+  
+      nswhouse6_64: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1271.91064453, 795.355941773, 18.1965484619 ]
+        rot: [ 15.0, 10.0, -262.4020996094 ]
+  
+      nswhouse6_65: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1274.81335449, 795.12638855, 18.1965484619 ]
+        rot: [ 15.0, 10.0, -288.6021118164 ]
+  
+      nswhouse6_66: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1277.27368164, 795.229217529, 18.302438736 ]
+        rot: [ 5.0, 10.0, -237.8019409180 ]
+  
+      nswhouse6_67: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\wood\\deco_poor_wood_logs.w2ent"
+        pos: [ -1279.83630371, 793.65196228, 18.4807395935 ]
+        rot: [ 15.0, 10.0, -253.4021453857 ]
+  
+      nswhouse6_68: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1237.1730957, 792.599227905, 12.8755140305 ]
+        rot: [ 0.0, 0.0, -325.0020141602 ]
+        scale: [ 1.0, 1.0, 1.2999999523 ]
+  
+      nswhouse6_69: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1239.46655273, 796.450332642, 12.8755140305 ]
+        rot: [ 0.0, 0.0, -325.0020141602 ]
+        scale: [ 1.0, 1.0, 1.2999999523 ]
+  
+      nswhouse6_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_wooden_window_closed_a.w2ent"
+        pos: [ -1343.95593262, 803.286300659, 32.3368148804 ]
+        rot: [ 0.0, 0.0, -228.6000366211 ]
+        scale: [ 0.5000000000, 0.5000000000, 0.5000000000 ]
+  
+      nswhouse6_70: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -1238.33654785, 794.51524353, 14.9755134583 ]
+        rot: [ 90.0, 0.0, -419.0020141602 ]
+        scale: [ 1.0, 1.0, 1.3999999762 ]
+  
+  
+
+      nswhouse7_12: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_common_junk__crate_pile_a.w2ent"
+        pos: [ -1259.31445312, 781.459228516, 14.4579782486 ]
+        rot: [ 0.0, 0.0, -173.3999023438 ]
+
+      nswhouse7_13: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_junk_common_crate_pile_g.w2ent"
+        pos: [ -1237.70788574, 789.980148315, 11.5238046646 ]
+        rot: [ 0.0, 0.0, -173.3999023438 ]
+
+
+      nswhouse7_15: 
+        template: "CActionPoint:gameplay\\community\\actionpoints\\work\\stand_md_chopping_wood_log_ap.w2ent"
+        pos: [ -1244.57849121, 787.807693481, 13.2090129852 ]
+        rot: [ 0.0, 0.0, -173.3999023438 ]
+
+      nswhouse7_16: 
+        template: "CActionPoint:gameplay\\community\\actionpoints\\work\\stand_m_sawing_beam_ap.w2ent"
+        pos: [ -1248.04345703, 781.930557251, 13.009013176 ]
+        rot: [ 355.0, 0.0, -274.3999938965 ]
+
+
+      nswhouse7_19: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_junk_common_crate_pile_g.w2ent"
+        pos: [ -1287.6427002, 780.004699707, 18.2303924561 ]
+        rot: [ 0.0, 0.0, -230.9998016357 ]
+
+      nswhouse7_20: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_winecellar_junk__gen_barrel_set_d.w2ent"
+        pos: [ -1289.95288086, 781.869537353, 18.5488510132 ]
+        rot: [ 0.0, 0.0, -409.7998962402 ]
+
+      nswhouse7_21: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_junk_poor__vehicle_crate_a.w2ent"
+        pos: [ -1293.01318359, 784.150054932, 18.6288528442 ]
+        rot: [ 0.0, 0.0, -389.7999572754 ]
+
+      nswhouse7_22: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_junk_poor_dye_uncommon__boat_containers_a.w2ent"
+        pos: [ -1254.8894043, 769.67817688, 12.8644113541 ]
+        rot: [ 340.0, 350.0, -458.0 ]
+
+      nswhouse7_23: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_junk_poor__crate_pile_n.w2ent"
+        pos: [ -1261.59460449, 770.173690796, 13.6928653717 ]
+        rot: [ 0.0, 0.0, -190.1999969482 ]
+
+      nswhouse7_24: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_junk_poor__crate_pile_m.w2ent"
+        pos: [ -1236.80773926, 772.72517395, 10.45337677 ]
+        rot: [ 0.0, 0.0, -175.5999298096 ]
+
+      nswhouse7_25: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\loam_houses\\poor_thatched_stable.w2ent"
+        pos: [ -1248.68701172, 773.861755371, 11.7338857651 ]
+        rot: [ 0.0, 0.0, -181.5999603271 ]
+        scale: [ 0.5000000000, 0.8000000119, 1.0 ]
+
+      nswhouse7_26: 
+        template: "CEntity:environment\\decorations\\vehicles\\cart\\cart_trader.w2ent"
+        pos: [ -1264.61254883, 783.161193848, 15.9214401245 ]
+        rot: [ 5.0, 350.0, -133.0 ]
+
+      nswhouse7_30: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\camp\\deco_gen_camp_bench_a.w2ent"
+        pos: [ -1333.640625, 782.787353516, 28.1869659424 ]
+        rot: [ 0.0, 0.0, -331.5998229980 ]
+
+      nswhouse7_31: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\camp\\deco_gen_camp_bench_a.w2ent"
+        pos: [ -1336.74316406, 785.814361572, 28.8673934937 ]
+        rot: [ 355.0, 350.0, -114.8000030518 ]
+
+      nswhouse7_32: 
+        template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_winecellar_junk__crate_pile_c.w2ent"
+        pos: [ -1353.33996582, 814.609268188, 35.0125694275 ]
+        rot: [ 0.0, 0.0, -129.5998229980 ]
+
+      nswhouse7_33: 
+        template: "CActionPoint:gameplay\\community\\actionpoints\\work\\stand_m_sawing_beam_ap.w2ent"
+        pos: [ -1351.28613281, 811.976104736, 35.256275177 ]
+        rot: [ 0.0, 0.0, -398.1999511719 ]
+
+      nswhouse7_34: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\loam_houses\\poor_thatched_stable.w2ent"
+        pos: [ -1329.59069824, 783.107925415, 27.9290447235 ]
+        rot: [ 0.0, 0.0, -485.9995727539 ]
+        scale: [ 0.5000000000, 0.5000000000, 0.5000000000 ]
+
+      nswhouse7_36: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_f_moss.w2ent"
+        pos: [ -1295.5177002, 773.981613159, 22.1290092468 ]
+        rot: [ 60.0, 0.0, -498.7999877930 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      nswhouse7_37: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e_moss.w2ent"
+        pos: [ -1265.63879395, 747.050384522, 10.058631897 ]
+        rot: [ 80.0, 0.0, -643.0000610352 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      nswhouse7_38: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e_moss.w2ent"
+        pos: [ -1270.2956543, 762.279159546, 12.2515268326 ]
+        rot: [ 80.0, 0.0, -755.0001220703 ]
+

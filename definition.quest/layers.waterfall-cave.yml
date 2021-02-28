@@ -1,0 +1,144 @@
+layers:
+  waterfall_cave: 
+    world: "riviacapital"
+    #context: ""
+    statics.shadows:
+      waterfallcave_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_wall_round_outward_bright.w2ent"
+        pos: [ -1469.0604248047, 574.2769165039, 81.2413330078 ]
+        rot: [ 0.0, 0.0, 186.6001129150 ]
+
+      waterfallcave_12: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_wall_round_outward_bright.w2ent"
+        pos: [ -1473.1319580078, 572.6708374023, 81.2413330078 ]
+        rot: [ 0.0, 0.0, 46.0001029968 ]
+
+      waterfallcave_13: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_wall_round_outward_bright.w2ent"
+        pos: [ -1476.0023193359, 568.7188720703, 82.3213577271 ]
+        rot: [ 0.0, 0.0, 258.8001098633 ]
+
+      waterfallcave_14: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_wall_round_outward_bright.w2ent"
+        pos: [ -1477.9138183594, 565.2210693359, 82.8995895386 ]
+        rot: [ 0.0, 0.0, 259.3997802734 ]
+
+      waterfallcave_15: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_wall_round_outward_bright.w2ent"
+        pos: [ -1462.3271484375, 565.8239746094, 81.5782394409 ]
+        rot: [ 0.0, 0.0, -135.0002288818 ]
+
+      waterfallcave_16: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_wall_round_outward_bright.w2ent"
+        pos: [ -1473.8287353516, 559.1657714844, 81.5782394409 ]
+        rot: [ 0.0, 0.0, -36.6001853943 ]
+
+      waterfallcave_17: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_wall_round_outward_bright.w2ent"
+        pos: [ -1468.7041015625, 557.7667236328, 82.7242431641 ]
+        rot: [ 0.0, 0.0, -162.6001892090 ]
+
+      waterfallcave_18: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_soil_rocks_big.w2ent"
+        pos: [ -1471.1953125000, 563.8770751953, 84.5638809204 ]
+        rot: [ 180.0, 0.0, -131.2000122070 ]
+        scale: [ 1.0, 1.0, 4.0 ]
+
+      waterfallcave_19: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_soil_rocks_big.w2ent"
+        pos: [ -1463.2368164063, 572.3695678711, 84.5638809204 ]
+        rot: [ 180.0, 0.0, -131.2000122070 ]
+        scale: [ 0.5000000000, 1.0, 3.0 ]
+
+      waterfallcave_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h.w2ent"
+        pos: [ -1455.9792480469, 574.9695434570, 83.2413864136 ]
+        rot: [ 0.0, 340.0, 70.4000930786 ]
+
+      waterfallcave_20: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_g.w2ent"
+        pos: [ -1467.7375488281, 576.2636718750, 83.5308914185 ]
+        rot: [ 90.0, 0.0, 2.4000031948 ]
+      waterfallcave_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h.w2ent"
+        pos: [ -1459.3796386719, 575.6014404297, 86.6377487183 ]
+        rot: [ 0.0, 340.0, -100.5998687744 ]
+        scale: [ 1.0, 1.0, 0.5000000000 ]
+
+      waterfallcave_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_wall_round_inward.w2ent"
+        pos: [ -1457.7806396484, 569.7611083984, 81.6245498657 ]
+        rot: [ 0.0, 340.0, 50.2000999451 ]
+
+      waterfallcave_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_wall_round_outward_bright.w2ent"
+        pos: [ -1463.3417968750, 576.4803466797, 81.2413330078 ]
+        rot: [ 0.0, 340.0, 17.4000988007 ]
+
+      waterfallcave_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_ground_mount_debris.w2ent"
+        pos: [ -1461.3712158203, 571.5664672852, 79.5459213257 ]
+        rot: [ 0.0, 0.0, -68.2000122070 ]
+        scale: [ 1.0, 1.0, 3.0 ]
+
+      waterfallcave_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_a.w2ent"
+        pos: [ -1457.0745849609, 579.3021240234, 77.6539230347 ]
+        rot: [ 0.0, 340.0, -324.3998718262 ]
+        scale: [ 0.5000000000, 1.5000000000, 0.5000000000 ]
+
+      waterfallcave_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h.w2ent"
+        pos: [ -1457.7513427734, 574.1585693359, 86.1577224731 ]
+        rot: [ 0.0, 340.0, 8.4001255035 ]
+        scale: [ 1.0, 1.0, 0.4000000060 ]
+
+      waterfallcave_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_soil_rocks_big.w2ent"
+        pos: [ -1469.5823974609, 566.3928222656, 79.5394287109 ]
+        rot: [ 5.0, 0.0, 72.5999984741 ]
+        scale: [ 1.0, 1.0, 4.0 ]
+      waterfallcave_21: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_stalagmite_group_static_part.w2ent"
+        pos: [ -1463.7310791016, 567.3703002930, 79.6006469727 ]
+        rot: [ 0.0, 0.0, -39.8000068665 ]
+
+      waterfallcave_22: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_stalagmite_wall_top_static_part.w2ent"
+        pos: [ -1467.1933593750, 569.5856323242, 85.9201049805 ]
+        rot: [ 0.0, 0.0, 3.1998634338 ]
+
+      waterfallcave_24: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\torch_hand_long_complex_1_light.w2ent"
+        pos: [ -1462.7662353516, 569.1131591797, 80.5639114380 ]
+        rot: [ 0.0, 0.0, -37.8000030518 ]    
+    statics: 
+      waterfallcave_23: 
+        template: "CEntity:environment\\terrain_surroundings\\common\\cave\\cave_big\\cave_stalagmite_group_px.w2ent"
+        pos: [ -1469.6972656250, 571.2195434570, 78.5201950073 ]
+        rot: [ 0.0, 0.0, 3.1998634338 ]    
+      waterfallcave: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_ground_mount_debris.w2ent"
+        pos: [ -1457.8018798828, 575.9533691406, 79.6806869507 ]
+        rot: [ 0.0, 0.0, -39.8000068665 ]
+        scale: [ 1.0, 1.0, 5.0 ]
+
+      waterfallcave_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_g.w2ent"
+        pos: [ -1459.1181640625, 577.5906372070, 78.9214172363 ]
+        rot: [ 0.0, 0.0, 37.0000228882 ]
+
+      waterfallcave_10: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\dungeons\\regis_dungeon.w2ent"
+        pos: [ -1479.8054199219, 558.8657226563, 80.5794525146 ]
+        rot: [ 0.0, 0.0, 72.5999984741 ]
+
+      waterfallcave_25: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_big_inn_volume.w2ent"
+        pos: [ -1458.1679687500, 567.1800537109, 69.4692993164 ]
+        rot: [ 0.0, 0.0, -37.8000030518 ]
+
+
+
+
+ 

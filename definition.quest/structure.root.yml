@@ -1,7 +1,7 @@
 #
 # quest structure root segment
 # 
-# (version: 5, saved: 2020-09-15 20:15:42)
+# (version: 7, saved: 2021-02-01 03:26:28)
 #
 ---
 structure:
@@ -12,6 +12,7 @@ structure:
         next:
           - waituntil.wait_3s_for_visibility
           - waituntil.wait_for_tele_fact
+          - spawn.nsw_animals
       
       waituntil.wait_3s:
         elapsed: "00:00:03"
@@ -84,6 +85,17 @@ structure:
           - msg: Welcome to Rivia!
         next:
           - waituntil.wait_3s
+      
+      spawn.nsw_animals:
+        ".editor":
+          pos: [ 496.7254638672, 234.0325622559 ]
+          hint: spawn-only
+          in: []
+          out: []
+        phase: phase1
+        spawnsets:
+          - nsw_animals
+        next: ".done"
       
       changeworld.tele_player_to_rivia:
         ".editor": [ 298.8838806152, 306.2124938965 ]

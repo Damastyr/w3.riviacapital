@@ -6,32 +6,36 @@ layers:
     statics: 
       mountainfix_4: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e_snow.w2ent"
-        pos: [ -2073.0393066406, 261.8378295898, 65.8178863525 ]
+        pos: [ -2073.03930664, 1233.83782959, 65.8178863525 ]
         rot: [ 330.0, 0.0, -140.9999847412 ]
         scale: [ 30.0, 30.0, 30.0 ]
 
       mountainsfix: 
         template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\background\\bcg_mountains_fairytail.w2ent"
-        pos: [ -621.0850219727, -1172.1899414063, -208.0509948730 ]
+        pos: [ -621.085021973, -200.189941406, -208.050994873 ]
         rot: [ 0.0, 0.0, -78.8000946045 ]
         scale: [ 1.0, 1.5000000000, 0.6499999762 ]
 
       mountainsfix_1: 
         template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\background\\bcg_mountains_fairytail.w2ent"
-        pos: [ -620.4270019531, -772.2700195313, -108.0510025024 ]
+        pos: [ -620.427001953, 199.729980469, -108.051002502 ]
         rot: [ 0.0, 0.0, 68.5998153687 ]
         scale: [ 1.0, 2.0, 0.5000000000 ]
 
       mountainsfix_2: 
         template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\background\\bcg_mountains_fairytail.w2ent"
-        pos: [ -620.4270019531, -772.2700195313, -108.0510025024 ]
+        pos: [ -620.427001953, 199.729980469, -108.051002502 ]
         rot: [ 0.0, 0.0, -5.8001747131 ]
         scale: [ 1.0, 2.0, 0.5000000000 ]
 
       mountainsfix_3: 
         template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\background\\bcg_mountains_fairytail.w2ent"
-        pos: [ -621.0850219727, -972.1900024414, -208.0509948730 ]
+        pos: [ -621.085021973, -0.1900024414, -208.050994873 ]
         rot: [ 0.0, 0.0, -85.6000823975 ]
         scale: [ 1.0, 0.8999999762, 0.6000000238 ]   
-
+      mountainsfix_4: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\background\\bcg_mountains_fairytail.w2ent"
+        pos: [ -612.8095092773, 199.1496429443, -108.0510025024 ]
+        rot: [ 0.0, 0.0, 46.9997444153 ]
+        scale: [ 1.0, 1.0, 0.4000000060 ]
 

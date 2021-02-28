@@ -1,0 +1,48 @@
+layers:
+  bridge_life: 
+    world: "riviacapital"
+    #context: ""
+
+    actionpoints: 
+      bridgedetainedhorse: [ -673.3483276367, -601.8665161133, 6.9572868347, -354.3997802734, "horse/horse_still_jt" ]
+
+      bridgedetainedman: [ -670.8419189453, -605.9396972656, 6.9506797791, -329.1997985840, "resting_man/stand_mw_nervous_jt" ]
+
+      bridgedetainedwoman: [ -670.3001708984, -607.8079223633, 6.8934717178, -343.6000366211, "ep2_woman/q701_preacher_woman_jt" ]
+
+      bridgehalberd1: [ -658.7254028320, -639.8513183594, 1.4083709717, -187.3999481201, "guarding/stand_m_guard_halberd_l_sleep_jt" ]
+
+      bridgehalberd2: [ -663.2018432617, -641.0694580078, 1.5242462158, -136.7999572754, "guarding/stand_m_guard_halberd_r_attention_jt" ]
+
+      bridgerepair: [ -682.6989135742, -541.2664184570, 6.9461040497, -80.1999969482, "work_man/stand_md_hammering_jt" ]
+
+      bridgesoldierbow1: [ -672.2901611328, -578.8333129883, 6.9441375732, -124.5999908447, "guarding/stand_mw_guard_bow_jt" ]
+
+      bridgesoldierbow2: [ -679.2698364258, -581.6525268555, 6.9569640160, -191.1999969482, "guarding/stand_mw_guard_bow_jt" ]
+
+      bridgesoldierbow3: [ -686.9255981445, -548.4110107422, 6.9556293488, -187.5999450684, "guarding/stand_mw_guard_bow_jt" ]
+
+      bridgesoldierbow4: [ -679.7476806641, -546.6204223633, 6.9416918755, -106.5999526978, "guarding/stand_mw_guard_bow_jt" ]
+
+      bridgesoldierdetain1: [ -671.6644287109, -602.8109741211, 6.9531531334, -159.7999725342, "guarding/stand_md_guard_sword_jt" ]
+
+      bridgesoldierdetain2: [ -671.1411743164, -604.8664550781, 6.9508442879, -262.1999511719, "household_man/stand_mwd_looking_at_goods_jt" ]
+
+      bridgesoldierdetain3: [ -671.0109863281, -606.6641235352, 6.9526748657, -138.7999572754, "work_man/stand_m_reading_noticeboard_jt" ]
+
+      bridgesoldierspitting1: [ -671.4677734375, -608.1530151367, 6.8792166710, -70.5999679565, "resting_man/stand_md_spit_jt" ]
+
+      bridgesoldierspy1: [ -672.2821044922, -580.6192626953, 6.9430589676, -119.7999954224, "guarding/stand_m_spyglass_jt" ]
+
+      bridgesoldierspy2: [ -665.6705932617, -642.7230224609, 1.6412658691, -244.0000305176, "guarding/stand_m_spyglass_jt" ]
+
+      bridgesoldiersword3: [ -688.3305664063, -545.2055053711, 6.9593272209, 80.0000305176, "household_man/q301_thug_leaning_fwd" ]
+
+      bridgesoldiersword4: [ -687.8602294922, -543.9688110352, 6.9587445259, 102.8000259399, "default_man/stand_mw_talking_cheerful_jt" ]
+
+    statics: 
+      cartdetained: 
+        template: "CEntity:environment\\decorations\\decoration_sets\\vehicles\\decoration_set_farm_tools_little_cart_a_closed.w2ent"
+        pos: [ -672.844787598, 3283.67590332, 7.5156898499 ]
+        rot: [ 0.0, 0.0, -78.3999938965 ]
+              

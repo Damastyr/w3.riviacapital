@@ -1,0 +1,481 @@
+layers:
+  new_layer: 
+    world: "riviacapital"
+    #context: ""
+
+    statics: 
+      bridgebrazier: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -678.593261719, 387.57019043, 8.0306758881 ]
+        rot: [ 0.0, 0.0, -74.1999130249 ]
+
+      bridgebrazier_1: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -680.758422852, 390.577697754, 8.1986398697 ]
+        rot: [ 0.0, 0.0, -80.7999038696 ]
+
+      bridgebrazier_2: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -680.139831543, 394.454406738, 8.0386400223 ]
+        rot: [ 0.0, 0.0, -80.7999038696 ]
+
+      bridgebrazier_3: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -672.480102539, 396.128051758, 8.0306758881 ]
+        rot: [ 0.0, 0.0, -80.7999038696 ]
+
+      bridgebrazier_4: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -670.965148926, 389.262878418, 8.0306758881 ]
+        rot: [ 0.0, 0.0, -80.7999038696 ]
+
+      bridgebrazier_5: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -670.002746582, 393.001403809, 8.2343559265 ]
+        rot: [ 0.0, 0.0, -80.7999038696 ]
+
+      bridgebrazier_6: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -675.565307617, 367.449829102, 8.2343559265 ]
+        rot: [ 0.0, 0.0, -74.5999450684 ]
+
+      bridgebrazier_7: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -664.782653809, 369.957336426, 8.2343559265 ]
+        rot: [ 0.0, 0.0, -74.5999450684 ]
+
+      bridgebrazier_8: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -678.303649902, 427.237060547, 8.2343559265 ]
+        rot: [ 0.0, 0.0, -74.5999450684 ]
+
+      bridgebrazier_9: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -678.303649902, 427.237060547, 8.2343559265 ]
+        rot: [ 0.0, 0.0, -74.5999450684 ]
+
+      bridgeplatform: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\oxenfurt_bridge_platform.w2ent"
+        pos: [ -682.474365234, 419.730407715, 6.5092968941 ]
+        rot: [ 0.6000000238, 0.0, -76.4000015259 ]
+        scale: [ 1.0, 0.6499999762, 1.0 ]
+
+      bridgeplatform_2: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\ropes\\bob_ropes_line_hanging_long_a_px.w2ent"
+        pos: [ -678.854125977, 415.83795166, 10.7492733002 ]
+        rot: [ 90.0, 355.0, -76.4000015259 ]
+
+      bridgeplatform_3: 
+        template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\ropes\\bob_ropes_line_hanging_long_a_px.w2ent"
+        pos: [ -684.955627441, 413.355285644, 10.7492733002 ]
+        rot: [ 90.0, 355.0, -309.7999877930 ]
+
+      bridgeplatform_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -686.443847656, 421.155761719, 13.3892908096 ]
+        rot: [ 90.0, 0.0, -53.9999847412 ]
+        scale: [ 2.0, 2.0, 0.5000000000 ]
+
+      bridgeplatform_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -686.677185059, 421.890991211, 14.7892894745 ]
+        rot: [ 90.0, 0.0, -64.4000244141 ]
+        scale: [ 2.0, 2.0, 1.0 ]
+
+      bridgeplatform_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -686.443847656, 421.155761719, 13.3892908096 ]
+        rot: [ 90.0, 0.0, -53.9999847412 ]
+        scale: [ 2.0, 2.0, 0.5000000000 ]
+
+      bridgeplatform_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -680.066955566, 422.747253418, 13.3892908096 ]
+        rot: [ 90.0, 0.0, -71.7999572754 ]
+        scale: [ 2.0, 2.0, 0.5000000000 ]
+
+      bridgeplatform_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -680.190246582, 423.043518066, 14.7713317871 ]
+        rot: [ 90.0, 0.0, -76.7999496460 ]
+        scale: [ 2.0, 2.0, 1.0 ]
+      beamstruct_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -683.57421875, 422.721923828, 13.3907136917 ]
+        rot: [ 90.0, 0.0, 14.3999967575 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      beamstruct_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -680.393981934, 424.019042969, 10.9507160187 ]
+        rot: [ 45.0, 0.0, 105.4000320435 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      beamstruct_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -681.54107666, 429.218688965, 11.8707151413 ]
+        rot: [ 45.0, 0.0, 281.1998901367 ]
+        scale: [ 2.0, 2.0, 1.2000000477 ]
+
+      beamstruct_12: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -688.291870117, 427.745422363, 11.8707151413 ]
+        rot: [ 45.0, 0.0, 281.1998901367 ]
+        scale: [ 2.0, 2.0, 1.2000000477 ]
+
+      beamstruct_13: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -683.488647461, 420.579040527, 15.7507123947 ]
+        rot: [ 0.0, 0.0, 14.3999996185 ]
+        scale: [ 2.0, 2.0, 1.3999999762 ]
+
+      beamstruct_17: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -682.696289062, 420.760070801, 14.7907123566 ]
+        rot: [ 90.0, 0.0, 14.3999967575 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      beamstruct_18: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -682.696289062, 420.760070801, 13.3907136917 ]
+        rot: [ 90.0, 0.0, 14.3999996185 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      beamstruct_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -683.820739746, 424.12512207, 14.7507123947 ]
+        rot: [ 90.0, 0.0, 11.7999982834 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      beamstruct_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -682.157897949, 431.428833008, 14.8227472305 ]
+        rot: [ 90.0, 0.0, 98.6000061035 ]
+        scale: [ 2.0, 2.0, 0.1000000015 ]
+
+      beamstruct_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -682.157897949, 431.428833008, 13.3827486038 ]
+        rot: [ 90.0, 0.0, 98.6000061035 ]
+        scale: [ 2.0, 2.0, 0.1000000015 ]
+
+      beamstruct_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -688.794799805, 430.024475098, 13.4627485275 ]
+        rot: [ 90.0, 0.0, 98.6000061035 ]
+        scale: [ 2.0, 2.0, 0.1000000015 ]
+
+      beamstruct_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -688.794799805, 430.024475098, 14.8227472305 ]
+        rot: [ 90.0, 0.0, 98.6000061035 ]
+        scale: [ 2.0, 2.0, 0.1000000015 ]
+
+      beamstruct_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -690.132568359, 429.397827148, 17.7427406311 ]
+        rot: [ 90.0, 0.0, 373.7998352051 ]
+        scale: [ 2.0, 2.0, 0.1000000015 ]
+
+      beamstruct_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -680.581298828, 431.290039062, 17.7827415466 ]
+        rot: [ 90.0, 0.0, 373.7998352051 ]
+        scale: [ 2.0, 2.0, 0.1000000015 ]
+
+      beamstruct_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -686.680175781, 422.221801758, 10.9507160187 ]
+        rot: [ 45.0, 0.0, 112.3999404907 ]
+        scale: [ 2.0, 2.0, 2.0 ]
+
+      braziersbridge: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -674.798095703, 371.291198731, 8.0436258316 ]
+        rot: [ 0.0, 0.0, 4.5999999046 ]
+
+      braziersbridge_1: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -667.228271484, 373.048522949, 8.0436258316 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_10: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -695.122192383, 491.82623291, 8.0306758881 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_11: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -697.239685059, 502.183990478, 8.0306758881 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_12: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -694.480041504, 497.378936768, 8.2306756973 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_13: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -705.096679688, 494.949066162, 8.2306756973 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_14: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -697.21887207, 459.472839356, 8.2306756973 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_15: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -686.541198731, 461.903533935, 8.2306756973 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_16: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\bridge_gate\\bridge_gate_brazier_rigid.w2ent"
+        pos: [ -685.333740234, 430.347167969, 17.7507095337 ]
+        rot: [ 0.0, 0.0, 11.0 ]
+
+      braziersbridge_17: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -689.128356934, 424.34967041, 8.2306756973 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_2: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -665.627319336, 366.092590332, 8.0436258316 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_3: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -673.30871582, 364.521240234, 8.0436258316 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_4: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -686.961730957, 456.468994141, 8.0436258316 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_5: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -694.627563477, 454.733459473, 8.0436258316 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_6: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -689.366455078, 466.606933594, 8.0436258316 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_7: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -696.770751953, 464.899505615, 8.0436258316 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_8: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -704.773193359, 500.501098633, 8.0436258316 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      braziersbridge_9: 
+        template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
+        pos: [ -702.608947754, 490.283203125, 8.0436258316 ]
+        rot: [ 0.0, 0.0, 14.4000005722 ]
+
+      bridgechains: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\oxenfurt_bridge_chain.w2ent"
+        pos: [ -683.666748047, 412.721496582, 13.7864046097 ]
+        rot: [ 330.0, 0.0, -74.4000625610 ]
+
+      bridgechains_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\oxenfurt_bridge_chain.w2ent"
+        pos: [ -678.202514648, 414.099792481, 13.7864046097 ]
+        rot: [ 330.0, 0.0, -76.8000717163 ]
+
+      bridgechains_3: 
+        template: "W3MonsterClue:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q702_hunt\\entities\\q702_water_mill_wheel.w2ent"
+        pos: [ -681.296325684, 421.221374512, 17.6157169342 ]
+        rot: [ 0.0, 0.0, -75.4000854492 ]
+        scale: [ 0.3000000119, 1.0, 0.3000000119 ]
+
+      bridgechains_4: 
+        template: "CItemEntity:dlc\\bob\\data\\items\\weapons\\unique\\stone_wheel__giant_weapon.w2ent"
+        pos: [ -681.653991699, 421.048156738, 17.7357196808 ]
+        rot: [ 90.0, 90.0, 13.3998994827 ]
+
+      bridgechains_5: 
+        template: "CItemEntity:dlc\\bob\\data\\items\\weapons\\unique\\stone_wheel__giant_weapon.w2ent"
+        pos: [ -680.787109375, 421.232666016, 17.7357196808 ]
+        rot: [ 90.0, 90.0, 192.7999572754 ]        
+        
+      bridecoal_1: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\coal_big_fire_complex.w2ent"
+        pos: [ -686.285766602, 430.725585938, 12.8787679672 ]
+        rot: [ 0.0, 0.0, 0.0 ]
+
+      bridgecoal: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\coal_big_fire_complex.w2ent"
+        pos: [ -685.703613281, 430.705566406, 12.8787679672 ]
+        rot: [ 0.0, 0.0, 0.0 ]
+
+      bridgecoal_2: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\coal_big_fire_complex.w2ent"
+        pos: [ -685.248535156, 430.99621582, 12.8787679672 ]
+        rot: [ 0.0, 0.0, 0.0 ]
+
+      bridgecoal_3: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\coal_big_fire_complex.w2ent"
+        pos: [ -684.680847168, 429.585571289, 12.8787679672 ]
+        rot: [ 0.0, 0.0, 0.0 ]        
+    statics.shadows: 
+      bridgetowerfront_23: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\braziers_wall_chain_bounce.w2ent"
+        pos: [ -657.782348633, 333.600219727, 4.9736628532 ]
+        rot: [ 0.0, 0.0, 95.1999816895 ]
+
+      bridgetowerfront_24: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\braziers_wall_chain_bounce.w2ent"
+        pos: [ -664.871276856, 331.776672363, 4.9736628532 ]
+        rot: [ 0.0, 0.0, 95.1999816895 ]
+
+      bridgetowerfront_25: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\braziers_wall_chain_bounce.w2ent"
+        pos: [ -666.329895019, 339.416931152, 5.8936619759 ]
+        rot: [ 0.0, 0.0, 196.4000091553 ]
+
+      bridgetowerfront_26: 
+        template: "CGameplayEntity:environment\\decorations\\light_sources\\complex\\braziers_wall_chain_bounce.w2ent"
+        pos: [ -660.638916016, 343.91784668, 6.4536614418 ]
+        rot: [ 0.0, 0.0, 289.4000854492 ]
+
+        
+      bridgetowerfront: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b_rails.w2ent"
+        pos: [ -674.861206055, 388.50390625, 5.1162099838 ]
+        rot: [ 0.0, 0.0, 103.7999496460 ]
+
+      bridgetowerfront_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b_rails.w2ent"
+        pos: [ -688.516113281, 447.146362305, 5.1162099838 ]
+        rot: [ 0.0, 0.0, 103.7999496460 ]
+
+      bridgetowerfront_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wall_medium_flat.w2ent"
+        pos: [ -666.510253906, 336.555114746, 0.9022808075 ]
+        rot: [ 0.0, 0.0, 105.7999114990 ]
+        scale: [ 1.3999999762, 1.0, 1.3999999762 ]
+
+      bridgetowerfront_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_outhouse.w2ent"
+        pos: [ -661.469360352, 332.793457031, 7.6362075806 ]
+        rot: [ 0.0, 0.0, 13.7999382019 ]
+
+      bridgetowerfront_12: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamred_floor_roof_outhouse_a.w2ent"
+        pos: [ -659.790649414, 333.199035644, 8.9962062836 ]
+        rot: [ 0.0, 0.0, 13.7999382019 ]
+
+      bridgetowerfront_13: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamred_floor_roof_outhouse_a.w2ent"
+        pos: [ -663.175720215, 332.422851562, 9.1283664703 ]
+        rot: [ 0.0, 0.0, 13.7999382019 ]
+
+      bridgetowerfront_14: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wall_medium_flat.w2ent"
+        pos: [ -666.157836914, 337.269104004, 3.3179721832 ]
+        rot: [ 0.0, 0.0, 105.1998901367 ]
+
+      bridgetowerfront_15: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wall_medium_flat.w2ent"
+        pos: [ -664.72857666, 335.681457519, 0.0379741564 ]
+        rot: [ 0.0, 0.0, 105.1998901367 ]
+        scale: [ 0.5000000000, 1.2000000477, 1.3999999762 ]
+
+      bridgetowerfront_16: 
+        template: "CGameplayEntity:gameplay\\interactive_objects\\doors\\fake_door\\fake_door_basement_door_a.w2ent"
+        pos: [ -664.116088867, 335.719482422, 1.9723541737 ]
+        rot: [ 0.0, 0.0, 103.7998352051 ]
+
+      bridgetowerfront_17: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_house_fake_door_cover.w2ent"
+        pos: [ -664.299926758, 336.430358887, 1.9323542118 ]
+        rot: [ 0.0, 0.0, 104.7998199463 ]
+
+      bridgetowerfront_18: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wall_medium_flat.w2ent"
+        pos: [ -661.898071289, 335.537841797, 9.0536603928 ]
+        rot: [ 0.0, 90.0, 196.3999938965 ]
+        scale: [ 0.8500000238, 1.0, 1.2000000477 ]
+
+      bridgetowerfront_19: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_square.w2ent"
+        pos: [ -661.797668457, 335.40826416, 8.4136610031 ]
+        rot: [ 0.0, 0.0, 196.1999969482 ]
+
+      bridgetowerfront_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b_rails.w2ent"
+        pos: [ -690.622924805, 455.807861328, 5.1162099838 ]
+        rot: [ 0.0, 0.0, 103.7999496460 ]
+        scale: [ 0.6499999762, 1.0, 1.0 ]
+
+      bridgetowerfront_20: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_square.w2ent"
+        pos: [ -664.644226074, 334.588317871, 8.4136610031 ]
+        rot: [ 0.0, 0.0, 196.1999969482 ]
+
+      bridgetowerfront_21: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_square.w2ent"
+        pos: [ -665.734436035, 338.437194824, 8.4136610031 ]
+        rot: [ 0.0, 0.0, 196.1999969482 ]
+
+      bridgetowerfront_22: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_square.w2ent"
+        pos: [ -662.587036133, 339.363647461, 8.4136610031 ]
+        rot: [ 0.0, 0.0, 196.1999969482 ]
+
+      bridgetowerfront_27: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b_rails.w2ent"
+        pos: [ -669.406982422, 366.485656738, 5.2362093925 ]
+        rot: [ 350.0, 0.0, 103.8000030518 ]
+
+      bridgetowerfront_28: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b_rails.w2ent"
+        pos: [ -665.986877441, 352.645202637, 2.5962119102 ]
+        rot: [ 350.0, 0.0, 103.8000030518 ]
+        scale: [ 0.6499999762, 1.0, 1.0 ]
+
+      bridgetowerfront_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b_rails.w2ent"
+        pos: [ -696.916687012, 481.548706055, 5.0588498116 ]
+        rot: [ 0.0, 0.0, 103.7999496460 ]
+
+      bridgetowerfront_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b_rails.w2ent"
+        pos: [ -699.014404297, 490.433990478, 5.0588498116 ]
+        rot: [ 0.0, 0.0, 103.7999496460 ]
+        scale: [ 0.6499999762, 1.0, 1.0 ]
+
+      bridgetowerfront_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b_rails.w2ent"
+        pos: [ -703.633117676, 511.905426025, 5.0588498116 ]
+        rot: [ 0.0, 0.0, 103.7999496460 ]
+        scale: [ 0.6499999762, 1.0, 1.0 ]
+
+      bridgetowerfront_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_archway_rich_brick.w2ent"
+        pos: [ -661.541137695, 332.916992188, 0.9222792387 ]
+        rot: [ 0.0, 0.0, 16.1999454498 ]
+
+      bridgetowerfront_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_archway_rich_brick.w2ent"
+        pos: [ -664.145751953, 342.346740723, 2.4822778702 ]
+        rot: [ 0.0, 0.0, 16.1999454498 ]
+
+      bridgetowerfront_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_stone_stairs_house_f3_destroyed_brick.w2ent"
+        pos: [ -661.669677734, 338.74230957, -3.8377199173 ]
+        rot: [ 0.0, 0.0, 16.1999454498 ]
+        scale: [ 0.6999999881, 0.6499999762, 1.0 ]
+
+      bridgetowerfront_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wall_medium_flat.w2ent"
+        pos: [ -659.061401367, 338.671203613, 0.8822806478 ]
+        rot: [ 0.0, 0.0, 105.1999206543 ]
+        scale: [ 1.3999999762, 1.0, 1.3999999762 ]        

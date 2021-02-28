@@ -1,0 +1,663 @@
+layers:
+  lake_mist: 
+    world: "riviacapital"
+    #context: ""
+
+    statics.particles: 
+      fog: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1195.9820556641, 650.5045776367, -1.2266454697 ]
+          rot: [ 0.0, 0.0, 44.9000244141 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog2: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1227.8968505859, 583.4996948242, -1.2266454697 ]
+          rot: [ 0.0, 0.0, 44.9000244141 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1336.2537841797, 660.6614990234, -1.2266454697 ]
+          rot: [ 0.0, 0.0, 44.9000244141 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_1: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1079.1462402344, 689.6514282227, -1.2266454697 ]
+          rot: [ 0.0, 0.0, 44.9000244141 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_10: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1410.1508789063, 730.8519897461, 15.4133567810 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_11: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1467.9100341797, 776.0923461914, 28.1333446503 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_12: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1137.6035156250, 682.1925659180, 0.5333676338 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_13: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1020.5797119141, 560.0640869141, 0.5333676338 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_14: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1123.4653320313, 490.7784118652, 0.5333676338 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_15: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1199.7985839844, 419.1740417480, 51.0134391785 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_16: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1199.8242187500, 419.1895751953, 22.2133159637 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_17: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1239.0179443359, 514.6447143555, 41.9733314514 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_18: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1019.4020385742, 405.0619812012, 2.6132893562 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_19: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -919.9014282227, 566.5369873047, 2.6132893562 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_2: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1026.4775390625, 812.4096069336, -1.2266454697 ]
+          rot: [ 0.0, 0.0, 44.9000244141 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_20: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -838.1384277344, 648.3392333984, 2.6132845879 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_21: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -833.7101440430, 533.1450195313, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_22: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -931.4935302734, 479.1452636719, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_23: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -770.8648681641, 421.1148071289, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_24: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -686.3800048828, 462.3913879395, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_25: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -575.5865478516, 479.4847412109, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_26: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -608.7146606445, 387.8530273438, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_27: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -731.4463500977, 345.8717041016, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_28: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -462.4868164063, 441.7604064941, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_29: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -395.4299316406, 428.6601257324, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_3: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1042.3585205078, 876.4963989258, -1.9466447830 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_30: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -410.4466247559, 572.5802612305, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_31: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -293.2880249023, 589.8352661133, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_32: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -322.8019104004, 471.7707519531, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_33: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -199.6649627686, 459.4329833984, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_34: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -205.3124389648, 566.2600708008, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_35: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -94.2709884644, 552.7789916992, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_36: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -3.7603425980, 628.6936035156, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_37: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 38.2172126770, 733.0084228516, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_38: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 123.1553115845, 793.4295043945, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_39: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 48.9930801392, 521.2640380859, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 159.3000183105 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_4: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1106.8060302734, 831.9780883789, -1.9466447830 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_40: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 121.7416229248, 461.0650024414, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 159.3000183105 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_41: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 181.2542724609, 896.9306640625, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 159.3000183105 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_42: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 210.3072814941, 974.4633789063, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 159.3000183105 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_43: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 56.4857215881, 875.6996459961, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 159.3000183105 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_44: 
+        .type: "CEntity"
+        transform: 
+          pos: [ 60.1338882446, 992.5430297852, -0.5067154765 ]
+          rot: [ 0.0, 0.0, 159.3000183105 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_5: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1241.4663085938, 735.7338867188, -1.9466447830 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_6: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1264.7973632813, 571.6199340820, 24.5333480835 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_7: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1394.6422119141, 627.4105224609, 30.7733421326 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_8: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1261.5061035156, 655.3338623047, 17.5734119415 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false
+
+      fog3_9: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -1394.6422119141, 627.4105224609, 17.3333549500 ]
+          rot: [ 0.0, 0.0, 103.5000228882 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q311_fog_area_huge.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
+            isStreamed: false

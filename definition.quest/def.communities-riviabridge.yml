@@ -1,0 +1,132 @@
+communities:
+  bridge:
+    actors:
+      bridgerepair:    
+        template: dlc\bob\data\gameplay/community/community_npcs/vineyard\toussaint_peasant_man.w2ent    
+      bridgedetainedman:    
+        template: dlc\bob\data\gameplay/community/community_npcs/vineyard\toussaint_peasant_man.w2ent
+      bridgedetainedwoman:    
+        template: dlc\bob\data\gameplay/community/community_npcs/vineyard\toussaint_peasant_woman.w2ent  
+      bridgedetainedhorse:
+        template: characters\npc_entities\animals\horse\horse_vehicle.w2ent        
+      bridgesoldierbow1:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier_range_bow.w2ent
+      bridgesoldierbow2:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier_range_bow.w2ent
+      bridgesoldierbow3:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier_range.w2ent
+      bridgesoldierbow4:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier_range.w2ent
+      bridgehalberd1:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier_walk_with_halberd.w2ent
+      bridgehalberd2:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier_walk_with_halberd.w2ent
+      bridgesoldierspy1:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier_torch.w2ent
+      bridgesoldierspy2:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier_torch.w2ent
+      bridgesoldierdetain1:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier.w2ent
+      bridgesoldierdetain2:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier.w2ent
+      bridgesoldierdetain3:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier.w2ent
+      bridgesoldierspitting1:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier.w2ent
+      bridgesoldiersword3:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier_sword.w2ent
+      bridgesoldiersword4:    
+        template: gameplay/community/community_npcs/novigrad/oxenfurt/redanian_soldier_sword.w2ent
+        
+    phases:
+      phase1:
+        bridgerepair:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgerepair                                       
+        bridgedetainedman:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgedetainedman                                       
+        bridgedetainedwoman:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgedetainedwoman                                     
+        bridgedetainedhorse:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgedetainedhorse                                     
+        bridgesoldierbow1:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgesoldierbow1 
+        bridgesoldierbow2:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgesoldierbow2 
+        bridgesoldierbow3:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgesoldierbow3 
+        bridgesoldierbow4:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgesoldierbow4
+        bridgehalberd1:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgehalberd1
+        bridgehalberd2:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgehalberd2              
+        bridgesoldierspy1:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgesoldierspy1
+        bridgesoldierspy2:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgesoldierspy2
+        bridgesoldierdetain1:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgesoldierdetain1
+        bridgesoldierdetain2:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgesoldierdetain2
+        bridgesoldierdetain3:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgesoldierdetain3
+        bridgesoldierspitting1:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgesoldierspitting1
+        bridgesoldiersword3:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgesoldiersword3
+        bridgesoldiersword4:
+          #appearance: bob_bard_06              
+          actionpoints:
+            "00:00": 
+              - riviacapital/bridgesoldiersword4

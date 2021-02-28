@@ -1,0 +1,738 @@
+layers:
+  waterfall: 
+    world: "riviacapital"
+    #context: ""
+    areas.env: 
+      mistwaterfall: 
+        .type: "CGameplayEntity"
+        transform: 
+          pos: [ -1179.4670410156, 731.1261596680, 0.1001281738 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          env: 
+            .type: "CAreaEnvironmentComponent"
+            environmentDefinition: "quests\\part_2\\quest_files\\q106_tower\\entities\\env_mist_q106.env"
+            priority: 0
+            blendInTime: 0.0
+            blendOutTime: 0.0
+            terrainBlendingDistance: 1.0
+            # blendingScale: 0.0
+            #blendAboveAndBelow: false
+            #blendingDistance: 0.0
+            height: 20.0
+            localPoints: 
+              - [ 88.4792480469, 6.1472167969, 0.0, 1.0 ]
+              - [ -22.1813964844, 18.2760009766, 0.0, 1.0 ]
+              - [ -474.8280029297, 71.1071777344, 0.0, 1.0 ]
+              - [ -53.8352050781, -302.0, 0.0, 1.0 ]
+              - [ 85.2268066406, -63.1254882813, 0.0, 1.0 ]
+    areas.sound: 
+      waterfallnear: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1430.69946289, 620.626342773, -166.115447998 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_dyn_ext_waterfall_3_big_45m"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_dyn_ext_waterfall_3_big_45m"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 2500.0
+            #maxDistanceVertical: 2500.0
+            #parameterEnteringTime: 100.0
+            #parameterExitingTime: 100.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_dyn_waterfalls.bnk" ]
+            #triggerPriority: 0
+            height: 2000.0
+            localPoints: 
+              - [ 148.7089843750, 75.1788635254, 0.0, 1.0 ]
+              - [ 41.0780029297, 185.3225097656, 0.0, 1.0 ]
+              - [ -134.3259277344, 158.0771636963, 0.0, 1.0 ]
+              - [ -42.8950195313, -46.9101867676, 0.0, 1.0 ]
+              - [ 40.7519531250, -69.8111267090, 0.0, 1.0 ]
+      waterfallaway: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1430.69946289, 620.626342773, -166.115447998 ]
+            scale: [ 1.35, 1.35, 1.35 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_g_water_STATIC_river_medium_wide_1"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_g_water_STATIC_river_medium_wide_1"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_global_w129.bnk" ]
+            #triggerPriority: 0
+            height: 2000.0
+            localPoints: 
+              - [ 148.7089843750, 75.1788635254, 0.0, 1.0 ]
+              - [ 41.0780029297, 185.3225097656, 0.0, 1.0 ]
+              - [ -134.3259277344, 158.0771636963, 0.0, 1.0 ]
+              - [ -42.8950195313, -46.9101867676, 0.0, 1.0 ]
+              - [ 40.7519531250, -69.8111267090, 0.0, 1.0 ]
+      waterfallfaraway: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1430.69946289, 620.626342773, -166.115447998 ]
+            scale: [ 2.0, 2.0, 2.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_nml_g_EM_water_fall_into_water_medium"
+              #reverbName: ""
+              #paramName: ""
+            .type: "CSoundAmbientAreaComponent"
+            soundEvents: "amb_nml_g_EM_water_fall_into_water_medium"
+            #reverb: "<SReverbDefinition>"
+            #maxDistance: 0.0
+            #maxDistanceVertical: 0.0
+            #parameterEnteringTime: 0.0
+            #parameterExitingTime: 0.0
+            #parameters: "<SSoundGameParameterValue[]>"
+            banksDependency: [ "amb_global_w143.bnk" ]
+            #triggerPriority: 0
+            height: 2000.0
+            localPoints: 
+              - [ 148.7089843750, 75.1788635254, 0.0, 1.0 ]
+              - [ 41.0780029297, 185.3225097656, 0.0, 1.0 ]
+              - [ -134.3259277344, 158.0771636963, 0.0, 1.0 ]
+              - [ -42.8950195313, -46.9101867676, 0.0, 1.0 ]
+              - [ 40.7519531250, -69.8111267090, 0.0, 1.0 ]              
+    areas.water: 
+      waterfall: 
+        .type: "CGameplayEntity"
+        transform: 
+            pos: [ -1529.04431152, 645.629852295, 81.2707138062 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          water: 
+            .type: "CWaterComponent"
+            localPoints: 
+              - [ 9.2918701172, 2.3192443848, 0.0, 1.0 ]
+              - [ 7.6529541016, 45.9618835449, 0.0, 1.0 ]
+              - [ -11.7326660156, 20.3371887207, 0.0, 1.0 ]
+              - [ -10.0491943359, 9.5355834961, 0.0, 1.0 ]
+              - [ 0.6180419922, -1.9020996094, 0.0, 1.0 ]
+      waterfall2: 
+        .type: "CGameplayEntity"
+        transform: 
+            pos: [ -1526.21179199, 645.906829834, 68.7908248901 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          water: 
+            .type: "CWaterComponent"
+            localPoints: 
+              - [ 19.6336669922, -16.3618774414, 0.0, 1.0 ]
+              - [ 80.0153808594, 119.5972137451, 0.0, 1.0 ]
+              - [ 17.2070312500, 134.0136566162, 0.0, 1.0 ]
+              - [ -18.0642089844, 7.0484313965, 0.0, 1.0 ]
+              - [ 0.9339599609, -4.3116760254, 0.0, 1.0 ]
+    statics:
+      actualwaterfall: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\river_waterfall_start.w2ent"
+        pos: [ -1505.30981445, 650.248199463, 66.359375 ]
+        rot: [ 0.0, 0.0, -107.8000106812 ]
+        scale: [ 100.0, 100.0, 100.0 ]
+
+      actualwaterfall_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\river_waterfall_start.w2ent"
+        pos: [ -1496.92944336, 672.18560791, 67.1193389893 ]
+        rot: [ 0.0, 0.0, -108.3999938965 ]
+        scale: [ 100.0, 100.0, 101.0 ]
+
+      actualwaterfall_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_f.w2ent"
+        pos: [ -1492.93017578, 634.566162109, 22.0967235565 ]
+        rot: [ 0.0, 0.0, 18.0000133514 ]
+        scale: [ 10.0, 10.0, 10.0 ]
+
+      actualwaterfall_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_c_moss.w2ent"
+        pos: [ -1725.4855957, 785.918395996, 159.057632446 ]
+        rot: [ 90.0, 0.0, 8.9999885559 ]
+        scale: [ 20.0, 20.0, 21.0 ]
+
+      actualwaterfall_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\river_waterfall_start.w2ent"
+        pos: [ -1490.13171387, 694.220062256, 67.1193389893 ]
+        rot: [ 0.0, 0.0, -108.3999938965 ]
+        scale: [ 100.0, 100.0, 100.0 ]
+
+      actualwaterfall_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\river_waterfall_start.w2ent"
+        pos: [ -1481.78125, 716.246459961, 68.1993103027 ]
+        rot: [ 0.0, 0.0, -108.3999938965 ]
+        scale: [ 100.0, 100.0, 101.0 ]
+
+      actualwaterfall_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\river_waterfall_start.w2ent"
+        pos: [ -1473.41186523, 737.173248291, 68.1993103027 ]
+        rot: [ 0.0, 0.0, -123.9999847412 ]
+        scale: [ 100.0, 100.0, 100.0 ]
+
+      actualwaterfall_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\river_waterfall_start.w2ent"
+        pos: [ -1466.1776123, 755.309875488, 68.1993103027 ]
+        rot: [ 0.0, 0.0, -123.9999847412 ]
+        scale: [ 100.0, 100.0, 101.0 ]
+
+      actualwaterfall_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\river_waterfall_start.w2ent"
+        pos: [ -1528.40197754, 662.656433106, 81.6391906738 ]
+        rot: [ 0.0, 0.0, -91.5999832153 ]
+        scale: [ 100.0, 20.0, 20.0 ]
+
+      actualwaterfall_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\river_waterfall_start.w2ent"
+        pos: [ -1488.62780762, 749.991897583, 78.3592681885 ]
+        rot: [ 0.0, 0.0, -119.5999984741 ]
+        scale: [ 100.0, 100.0, 101.0 ]
+
+      actualwaterfall_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_c_underwater.w2ent"
+        pos: [ -1490.04345703, 717.006011963, -3.0008041859 ]
+        rot: [ 0.0, 0.0, -6.3999905586 ]
+        scale: [ 10.0, 10.0, 10.0 ]
+
+      actualwaterfall_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_h.w2ent"
+        pos: [ -1447.08166504, 763.760772705, 17.2967281342 ]
+        rot: [ 0.0, 0.0, -6.3999905586 ]
+        scale: [ 10.0, 10.0, 11.0 ]
+
+      waterfallcliffsouth: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_a_moss.w2ent"
+        pos: [ -1411.1104736328, 611.1476440430, -25.4259471893 ]
+        rot: [ 0.0, 0.0, -170.0000305176 ]
+        scale: [ 10.0, 10.0, 11.0 ]
+
+      waterfallcliffsouth_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_c.w2ent"
+        pos: [ -1446.2779541016, 639.1820068359, -20.6259517670 ]
+        rot: [ 0.0, 0.0, -22.0000267029 ]
+        scale: [ 10.0, 10.0, 10.0 ]
+
+      waterfallcliffsouth_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_a_moss.w2ent"
+        pos: [ -1328.3532714844, 749.0319824219, 5.7113933563 ]
+        rot: [ 90.0, 0.0, -177.3000183105 ]
+        scale: [ 3.0, 3.0, 3.0 ]
+        
+    statics.particles: 
+      aw_1: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1517.73303223, 673.13394165, 74.5632553101 ]
+            rot: [ 0.0, 0.0, -34.3999786377 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_10: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1464.94055176, 750.545623779, 67.1125030518 ]
+            rot: [ 0.0, 0.0, -14.9999771118 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_11: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1463.19812012, 749.328063965, 61.1125068665 ]
+            rot: [ 0.0, 0.0, -14.9999771118 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_12: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1456.01574707, 754.988189697, 63.6056976318 ]
+            rot: [ 0.0, 0.0, -14.9999771118 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_13: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1509.12280273, 749.627288818, 77.2855834961 ]
+            rot: [ 0.0, 0.0, -14.9999771118 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_14: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1468.92004395, 738.052581787, 68.0724945068 ]
+            rot: [ 0.0, 0.0, -14.9999771118 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_15: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1464.94055176, 750.545623779, 65.1925201416 ]
+            rot: [ 0.0, 0.0, -14.9999771118 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_2: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1507.70495605, 649.734619141, 68.5633087158 ]
+            rot: [ 0.0, 0.0, -34.3999786377 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_3: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1512.15856934, 653.246948242, 69.7524795532 ]
+            rot: [ 0.0, 0.0, -34.3999786377 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_4: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1506.77172852, 655.792114258, 69.7524795532 ]
+            rot: [ 0.0, 0.0, -34.3999786377 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_5: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1494.96020508, 680.599212647, 69.7524795532 ]
+            rot: [ 0.0, 0.0, -34.3999786377 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_6: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1496.91784668, 678.953765869, 69.7524795532 ]
+            rot: [ 0.0, 0.0, -34.3999786377 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_7: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1494.44555664, 684.264190674, 69.7524795532 ]
+            rot: [ 0.0, 0.0, -34.3999786377 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_8: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1482.08898926, 701.952972412, 67.1125030518 ]
+            rot: [ 0.0, 0.0, -34.3999786377 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      aw_9: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1475.88781738, 719.988037109, 67.1125030518 ]
+            rot: [ 0.0, 0.0, -14.9999771118 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      water_10: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1430.11450195, 676.896820068, 3.3402607441 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      water_11: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1438.19555664, 668.983642578, 3.3402607441 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      water_12: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1434.99230957, 732.744384766, 3.3402607441 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      water_13: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1406.57885742, 736.494644165, 3.3402607441 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      water_14: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1444.97351074, 705.505218506, 7.6602573395 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      water_15: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1441.65124512, 718.988220215, 7.6602573395 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      water_16: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1444.57507324, 677.024261475, 7.4202575684 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      water_17: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1464.49511719, 687.472442627, 8.8602561951 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      water_18: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1414.90966797, 667.572143555, 0.9402606487 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      water_19: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1414.53540039, 676.435577393, 0.9402606487 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      water_2: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1443.68212891, 703.509246826, 0.1002608463 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_bottom_foam_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_bottom_foam_large.w2p"
+            isStreamed: false
+
+      water_20: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1374.17089844, 655.366668701, 3.3402607441 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q402_mist_island_fog.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q402\\q402_mist_island_fog.w2p"
+            isStreamed: false
+
+      water_21: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1378.60290527, 715.630645752, 3.3402607441 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q402_mist_island_fog.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q402\\q402_mist_island_fog.w2p"
+            isStreamed: false
+
+      water_22: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1370.06298828, 685.444213867, 3.3402607441 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "q402_mist_island_fog.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "fx\\quest\\q402\\q402_mist_island_fog.w2p"
+            isStreamed: false
+
+      water_3: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1440.65209961, 675.012268066, 0.2202608287 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_bottom_foam_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_bottom_foam_large.w2p"
+            isStreamed: false
+
+      water_4: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1421.96508789, 660.329650879, 0.2202608287 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_bottom_foam_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_bottom_foam_large.w2p"
+            isStreamed: false
+
+      water_5: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1413.32263184, 685.257904053, 0.2202608287 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_bottom_foam_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_bottom_foam_large.w2p"
+            isStreamed: false
+
+      water_6: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1421.8939209, 712.715637207, 0.2202608287 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_bottom_foam_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_bottom_foam_large.w2p"
+            isStreamed: false
+
+      water_7: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1418.02441406, 717.204589844, 3.3402607441 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      water_8: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1426.22485352, 693.763763428, 3.3402607441 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+
+      water_9: 
+        .type: "CEntity"
+        transform: 
+            pos: [ -1425.31384277, 705.782745361, 3.3402607441 ]
+            rot: [ 0.0, 0.0, -95.6000061035 ]
+            scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          particles: 
+            .debug: 
+              proxytemplate: "waterfall_mist_large.w2ent"
+            .type: "CParticleComponent"
+            particleSystem: "dlc\\bob\\data\\fx\\environment\\water\\waterfall_mist_large.w2p"
+            isStreamed: false
+ 

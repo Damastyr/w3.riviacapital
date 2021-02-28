@@ -1,0 +1,5 @@
+      bridgeplatform_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\oxenfurt_bridge_platform.w2ent"
+        pos: [ -682.4743652344, -552.2695922852, 6.5092968941 ]
+        rot: [ 300.0, 0.0, -76.4000015259 ]
+        scale: [ 1.0, 0.6499999762, 1.0 ]
