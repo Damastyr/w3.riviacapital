@@ -23289,4 +23289,19 @@ entities:
           drawableFlags:
             - IsVisible
             - CastShadows
-          mesh: dlc\bob\data\environment\architecture\tournament\structures\bob_tournament_fence_3a.w2mesh                                                                                  
+          mesh: dlc\bob\data\environment\architecture\tournament\structures\bob_tournament_fence_3a.w2mesh         
+
+                                         
+  bob_sketch_fence_hor_vaulting_RC:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true
+          forceAutoHideDistance: 1000          
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: dlc\bob\data\environment\terrain_surroundings\fances\bob_sketch_fence_hor_beams.w2mesh           

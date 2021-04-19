@@ -31,7 +31,7 @@ layers:
 
       villagesouth1_2: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_palisade_gate.w2ent"
-        pos: [ -280.5382385254, -544.9621582031, 11.4228363037 ]
+        pos: [ -280.5382385254, -544.9621582031, 11.0228363037 ]
         rot: [ 0.0, 0.0, -247.2000122070 ]
 
       villagesouth1_3: 
@@ -68,3 +68,761 @@ layers:
         template: "CEntity:dlc\\bob\\data\\environment\\terrain_surroundings\\fances\\bob_sketch_fence_hor_vaulting.w2ent"
         pos: [ -286.0014038086, -519.9035644531, 11.5267734528 ]
         rot: [ 0.0, 0.0, -317.5998840332 ]
+      villagesouth1_10: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -288.8895568848, -517.3167114258, 11.6867733002 ]
+        rot: [ 0.0, 0.0, -309.5997924805 ]
+
+      villagesouth1_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -292.0817871094, -515.2495727539, 11.6867733002 ]
+        rot: [ 0.0, 0.0, -289.7997741699 ]
+
+      villagesouth1_12: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -295.8512573242, -513.8660278320, 11.6867733002 ]
+        rot: [ 0.0, 0.0, -296.5999145508 ]
+      villagesouth1_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -282.0798645020, -540.3851318359, 11.7828359604 ]
+        rot: [ 0.0, 0.0, -351.1999816895 ]
+
+      villagesouth1_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -282.3992919922, -536.5187377930, 11.7828359604 ]
+        rot: [ 0.0, 0.0, -373.8000488281 ]
+
+      villagesouth1_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -280.8165588379, -532.9835205078, 11.4867734909 ]
+        rot: [ 0.0, 0.0, -403.8001098633 ]
+
+      villagesouth1_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -280.0876770020, -529.6850585938, 11.6467733383 ]
+        rot: [ 0.0, 0.0, -344.4001159668 ]
+
+      villagesouth1_7: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -281.4962463379, -526.0715332031, 11.5267734528 ]
+        rot: [ 0.0, 0.0, -330.8001098633 ]
+
+      villagesouth1_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -283.4976196289, -522.8750000000, 11.5267734528 ]
+        rot: [ 0.0, 0.0, -322.1999206543 ]
+
+      villagesouth1_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -286.0014038086, -519.9035644531, 11.5267734528 ]
+        rot: [ 0.0, 0.0, -317.5998840332 ]        
+      southernvillage2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -279.3041381836, -549.0773925781, 11.2339563370 ]
+        rot: [ 0.0, 0.0, 0.0 ]
+
+      southernvillage2_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -280.2772216797, -552.5432128906, 11.1139564514 ]
+        rot: [ 0.0, 0.0, -31.8000011444 ]
+
+      southernvillage2_10: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_slim.w2ent"
+        pos: [ -317.3853759766, -566.3153686523, 11.7139558792 ]
+        rot: [ 0.0, 0.0, 49.0 ]
+
+      southernvillage2_100: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -313.1320190430, -629.0183715820, 11.3241977692 ]
+        rot: [ 0.0, 0.0, 454.1988525391 ]
+
+      southernvillage2_101: 
+        template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\entities\\nml_thatched_house_small_corner_exterior_closed.w2ent"
+        pos: [ -324.9879455566, -621.9822387695, 11.1288270950 ]
+        rot: [ 0.0, 0.0, 428.9988403320 ]
+
+      southernvillage2_102: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -322.2704162598, -628.5415649414, 19.3921928406 ]
+        rot: [ 180.0, 0.0, 248.7996826172 ]
+
+      southernvillage2_103: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -315.9839172363, -625.1517944336, 19.1921882629 ]
+        rot: [ 180.0, 0.0, 340.7997436523 ]
+
+      southernvillage2_104: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -319.1824645996, -618.6987915039, 19.6321983337 ]
+        rot: [ 180.0, 0.0, 427.7996520996 ]
+
+      southernvillage2_105: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -318.9753723145, -619.2229614258, 19.6321983337 ]
+        rot: [ 180.0, 0.0, 337.5995178223 ]
+
+      southernvillage2_106: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -322.3930664063, -612.3771972656, 19.6321983337 ]
+        rot: [ 180.0, 0.0, 428.5995178223 ]
+        scale: [ 1.0, 1.1000000238, 1.0 ]
+
+      southernvillage2_107: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -329.2682800293, -615.6384277344, 20.0722084045 ]
+        rot: [ 180.0, 0.0, 517.9993286133 ]
+
+      southernvillage2_108: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -331.1631469727, -620.6638793945, 19.9922065735 ]
+        rot: [ 180.0, 0.0, 519.1994018555 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+
+      southernvillage2_109: 
+        template: "CGameplayEntity:gameplay\\interactive_objects\\doors\\fake_door\\fake_door_poor_nov_door_a.w2ent"
+        pos: [ -327.2451171875, -616.4237670898, 11.4432525635 ]
+        rot: [ 0.0, 0.0, 608.3989868164 ]
+        scale: [ 1.5000000000, 1.0, 1.0 ]
+
+      southernvillage2_11: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_stairs_short.w2ent"
+        pos: [ -321.1203613281, -570.4412231445, 11.2228364944 ]
+        rot: [ 0.0, 0.0, -133.6000213623 ]
+
+      southernvillage2_110: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_wooden_window_frame_e.w2ent"
+        pos: [ -321.6025695801, -626.2617187500, 12.3207979202 ]
+        rot: [ 90.0, 0.0, 520.7999877930 ]
+        scale: [ 0.5000000000, 0.5000000000, 0.5000000000 ]
+
+      southernvillage2_111: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_wooden_window_frame_e.w2ent"
+        pos: [ -318.2915954590, -624.5618896484, 12.3317203522 ]
+        rot: [ 90.0, 0.0, 611.8003540039 ]
+        scale: [ 0.5000000000, 0.5000000000, 0.5000000000 ]
+
+      southernvillage2_112: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -318.2931518555, -624.5817871094, 12.3607978821 ]
+        rot: [ 0.0, 0.0, 610.8002319336 ]
+        scale: [ 0.8999999762, 0.8999999762, 1.0 ]
+
+      southernvillage2_113: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -321.6558227539, -626.2690429688, 12.3345499039 ]
+        rot: [ 0.0, 0.0, 521.3999023438 ]
+        scale: [ 0.8999999762, 0.8999999762, 0.8000000119 ]
+
+      southernvillage2_114: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -323.1198425293, -614.5925903320, 12.5571784973 ]
+        rot: [ 0.0, 0.0, 701.8004150391 ]
+        scale: [ 0.8999999762, 0.8999999762, 0.8000000119 ]
+
+      southernvillage2_115: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_wooden_window_frame_e.w2ent"
+        pos: [ -323.1365051270, -614.6391601563, 12.5171785355 ]
+        rot: [ 90.0, 0.0, 702.2001342773 ]
+        scale: [ 0.5000000000, 0.5000000000, 0.5000000000 ]
+
+      southernvillage2_116: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -315.0520935059, -621.4776000977, 11.4441976547 ]
+        rot: [ 0.0, 0.0, 465.9992065430 ]
+
+      southernvillage2_117: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -311.0757446289, -620.8735351563, 11.2441978455 ]
+        rot: [ 0.0, 0.0, 449.5992736816 ]
+
+      southernvillage2_118: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -332.2159423828, -623.8200073242, 11.0441980362 ]
+        rot: [ 0.0, 0.0, 411.9990539551 ]
+
+      southernvillage2_119: 
+        template: "CEntity:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q704_truth\\entities\\q704_deco_cart.w2ent"
+        pos: [ -281.9939270020, -625.2603149414, 10.6339569092 ]
+        rot: [ 0.0, 0.0, -183.0000152588 ]
+
+      southernvillage2_12: 
+        template: "CEntity:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q704_truth\\entities\\q704_deco_cart.w2ent"
+        pos: [ -302.1119384766, -620.0122070313, 11.4228363037 ]
+        rot: [ 0.0, 0.0, -218.4000396729 ]
+
+      southernvillage2_120: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted.w2ent"
+        pos: [ -357.2282104492, -563.0921020508, 11.4228363037 ]
+        rot: [ 0.0, 0.0, 530.1993408203 ]
+
+      southernvillage2_121: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_detail.w2ent"
+        pos: [ -357.2282104492, -563.0921020508, 11.4228363037 ]
+        rot: [ 0.0, 0.0, 530.1993408203 ]
+
+      southernvillage2_122: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_interior.w2ent"
+        pos: [ -357.2282104492, -563.0921020508, 11.4228363037 ]
+        rot: [ 0.0, 0.0, 530.1993408203 ]
+
+      southernvillage2_123: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_volume.w2ent"
+        pos: [ -357.2282104492, -563.0921020508, 11.4228363037 ]
+        rot: [ 0.0, 0.0, 530.1993408203 ]
+
+      southernvillage2_124: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_floor_stairs.w2ent"
+        pos: [ -359.9667053223, -566.5006103516, 11.8628358841 ]
+        rot: [ 0.0, 0.0, 440.1990051270 ]
+
+      southernvillage2_125: 
+        template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\thatched_smallest.w2ent"
+        pos: [ -354.5093688965, -568.0393676758, 11.3828363419 ]
+        rot: [ 0.0, 0.0, 350.9990844727 ]
+
+      southernvillage2_126: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_palisade_gate.w2ent"
+        pos: [ -375.7030944824, -568.2872924805, 11.3028364182 ]
+        rot: [ 0.0, 0.0, 246.7989501953 ]
+
+      southernvillage2_127: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -373.1295166016, -565.6950683594, 11.5828361511 ]
+        rot: [ 0.0, 0.0, 97.7990036011 ]
+
+      southernvillage2_128: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -369.7131958008, -565.2291870117, 11.5828361511 ]
+        rot: [ 0.0, 0.0, 88.7990264893 ]
+
+      southernvillage2_129: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -366.2737731934, -564.4352416992, 11.5828361511 ]
+        rot: [ 0.0, 0.0, 101.1990203857 ]
+
+      southernvillage2_13: 
+        template: "CEntity:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q704_truth\\entities\\q704_deco_cart.w2ent"
+        pos: [ -320.1703796387, -566.5702514648, 11.4228363037 ]
+        rot: [ 0.0, 0.0, -39.2000389099 ]
+
+      southernvillage2_130: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -375.2822265625, -572.0789794922, 11.5828361511 ]
+        rot: [ 0.0, 0.0, 229.5991210938 ]
+
+      southernvillage2_131: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -371.8619079590, -573.7291259766, 11.7028360367 ]
+        rot: [ 0.0, 0.0, 251.9990997314 ]
+
+      southernvillage2_132: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -367.9910888672, -575.3985595703, 11.5428361893 ]
+        rot: [ 0.0, 0.0, 237.1990966797 ]
+
+      southernvillage2_133: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -364.5676269531, -578.1303100586, 11.5428361893 ]
+        rot: [ 0.0, 0.0, 217.3990783691 ]
+
+      southernvillage2_134: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -362.1529541016, -581.0147705078, 11.5428361893 ]
+        rot: [ 0.0, 0.0, 228.9990997314 ]
+
+      southernvillage2_14: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -317.2379150391, -564.8179931641, 12.5428352356 ]
+        rot: [ 0.0, 0.0, -132.3999938965 ]
+
+      southernvillage2_15: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -316.7026062012, -564.1878662109, 14.3028335571 ]
+        rot: [ 0.0, 0.0, -39.5999832153 ]
+
+      southernvillage2_16: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -316.7026062012, -564.1878662109, 13.1828346252 ]
+        rot: [ 0.0, 0.0, -39.5999832153 ]
+
+      southernvillage2_17: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+        pos: [ -316.2103881836, -563.5783081055, 12.5428352356 ]
+        rot: [ 0.0, 0.0, -132.3999938965 ]
+
+      southernvillage2_18: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -316.7311401367, -564.1873779297, 13.4228343964 ]
+        rot: [ 90.0, 0.0, -39.4000015259 ]
+        scale: [ 2.0, 0.8999999762, 0.6999999881 ]
+
+      southernvillage2_19: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -316.7311401367, -564.1873779297, 13.8228340149 ]
+        rot: [ 90.0, 0.0, -39.4000015259 ]
+        scale: [ 2.0, 0.8999999762, 0.7099999785 ]
+
+      southernvillage2_2: 
+        template: "W3NoticeBoard:gameplay\\board\\notice_board_template.w2ent"
+        pos: [ -312.3888854980, -562.6757202148, 11.2628364563 ]
+        rot: [ 0.0, 0.0, -163.8000030518 ]
+
+      southernvillage2_20: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam_short.w2ent"
+        pos: [ -316.7410888672, -564.1884765625, 14.1028337479 ]
+        rot: [ 90.0, 0.0, -39.4000015259 ]
+        scale: [ 2.0, 0.8999999762, 0.7110000253 ]
+
+      southernvillage2_21: 
+        template: "CEntity:environment\\decorations\\trade\\market_stand_poor\\stall_tent_high_twoside_px.w2ent"
+        pos: [ -324.5380859375, -565.8848876953, 11.4228363037 ]
+        rot: [ 0.0, 0.0, -31.3999805450 ]
+
+      southernvillage2_22: 
+        template: "CEntity:environment\\decorations\\trade\\market_stand_poor\\stall_tent_high_twoside_px.w2ent"
+        pos: [ -354.7210083008, -588.3445434570, 11.4228363037 ]
+        rot: [ 0.0, 0.0, -31.3999805450 ]
+
+      southernvillage2_23: 
+        template: "CEntity:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q704_truth\\entities\\q704_deco_cart.w2ent"
+        pos: [ -353.3352661133, -595.1005859375, 11.4228363037 ]
+        rot: [ 0.0, 0.0, 144.5999450684 ]
+
+      southernvillage2_24: 
+        template: "CEntity:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q704_truth\\entities\\q704_deco_cart.w2ent"
+        pos: [ -352.1439819336, -598.2647705078, 11.4228363037 ]
+        rot: [ 0.0, 0.0, 131.9999389648 ]
+
+      southernvillage2_25: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\tents\\stall_tent_single_c2_px_dynamic.w2ent"
+        pos: [ -289.8809509277, -589.9813842773, 10.9028367996 ]
+        rot: [ 0.0, 0.0, 68.1999435425 ]
+
+      southernvillage2_26: 
+        template: "CEntity:environment\\decorations\\wooden_parts\\platform_slim.w2ent"
+        pos: [ -293.2385559082, -591.5267333984, 10.8394145966 ]
+        rot: [ 0.0, 0.0, -23.3999977112 ]
+
+      southernvillage2_27: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_white.w2ent"
+        pos: [ -276.3951721191, -608.2698364258, 10.6339569092 ]
+        rot: [ 0.0, 0.0, 83.4000015259 ]
+
+      southernvillage2_28: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_volume.w2ent"
+        pos: [ -276.3951721191, -608.2698364258, 10.6339569092 ]
+        rot: [ 0.0, 0.0, 83.4000015259 ]
+
+      southernvillage2_29: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_interior.w2ent"
+        pos: [ -276.3951721191, -608.2698364258, 10.6339569092 ]
+        rot: [ 0.0, 0.0, 83.4000015259 ]
+
+      southernvillage2_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -283.6492919922, -559.6049194336, 10.9939565659 ]
+        rot: [ 0.0, 0.0, -39.5999984741 ]
+
+      southernvillage2_30: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_detail.w2ent"
+        pos: [ -276.3951721191, -608.2698364258, 10.6339569092 ]
+        rot: [ 0.0, 0.0, 83.4000015259 ]
+
+      southernvillage2_31: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\loam_houses\\loam_house_suburbian.w2ent"
+        pos: [ -276.7637939453, -598.3936767578, 14.9939527512 ]
+        rot: [ 358.0, 0.0, -105.4000091553 ]
+
+      southernvillage2_32: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_loam_roofa_short_thatch.w2ent"
+        pos: [ -279.8124694824, -597.5514526367, 10.1762294769 ]
+        rot: [ 0.0, 0.0, -8.4000024796 ]
+        scale: [ 0.8000000119, 0.6999999881, 0.6999999881 ]
+
+      southernvillage2_33: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_loam_roofa_short_thatch.w2ent"
+        pos: [ -273.7112426758, -599.0374145508, 9.1362304688 ]
+        rot: [ 359.0, 0.0, -188.6000061035 ]
+        scale: [ 0.7500000000, 0.8000000119, 0.7500000000 ]
+
+      southernvillage2_34: 
+        template: "CEntity:dlc\\bob\\data\\environment\\architecture\\streets_elements\\poor\\entities\\bob_poor_elements_roof_01_a.w2ent"
+        pos: [ -278.9365844727, -597.9079589844, 19.9122924805 ]
+        rot: [ 359.0, 0.0, -368.4002990723 ]
+        scale: [ 0.3000000119, 0.3000000119, 0.6000000238 ]
+
+      southernvillage2_39: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamred_wall_with_windows.w2ent"
+        pos: [ -283.1163024902, -595.7363281250, 12.6239757538 ]
+        rot: [ 359.0, 0.0, -457.8002929688 ]
+
+      southernvillage2_57: 
+        template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\entities\\nml_thatched_house_big_exterior.w2ent"
+        pos: [ -292.6673583984, -627.1942749023, 11.4610147476 ]
+        rot: [ 359.0, 0.0, -39.6001281738 ]
+
+      southernvillage2_58: 
+        template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\entities\\nml_thatched_house_small_exterior_closed.w2ent"
+        pos: [ -291.8645019531, -634.9421997070, 10.7010154724 ]
+        rot: [ 359.0, 0.0, 50.1998825073 ]
+
+      southernvillage2_59: 
+        template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\thatched_well_old_empty.w2ent"
+        pos: [ -285.3955078125, -633.1052246094, 11.1123285294 ]
+        rot: [ 359.0, 0.0, 319.7997741699 ]
+        scale: [ 1.0, 1.0, 1.5000000000 ]
+
+      southernvillage2_6: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -290.1595153809, -569.5242309570, 11.3939561844 ]
+        rot: [ 0.0, 0.0, -20.3999938965 ]
+
+      southernvillage2_60: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -283.1024169922, -634.4665527344, 20.7122516632 ]
+        rot: [ 180.0, 0.0, 320.8000183105 ]
+        scale: [ 1.0, 1.7999999523, 1.0 ]
+
+      southernvillage2_61: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -283.1805725098, -625.9947509766, 18.9922122955 ]
+        rot: [ 180.0, 0.0, 408.8000793457 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+
+      southernvillage2_62: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -287.5384826660, -622.2470703125, 18.9922122955 ]
+        rot: [ 180.0, 0.0, 409.6001281738 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+
+      southernvillage2_63: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -293.6389770508, -617.2817993164, 18.7922077179 ]
+        rot: [ 180.0, 0.0, 409.6001281738 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+
+      southernvillage2_64: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -298.0324401855, -621.8769531250, 20.2722415924 ]
+        rot: [ 180.0, 0.0, 320.8000183105 ]
+        scale: [ 1.0, 1.7999999523, 1.0 ]
+
+      southernvillage2_65: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -294.4257202148, -628.8017578125, 18.7522068024 ]
+        rot: [ 180.0, 0.0, 409.6001281738 ]
+        scale: [ 1.0, 1.5000000000, 1.0 ]
+
+      southernvillage2_66: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -299.4487609863, -624.5507812500, 18.7522068024 ]
+        rot: [ 180.0, 0.0, 409.6001281738 ]
+        scale: [ 1.0, 1.2999999523, 1.0 ]
+
+      southernvillage2_67: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -293.5840148926, -635.5344238281, 19.4322223663 ]
+        rot: [ 180.0, 0.0, 317.7998046875 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+
+      southernvillage2_68: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -289.0725097656, -639.2754516602, 19.4322223663 ]
+        rot: [ 180.0, 0.0, 317.7998046875 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+
+      southernvillage2_69: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -291.5125732422, -636.8257446289, 20.6722507477 ]
+        rot: [ 180.0, 0.0, 227.1997680664 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+
+      southernvillage2_7: 
+        template: "CEntity:environment\\architecture\\human\\common\\tents\\entities\\big_tent.w2ent"
+        pos: [ -297.0500183105, -583.3031616211, 11.3139562607 ]
+        rot: [ 0.0, 0.0, -20.7999992371 ]
+
+      southernvillage2_70: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -296.5409240723, -640.5941162109, 19.1121807098 ]
+        rot: [ 180.0, 0.0, 229.5997467041 ]
+        scale: [ 1.0, 1.2000000477, 1.0 ]
+
+      southernvillage2_71: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -285.8377990723, -633.6569824219, 21.3921871185 ]
+        rot: [ 180.0, 0.0, 229.5997467041 ]
+
+      southernvillage2_72: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -287.5798339844, -635.5543823242, 21.3921871185 ]
+        rot: [ 180.0, 0.0, 229.5997467041 ]
+
+      southernvillage2_73: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
+        pos: [ -281.7412719727, -635.7311401367, 21.2721843719 ]
+        rot: [ 180.0, 0.0, 318.5992431641 ]
+        scale: [ 1.0, 0.5000000000, 1.0 ]
+
+    statics: 
+      southernvillage2_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -286.0173950195, -562.7150268555, 11.1539564133 ]
+        rot: [ 0.0, 0.0, -31.1999912262 ]
+
+      southernvillage2_40: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamred_wall_with_windows.w2ent"
+        pos: [ -271.8286132813, -596.0664672852, 12.2639760971 ]
+        rot: [ 359.0, 0.0, -366.4000854492 ]
+
+      southernvillage2_41: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -272.6929016113, -596.1791992188, 16.4512519836 ]
+        rot: [ 359.0, 0.0, -367.9999694824 ]
+
+      southernvillage2_42: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -271.1530761719, -596.3737792969, 16.4512519836 ]
+        rot: [ 359.0, 0.0, -367.9999694824 ]
+
+      southernvillage2_43: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -274.0822143555, -596.1951904297, 16.4512519836 ]
+        rot: [ 359.0, 0.0, -367.9999694824 ]
+
+      southernvillage2_44: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -275.5017089844, -595.9968261719, 16.4512519836 ]
+        rot: [ 359.0, 0.0, -367.9999694824 ]
+
+      southernvillage2_45: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -280.4751281738, -594.9855346680, 15.9312419891 ]
+        rot: [ 359.0, 0.0, -367.9999694824 ]
+
+      southernvillage2_46: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -281.9593811035, -594.8132324219, 15.9312419891 ]
+        rot: [ 359.0, 0.0, -367.9999694824 ]
+
+      southernvillage2_47: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -281.8761291504, -594.8303833008, 13.2112445831 ]
+        rot: [ 359.0, 0.0, -367.9999694824 ]
+
+      southernvillage2_48: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -280.4632263184, -594.8315429688, 13.2112445831 ]
+        rot: [ 359.0, 0.0, -367.9999694824 ]
+
+      southernvillage2_49: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -271.1363525391, -598.5601196289, 12.4912452698 ]
+        rot: [ 359.0, 0.0, -454.8000488281 ]
+
+      southernvillage2_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -288.2379150391, -566.5355834961, 11.1539564133 ]
+        rot: [ 0.0, 0.0, -39.0 ]
+
+      southernvillage2_50: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -271.0431213379, -597.1569824219, 12.4912452698 ]
+        rot: [ 359.0, 0.0, -454.8000488281 ]
+
+      southernvillage2_51: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -282.8771667480, -595.0512695313, 16.8112602234 ]
+        rot: [ 359.0, 0.0, -276.5999755859 ]
+
+      southernvillage2_52: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -283.0350341797, -596.3771362305, 16.8112602234 ]
+        rot: [ 359.0, 0.0, -278.6000976563 ]
+
+      southernvillage2_53: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -283.0146179199, -598.2786865234, 12.4912452698 ]
+        rot: [ 359.0, 0.0, -278.6000976563 ]
+
+      southernvillage2_54: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -283.2358093262, -599.7526855469, 12.4912452698 ]
+        rot: [ 359.0, 0.0, -278.6000976563 ]
+
+      southernvillage2_55: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_floor_stairs.w2ent"
+        pos: [ -280.0769653320, -605.7236328125, 11.0112466812 ]
+        rot: [ 359.0, 0.0, -364.2000427246 ]
+
+      southernvillage2_56: 
+        template: "W3NewDoor:gameplay\\interactive_objects\\doors\\pushable\\push_door_common_basic.w2ent"
+        pos: [ -279.7678222656, -605.1163330078, 11.0739564896 ]
+        rot: [ 359.0, 0.0, -456.3999633789 ]
+        scale: [ 1.0499999523, 1.0, 1.1000000238 ]    
+      southernvillage2_84: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\house_nov_village_painted_floor_stairs.w2ent"
+        pos: [ -291.8435668945, -621.6119995117, 11.4441976547 ]
+        rot: [ 0.0, 0.0, 232.3989715576 ]
+
+      southernvillage2_85: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -278.6227722168, -629.8275146484, 10.9241981506 ]
+        rot: [ 0.0, 0.0, 339.1990661621 ]
+
+      southernvillage2_86: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -276.7244262695, -626.3051147461, 10.7241983414 ]
+        rot: [ 0.0, 0.0, 323.9990234375 ]
+
+      southernvillage2_87: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -276.7244262695, -626.3051147461, 10.7241983414 ]
+        rot: [ 0.0, 0.0, 323.9990234375 ]
+
+      southernvillage2_88: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -274.9225158691, -622.7019653320, 10.5241985321 ]
+        rot: [ 0.0, 0.0, 342.9991455078 ]
+
+      southernvillage2_89: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -273.6906738281, -618.4510498047, 10.6041984558 ]
+        rot: [ 0.0, 0.0, 347.9992065430 ]
+
+      southernvillage2_9: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -291.7707214355, -577.7086791992, 11.2739562988 ]
+        rot: [ 0.0, 0.0, -20.4000015259 ]
+
+      southernvillage2_90: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -269.3500366211, -591.9577636719, 10.6841983795 ]
+        rot: [ 0.0, 0.0, 423.3992614746 ]
+
+      southernvillage2_91: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -272.9665222168, -590.0209960938, 10.8841981888 ]
+        rot: [ 0.0, 0.0, 423.3992614746 ]
+
+      southernvillage2_92: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -276.2748413086, -588.3690795898, 10.8841981888 ]
+        rot: [ 0.0, 0.0, 414.9991455078 ]
+
+      southernvillage2_93: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -279.8404235840, -586.0816650391, 10.8841981888 ]
+        rot: [ 0.0, 0.0, 420.1993408203 ]
+
+      southernvillage2_94: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -283.8008728027, -583.8815917969, 10.8841981888 ]
+        rot: [ 0.0, 0.0, 423.9994812012 ]
+
+      southernvillage2_95: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -287.3731384277, -582.4736328125, 10.8841981888 ]
+        rot: [ 0.0, 0.0, 438.5991821289 ]
+
+      southernvillage2_96: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -299.6934814453, -635.2873535156, 10.8841981888 ]
+        rot: [ 0.0, 0.0, 421.5991821289 ]
+
+      southernvillage2_97: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -303.2451782227, -633.1129760742, 10.7641983032 ]
+        rot: [ 0.0, 0.0, 411.9990539551 ]
+
+      southernvillage2_98: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -305.6837158203, -630.9786987305, 11.1241979599 ]
+        rot: [ 0.0, 0.0, 406.9989013672 ]
+
+      southernvillage2_99: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -308.9859313965, -629.1648559570, 11.4841976166 ]
+        rot: [ 0.0, 0.0, 437.1989135742 ]     
+      southernvillage2_74: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -284.7187805176, -628.3917846680, 13.2721385956 ]
+        rot: [ 0.0, 0.0, 318.5989990234 ]
+
+      southernvillage2_75: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -289.4158325195, -624.5315551758, 13.2721385956 ]
+        rot: [ 0.0, 0.0, 318.5989990234 ]
+
+      southernvillage2_76: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -295.1635131836, -619.6522827148, 12.9121389389 ]
+        rot: [ 0.0, 0.0, 318.5989990234 ]
+
+      southernvillage2_77: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -300.2991333008, -626.0570678711, 12.9121389389 ]
+        rot: [ 0.0, 0.0, 502.5991210938 ]
+
+      southernvillage2_78: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -296.8134155273, -629.2706298828, 13.1521387100 ]
+        rot: [ 0.0, 0.0, 502.5991210938 ]
+
+      southernvillage2_79: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_wooden_window_frame_e.w2ent"
+        pos: [ -283.5410461426, -634.2850952148, 13.1521387100 ]
+        rot: [ 0.0, 0.0, 228.5991058350 ]
+        scale: [ 0.5000000000, 0.5000000000, 0.5000000000 ]
+
+      southernvillage2_8: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bob_sketch_fence_hor_vaulting_RC.w2ent"
+        pos: [ -290.9167785645, -573.6030273438, 11.2739562988 ]
+        rot: [ 0.0, 0.0, -9.1999940872 ]
+
+      southernvillage2_80: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_wooden_window_frame_e.w2ent"
+        pos: [ -291.0361633301, -637.9548950195, 12.1921396255 ]
+        rot: [ 0.0, 0.0, 228.5991058350 ]
+        scale: [ 0.5000000000, 0.5000000000, 0.5099999905 ]
+
+      southernvillage2_81: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -283.5607604980, -634.2863159180, 13.1460103989 ]
+        rot: [ 90.0, 0.0, 589.1984863281 ]
+        scale: [ 0.8000000119, 1.0, 0.8000000119 ]
+
+      southernvillage2_82: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_window_glass_a.w2ent"
+        pos: [ -291.0354919434, -637.9598999023, 12.2260112762 ]
+        rot: [ 90.0, 0.0, 589.1984863281 ]
+        scale: [ 0.8000000119, 1.0, 0.8100000024 ]
+
+      southernvillage2_83: 
+        template: "CGameplayEntity:gameplay\\interactive_objects\\doors\\fake_door\\fake_door_poor_nov_door_a.w2ent"
+        pos: [ -291.4179992676, -622.4101562500, 11.3521404266 ]
+        rot: [ 0.0, 0.0, 141.7991790771 ]
+        scale: [ 1.1000000238, 1.0, 1.0 ]
+      southernvillage2_35: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -279.1030273438, -598.7796020508, 20.2239685059 ]
+        rot: [ 359.0, 0.0, -457.0003662109 ]
+        scale: [ 1.0, 0.8000000119, 1.0 ]
+
+      southernvillage2_36: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -279.8179931641, -597.8251953125, 20.2239685059 ]
+        rot: [ 359.0, 0.0, -367.4002990723 ]
+        scale: [ 1.0, 0.8000000119, 1.0 ]
+
+      southernvillage2_37: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -278.8570861816, -596.9890136719, 20.2239685059 ]
+        rot: [ 359.0, 0.0, -457.0003662109 ]
+        scale: [ 1.0, 0.8000000119, 1.0 ]
+
+      southernvillage2_38: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\wooden_wall_8_planks.w2ent"
+        pos: [ -278.0900268555, -598.0129394531, 20.2239685059 ]
+        rot: [ 359.0, 0.0, -367.4002990723 ]
+        scale: [ 1.0, 0.8000000119, 1.0 ]        
