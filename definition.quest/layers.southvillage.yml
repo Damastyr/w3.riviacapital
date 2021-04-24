@@ -3,7 +3,7 @@ layers:
     world: "riviacapital"
     #context: ""
 
-    statics.shadow: 
+    statics.shadows: 
       villagesouth1: 
         template: "CEntity:environment\\architecture\\human\\redania\\common\\windmill\\windmill_closed.w2ent"
         pos: [ -300.2800903320, -532.7902832031, 11.4802093506 ]

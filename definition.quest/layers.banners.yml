@@ -3,7 +3,8 @@ layers:
     world: "riviacapital"
     #context: ""
 
-    statics: 
+    statics:  
+    
       banner_entrance: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nilfgaardian_flag_pick.w2ent"
         pos: [ -661.0036621094, 330.8139953613, 10.6946229935 ]
