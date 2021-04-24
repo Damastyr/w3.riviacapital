@@ -1798,18 +1798,6 @@ layers:
         rot: [ 30.0, 0.0, 745.9000244141 ]
         scale: [ 0.3000000119, 0.3000000119, 1.2000000477 ]
 
-
-      craftyvillageindustry_43: 
-        template: "CEntity:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q702_hunt\\entities\\q702_barrel_rigid.w2ent"
-        pos: [ -870.012023926, 51.34375, 1.3132706881 ]
-        rot: [ 0.0, 0.0, 754.8999023438 ]
-
-      craftyvillageindustry_44: 
-        template: "CEntity:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q702_hunt\\entities\\q702_barrel_rigid.w2ent"
-        pos: [ -862.689331055, 51.2835083008, 1.6732704639 ]
-        rot: [ 0.0, 0.0, 754.8999023438 ]
-
- 
       craftyvillageindustry_48: 
         template: "CEntity:environment\\architecture\\human\\redania\\nomans_land\\thatched_buildings\\entities\\nml_thatched_house_big_exterior.w2ent"
         pos: [ -889.118286133, 46.850769043, 1.9091511965 ]
@@ -1974,7 +1962,17 @@ layers:
       church_36: 
         template: "CGameplayEntity:dlc\\ep1\\data\\quests\\quest_files\\q603_bank\\entities\\candles\\q603_candle_med_b_noshadow.w2ent"
         pos: [ -794.976745606, 28.8956298828, 8.8133220673 ]
-        rot: [ 0.0, 0.0, -506.0000610352 ]        
+        rot: [ 0.0, 0.0, -506.0000610352 ]     
+
+      craftyvillageindustry_43: 
+        template: "CEntity:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q702_hunt\\entities\\q702_barrel_rigid.w2ent"
+        pos: [ -870.012023926, 51.34375, 1.3132706881 ]
+        rot: [ 0.0, 0.0, 754.8999023438 ]
+
+      craftyvillageindustry_44: 
+        template: "CEntity:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q702_hunt\\entities\\q702_barrel_rigid.w2ent"
+        pos: [ -862.689331055, 51.2835083008, 1.6732704639 ]
+        rot: [ 0.0, 0.0, 754.8999023438 ]        
     statics.shadows:  
       church: 
         template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\loam_houses\\entities\\poor_woodenroof_short_thatched_exterior.w2ent"

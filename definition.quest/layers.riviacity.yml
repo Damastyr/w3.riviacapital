@@ -3107,11 +3107,11 @@ layers:
         rot: [ 0.0, 0.0, -399.9999694824 ]
 
 
-      rcisidf_47: 
-        template: "CEntity:environment\\architecture\\human\\wyzima_castle\\wyzima_castle_fountain.w2ent"
-        pos: [ -636.580810547, 615.55004883, 6.557559967 ]
-        rot: [ 0.0, 0.0, -399.9999694824 ]
-        scale: [ 2.0, 2.0, 1.0 ]
+#      rcisidf_47: 
+#        template: "CEntity:environment\\architecture\\human\\wyzima_castle\\wyzima_castle_fountain.w2ent"
+#        pos: [ -636.580810547, 615.55004883, 6.557559967 ]
+#        rot: [ 0.0, 0.0, -399.9999694824 ]
+#        scale: [ 2.0, 2.0, 1.0 ]
 
       rcisidf_48: 
         template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\very_rich\\nov_very_rich_maison_chateaudun\\nov_very_rich_maison_chateaudun_exterior.w2ent"

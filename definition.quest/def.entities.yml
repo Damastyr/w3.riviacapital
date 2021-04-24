@@ -22743,21 +22743,6 @@ entities:
             - CastShadows
           resource: environment\decorations\flags\nilfgaardian\nilfgaardian_flag_long_px.redcloth 
 
-  castle_rivia_flag:
-    entityObject:
-      .type: CGameplayEntity
-      streamingDistance: 200    
-      components:
-        bridge:
-          .type: CClothComponent
-          isStreamed: true
-          forceAutoHideDistance: 1000          
-          drawableFlags:
-            - IsVisible
-            - CastShadows
-          resource: dlc\dlcriviacapital\environment\decorations\flags\nilfgaardian\castle_rivia_flag.redcloth 
-
-
   temeria_tall_flag_px_copy:
     entityObject:
       .type: CGameplayEntity

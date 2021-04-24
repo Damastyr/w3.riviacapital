@@ -260,8 +260,37 @@ layers:
       nswhouse2_13: 
         template: "CEntity:environment\\decorations\\decoration_sets\\houses\\thatched_houses\\decoration_set_thatched_medium_b\\decoration_set_thatched_medium_b_static.w2ent"
         pos: [ -1349.15820312, 805.067321777, 34.9147644043 ]
-        rot: [ 0.0, 0.0, -39.7999801636 ]    
-     
+        rot: [ 0.0, 0.0, -39.7999801636 ]  
+        
+#      nsbuildings_13: 
+#        template: "W3AnimatedContainer:gameplay\\containers\\_container_definitions\\autogen\\barrel_closed_rope__cave__everywhere.w2ent"
+#         pos: [ -1263.31481934, 770.525115967, 15.0027933121 ]
+#         rot: [ 0.0, 0.0, -269.9998779297 ]
+ 
+      nsbuildings_14: 
+         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+         pos: [ -1264.64343262, 771.865234375, 15.7627925873 ]
+         rot: [ 90.0, 0.0, -269.6000366211 ]
+         scale: [ 1.0, 1.0, 1.1000000238 ]
+ 
+      nsbuildings_15: 
+         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+         pos: [ -1264.67224121, 776.565414429, 15.7627925873 ]
+         rot: [ 90.0, 0.0, -269.6000366211 ]
+         scale: [ 1.0, 1.0, 0.6000000238 ]
+ 
+      nsbuildings_16: 
+         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
+         pos: [ -1264.70300293, 775.509658813, 15.0427932739 ]
+         rot: [ 0.0, 0.0, -269.6000061035 ]
+         scale: [ 1.0, 1.0, 0.6000000238 ]
+ 
+ 
+      nsbuildings_4: 
+         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\druid_cave_floor_wood.w2ent"
+         pos: [ -1260.12219238, 775.296005249, 15.0746889114 ]
+         rot: [ 0.0, 0.0, 88.4000396729 ]
+         scale: [ 0.8000000119, 0.5000000000, 1.0 ]     
      statics.shadows:
         
       nswhouse2: 
@@ -370,35 +399,6 @@ layers:
          pos: [ -1263.74072266, 773.794418335, 13.9628076553 ]
          rot: [ 0.0, 0.0, -269.9998779297 ]
  
-      nsbuildings_13: 
-         template: "W3AnimatedContainer:gameplay\\containers\\_container_definitions\\autogen\\barrel_closed_rope__cave__everywhere.w2ent"
-         pos: [ -1263.31481934, 770.525115967, 15.0027933121 ]
-         rot: [ 0.0, 0.0, -269.9998779297 ]
- 
-      nsbuildings_14: 
-         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
-         pos: [ -1264.64343262, 771.865234375, 15.7627925873 ]
-         rot: [ 90.0, 0.0, -269.6000366211 ]
-         scale: [ 1.0, 1.0, 1.1000000238 ]
- 
-      nsbuildings_15: 
-         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
-         pos: [ -1264.67224121, 776.565414429, 15.7627925873 ]
-         rot: [ 90.0, 0.0, -269.6000366211 ]
-         scale: [ 1.0, 1.0, 0.6000000238 ]
- 
-      nsbuildings_16: 
-         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_platform_beam.w2ent"
-         pos: [ -1264.70300293, 775.509658813, 15.0427932739 ]
-         rot: [ 0.0, 0.0, -269.6000061035 ]
-         scale: [ 1.0, 1.0, 0.6000000238 ]
- 
- 
-      nsbuildings_4: 
-         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\druid_cave_floor_wood.w2ent"
-         pos: [ -1260.12219238, 775.296005249, 15.0746889114 ]
-         rot: [ 0.0, 0.0, 88.4000396729 ]
-         scale: [ 0.8000000119, 0.5000000000, 1.0 ]
  
       nsbuildings_5: 
          template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll.w2ent"
