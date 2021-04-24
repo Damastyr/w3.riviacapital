@@ -1,7 +1,7 @@
 #
 # production settings
 # 
-# (version: 7, saved: 2021-02-01 03:26:28)
+# (version: 11, saved: 2021-04-22 23:24:35)
 #
 ---
 production:
@@ -13,8 +13,10 @@ production:
     storesdata: true
     strings-idspace: 5115
     strings-idstart: 0
-    version: 7
+    version: 11
     mounters:
+      - ".type": CR4ScaleformContentDLCMounter
+        scaleformDirectoryPath: "dlc\\dlcriviacapital\\data\\gameplay\\gui_new\\"
       - ".type": CR4WorldDLCMounter
         worlds:
           riviacapital:
@@ -22,11 +24,11 @@ production:
             worldMapCaption: City of Rivia
             worldMapDescription: "An impregnable stronghold and capital of the Rivia region, which once hosted one of history's bloodiest non-human pogroms in 1268. It is enjoying its independence during a period of tumult for the Northern Realms."
             worldMapPosition:
-              - -450
-              - 1050
+              - 500
+              - 500
             worldMapSuggestedLevel: 42
             worldMapPath: "dlc\\dlcriviacapital\\levels\\riviacapital\\riviacapital.w2w"
-            worldMiniMapSize: 2000.0
+            worldMiniMapSize: 4000.0
             worldMiniMapTileCount: 16
             worldMiniMapExteriorTextureSize: 512
             worldMiniMapInteriorTextureSize: 2048
@@ -35,16 +37,20 @@ production:
             worldMiniMapMaxLod: 3
             worldMiniMapExteriorTextureExtension: jpg
             worldMiniMapInteriorTextureExtension: png
-            worldMiniMapVminX: -930
-            worldMiniMapVmaxX: 1058
-            worldMiniMapVminY: -720
-            worldMiniMapVmaxY: 485
-            worldMiniMapSminX: -930
-            worldMiniMapSmaxX: 1058
-            worldMiniMapSminY: -720
-            worldMiniMapSmaxY: 485
+
+            ### HUB CENTER = (-324.487, 92.7805), inscribed CIRCLE RADIUS = 1037 - useless info
+            ### MIN x = -1388 MAX x = 791  DIFF = 2179
+            ### MIN y = -1659 MAX y = 1684 DIFF = 3343
+            worldMiniMapVminX: -850  # use hub map MIN-MAX coordinates CONVERTED into pixels (coordinate * 1024 / 2000)
+            worldMiniMapVmaxX: 750
+            worldMiniMapVminY: -970
+            worldMiniMapVmaxY: 970
+            worldMiniMapSminX: -410    # map movement size
+            worldMiniMapSmaxX: 360
+            worldMiniMapSminY: -500
+            worldMiniMapSmaxY: 400
             worldMiniMapMinZoom: 0.9
-            worldMiniMapMaxZoom: 3.5
+            worldMiniMapMaxZoom: 4.0
             worldMiniMapZoom12: 1.5
             worldMiniMapZoom23: 2.6
             worldMiniMapZoom34: -1.0
