@@ -1,21 +1,40 @@
 layers:
-   envProbes_Rivia: 
-     world: "riviacapital"
-     #context: ""
-     statics: 
-      envprobeexp: 
-        .type: "CEntity"
-        streamingDistance: 0            
-        transform: 
-          pos: [ -808.7728881836, 44.2333526611, 7.5282821655]
-          rot: [ 0.0, 0.0, 0.0 ]
-          scale: [ 100.0, 100.0, 100.0 ]
-        components: 
-          particles: 
-            .type: "CEnvProbeComponent"
-            pos: [ -808.7728881836, 44.2333526611, 7.5282821655]
-            contribution: 0
-            genParams:
-              ambientIntensity: 0.45
-            
+  env_global_pbr:
+    world: "riviacapital"
 
+    statics:
+      env_probe_main:
+        ".type": CEntity
+        tags:
+          - rivia_env_probe_main
+        transform:
+          pos: [ -660.681580, 255.740234, 5.0 ]
+          scale: [ 1000.0, 1000.0, 300.0 ]
+        streamingDistance: 0
+        components:
+          CEnvProbeComponent0:
+            ".type": CEnvProbeComponent
+            contribution: -1.0   # => global probe for the whole hub
+            isParallaxCorrected: true
+            genParams:
+              ".type": SEnvProbeGenParams
+              ambientIntensity: 0.45
+            pos: [ -660.681580, 255.740234, 5.0 ] # zeroed by wcc
+            # textureCacheHashes: not supperted by radish encoder, needs manual editing (=> added to post-cook)
+
+      #env_probe1:
+      #  ".type": CEntity
+      #  transform:
+      #    pos: [ -660.681580, 255.740234, 5.5 ]
+      #    scale: [ 20.0, 40.0, 25.0 ]
+      #  streamingDistance: 0
+      #  components:
+      #    CEnvProbeComponent0:
+      #      ".type": CEnvProbeComponent
+      #      isParallaxCorrected: true
+      #      nestingLevel: 1
+      #      areaMarginFactor: [ 0.2, 0.2, 0.8, 1.0 ]
+      #      areaDisplace: [ 0.0, 0.0, -2.0, 1.0 ]
+      #      isParallaxCorrected: true
+      #      # == Unk1
+      #      pos: [ -660.681580, 255.740234, 5.5 ]
