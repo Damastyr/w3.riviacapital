@@ -1,0 +1,1419 @@
+layers:
+  lower_fort: 
+    world: "riviacapital"
+    #context: ""
+    statics.shadows:
+      lowerfort1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_gate.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_palisade_gate.w2ent"
+        transform: 
+          pos: [ -813.7241821289, -136.7335815430, 11.5557441711 ]
+          rot: [ 0.0, 0.0, 246.3999023438 ]
+          scale: [ 1.7000000477, 1.7000000477, 1.7000000477 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_gate.w2mesh"
+
+      lowerfort1_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/walls/plaster_wood_walls/int_pw_wall_support_beam.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/int_pw_wall_support_beam.w2ent"
+        transform: 
+          pos: [ -814.9751586914, -140.6788635254, 10.8356790543 ]
+          rot: [ 0.0, 0.0, 145.1999206543 ]
+          scale: [ 3.0, 3.0, 8.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/walls/plaster_wood_walls/int_pw_wall_support_beam.w2mesh"
+
+      lowerfort1_10: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -807.1313476563, -123.9712448120, 12.7556734085 ]
+          rot: [ 0.0, 0.0, -118.6000518799 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_11: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -804.9536132813, -117.6262207031, 12.7556734085 ]
+          rot: [ 0.0, 0.0, -96.2000656128 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_12: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -802.9714355469, -111.6181869507, 12.7556734085 ]
+          rot: [ 0.0, 0.0, -115.8000488281 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_13: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -800.1002807617, -105.4338912964, 12.8104553223 ]
+          rot: [ 0.0, 0.0, -115.8000488281 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_14: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -798.8469238281, -102.1120758057, 16.7104587555 ]
+          rot: [ 0.0, 90.0, -119.6000213623 ]
+          scale: [ 2.5000000000, 2.5000000000, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_15: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -799.4754638672, -99.6553039551, 16.7104587555 ]
+          rot: [ 0.0, 90.0, -25.2000198364 ]
+          scale: [ 2.5000000000, 2.5000000000, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_16: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -801.0115966797, -102.3154067993, 16.7104587555 ]
+          rot: [ 0.0, 90.0, -25.2000198364 ]
+          scale: [ 2.5000000000, 2.5000000000, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_17: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -801.4071044922, -100.7877197266, 16.7104587555 ]
+          rot: [ 0.0, 90.0, -119.6000213623 ]
+          scale: [ 2.5000000000, 2.5000000000, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_18: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -801.4071044922, -100.7877197266, 20.9104843140 ]
+          rot: [ 0.0, 90.0, -119.6000213623 ]
+          scale: [ 2.5000000000, 1.0, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_19: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -798.8515014648, -102.1073074341, 20.9104843140 ]
+          rot: [ 0.0, 90.0, -119.6000213623 ]
+          scale: [ 2.5000000000, 1.0, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/walls/plaster_wood_walls/int_pw_wall_support_beam.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/int_pw_wall_support_beam.w2ent"
+        transform: 
+          pos: [ -815.1522827148, -141.1545715332, 10.8356790543 ]
+          rot: [ 0.0, 0.0, 48.3999481201 ]
+          scale: [ 3.0, 3.0, 8.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/walls/plaster_wood_walls/int_pw_wall_support_beam.w2mesh"
+
+      lowerfort1_20: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -799.5130615234, -99.6445846558, 20.9104843140 ]
+          rot: [ 0.0, 90.0, -25.5999984741 ]
+          scale: [ 2.5000000000, 1.0, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_21: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -801.0078735352, -102.3090286255, 20.9104843140 ]
+          rot: [ 0.0, 90.0, -25.5999984741 ]
+          scale: [ 2.5000000000, 1.0, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_22: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -798.7250976563, -102.1292419434, 19.9481468201 ]
+          rot: [ 0.0, 0.0, -28.0000057220 ]
+          scale: [ 1.2000000477, 1.7000000477, 1.2000000477 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_23: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -798.7250976563, -102.1292419434, 19.6081390381 ]
+          rot: [ 0.0, 0.0, -28.0000057220 ]
+          scale: [ 1.2000000477, 1.7000000477, 1.2000000477 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_24: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -802.0571899414, -100.4409332275, 19.6081390381 ]
+          rot: [ 0.0, 0.0, -28.0000057220 ]
+          scale: [ 1.2000000477, 1.7000000477, 1.2000000477 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_25: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -802.0571899414, -100.4409332275, 19.9281463623 ]
+          rot: [ 0.0, 0.0, -28.0000057220 ]
+          scale: [ 1.2000000477, 1.7000000477, 1.2000000477 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_26: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -799.5005493164, -99.6625900269, 19.7881431580 ]
+          rot: [ 0.0, 0.0, -116.4000854492 ]
+          scale: [ 1.2000000477, 1.7000000477, 1.2000000477 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_27: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -801.3134155273, -102.9166870117, 19.7881431580 ]
+          rot: [ 0.0, 0.0, -118.0000762939 ]
+          scale: [ 1.2000000477, 1.7000000477, 1.2000000477 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_28: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -801.3134155273, -102.9166870117, 19.7881431580 ]
+          rot: [ 0.0, 0.0, -118.0000762939 ]
+          scale: [ 1.5000000000, 1.5000000000, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_29: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/nomans_land/guard_tower_small.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/guard_tower_small.w2ent"
+        transform: 
+          pos: [ -800.7101440430, -101.5282287598, 13.1157455444 ]
+          rot: [ 0.0, 0.0, 241.2000579834 ]
+          scale: [ 0.6499999762, 0.6499999762, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/nomans_land/guard_tower_small.w2mesh"
+
+      lowerfort1_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/walls/plaster_wood_walls/int_pw_wall_support_beam.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/int_pw_wall_support_beam.w2ent"
+        transform: 
+          pos: [ -815.6878051758, -141.0605010986, 10.7556772232 ]
+          rot: [ 0.0, 0.0, -30.8000564575 ]
+          scale: [ 3.0, 3.0, 8.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/walls/plaster_wood_walls/int_pw_wall_support_beam.w2mesh"
+
+      lowerfort1_30: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -803.4434814453, -96.6765136719, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -44.4000740051 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_31: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -808.2758789063, -92.1058654785, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -40.6000633240 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_32: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -813.4630126953, -87.6433029175, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -40.6000633240 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_33: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -818.6231079102, -83.0833435059, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -40.6000633240 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_34: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -824.3587646484, -80.3733596802, 13.0351600647 ]
+          rot: [ 0.0, 0.0, -9.2000579834 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_35: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -831.1170043945, -79.4461669922, 13.0351600647 ]
+          rot: [ 0.0, 0.0, -9.2000579834 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_36: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -837.9144287109, -78.2978668213, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -9.2000579834 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_37: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -841.4392700195, -79.5834732056, 16.1104507446 ]
+          rot: [ 0.0, 90.0, 57.5999832153 ]
+          scale: [ 2.5000000000, 2.5000000000, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_38: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -841.4422607422, -77.4298858643, 16.1104507446 ]
+          rot: [ 0.0, 90.0, -28.6000194550 ]
+          scale: [ 2.5000000000, 2.5000000000, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_39: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -843.0048217773, -79.8160781860, 16.1104507446 ]
+          rot: [ 0.0, 90.0, -28.6000194550 ]
+          scale: [ 2.5000000000, 2.5000000000, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/walls/plaster_wood_walls/int_pw_wall_support_beam.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/int_pw_wall_support_beam.w2ent"
+        transform: 
+          pos: [ -815.8084106445, -140.5131683350, 10.7556772232 ]
+          rot: [ 0.0, 0.0, -89.8000488281 ]
+          scale: [ 3.0, 3.0, 8.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/walls/plaster_wood_walls/int_pw_wall_support_beam.w2mesh"
+
+      lowerfort1_40: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -843.9932250977, -78.0487442017, 16.1104507446 ]
+          rot: [ 0.0, 90.0, 57.5999832153 ]
+          scale: [ 2.5000000000, 2.5000000000, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_41: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -841.5180664063, -77.5040206909, 19.0104656219 ]
+          rot: [ 0.0, 0.0, 61.4000091553 ]
+          scale: [ 1.5000000000, 1.7000000477, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_42: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -841.5180664063, -77.5040206909, 18.6704578400 ]
+          rot: [ 0.0, 0.0, 61.4000091553 ]
+          scale: [ 1.5000000000, 1.7000000477, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_43: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -843.3639526367, -80.4990081787, 19.0104656219 ]
+          rot: [ 0.0, 0.0, 61.4000244141 ]
+          scale: [ 1.5000000000, 1.7000000477, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_44: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -843.4435424805, -80.4690856934, 18.5904560089 ]
+          rot: [ 0.0, 0.0, 61.4000244141 ]
+          scale: [ 1.5000000000, 1.7000000477, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_45: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -840.8937377930, -79.8838729858, 18.8104515076 ]
+          rot: [ 0.0, 0.0, 146.6000518799 ]
+          scale: [ 1.5000000000, 1.7000000477, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_46: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -844.0612182617, -78.0574645996, 18.7704410553 ]
+          rot: [ 0.0, 0.0, 146.6000518799 ]
+          scale: [ 1.5000000000, 1.7000000477, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_47: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_short_flat.w2ent"
+        transform: 
+          pos: [ -840.6615600586, -79.0097351074, 18.3199462891 ]
+          rot: [ 0.0, 0.0, 52.9999809265 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+
+      lowerfort1_48: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_short_flat.w2ent"
+        transform: 
+          pos: [ -841.6421508789, -80.3958358765, 18.3199462891 ]
+          rot: [ 0.0, 0.0, 54.9999885559 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+
+      lowerfort1_49: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_short_flat.w2ent"
+        transform: 
+          pos: [ -844.1550292969, -78.8080825806, 18.3199462891 ]
+          rot: [ 0.0, 0.0, 54.9999885559 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+
+      lowerfort1_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -817.0723266602, -144.1907806396, 12.9956817627 ]
+          rot: [ 0.0, 0.0, 67.3999252319 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_50: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_short_flat.w2ent"
+        transform: 
+          pos: [ -843.4171752930, -77.5782012939, 18.3199462891 ]
+          rot: [ 0.0, 0.0, 56.7999877930 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+
+      lowerfort1_51: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_short_flat.w2ent"
+        transform: 
+          pos: [ -842.4034423828, -77.4644851685, 18.3199462891 ]
+          rot: [ 0.0, 0.0, -29.0000152588 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+
+      lowerfort1_52: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_short_flat.w2ent"
+        transform: 
+          pos: [ -840.9163818359, -78.1183700562, 18.3199462891 ]
+          rot: [ 0.0, 0.0, -26.4000053406 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+
+      lowerfort1_53: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_short_flat.w2ent"
+        transform: 
+          pos: [ -842.6962890625, -80.2366790771, 18.3199462891 ]
+          rot: [ 0.0, 0.0, -26.4000053406 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+
+      lowerfort1_54: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_short_flat.w2ent"
+        transform: 
+          pos: [ -843.8807983398, -79.5923461914, 18.3199462891 ]
+          rot: [ 0.0, 0.0, -26.4000053406 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_short_flat.w2mesh"
+
+      lowerfort1_55: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -843.5092773438, -84.1910324097, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -113.8000411987 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_56: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -846.2412109375, -90.5253448486, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -111.8000488281 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_57: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -848.8267211914, -96.8648834229, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -111.8000488281 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_58: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -851.2548828125, -103.0348892212, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -111.8000488281 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_59: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -853.7272338867, -109.0494079590, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -111.8000488281 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -819.9055786133, -149.8989257813, 13.1156816483 ]
+          rot: [ 0.0, 0.0, -120.6000366211 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_60: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -856.3260498047, -115.3870162964, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -111.8000488281 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_61: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -859.2481689453, -121.4465332031, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -116.2000274658 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_62: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -862.3806152344, -127.1775436401, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -116.2000274658 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_63: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -865.2044677734, -133.4396057129, 13.2751655579 ]
+          rot: [ 0.0, 0.0, -116.2000274658 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      lowerfort1_64: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -867.6062622070, -138.2604827881, 15.8704509735 ]
+          rot: [ 0.0, 90.0, 65.9999847412 ]
+          scale: [ 2.5000000000, 2.5000000000, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_65: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -869.1396484375, -138.8542480469, 15.8704509735 ]
+          rot: [ 0.0, 90.0, -22.8000221252 ]
+          scale: [ 2.5000000000, 2.5000000000, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_66: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -867.9132080078, -136.1762084961, 15.8704509735 ]
+          rot: [ 0.0, 90.0, -22.8000221252 ]
+          scale: [ 2.5000000000, 2.5000000000, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_67: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -870.3945312500, -137.1525115967, 15.8704509735 ]
+          rot: [ 0.0, 90.0, 65.9999847412 ]
+          scale: [ 2.5000000000, 2.5000000000, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_68: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -870.3945312500, -137.1525115967, 20.0704784393 ]
+          rot: [ 0.0, 90.0, 65.9999847412 ]
+          scale: [ 2.5000000000, 1.0, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_69: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -867.5845336914, -138.2291564941, 20.0704784393 ]
+          rot: [ 0.0, 90.0, 65.9999847412 ]
+          scale: [ 2.5000000000, 1.0, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/fortifications/corner_palisade.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/corner_palisade.w2ent"
+        transform: 
+          pos: [ -824.6404418945, -155.1847534180, 12.8200769424 ]
+          rot: [ 0.0, 0.0, -206.4000244141 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/fortifications/corner_palisade.w2mesh"
+
+      lowerfort1_70: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -869.1749877930, -138.8581542969, 20.0704784393 ]
+          rot: [ 0.0, 90.0, -20.4000225067 ]
+          scale: [ 2.5000000000, 1.0, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_71: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_platform_hi_res.w2ent"
+        transform: 
+          pos: [ -867.8971557617, -136.2363128662, 20.0704784393 ]
+          rot: [ 0.0, 90.0, -20.4000225067 ]
+          scale: [ 2.5000000000, 1.0, 2.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_platform_hi_res.w2mesh"
+
+      lowerfort1_72: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -870.5076904297, -137.0752868652, 19.0304431915 ]
+          rot: [ 0.0, 0.0, -20.3999996185 ]
+          scale: [ 1.5000000000, 1.7000000477, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_73: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -870.5076904297, -137.0752868652, 18.6704349518 ]
+          rot: [ 0.0, 0.0, -20.3999996185 ]
+          scale: [ 1.5000000000, 1.7000000477, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_74: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -866.9827880859, -138.6080627441, 18.6704349518 ]
+          rot: [ 0.0, 0.0, -26.6000080109 ]
+          scale: [ 1.5000000000, 1.7000000477, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_75: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -866.9827880859, -138.6080627441, 19.0704441071 ]
+          rot: [ 0.0, 0.0, -26.6000080109 ]
+          scale: [ 1.5000000000, 1.7000000477, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_76: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -869.5043334961, -139.5267333984, 18.8704395294 ]
+          rot: [ 0.0, 0.0, -113.5999832153 ]
+          scale: [ 1.5000000000, 1.7000000477, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_77: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/gen_log_single_hi_res.w2ent"
+        transform: 
+          pos: [ -868.0261230469, -136.1544494629, 18.8704395294 ]
+          rot: [ 0.0, 0.0, -113.5999832153 ]
+          scale: [ 1.5000000000, 1.8999999762, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/logs/gen_log_single_hi_res.w2mesh"
+
+      lowerfort1_78: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/nomans_land/guard_tower_small.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/guard_tower_small.w2ent"
+        transform: 
+          pos: [ -868.9347534180, -138.1202239990, 12.2357397079 ]
+          rot: [ 0.0, 0.0, 246.3999786377 ]
+          scale: [ 0.6499999762, 0.6499999762, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/nomans_land/guard_tower_small.w2mesh"
+
+      lowerfort1_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/fortifications/corner_palisade.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/corner_palisade.w2ent"
+        transform: 
+          pos: [ -825.7844848633, -154.3860168457, 12.8188056946 ]
+          rot: [ 0.0, 0.0, -387.1997375488 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/fortifications/corner_palisade.w2mesh"
+
+      lowerfort1_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -810.5255737305, -130.0160675049, 13.1156816483 ]
+          rot: [ 0.0, 0.0, -120.6000366211 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+

@@ -1,16 +1,16 @@
 import os
 
-file = open("layers.riviabridge-life.yml", "r")
+file = open("layers.delete.yml", "r")
 
 lines = file.read().splitlines()
 
 offsetX = 0
-offsetY = 972
+offsetY = 5
 offsetZ = 0
 
-with open('layers.riviabridge-life.new.yml', 'w') as u:
+with open('layers.delete.yml', 'w') as u:
     u = u
-with open('layers.riviabridge-life.new.yml', 'a') as the_file:
+with open('layers.delete.new.yml', 'a') as the_file:
     for i in lines:
         line = i#.strip()
         if "pos: " in line:
