@@ -53,4 +53,16 @@ rem --- the following settings do not need to be adjusted
 rem --------------------------------------------------------------------------------------------------------------
 rem --------------------------------------------------------------------------------------------------------------
 
+rem custom target root subdirectory for encoded scenes files in <DLC_GAMEPATH>\data\
+rem NOTE: scene root path must be in sync with scene path in quest production settings!
+rem SET DIR_DLC_SCENES=scenes
+rem custom target root subdirectory for encoded env files in <DLC_GAMEPATH>\data\
+rem SET DIR_DLC_ENVS=envs
+rem custom target root subdirectory for imported fbx models in <DLC_GAMEPATH>\data\
+rem SET DIR_DLC_MESHES=entities/meshes
+rem custom target root subdirectory for imported redfur files in <DLC_GAMEPATH>\data\
+rem SET DIR_DLC_REDFUR=entities/meshes
+
+rem --------------------------------------------------------------------------------------------------------------
+rem --------------------------------------------------------------------------------------------------------------
 call "%DIR_PROJECT_BASE%\bin\_default.settings.bat"

@@ -13,15 +13,12 @@ EXIT /B 0
 
 :EncodeSpeech
 echo.
-echo.
 echo --------------------------------------------------------------------------
 echo -- ENCODING SPEECH %PATCHING%
 echo --------------------------------------------------------------------------
 echo.
 echo  ^>^> GENERATING LIPSYNC ANIMATIONS
 echo.
-
-rem TODO check if there are any phoneme files -> no exit
 
 "%DIR_ENCODER%\w3speech-lipsync-creator.exe" --create-lipsync "%DIR_PHONEMES%\*.phonemes" --output-dir "%DIR_AUDIO_WEM%" --repo-dir "%DIR_REPO_LIPSYNC%" %loglevel%
 

@@ -22,7 +22,7 @@ if "%RELEASE_VERSION%" EQU "YES" (
   SET BUILD_RELEASE_VERSION=--release-version
 )
 
-"%DIR_ENCODER%\w2quest.exe" %BUILD_RELEASE_VERSION% --repo-dir "%DIR_REPO_QUESTS%" --output-dir "%DIR_OUTPUT_QUEST%" --encode "%DIR_DEF_QUEST%/*.yml" %LOG_LEVEL%
+"%DIR_ENCODER%\w2quest.exe" %BUILD_RELEASE_VERSION% --repo-dir "%DIR_REPO_QUESTS%" --output-dir "%DIR_OUTPUT_QUEST%" --encode "%DIR_DEF_QUEST%" %LOG_LEVEL%
 
 IF %ERRORLEVEL% NEQ 0 GOTO SomeError
 

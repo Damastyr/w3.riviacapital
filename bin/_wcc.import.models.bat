@@ -26,8 +26,10 @@ if "%MODELNAME%" NEQ "" (
 )
 
 set COUNT=0
-for %%f in ("%MODELFILES_WILDCARD%") do (
+for /f "delims=" %%f in ('dir "%MODELFILES_WILDCARD%" /b /s') do (
     set FILENAME=%%~nf
+    set FILEPATH=%%~dpf
+    set SUBDIR=!FILEPATH:%DIR_MODEL_FBX%=!
     set MODELNAME=!FILENAME:%MODEL_PREFIX%=!
 
     echo.
@@ -37,7 +39,7 @@ for %%f in ("%MODELFILES_WILDCARD%") do (
     echo.
 
     PUSHD "%DIR_MODKIT_BIN%"
-    %WCC_LITE% import -depot="%DIR_MODKIT_DEPOT%" -file="%DIR_MODEL_FBX%\%MODEL_PREFIX%!MODELNAME!.fbx" -out="%DIR_OUTPUT_MESHES%\!MODELNAME!.w2mesh"
+    %WCC_LITE% import -depot="%DIR_MODKIT_DEPOT%" -file="%DIR_MODEL_FBX%!SUBDIR!%MODEL_PREFIX%!MODELNAME!.fbx" -out="%DIR_OUTPUT_MESHES%!SUBDIR!!MODELNAME!.w2mesh"
 
     POPD
     IF %INTERACTIVE_BUILD% EQU 1 PAUSE

@@ -40,16 +40,22 @@ if "%SCENE_TIMELINE_ZOOM%" NEQ "" (
 )
 
 set COUNT=0
-for %%f in ("%SCENE_WILDCARD%") do (
+for /f "delims=" %%f in ('dir "%SCENE_WILDCARD%" /b /s') do (
   set FILENAME=%%~nf
+  set FILEPATH=%%~dpf
+  set SUBDIR=!FILEPATH:%DIR_DEF_SCENES%=!
   set SCENEID=!FILENAME:%SCENE_DEF_PREFIX%=!
   echo --------------------------------------------------------------------------
   echo  ^>^> found scene: !SCENEID!
   echo --------------------------------------------------------------------------
 
+  rem --- remove trailing slash
+  IF "!SUBDIR:~0,1!"=="\" SET SUBDIR=!SUBDIR:~1!
+
   set SCENENAME=!FILENAME!
+
   PUSHD "%DIR_DEF_SCENES%"
-  "%DIR_ENCODER%\w2scene.exe" %SCENE_TIMELINE_START% %SCENE_TIMELINE_END% %SCENE_TIMELINE_ZOOM% --repo-dir "%DIR_REPO_SCENES%" --output-dir "%DIR_OUTPUT_SCENES%" --encode "!SCENENAME!" %LOG_LEVEL%
+  "%DIR_ENCODER%\w2scene.exe" %SCENE_TIMELINE_START% %SCENE_TIMELINE_END% %SCENE_TIMELINE_ZOOM% --repo-dir "%DIR_REPO_SCENES%" --output-dir "%DIR_OUTPUT_SCENES%" --encode "!SUBDIR!!SCENENAME!" --create-subdirs %LOG_LEVEL%
   POPD
   set /A COUNT+=1
   IF /I "!ERRORLEVEL!" NEQ "0" GOTO:SomeError
@@ -58,15 +64,17 @@ for %%f in ("%SCENE_WILDCARD%") do (
   rem --- rename scene.<sceneid>.w2scene to <sceneid>.w2scene
   echo.
   echo  ^>^> renaming scene to !SCENEID!.w2scene
-  set GENERATED_SCENE_FILE=%DIR_OUTPUT_SCENES%\!SCENENAME!.w2scene
-  move "!GENERATED_SCENE_FILE!" "%DIR_OUTPUT_SCENES%\!SCENEID!.w2scene"
+  set GENERATED_SCENE_FILE=%DIR_OUTPUT_SCENES%\!SUBDIR!!SCENENAME!.w2scene
+  move "!GENERATED_SCENE_FILE!" "%DIR_OUTPUT_SCENES%\!SUBDIR!!SCENEID!.w2scene"
   echo.
 
   rem ---------------------------------------------------
   rem --- put generated strings into strings dir for later concatenation
 
-  set GENERATED_STRINGS_CSV=%DIR_OUTPUT_SCENES%\!SCENENAME!.w3strings-csv
-  set STRINGS_PART_CSV=%DIR_STRINGS%\%STRINGS_PART_PREFIX%scene-!SCENEID!.csv
+  set GENERATED_STRINGS_CSV=%DIR_OUTPUT_SCENES%\!SUBDIR!!SCENENAME!.w3strings-csv
+  rem --- replace \ with - to make strings files unique
+  IF "!SUBDIR!" NEQ "" SET SUBDIR=!SUBDIR:\=-!
+  set STRINGS_PART_CSV=%DIR_STRINGS%\%STRINGS_PART_PREFIX%scene-!SUBDIR!!SCENEID!.csv
 
   if NOT exist "!GENERATED_STRINGS_CSV!" GOTO :SomeError
   type "!GENERATED_STRINGS_CSV!" > "!STRINGS_PART_CSV!"

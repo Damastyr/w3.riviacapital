@@ -18,7 +18,7 @@ rem ---------------------------------------------------
 setlocal enableDelayedExpansion
 
 rem ---------------------------------------------------
-if not exist "%DIR_OUTPUT_STRINGS%" mkdir "%DIR_OUTPUT_STRINGS%"
+if not exist "%DIR_STRINGS%" mkdir "%DIR_STRINGS%"
 if not exist "%DIR_DLC_CONTENT%" mkdir "%DIR_DLC_CONTENT%"
 
 rem ---------------------------------------------------

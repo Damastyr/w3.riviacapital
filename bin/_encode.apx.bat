@@ -34,7 +34,9 @@ for /R "%DIR_DEF_FUR%" %%f in ("%FURFILES_WILDCARD%*") do (
 )
 if %COUNT% == 0 GOTO NoneFound
 
-"%DIR_ENCODER%\w3redfur.exe" -e "%DIR_DEF_FUR%/**/%FURFILES_WILDCARD%" --output-dir "%DIR_OUTPUT_REDFUR%" %LOG_LEVEL%
+PUSHD "%DIR_DEF_FUR%"
+"%DIR_ENCODER%\w3redfur.exe" -e "%DIR_DEF_FUR%/**/%FURFILES_WILDCARD%" --output-dir "%DIR_OUTPUT_REDFUR%" --create-subdirs %LOG_LEVEL%
+POPD
 IF %ERRORLEVEL% NEQ 0 GOTO SomeError
 
 rem ---------------------------------------------------

@@ -4,6 +4,19 @@ rem --- the following settings do not need to be adjusted
 rem --------------------------------------------------------------------------------------------------------------
 rem --------------------------------------------------------------------------------------------------------------
 
+rem --- remove trailing slash
+IF %DIR_PROJECT_BASE:~-1%==\ SET DIR_PROJECT_BASE=%DIR_PROJECT_BASE:~0,-1%
+
+rem --- default sub dir values -----------------------------------------------------------------------------------
+
+IF "%DIR_DLC_SCENES%"=="" SET DIR_DLC_SCENES=scenes
+IF "%DIR_DLC_ENVS%"=="" SET DIR_DLC_ENVS=envs
+IF "%DIR_DLC_MESHES%"=="" SET DIR_DLC_MESHES=entities\meshes
+IF "%DIR_DLC_REDFUR%"=="" SET DIR_DLC_REDFUR=entities\meshes
+
+rem --------------------------------------------------------------------------------------------------------------
+rem --------------------------------------------------------------------------------------------------------------
+
 rem --- settings for modkit
 set DIR_MODKIT_BIN=%DIR_MODKIT%\bin\x64
 set DIR_MODKIT_DEPOT=%DIR_MODKIT%\r4data
@@ -75,19 +88,19 @@ rem target directory for encoded quest file
 set DIR_OUTPUT_QUEST=%DIR_UNCOOKED%
 
 rem target directory for encoded w2scene file
-set DIR_OUTPUT_SCENES=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\data\scenes
+set DIR_OUTPUT_SCENES=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\data\%DIR_DLC_SCENES%
 
 rem target directory for encoded w2scene file
 set DIR_OUTPUT_WORLD=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\levels
 
 rem target directory for encoded env files
-set DIR_OUTPUT_ENVS=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\data\envs
+set DIR_OUTPUT_ENVS=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\data\%DIR_DLC_ENVS%
 
 rem target directory for imported models
-SET DIR_OUTPUT_MESHES=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\data\entities\meshes
+SET DIR_OUTPUT_MESHES=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\data\%DIR_DLC_MESHES%
 
 rem target directory for imported apx files
-SET DIR_OUTPUT_REDFUR=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\data\entities\meshes
+SET DIR_OUTPUT_REDFUR=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\data\%DIR_DLC_REDFUR%
 
 rem path of final dlc mod
 set DIR_DLC=%DIR_W3%\dlc\dlc%MODNAME%

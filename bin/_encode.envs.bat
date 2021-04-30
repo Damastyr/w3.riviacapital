@@ -30,13 +30,15 @@ if "%ENVID%" NEQ "" (
 
 set COUNT=0
 
-for %%f in ("%ENV_WILDCARD%") do (
+for /f "delims=" %%f in ('dir "%ENV_WILDCARD%" /b /s') do (
   set FILENAME=%%~ff
   echo --------------------------------------------------------------------------
   echo  ^>^> encoding: %%~nxf
   echo --------------------------------------------------------------------------
 
-  "%DIR_ENCODER%\w3env.exe" --output-dir "%DIR_OUTPUT_ENVS%" --encode "!FILENAME!" %LOG_LEVEL%
+  PUSHD "%DIR_DEF_ENVS%"
+  "%DIR_ENCODER%\w3env.exe" --output-dir "%DIR_OUTPUT_ENVS%" --encode "!FILENAME!" --create-subdirs %LOG_LEVEL%
+  POPD
   set /A COUNT+=1
   IF /I "!ERRORLEVEL!" NEQ "0" GOTO:SomeError
 )

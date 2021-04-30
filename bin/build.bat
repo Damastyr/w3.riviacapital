@@ -42,10 +42,10 @@ IF %ERRORLEVEL% NEQ 0 GOTO SomeError
 
 rem ---------------------------------------------------
 rem -- CLEAR WCC LOG
-IF EXIST "%DIR_PROJECT_BASE%/wcc.log" (
+IF EXIST "%DIR_PROJECT_BASE%\wcc.log" (
   echo.
   echo ^>^> deleting: previous wcc.log
-  del "%DIR_PROJECT_BASE%/wcc.log"
+  del "%DIR_PROJECT_BASE%\wcc.log"
 )
 
 rem ---------------------------------------------------
