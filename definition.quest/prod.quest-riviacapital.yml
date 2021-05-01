@@ -15,6 +15,9 @@ production:
     strings-idstart: 0
     version: 11
     mounters:
+      - ".type": CR4MappinsDLCMounter
+        worldFilePath: "dlc\\dlcriviacapital\\levels\\riviacapital\\riviacapital.w2w"
+        mappinsFilePath: "dlc\\dlcriviacapital\\data\\hub_pins\\riviacapital.w2em"
       - ".type": CR4ScaleformContentDLCMounter
         scaleformDirectoryPath: "dlc\\dlcriviacapital\\data\\gameplay\\gui_new\\"
       - ".type": CR4WorldDLCMounter

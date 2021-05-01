@@ -1,0 +1,148 @@
+layers: 
+  tele: 
+    world: "riviacapital"
+    #context: ""
+
+    statics:
+      riviacapital_city_central_ft:
+        ".type": W3FastTravelEntity
+        tags: [ "riviacapital_city_central_ft" ]
+        transform:
+          pos: [ -661.0988159180, 277.1413269043, 3.1563262939 ]
+          rot: [ 0.0, 0.0, -84.2199859619 ]
+        aimVector: [ 0, 0, 1, 0 ]
+        groupName: riviacapital
+        streamingDistance: 11
+        focusModeVisibility: FMV_Interactive
+        spotName: riviacapital_city_central_ft
+        entityName: riviacapital_city_central_ft
+        teleportWayPointTag: riviacapital/city_central
+        components:
+          FirstDiscoveryTrigger:
+            ".type": CTriggerAreaComponent
+            transform:
+              scale: [ 45, 45, 6 ]
+            localPoints: 
+              - [ -0.5, -0.5, 0.0, 1.0 ]
+              - [ 0.5, -0.5, 0.0, 1.0 ]
+              - [ 0.5, 0.5, 0.0, 1.0 ]
+              - [ -0.5, 0.5, 0.0, 1.0 ]
+            includedChannels: TC_Player
+            
+          CStaticMeshComponent0:
+            ".type": CStaticMeshComponent
+            isStreamed: true
+            boundingBox:
+              ".type": Box
+              Min: [ -0.6745418906, -0.147354126, -0.1193927079, 1.0 ]
+              Max: [ 0.6745418906, 0.1473540515, 3.0602505207, 1.0 ]
+            drawableFlags:
+              - DF_IsVisible
+              - DF_CastShadows
+            mesh: "environment\\decorations\\road_signs\\road_sign_novigrad_c.w2mesh"
+          
+          CDecalComponent0:
+            ".type": CDecalComponent
+            isStreamed: true
+            transform:
+              pos: [ 0.0423112363, 0.1558418721, 1.318174243 ]
+              rot: [ 0.0, 270.0, 0.0 ]
+              scale: [ 0.7276352048, 0.2775647342, 0.1200700402 ]
+            boundingBox:
+              ".type": Box
+              Min: [ -0.321506381, 0.095806852, 1.179391861, 1.0 ]
+              Max: [ 0.4061288238, 0.2158768922, 1.456956625, 1.0 ]
+            diffuseTexture: "environment\\textures_tileable\\decals\\text\\roadsign_text_b.xbm"
+            normalThreshold: 50.0
+            horizontalFlip: true
+
+          CDecalComponent1:
+            ".type": CDecalComponent
+            isStreamed: true
+            transform:
+              pos: [ -0.0478620231, 0.1558416337, 1.7950689793 ]
+              rot: [ 89.9999923706, 271.0564575195, 89.9999923706 ]
+              scale: [ 0.7276352048, 0.2775647342, 0.1200700402 ]
+            boundingBox:
+              ".type": Box
+              Min: [ -0.4141766131, 0.0958066136, 1.6496021748, 1.0 ]
+              Max: [ 0.3184525669, 0.2158766538, 1.9405357838, 1.0 ]
+            diffuseTexture: "environment\\textures_tileable\\decals\\text\\roadsign_text_d.xbm"
+            normalThreshold: 50.0
+            horizontalFlip: true
+
+          FastTravelInteraction:
+            ".type": CInteractionComponent
+            isStreamed: true
+            height: 3.0
+            actionName: FastTravel
+            reportToScript: true
+            iconOffset: [ 0, 0, 2.3, 0 ]
+      
+      riviacapital_south_bridge_ft:
+        ".type": W3FastTravelEntity
+        tags: [ "riviacapital_south_bridge_ft" ]
+        transform:
+          pos: [ -482.5010375977, -940.1998291016, 10.2940216064 ]
+          rot: [ 0.0, 0.0, 86.2400054932 ]
+        aimVector: [ 0, 0, 1, 0 ]
+        groupName: riviacapital
+        streamingDistance: 11
+        focusModeVisibility: FMV_Interactive
+        spotName: riviacapital_south_bridge_ft
+        entityName: riviacapital_south_bridge_ft
+        teleportWayPointTag: riviacapital/south_bridge
+        components:
+          FirstDiscoveryTrigger:
+            ".type": CTriggerAreaComponent
+            transform:
+              scale: [ 45, 45, 6 ]
+            localPoints: 
+              - [ -0.5, -0.5, 0.0, 1.0 ]
+              - [ 0.5, -0.5, 0.0, 1.0 ]
+              - [ 0.5, 0.5, 0.0, 1.0 ]
+              - [ -0.5, 0.5, 0.0, 1.0 ]
+            includedChannels: TC_Player
+            
+          CStaticMeshComponent0:
+            ".type": CStaticMeshComponent
+            isStreamed: true
+            transform:
+              pos: [ 0.0, 0.0, -0.1520088911 ]
+            boundingBox:
+              ".type": Box
+              Min: [ -0.6078770161, -0.1609181166, -0.2767955661, 1.0 ]
+              Max: [ 0.6092334986, 0.1609178931, 2.363114357, 1.0 ]
+            drawableFlags:
+              - DF_IsVisible
+              - DF_CastShadows
+            mesh: "environment\\decorations\\road_signs\\road_sign_novigrad_e.w2mesh"
+          
+          CDecalComponent0:
+            ".type": CDecalComponent
+            isStreamed: true
+            transform:
+              pos: [ 0.0535499901, -0.0000000223, 1.8723093271 ]
+              rot: [ 0.0, 270.0, 0.0 ]
+              scale: [ 0.8378730416, 0.3038987219, 1.0 ]
+            boundingBox:
+              ".type": Box
+              Min: [ -0.3653865457, -0.5, 1.7203599215, 1.0 ]
+              Max: [ 0.472486496, 0.4999999702, 2.0242586136, 1.0 ]
+            diffuseTexture: "environment\\textures_tileable\\decals\\text\\roadsign_text_a.xbm"
+            normalThreshold: 50.0
+            horizontalFlip: true
+
+          FastTravelInteraction:
+            ".type": CInteractionComponent
+            isStreamed: true
+            height: 3.0
+            actionName: FastTravel
+            reportToScript: true
+            iconOffset: [ 0, 0, 2.3, 0 ]
+
+    waypoints:
+      teleport_point: [ -631.6417236328, 283.6935119629, 1.9753723145, 44.6599998474 ]
+      # MAPPIN teleport points
+      city_central: [ -656.7947387695, 276.9551086426, 3.1006774902, -0.7399857640 ]
+      south_bridge: [ -486.8655395508, -940.3687744141, 10.4610137939, -6.3800001144 ]

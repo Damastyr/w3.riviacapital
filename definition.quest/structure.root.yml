@@ -1,7 +1,7 @@
 #
 # quest structure root segment
 # 
-# (version: 7, saved: 2021-02-01 03:26:28)
+# (version: 14, saved: 2021-05-01 17:22:18)
 #
 ---
 structure:
@@ -17,7 +17,7 @@ structure:
       waituntil.wait_3s:
         elapsed: "00:00:03"
         ".editor":
-          pos: [ 555.0, 152.0 ]
+          pos: [ 639.0, 154.0 ]
           in: [ In ]
           out: [ Out ]
         next:
@@ -26,7 +26,7 @@ structure:
       waituntil.wait_3s_for_visibility:
         elapsed: "00:00:03"
         ".editor":
-          pos: [ 307.0, 152.0 ]
+          pos: [ 296.0, 153.0 ]
           in: [ In ]
           out: [ Out ]
         next:
@@ -35,7 +35,7 @@ structure:
       waituntil.wait_for_tele_fact:
         factdb: [ tele_player_to_rivia, ">=", 1 ]
         ".editor":
-          pos: [ 240.2172546387, 243.5458526611 ]
+          pos: [ 240.0, 261.0 ]
           in: [ In ]
           out: [ Out ]
         next:
@@ -43,7 +43,7 @@ structure:
       
       script.gotorc_instructions:
         ".editor":
-          pos: [ 689.0, 151.0 ]
+          pos: [ 819.0, 83.0 ]
           in: [ In ]
           out: [ Out ]
         function: radLog
@@ -52,20 +52,9 @@ structure:
           - msg: Use command gotorc for traveling to Rivia
         next: ".done"
       
-      script.new_logmsg:
-        ".editor":
-          pos: [ 373.3492126465, 25.8095397949 ]
-          in: [ In ]
-          out: [ Out ]
-        function: radLog
-        parameter:
-          - logChannel: cname_RIVIACAPITAL
-          - msg: ""
-        next: ".done"
-      
       script.remove_tele_fact:
         ".editor":
-          pos: [ 338.2172546387, 367.5458068848 ]
+          pos: [ 319.0, 473.0 ]
           in: [ In ]
           out: [ Out ]
         function: RemoveFactQuest
@@ -76,7 +65,7 @@ structure:
       
       script.welcome_log:
         ".editor":
-          pos: [ 435.0, 153.0 ]
+          pos: [ 474.0, 90.0 ]
           in: [ In ]
           out: [ Out ]
         function: radLog
@@ -88,7 +77,7 @@ structure:
       
       spawn.nsw_animals:
         ".editor":
-          pos: [ 496.7254638672, 234.0325622559 ]
+          pos: [ 307.0, 9.0 ]
           hint: spawn-only
           in: []
           out: []
@@ -98,12 +87,12 @@ structure:
         next: ".done"
       
       changeworld.tele_player_to_rivia:
-        ".editor": [ 298.8838806152, 306.2124938965 ]
-        destination: riviacapital/telepoint
+        ".editor": [ 420.0, 305.0 ]
+        destination: riviacapital/teleport_point
         next:
           - script.remove_tele_fact
       
       end:
-        ".editor": [ 939.0, 146.0 ]
+        ".editor": [ 1012.0, 165.0 ]
         next: ".done"
       
