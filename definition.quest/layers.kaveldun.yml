@@ -1,4 +1,668 @@
 layers:
+  kaveldun_HQ: 
+    world: "riviacapital"
+    #context: ""
+
+    statics.shadows: 
+      kaveldunhq: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_pavement_support_a_poor_messy_brick.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_street_pavement_support_a_poor_messy_brick.w2ent"
+        transform: 
+          pos: [ -552.4846801758, -767.5322875977, 16.2562980652 ]
+          rot: [ 0.0, 0.0, -89.8000183105 ]
+          scale: [ 2.0, 0.1000000015, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_pavement_support_a_poor_messy_brick.w2mesh"
+
+      kaveldunhq_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_pavement_support_a_poor_messy_brick.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_street_pavement_support_a_poor_messy_brick.w2ent"
+        transform: 
+          pos: [ -552.4730224609, -773.0277709961, 16.2562980652 ]
+          rot: [ 0.0, 0.0, -89.8000183105 ]
+          scale: [ 2.0, 0.1000000015, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_pavement_support_a_poor_messy_brick.w2mesh"
+
+      kaveldunhq_10: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_single_e.w2ent"
+        transform: 
+          pos: [ -552.2981567383, -769.3662109375, 16.9192676544 ]
+          rot: [ 0.0, 0.0, -270.1000976563 ]
+          scale: [ 1.5000000000, 0.5000000000, 0.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+
+      kaveldunhq_11: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_single_e.w2ent"
+        transform: 
+          pos: [ -558.6302490234, -769.2614746094, 16.9192676544 ]
+          rot: [ 0.0, 0.0, -270.1000976563 ]
+          scale: [ 1.5000000000, 0.5000000000, 0.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+
+      kaveldunhq_12: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_single_e.w2ent"
+        transform: 
+          pos: [ -558.7442626953, -769.2489013672, 16.9192676544 ]
+          rot: [ 0.0, 0.0, -450.3003845215 ]
+          scale: [ 1.5000000000, 0.5000000000, 0.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+
+      kaveldunhq_13: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_single_e.w2ent"
+        transform: 
+          pos: [ -552.6074218750, -769.5607299805, 16.9192676544 ]
+          rot: [ 0.0, 0.0, -450.3003845215 ]
+          scale: [ 1.5000000000, 0.5000000000, 0.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+
+      kaveldunhq_14: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_roof_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loamred_floor_roof_a.w2ent"
+        transform: 
+          pos: [ -555.4779052734, -778.4727172852, 20.3392829895 ]
+          rot: [ 0.0, 0.0, -450.3003845215 ]
+          scale: [ 1.0, 1.1000000238, 1.1000000238 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_roof_a.w2mesh"
+
+      kaveldunhq_15: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_roof_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loamred_floor_roof_a.w2ent"
+        transform: 
+          pos: [ -555.4697875977, -769.3106079102, 20.3192958832 ]
+          rot: [ 0.0, 0.0, -450.3003845215 ]
+          scale: [ 1.0, 1.1000000238, 1.1000000238 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_roof_a.w2mesh"
+
+      kaveldunhq_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_pavement_support_a_poor_messy_brick.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_street_pavement_support_a_poor_messy_brick.w2ent"
+        transform: 
+          pos: [ -552.4473876953, -778.5014648438, 16.2562980652 ]
+          rot: [ 0.0, 0.0, -89.8000183105 ]
+          scale: [ 2.0, 0.1000000015, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_pavement_support_a_poor_messy_brick.w2mesh"
+
+      kaveldunhq_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_pavement_support_a_poor_messy_brick.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_street_pavement_support_a_poor_messy_brick.w2ent"
+        transform: 
+          pos: [ -558.4470214844, -778.5009765625, 16.2562999725 ]
+          rot: [ 0.0, 0.0, -89.8000183105 ]
+          scale: [ 2.0, 0.1000000015, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_pavement_support_a_poor_messy_brick.w2mesh"
+
+      kaveldunhq_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_pavement_support_a_poor_messy_brick.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_street_pavement_support_a_poor_messy_brick.w2ent"
+        transform: 
+          pos: [ -558.4711914063, -773.0427856445, 16.2562999725 ]
+          rot: [ 0.0, 0.0, -89.8000183105 ]
+          scale: [ 2.0, 0.1000000015, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_pavement_support_a_poor_messy_brick.w2mesh"
+
+      kaveldunhq_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_pavement_support_a_poor_messy_brick.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_street_pavement_support_a_poor_messy_brick.w2ent"
+        transform: 
+          pos: [ -558.4876098633, -767.5504150391, 16.2562999725 ]
+          rot: [ 0.0, 0.0, -89.8000183105 ]
+          scale: [ 2.0, 0.1000000015, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_pavement_support_a_poor_messy_brick.w2mesh"
+
+      kaveldunhq_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/rich/rich_archway_store.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_archway_store.w2ent"
+        transform: 
+          pos: [ -555.6248168945, -781.3494262695, 10.3763036728 ]
+          rot: [ 0.0, 0.0, -179.3000183105 ]
+          scale: [ 1.1000000238, 1.0, 1.1000000238 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/rich/rich_archway_store.w2mesh"
+
+      kaveldunhq_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_square.w2ent"
+        transform: 
+          pos: [ -558.5989990234, -781.2838745117, 10.5362930298 ]
+          rot: [ 0.0, 0.0, -179.3000183105 ]
+          scale: [ 1.0, 1.0, 1.5700000525 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+
+      kaveldunhq_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_square.w2ent"
+        transform: 
+          pos: [ -552.6281738281, -781.2988891602, 10.5539550781 ]
+          rot: [ 0.0, 0.0, -177.8999633789 ]
+          scale: [ 1.0, 1.0, 1.5700000525 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+
+      kaveldunhq_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamwood_floor_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loamwood_floor_a.w2ent"
+        transform: 
+          pos: [ -555.5953979492, -778.1021728516, 15.9539546967 ]
+          rot: [ 0.0, 0.0, -360.3000183105 ]
+          scale: [ 0.8000000119, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamwood_floor_a.w2mesh"
+  kaveldunstables: 
+    world: "riviacapital"
+    #context: ""
+
+    statics: 
+
+      kaveldunstables_10: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_arch_thin.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_window_arch_thin.w2ent"
+        transform: 
+          pos: [ -529.2901000977, -746.0336303711, 16.2147998810 ]
+          rot: [ 0.0, 0.0, 0.6000121832 ]
+          scale: [ 1.0, 1.5000000000, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_arch_thin.w2mesh"
+
+      kaveldunstables_11: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_arch_thin.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_window_arch_thin.w2ent"
+        transform: 
+          pos: [ -521.5548706055, -746.2341918945, 16.2147998810 ]
+          rot: [ 0.0, 0.0, 0.6000121832 ]
+          scale: [ 1.0, 1.5000000000, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_arch_thin.w2mesh"
+
+      kaveldunstables_12: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_arch_thin.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_window_arch_thin.w2ent"
+        transform: 
+          pos: [ -518.6604614258, -746.2644042969, 16.2147998810 ]
+          rot: [ 0.0, 0.0, -2.5999882221 ]
+          scale: [ 1.0, 1.5000000000, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_arch_thin.w2mesh"
+
+      kaveldunstables_13: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_arch_wide.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_window_arch_wide.w2ent"
+        transform: 
+          pos: [ -531.6759643555, -746.1181640625, 16.2147998810 ]
+          rot: [ 0.0, 0.0, -0.1999882162 ]
+          scale: [ 1.0, 1.5000000000, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_arch_wide.w2mesh"
+
+      kaveldunstables_14: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_cross.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_window_cross.w2ent"
+        transform: 
+          pos: [ -532.5950317383, -753.9937133789, 16.2147941589 ]
+          rot: [ 0.0, 0.0, 90.0999755859 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_cross.w2mesh"
+
+      kaveldunstables_15: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_cross.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_window_cross.w2ent"
+        transform: 
+          pos: [ -532.4822387695, -748.1843872070, 16.2147941589 ]
+          rot: [ 0.0, 0.0, 90.0999755859 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_cross.w2mesh"
+
+      kaveldunstables_16: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_arch_thin.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_window_arch_thin.w2ent"
+        transform: 
+          pos: [ -532.5045166016, -751.0853881836, 18.6748046875 ]
+          rot: [ 0.0, 0.0, 90.6999740601 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_arch_thin.w2mesh"
+
+      kaveldunstables_17: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_arch_thin.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_window_arch_thin.w2ent"
+        transform: 
+          pos: [ -533.7507324219, -750.9859008789, 22.1148242950 ]
+          rot: [ 0.0, 0.0, 90.6999740601 ]
+          scale: [ 1.0, 2.5000000000, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_window_arch_thin.w2mesh"
+
+      kaveldunstables_18: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_roof_part.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_floor_roof_part.w2ent"
+        transform: 
+          pos: [ -510.7174072266, -749.4474487305, 22.7428398132 ]
+          rot: [ 0.0, 0.0, -180.9000091553 ]
+          scale: [ 1.0, 1.0, 1.2000000477 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_roof_part.w2mesh"
+
+      kaveldunstables_19: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_roof_part.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_floor_roof_part.w2ent"
+        transform: 
+          pos: [ -510.7552490234, -753.3637084961, 22.7428398132 ]
+          rot: [ 0.0, 0.0, 0.0999788493 ]
+          scale: [ 1.0, 1.0, 1.2000000477 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_roof_part.w2mesh"
+
+      kaveldunstables_20: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/road_hill_wall_b.w2ent"
+        transform: 
+          pos: [ -516.1012573242, -750.9349365234, 6.9828300476 ]
+          rot: [ 0.0, 0.0, -180.1000366211 ]
+          scale: [ 1.0, 1.1000000238, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
+
+      kaveldunstables_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior_entrance_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_exterior_entrance_b.w2ent"
+        transform: 
+          pos: [ -523.5283203125, -750.8853149414, 9.5139312744 ]
+          rot: [ 0.0, 0.0, 89.0000228882 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior_entrance_b.w2mesh"
+
+      kaveldunstables_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior_entrance_c.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_exterior_entrance_c.w2ent"
+        transform: 
+          pos: [ -523.5283203125, -750.8853149414, 9.5139312744 ]
+          rot: [ 0.0, 0.0, 89.0000228882 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior_entrance_c.w2mesh"
+
+      kaveldunstables_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior_shed_stone.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_exterior_shed_stone.w2ent"
+        transform: 
+          pos: [ -524.6270141602, -754.2529907227, 10.4139003754 ]
+          rot: [ 0.0, 0.0, 89.0000228882 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior_shed_stone.w2mesh"
+
+      kaveldunstables_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior_shed_stone_volume.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_exterior_shed_stone_volume.w2ent"
+        transform: 
+          pos: [ -524.6270141602, -754.2529907227, 10.4139299393 ]
+          rot: [ 0.0, 0.0, 89.0000228882 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior_shed_stone_volume.w2mesh"
+
+      kaveldunstables_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior_window_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_exterior_window_long.w2ent"
+        transform: 
+          pos: [ -524.0298461914, -756.0371093750, 17.6739311218 ]
+          rot: [ 0.0, 0.0, 89.0000228882 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior_window_long.w2mesh"
+
+      kaveldunstables_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_door_right.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_door_right.w2ent"
+        transform: 
+          pos: [ -532.8167724609, -752.9853515625, 10.6339654922 ]
+          rot: [ 0.0, 0.0, 191.5999603271 ]
+          scale: [ 1.0, 1.0, 0.8799999952 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_door_right.w2mesh"
+
+      kaveldunstables_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_door_left.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_door_left.w2ent"
+        transform: 
+          pos: [ -532.6669311523, -749.2102050781, 10.6339654922 ]
+          rot: [ 0.0, 0.0, 306.9998168945 ]
+          scale: [ 1.0, 1.0, 0.8799999952 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_door_left.w2mesh"
+            
+    statics.shadows:        
+      kaveldunstables: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_interior.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_interior.w2ent"
+        transform: 
+          pos: [ -523.5283203125, -750.8853149414, 9.5139312744 ]
+          rot: [ 0.0, 0.0, 89.0000228882 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_interior.w2mesh"
+
+      kaveldunstables_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_exterior.w2ent"
+        transform: 
+          pos: [ -523.5283203125, -750.8853149414, 9.5139312744 ]
+          rot: [ 0.0, 0.0, 89.0000228882 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior.w2mesh"
+      kaveldunstables_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior_arch_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stables_port_exterior_arch_a.w2ent"
+        transform: 
+          pos: [ -523.5283203125, -750.8853149414, 9.5139312744 ]
+          rot: [ 0.0, 0.0, 89.0000228882 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_stables_port/poor_stables_port_exterior_arch_a.w2mesh"            
   kaveldun_church_decorations: 
     world: "riviacapital"
     #context: ""
@@ -3076,8 +3740,311 @@ layers:
             isStreamed: true
             forceAutoHideDistance: 200
             drawableFlags: [ "IsVisible", "CastShadows" ]
-            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_tall_int_fb_walll.w2mesh"            
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_tall_int_fb_walll.w2mesh"           
+
+      kaveldunbuildingsouthwestexp_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_big_inn_jetty/poor_big_inn_jetty_int_f1_frame.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_big_inn_jetty_int_f1_frame.w2ent"
+        transform: 
+          pos: [ -537.2492065430, -823.6860351563, 10.2739572525 ]
+          rot: [ 0.0, 0.0, -533.8004150391 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_big_inn_jetty/poor_big_inn_jetty_int_f1_frame.w2mesh"
+
+      kaveldunbuildingsouthwestexp_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_big_inn_jetty/poor_big_inn_jetty_int_f1_wall.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_big_inn_jetty_int_f1_wall.w2ent"
+        transform: 
+          pos: [ -537.2492065430, -823.6860351563, 10.2739572525 ]
+          rot: [ 0.0, 0.0, -533.8004150391 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_big_inn_jetty/poor_big_inn_jetty_int_f1_wall.w2mesh"  
+            
+      kaveldunbuildingsouthwestexp_1: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\loam_houses\\entities\\poor_woodenroof_short_thatched_interior.w2ent"
+        pos: [ -521.0735473633, -834.4649047852, 10.5776367188 ]
+        rot: [ 0.0, 0.0, -137.2000427246 ]
+        
     statics.shadows: 
+      kaveldunbuildingsouthwestexp: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\loam_houses\\entities\\poor_woodenroof_short_thatched_exterior.w2ent"
+        pos: [ -521.0735473633, -834.4649047852, 10.5776367188 ]
+        rot: [ 0.0, 0.0, -137.2000427246 ]
+
+      kaveldunbuildingsouthwestexp_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_doors_small_roof.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_doors_small_roof.w2ent"
+        transform: 
+          pos: [ -516.7502441406, -833.3801879883, 13.6776275635 ]
+          rot: [ 0.0, 0.0, -46.4000434875 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_doors_small_roof.w2mesh"
+
+      kaveldunbuildingsouthwestexp_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_big_inn_jetty/poor_big_inn_jetty_ext_f1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_big_inn_jetty_ext_f1.w2ent"
+        transform: 
+          pos: [ -537.2492065430, -823.6860351563, 10.2739572525 ]
+          rot: [ 0.0, 0.0, -533.8004150391 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_big_inn_jetty/poor_big_inn_jetty_ext_f1.w2mesh"
+
+      kaveldunbuildingsouthwestexp_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_big_inn_jetty/poor_big_inn_jetty_ext_f3.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_big_inn_jetty_ext_f3.w2ent"
+        transform: 
+          pos: [ -537.2371215820, -822.7752685547, 2.7539644241 ]
+          rot: [ 0.0, 0.0, -533.8004150391 ]
+          scale: [ 0.9499999881, 0.8999999762, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_big_inn_jetty/poor_big_inn_jetty_ext_f3.w2mesh"
+
+      kaveldunbuildingsouthwestexp_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_big_inn_jetty/poor_big_inn_jetty_porch.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_big_inn_jetty_porch.w2ent"
+        transform: 
+          pos: [ -537.2492065430, -823.6860351563, 10.2739572525 ]
+          rot: [ 0.0, 0.0, -533.8004150391 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 300
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_big_inn_jetty/poor_big_inn_jetty_porch.w2mesh"
+
+      kaveldunbuildingsouthwestexp_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_big_inn_jetty/poor_big_inn_jetty_ext_f3_win.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_big_inn_jetty_ext_f3_win.w2ent"
+        transform: 
+          pos: [ -537.2371215820, -822.7752685547, 2.7539644241 ]
+          rot: [ 0.0, 0.0, -533.8004150391 ]
+          scale: [ 0.9499999881, 0.8999999762, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 300
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_big_inn_jetty/poor_big_inn_jetty_ext_f3_win.w2mesh"    
+    
+      kaveldunbuildingwest: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_house_tall.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_house_tall.w2ent"
+        transform: 
+          pos: [ -555.5421142578, -794.8545532227, 6.9909305573 ]
+          rot: [ 0.0, 0.0, 452.6001586914 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_house_tall.w2mesh"
+
+      kaveldunbuildingwest_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_tall_house_top_small.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_tall_house_top_small.w2ent"
+        transform: 
+          pos: [ -553.2557373047, -801.3950195313, 16.1109218597 ]
+          rot: [ 0.0, 0.0, 271.8001098633 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_tall_house_top_small.w2mesh"
+
+      kaveldunbuildingwest_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_single_a.w2ent"
+        transform: 
+          pos: [ -548.3395385742, -802.0799560547, 15.1909446716 ]
+          rot: [ 0.0, 0.0, 452.2001647949 ]
+          scale: [ 1.2000000477, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_a.w2mesh"
+
+      kaveldunbuildingwest_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_double_d.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_double_d.w2ent"
+        transform: 
+          pos: [ -551.0335083008, -798.4019165039, 13.1309490204 ]
+          rot: [ 0.0, 0.0, 541.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_double_d.w2mesh"
+
+      kaveldunbuildingwest_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_double_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_double_b.w2ent"
+        transform: 
+          pos: [ -550.7382202148, -805.8059692383, 12.8909492493 ]
+          rot: [ 0.0, 0.0, 361.8000793457 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_double_b.w2mesh"
+
+      kaveldunbuildingwest_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/griffon_ruins/griff_wall_straight.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/griff_wall_straight.w2ent"
+        transform: 
+          pos: [ -556.1798095703, -806.0070800781, 13.0509233475 ]
+          rot: [ 0.0, 0.0, 91.1998138428 ]
+          scale: [ 1.0, 1.3999999762, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/griffon_ruins/griff_wall_straight.w2mesh"
+
+      kaveldunbuildingwest_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/griffon_ruins/griff_wall_straight.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/griff_wall_straight.w2ent"
+        transform: 
+          pos: [ -556.1798095703, -806.0070800781, 9.5509004593 ]
+          rot: [ 0.0, 0.0, 91.1998138428 ]
+          scale: [ 1.0, 1.3999999762, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/griffon_ruins/griff_wall_straight.w2mesh"
+
+      kaveldunbuildingwest_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/griffon_ruins/griff_wall_straight.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/griff_wall_straight.w2ent"
+        transform: 
+          pos: [ -559.1363525391, -802.1339721680, 9.5990934372 ]
+          rot: [ 0.0, 0.0, 182.9998474121 ]
+          scale: [ 1.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/griffon_ruins/griff_wall_straight.w2mesh"
+
+      kaveldunbuildingwest_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/griffon_ruins/griff_wall_straight.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/griff_wall_straight.w2ent"
+        transform: 
+          pos: [ -547.9088134766, -803.8700561523, 9.9509096146 ]
+          rot: [ 0.0, 0.0, 182.5998229980 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/griffon_ruins/griff_wall_straight.w2mesh"
+
+      kaveldunbuildingwest_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/griffon_ruins/griff_wall_straight.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/griff_wall_straight.w2ent"
+        transform: 
+          pos: [ -548.0656127930, -800.3287963867, 9.9509096146 ]
+          rot: [ 0.0, 0.0, 182.5998229980 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/griffon_ruins/griff_wall_straight.w2mesh"    
       kaveldunexplorablehousenorth: 
         .type: "CEntity"
         .debug: 
@@ -6290,6 +7257,76 @@ layers:
     world: "riviacapital"
     #context: ""
     statics:
+      kaveldunbuildingest_10: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_support_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_floor_support_a.w2ent"
+        transform: 
+          pos: [ -444.5742187500, -805.9121093750, 14.1444396973 ]
+          rot: [ 0.0, 0.0, -540.8008422852 ]
+          scale: [ 1.2000000477, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_support_a.w2mesh"
+
+      kaveldunbuildingest_11: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_support_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loamred_floor_support_a.w2ent"
+        transform: 
+          pos: [ -448.5684204102, -811.9010009766, 14.3444309235 ]
+          rot: [ 0.0, 0.0, -450.1010131836 ]
+          scale: [ 1.2000000477, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_support_a.w2mesh"
+
+      kaveldunbuildingest_12: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_support_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loamred_floor_support_a.w2ent"
+        transform: 
+          pos: [ -440.6761779785, -811.9440307617, 14.3444309235 ]
+          rot: [ 0.0, 0.0, -269.9010620117 ]
+          scale: [ 1.2000000477, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_support_a.w2mesh"
+
+      kaveldunbuildingest_15: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_roof_outhouse_c.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loamred_floor_roof_outhouse_c.w2ent"
+        transform: 
+          pos: [ -442.6015014648, -823.6779785156, 20.5844612122 ]
+          rot: [ 0.0, 0.0, -274.3009643555 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_roof_outhouse_c.w2mesh"            
       kaveldunfort_39: 
         .type: "CEntity"
         .debug: 
@@ -6448,8 +7485,470 @@ layers:
             forceAutoHideDistance: 2000
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/common/doors/meshes/door_common_decorative.w2mesh"
-            
-    statics.shadows: 
+      kaveldunbuildingsoutheastexp_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_woodenfoof_loam/poor_woodenfoof_loam_herbalist_shop_int_fa.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_woodenfoof_loam_herbalist_shop_int_fa.w2ent"
+        transform: 
+          pos: [ -449.9314880371, -842.4032592773, 10.0339765549 ]
+          rot: [ 0.0, 0.0, -85.5999450684 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 100
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_woodenfoof_loam/poor_woodenfoof_loam_herbalist_shop_int_fa.w2mesh"
+
+      kaveldunbuildingsoutheastexp_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_woodenfoof_loam/poor_woodenfoof_loam_int_fb_frame.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_woodenfoof_loam_int_fb_frame.w2ent"
+        transform: 
+          pos: [ -449.9314880371, -842.4032592773, 10.0339765549 ]
+          rot: [ 0.0, 0.0, -85.5999450684 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 100
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_woodenfoof_loam/poor_woodenfoof_loam_int_fb_frame.w2mesh"            
+    statics.shadows:
+      kaveldunbuildingsoutheast: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\loam_houses\\loam_house_suburbian.w2ent"
+        pos: [ -442.0744323730, -830.1669311523, 15.1539754868 ]
+        rot: [ 358.0, 0.0, 34.0000228882 ]
+
+      kaveldunbuildingsoutheast_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_outhouse_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loamred_outhouse_a.w2ent"
+        transform: 
+          pos: [ -438.5088806152, -831.0301513672, 7.7939825058 ]
+          rot: [ 358.0, 0.0, 130.3999633789 ]
+          scale: [ 1.0, 1.2999999523, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_outhouse_a.w2mesh"
+
+      kaveldunbuildingsoutheast_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_outhouse_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loamred_outhouse_a.w2ent"
+        transform: 
+          pos: [ -445.4960327148, -829.6787719727, 7.7939825058 ]
+          rot: [ 358.0, 0.0, 308.6000671387 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_outhouse_a.w2mesh"
+
+      kaveldunbuildingsoutheastexp: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_woodenfoof_loam/poor_woodenfoof_loam_herbalist_shop_fa.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_woodenfoof_loam_herbalist_shop_fa.w2ent"
+        transform: 
+          pos: [ -449.9314880371, -842.4032592773, 10.0339765549 ]
+          rot: [ 0.0, 0.0, -85.5999450684 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_woodenfoof_loam/poor_woodenfoof_loam_herbalist_shop_fa.w2mesh"
+
+
+      kaveldunbuildingsoutheastexp_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_woodenfoof_loam/poor_woodenfoof_loam_fb.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_woodenfoof_loam_fb.w2ent"
+        transform: 
+          pos: [ -449.9314880371, -842.4032592773, 10.0339765549 ]
+          rot: [ 0.0, 0.0, -85.5999450684 ]
+          scale: [ 1.0499999523, 1.0499999523, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_woodenfoof_loam/poor_woodenfoof_loam_fb.w2mesh"
+
+      kaveldunbuildingsoutheastexp_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_woodenfoof_loam/poor_woodenfoof_loam_roofb.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_woodenfoof_loam_roofb.w2ent"
+        transform: 
+          pos: [ -449.5059509277, -842.1618041992, 4.7139782906 ]
+          rot: [ 0.0, 0.0, -85.3998565674 ]
+          scale: [ 1.1000000238, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_woodenfoof_loam/poor_woodenfoof_loam_roofb.w2mesh"
+
+      kaveldunbuildingsoutheastexp_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_roof_outhouse_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loamred_floor_roof_outhouse_a.w2ent"
+        transform: 
+          pos: [ -446.8692016602, -844.3754272461, 22.7538719177 ]
+          rot: [ 0.0, 0.0, -357.5996398926 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_roof_outhouse_a.w2mesh"
+
+      kaveldunbuildingsoutheastexp_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_wooden_roof_half_small.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_wooden_roof_half_small.w2ent"
+        transform: 
+          pos: [ -446.1996459961, -847.1096801758, 16.4338245392 ]
+          rot: [ 0.0, 0.0, -537.4000854492 ]
+          scale: [ 0.5000000000, 0.6999999881, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_wooden_roof_half_small.w2mesh"
+
+      kaveldunbuildingsoutheastexp_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_tall_int_fb_walll_poor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_woodenfoof_tall_int_fb_walll_poor.w2ent"
+        transform: 
+          pos: [ -447.2189941406, -848.2058105469, 0.1138353497 ]
+          rot: [ 0.0, 0.0, -537.4000854492 ]
+          scale: [ 0.5000000000, 0.6999999881, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_tall_int_fb_walll_poor.w2mesh"
+
+      kaveldunbuildingsoutheastexp_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_tall_int_fb_walll_poor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_woodenfoof_tall_int_fb_walll_poor.w2ent"
+        transform: 
+          pos: [ -442.9074096680, -847.8358154297, 0.1138353497 ]
+          rot: [ 0.0, 0.0, -537.4000854492 ]
+          scale: [ 0.5000000000, 0.6999999881, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_tall_int_fb_walll_poor.w2mesh"
+
+      kaveldunbuildingsoutheastexp_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_tall_int_fb_walll_poor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_woodenfoof_tall_int_fb_walll_poor.w2ent"
+        transform: 
+          pos: [ -446.2673645020, -850.7514648438, -0.0061646402 ]
+          rot: [ 0.0, 0.0, -625.1998901367 ]
+          scale: [ 0.5000000000, 0.8500000238, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_tall_int_fb_walll_poor.w2mesh"
+      kaveldunbuildingest: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_a_support.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_street_a_support.w2ent"
+        transform: 
+          pos: [ -448.6134033203, -811.8641357422, 14.8939495087 ]
+          rot: [ 0.0, 0.0, 89.8000564575 ]
+          scale: [ 2.0, 2.0, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/rich_street_a_support.w2mesh"
+
+      kaveldunbuildingest_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_single_e.w2ent"
+        transform: 
+          pos: [ -448.5652160645, -808.7672729492, 16.0990505219 ]
+          rot: [ 0.0, 0.0, 269.7998962402 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 5000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+
+      kaveldunbuildingest_13: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_single_e.w2ent"
+        transform: 
+          pos: [ -439.3421325684, -811.2344970703, 19.0590724945 ]
+          rot: [ 0.0, 0.0, 2.1998825073 ]
+          scale: [ 1.0, 1.5000000000, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+
+      kaveldunbuildingest_14: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_single_e.w2ent"
+        transform: 
+          pos: [ -439.3958129883, -809.2365722656, 19.0934867859 ]
+          rot: [ 0.0, 0.0, -176.4001007080 ]
+          scale: [ 1.0, 1.3999999762, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+
+      kaveldunbuildingest_16: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamwood_bridge_unroofed.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loamwood_bridge_unroofed.w2ent"
+        transform: 
+          pos: [ -438.3977661133, -810.1714477539, 17.1444339752 ]
+          rot: [ 0.0, 0.0, -359.1009521484 ]
+          scale: [ 0.7500000000, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamwood_bridge_unroofed.w2mesh"
+
+      kaveldunbuildingest_17: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_shed_roof_small.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_woodenfoof_shed_roof_small.w2ent"
+        transform: 
+          pos: [ -437.6147460938, -810.3040161133, 20.5044536591 ]
+          rot: [ 0.0, 0.0, -360.1011352539 ]
+          scale: [ 1.3999999762, 0.5500000119, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_shed_roof_small.w2mesh"
+
+      kaveldunbuildingest_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_single_e.w2ent"
+        transform: 
+          pos: [ -448.5827331543, -814.8262329102, 16.0990505219 ]
+          rot: [ 0.0, 0.0, 269.7998962402 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+
+      kaveldunbuildingest_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_single_e.w2ent"
+        transform: 
+          pos: [ -444.6410827637, -806.4532470703, 16.0990505219 ]
+          rot: [ 0.0, 0.0, 177.7999725342 ]
+          scale: [ 1.3999999762, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+
+      kaveldunbuildingest_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_single_e.w2ent"
+        transform: 
+          pos: [ -444.8603210449, -817.4476928711, 16.0990505219 ]
+          rot: [ 0.0, 0.0, -2.2000319958 ]
+          scale: [ 1.3999999762, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+
+      kaveldunbuildingest_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_single_e.w2ent"
+        transform: 
+          pos: [ -440.9226989746, -815.1353759766, 16.0990505219 ]
+          rot: [ 0.0, 0.0, 89.3998336792 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+
+      kaveldunbuildingest_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_part_single_e.w2ent"
+        transform: 
+          pos: [ -440.8561706543, -809.1159667969, 16.0990505219 ]
+          rot: [ 0.0, 0.0, 89.3998336792 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_part_single_e.w2mesh"
+
+      kaveldunbuildingest_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamwood_floor_roof.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loamwood_floor_roof.w2ent"
+        transform: 
+          pos: [ -444.6950073242, -815.4552612305, 17.5896377563 ]
+          rot: [ 0.0, 0.0, -4.8001484871 ]
+          scale: [ 1.0, 0.6999999881, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamwood_floor_roof.w2mesh"
+
+      kaveldunbuildingest_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamwood_floor_roof.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loamwood_floor_roof.w2ent"
+        transform: 
+          pos: [ -444.3877563477, -808.5388793945, 17.5896377563 ]
+          rot: [ 0.0, 0.0, -179.6003265381 ]
+          scale: [ 1.0, 0.6999999881, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamwood_floor_roof.w2mesh"
+
+      kaveldunbuildingest_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_support_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_floor_support_a.w2ent"
+        transform: 
+          pos: [ -444.6794738770, -817.8606567383, 14.1444396973 ]
+          rot: [ 0.0, 0.0, -361.6004943848 ]
+          scale: [ 1.2000000477, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_support_a.w2mesh"
+    
       kaveldunbuildingeast: 
         .type: "CEntity"
         .debug: 
@@ -7020,58 +8519,6 @@ layers:
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/redania/novigrad/novigrad_harbour_shore_set/nov_harbour_shore_pillar_square.w2mesh"
 
-      kaveldunfort_17: 
-        .type: "CEntity"
-        .debug: 
-          mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
-          meshpreview: "dlc/modtemplates/radishquestui/meshes/road_hill_wall_b.w2ent"
-        transform: 
-          pos: [ -525.3170776367, -847.4375000000, 5.6850996017 ]
-          rot: [ 0.0, 0.0, -628.8005981445 ]
-        streamingDistance: 200
-        components: 
-          mesh: 
-            .type: "CStaticMeshComponent"
-            isStreamed: true
-            forceAutoHideDistance: 2000
-            drawableFlags: [ "IsVisible", "CastShadows" ]
-            mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
-
-      kaveldunfort_18: 
-        .type: "CEntity"
-        .debug: 
-          mesh: "environment/architecture/human/redania/novigrad/novigrad_harbour_shore_set/nov_harbour_shore_pillar_square.w2mesh"
-          meshpreview: "dlc/modtemplates/radishquestui/meshes/nov_harbour_shore_pillar_square.w2ent"
-        transform: 
-          pos: [ -530.3464355469, -849.4205932617, 9.1795053482 ]
-          rot: [ 0.0, 0.0, 2.1999821663 ]
-          scale: [ 1.0, 1.0, 2.0 ]
-        streamingDistance: 200
-        components: 
-          mesh: 
-            .type: "CStaticMeshComponent"
-            isStreamed: true
-            forceAutoHideDistance: 2000
-            drawableFlags: [ "IsVisible", "CastShadows" ]
-            mesh: "environment/architecture/human/redania/novigrad/novigrad_harbour_shore_set/nov_harbour_shore_pillar_square.w2mesh"
-
-      kaveldunfort_19: 
-        .type: "CEntity"
-        .debug: 
-          mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
-          meshpreview: "dlc/modtemplates/radishquestui/meshes/road_hill_wall_b.w2ent"
-        transform: 
-          pos: [ -535.3468017578, -847.6281738281, 5.6850996017 ]
-          rot: [ 0.0, 0.0, -628.8005981445 ]
-        streamingDistance: 200
-        components: 
-          mesh: 
-            .type: "CStaticMeshComponent"
-            isStreamed: true
-            forceAutoHideDistance: 2000
-            drawableFlags: [ "IsVisible", "CastShadows" ]
-            mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
-
       kaveldunfort_2: 
         .type: "CEntity"
         .debug: 
@@ -7088,15 +8535,31 @@ layers:
             forceAutoHideDistance: 2000
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/redania/novigrad/rich/rich_wood_house_small/rich_wood_house_small_f1_stone.w2mesh"
+      kaveldunfortfix: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/road_hill_wall_b.w2ent"
+        transform: 
+          pos: [ -521.9356689453, -844.7892456055, 5.6652750969 ]
+          rot: [ 0.0, 0.0, 47.4000473022 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
 
-      kaveldunfort_20: 
+      kaveldunfortfix_1: 
         .type: "CEntity"
         .debug: 
           mesh: "environment/architecture/human/redania/novigrad/novigrad_harbour_shore_set/nov_harbour_shore_pillar_square.w2mesh"
           meshpreview: "dlc/modtemplates/radishquestui/meshes/nov_harbour_shore_pillar_square.w2ent"
         transform: 
-          pos: [ -540.5161743164, -849.5645751953, 9.1795053482 ]
-          rot: [ 0.0, 0.0, 2.1999821663 ]
+          pos: [ -526.9215698242, -842.8970336914, 9.1852588654 ]
+          rot: [ 0.0, 0.0, 47.4000473022 ]
           scale: [ 1.0, 1.0, 2.0 ]
         streamingDistance: 200
         components: 
@@ -7107,14 +8570,14 @@ layers:
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/redania/novigrad/novigrad_harbour_shore_set/nov_harbour_shore_pillar_square.w2mesh"
 
-      kaveldunfort_21: 
+      kaveldunfortfix_2: 
         .type: "CEntity"
         .debug: 
           mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
           meshpreview: "dlc/modtemplates/radishquestui/meshes/road_hill_wall_b.w2ent"
         transform: 
-          pos: [ -541.1960449219, -844.3652954102, 5.6850996017 ]
-          rot: [ 0.0, 0.0, -692.4010009766 ]
+          pos: [ -529.2412109375, -838.2268066406, 5.6652750969 ]
+          rot: [ 0.0, 0.0, 47.4000473022 ]
         streamingDistance: 200
         components: 
           mesh: 
@@ -7124,14 +8587,14 @@ layers:
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
 
-      kaveldunfort_22: 
+      kaveldunfortfix_3: 
         .type: "CEntity"
         .debug: 
           mesh: "environment/architecture/human/redania/novigrad/novigrad_harbour_shore_set/nov_harbour_shore_pillar_square.w2mesh"
           meshpreview: "dlc/modtemplates/radishquestui/meshes/nov_harbour_shore_pillar_square.w2ent"
         transform: 
-          pos: [ -545.3325805664, -840.6235961914, 9.1795053482 ]
-          rot: [ 0.0, 0.0, -64.2000350952 ]
+          pos: [ -534.3460083008, -836.1139526367, 9.1852588654 ]
+          rot: [ 0.0, 0.0, 47.4000473022 ]
           scale: [ 1.0, 1.0, 2.0 ]
         streamingDistance: 200
         components: 
@@ -7142,14 +8605,14 @@ layers:
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/redania/novigrad/novigrad_harbour_shore_set/nov_harbour_shore_pillar_square.w2mesh"
 
-      kaveldunfort_23: 
+      kaveldunfortfix_4: 
         .type: "CEntity"
         .debug: 
           mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
           meshpreview: "dlc/modtemplates/radishquestui/meshes/road_hill_wall_b.w2ent"
         transform: 
-          pos: [ -546.0563964844, -835.2947387695, 5.6850996017 ]
-          rot: [ 0.0, 0.0, -692.4010009766 ]
+          pos: [ -536.7575073242, -831.3536987305, 5.6652750969 ]
+          rot: [ 0.0, 0.0, 47.4000473022 ]
         streamingDistance: 200
         components: 
           mesh: 
@@ -7159,14 +8622,14 @@ layers:
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
 
-      kaveldunfort_24: 
+      kaveldunfortfix_5: 
         .type: "CEntity"
         .debug: 
           mesh: "environment/architecture/human/redania/novigrad/novigrad_harbour_shore_set/nov_harbour_shore_pillar_square.w2mesh"
           meshpreview: "dlc/modtemplates/radishquestui/meshes/nov_harbour_shore_pillar_square.w2ent"
         transform: 
-          pos: [ -550.1493530273, -831.5563964844, 9.1795053482 ]
-          rot: [ 0.0, 0.0, -64.2000350952 ]
+          pos: [ -541.7821044922, -829.1962280273, 9.1852588654 ]
+          rot: [ 0.0, 0.0, 47.4000473022 ]
           scale: [ 1.0, 1.0, 2.0 ]
         streamingDistance: 200
         components: 
@@ -7177,14 +8640,15 @@ layers:
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/redania/novigrad/novigrad_harbour_shore_set/nov_harbour_shore_pillar_square.w2mesh"
 
-      kaveldunfort_25: 
+      kaveldunfortfix_6: 
         .type: "CEntity"
         .debug: 
           mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
           meshpreview: "dlc/modtemplates/radishquestui/meshes/road_hill_wall_b.w2ent"
         transform: 
-          pos: [ -550.7967529297, -826.3260498047, 5.6850996017 ]
-          rot: [ 0.0, 0.0, -692.4010009766 ]
+          pos: [ -544.9192504883, -823.6846313477, 5.6652750969 ]
+          rot: [ 0.0, 0.0, 47.4000473022 ]
+          scale: [ 1.0, 1.2999999523, 1.0 ]
         streamingDistance: 200
         components: 
           mesh: 
@@ -7194,14 +8658,14 @@ layers:
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
 
-      kaveldunfort_26: 
+      kaveldunfortfix_7: 
         .type: "CEntity"
         .debug: 
           mesh: "environment/architecture/human/redania/novigrad/novigrad_harbour_shore_set/nov_harbour_shore_pillar_square.w2mesh"
           meshpreview: "dlc/modtemplates/radishquestui/meshes/nov_harbour_shore_pillar_square.w2ent"
         transform: 
-          pos: [ -554.8294677734, -822.6954345703, 9.1795053482 ]
-          rot: [ 0.0, 0.0, -64.2000350952 ]
+          pos: [ -551.0559692383, -820.7203979492, 9.1852588654 ]
+          rot: [ 0.0, 0.0, 47.4000473022 ]
           scale: [ 1.0, 1.0, 2.0 ]
         streamingDistance: 200
         components: 
@@ -7212,15 +8676,15 @@ layers:
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/redania/novigrad/novigrad_harbour_shore_set/nov_harbour_shore_pillar_square.w2mesh"
 
-      kaveldunfort_27: 
+      kaveldunfortfix_8: 
         .type: "CEntity"
         .debug: 
           mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
           meshpreview: "dlc/modtemplates/radishquestui/meshes/road_hill_wall_b.w2ent"
         transform: 
-          pos: [ -556.0319213867, -816.3727416992, 5.6850996017 ]
-          rot: [ 0.0, 0.0, -692.4010009766 ]
-          scale: [ 1.0, 1.2000000477, 1.0 ]
+          pos: [ -554.4073486328, -814.9597167969, 5.6652750969 ]
+          rot: [ 0.0, 0.0, 47.4000473022 ]
+          scale: [ 1.0, 1.2999999523, 1.0 ]
         streamingDistance: 200
         components: 
           mesh: 
@@ -7229,7 +8693,6 @@ layers:
             forceAutoHideDistance: 2000
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/redania/novigrad/novigrad_street_assets/rich/road_hill_wall_b.w2mesh"
-
       kaveldunfort_28: 
         .type: "CEntity"
         .debug: 
