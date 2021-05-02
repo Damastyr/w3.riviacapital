@@ -413,10 +413,6 @@ layers:
         rot: [ 0.0, 0.0, -1175.5996093750 ]
 
     statics.shadows:    
-      city_of_rivia_sp: 
-        template: "W3FastTravelEntity:gameplay\\fast_travel_entities\\fast_travel_template_nomansland_b.w2ent.w2ent"
-        pos: [ -663.584350586, 276.541809082, 3.2249450684 ]
-        rot: [ 0.0, 0.0, -88.3999862671 ]
       nearbridgehay: 
         template: "CEntity:environment\\decorations\\vehicles\\cart\\cart_big_fx.w2ent"
         pos: [ -701.514465332, 259.861633301, 4.4276256561 ]
