@@ -1,0 +1,167 @@
+layers:
+  stream_experiment: 
+    world: "riviacapital"
+    #context: ""
+
+    statics: 
+      stream1_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -28.4358997345, -978.3640136719, 0.1154592037 ]
+          rot: [ 0.0, 0.0, 13.8001003265 ]
+          scale: [ 10.0, 10.0, 0.0010000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 20000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream1_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ 231.9241943359, -927.2167358398, 0.0754595250 ]
+          rot: [ 0.0, 0.0, 79.2001037598 ]
+          scale: [ 10.0, 10.0, 0.0010000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 20000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream1_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -308.9859924316, -953.9050292969, 0.0954592004 ]
+          rot: [ 0.0, 0.0, -43.5999107361 ]
+          scale: [ 10.0, 10.0, 0.0010000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 20000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+            
+      stream2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -402.8376770020, -751.8582763672, 0.0955018029 ]
+          rot: [ 0.0, 0.0, -63.3999900818 ]
+          scale: [ 10.0, 10.0, 0.0099999998 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream2_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -613.2070922852, -901.5084838867, 0.0955018029 ]
+          rot: [ 0.0, 0.0, -13.7999982834 ]
+          scale: [ 10.0, 10.0, 0.0099999998 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream2_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -857.5120239258, -894.7369995117, 0.1005017981 ]
+          rot: [ 0.0, 0.0, -13.0000038147 ]
+          scale: [ 10.0, 10.0, 0.0099999998 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream2_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -1024.6899414063, -922.2999877930, 0.0905018002 ]
+          rot: [ 0.0, 0.0, -2.0 ]
+          scale: [ 10.0, 10.0, 0.0099999998 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream2_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -762.2229003906, -755.6658935547, 0.1005017981 ]
+          rot: [ 0.0, 0.0, 10.5999965668 ]
+          scale: [ 10.0, 10.0, 0.0099999998 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream2_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -631.1560668945, -696.3292846680, 0.0905018002 ]
+          rot: [ 0.0, 0.0, -50.4000053406 ]
+          scale: [ 10.0, 10.0, 0.0099999998 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"            

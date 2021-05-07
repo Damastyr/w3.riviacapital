@@ -1,0 +1,2286 @@
+layers:
+  central_farm_barriers: 
+    world: "riviacapital"
+    #context: ""
+
+    statics: 
+      centerfarm_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -433.6208190918, -625.5888671875, 8.9064397812 ]
+          rot: [ 0.0, 35.0, 16.4000034332 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      centerfarm_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -430.1462402344, -624.8811035156, 9.6064300537 ]
+          rot: [ 0.0, 45.0, 13.1999969482 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      centerfarm_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -426.3893127441, -624.2454223633, 9.6064300537 ]
+          rot: [ 0.0, 45.0, 3.1999974251 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+            
+      centerfarm_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -436.8839111328, -626.4177856445, 8.9664411545 ]
+          rot: [ 0.0, 35.0, 12.2000055313 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      centerfarm_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -439.5271606445, -626.3978881836, 8.9664411545 ]
+          rot: [ 0.0, 35.0, -0.7999935150 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      centerfarm_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -456.0338745117, -625.2997436523, 8.8464384079 ]
+          rot: [ 0.0, 35.0, 4.6000046730 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      centerfarm_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -442.3966979980, -626.4839477539, 9.3064489365 ]
+          rot: [ 0.0, 35.0, -11.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+
+      centerfarm_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -445.7077941895, -625.8649902344, 9.2286653519 ]
+          rot: [ 0.0, 35.0, -5.1999974251 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      centerfarm: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -452.3409118652, -625.3995971680, 9.1286630630 ]
+          rot: [ 0.0, 35.0, -5.5999999046 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      centerfarm_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -449.1034851074, -625.5858154297, 9.1286630630 ]
+          rot: [ 0.0, 35.0, 1.1999996901 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+    statics.shadows: 
+      centerfarm_10: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor_b.w2ent"
+        transform: 
+          pos: [ -453.6324157715, -634.3373413086, 11.6264419556 ]
+          rot: [ 0.0, 0.0, -1.0000149012 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor_b.w2mesh"
+
+      centerfarm_11: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -454.1653442383, -630.5821533203, 11.5828399658 ]
+          rot: [ 0.0, 0.0, 15.7999839783 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_12: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -455.7156066895, -626.9409179688, 11.1428356171 ]
+          rot: [ 10.0, 20.0, -172.7999725342 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_13: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -456.4653930664, -623.3542480469, 10.7428464890 ]
+          rot: [ 10.0, 10.0, -364.3999938965 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_14: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -455.6565856934, -619.8881835938, 10.8628349304 ]
+          rot: [ 10.0, 5.0, -562.2001342773 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_15: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -454.5417785645, -616.9528808594, 10.8628349304 ]
+          rot: [ 15.0, 1.0, -572.6002807617 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_16: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -452.4522399902, -613.5022583008, 10.6428298950 ]
+          rot: [ 5.0, 1.0, -578.7999877930 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_17: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -450.3400573730, -611.2751464844, 10.6428298950 ]
+          rot: [ 5.0, 1.0, -578.7999877930 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_18: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -448.1761169434, -608.6304931641, 10.6428298950 ]
+          rot: [ 355.0, 1.0, -578.7999877930 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_19: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -445.9916687012, -605.6593627930, 10.5435638428 ]
+          rot: [ 355.0, 1.0, -760.7999877930 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_20: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -443.7085876465, -602.9559936523, 10.4435672760 ]
+          rot: [ 5.0, 0.0, -945.5999755859 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_21: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -440.8901977539, -600.5374755859, 10.4435672760 ]
+          rot: [ 5.0, 0.0, -966.2000122070 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_22: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -437.6603088379, -598.9788208008, 10.3435649872 ]
+          rot: [ 5.0, 0.0, -956.3999023438 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_23: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -434.9979553223, -596.9376220703, 10.3435649872 ]
+          rot: [ 5.0, 0.0, -956.3999023438 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_24: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -432.2645874023, -594.8068237305, 10.3435649872 ]
+          rot: [ 5.0, 0.0, -956.3999023438 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_25: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -429.9551391602, -592.6642456055, 10.3435649872 ]
+          rot: [ 5.0, 0.0, -947.7998046875 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_26: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -427.1829223633, -590.4917602539, 10.5435695648 ]
+          rot: [ 5.0, 355.0, -947.7999877930 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_27: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/terrain_surroundings/stone_borders/bob_stone_borders_long_1_mossy.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_stone_borders_long_1_mossy.w2ent"
+        transform: 
+          pos: [ -423.0930786133, -585.7500000000, 9.9435586929 ]
+          rot: [ 5.0, 355.0, -1026.0002441406 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/terrain_surroundings/stone_borders/bob_stone_borders_long_1_mossy.w2mesh"
+
+      centerfarm_28: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/terrain_surroundings/stone_borders/bob_stone_borders_long_1_curve90_mossy.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_stone_borders_long_1_curve90_mossy.w2ent"
+        transform: 
+          pos: [ -419.7403259277, -580.0844726563, 10.2167644501 ]
+          rot: [ 5.0, 355.0, -1215.6008300781 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/terrain_surroundings/stone_borders/bob_stone_borders_long_1_curve90_mossy.w2mesh"
+
+      centerfarm_29: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -479.8399047852, -640.1211547852, 11.4844551086 ]
+          rot: [ 5.0, 355.0, -953.5997314453 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_30: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -478.0061950684, -636.9711914063, 11.3844528198 ]
+          rot: [ 0.0, 5.0, -909.2000122070 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_31: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -477.1307678223, -633.8356323242, 11.3444519043 ]
+          rot: [ 0.0, 0.0, -909.2000122070 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_32: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -476.4633178711, -630.6035156250, 11.3444519043 ]
+          rot: [ 0.0, 0.0, -904.6000366211 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_33: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -476.2250366211, -627.3508300781, 11.3628349304 ]
+          rot: [ 0.0, 0.0, -895.0000610352 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_34: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -476.2250366211, -627.3508300781, 11.3628349304 ]
+          rot: [ 0.0, 0.0, -895.0000610352 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_35: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -476.1254882813, -624.1119995117, 11.0828285217 ]
+          rot: [ 0.0, 10.0, -895.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_36: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -476.5754089355, -621.0282592773, 10.4828262329 ]
+          rot: [ 0.0, 10.0, -879.5999755859 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_37: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -476.7657775879, -617.5765380859, 10.4028272629 ]
+          rot: [ 0.0, 10.0, -1090.8002929688 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_38: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -476.4396362305, -614.1537475586, 10.6828336716 ]
+          rot: [ 5.0, 10.0, -1099.5999755859 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_39: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -475.6065673828, -610.8001098633, 10.8228483200 ]
+          rot: [ 5.0, 0.0, -1099.5999755859 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+
+      centerfarm_40: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -463.7225036621, -583.6636352539, 9.9828491211 ]
+          rot: [ 5.0, 0.0, -1287.7998046875 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_41: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -462.1954040527, -580.7597656250, 10.2916870117 ]
+          rot: [ 5.0, 10.0, -1468.7999267578 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_42: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -460.3668212891, -577.9026489258, 10.7716979980 ]
+          rot: [ 5.0, 10.0, -1464.2000732422 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_43: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -458.7338562012, -574.7358398438, 10.9117155075 ]
+          rot: [ 5.0, 0.0, -1475.4000244141 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_44: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -456.6852111816, -571.9494628906, 11.1317205429 ]
+          rot: [ 5.0, 0.0, -1489.9996337891 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_45: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -454.8872680664, -569.4737548828, 11.2717237473 ]
+          rot: [ 5.0, 0.0, -1476.9998779297 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_46: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -453.3426208496, -566.9688110352, 11.3517255783 ]
+          rot: [ 5.0, 10.0, -1477.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_47: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -451.2816772461, -564.4712524414, 11.5917310715 ]
+          rot: [ 5.0, 0.0, -1489.9996337891 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_48: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -448.5172729492, -562.2071533203, 11.5517301559 ]
+          rot: [ 5.0, 0.0, -1481.3996582031 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_49: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -446.7474060059, -559.3837280273, 11.4517278671 ]
+          rot: [ 5.0, 0.0, -1475.5998535156 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_50: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_curve45_mossy.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_borders_long_1_curve45_mossy.w2ent"
+        transform: 
+          pos: [ -442.3874511719, -554.8095092773, 11.4228363037 ]
+          rot: [ 0.0, 0.0, -1387.2003173828 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_curve45_mossy.w2mesh"
+
+      centerfarm_51: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_mossy.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_borders_long_1_mossy.w2ent"
+        transform: 
+          pos: [ -439.3055725098, -548.7438354492, 11.4228363037 ]
+          rot: [ 0.0, 0.0, -1373.4007568359 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_mossy.w2mesh"
+
+      centerfarm_52: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_mossy.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_borders_long_1_mossy.w2ent"
+        transform: 
+          pos: [ -436.6813049316, -542.4233398438, 11.5428390503 ]
+          rot: [ 0.0, 0.0, -1550.8009033203 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_mossy.w2mesh"
+
+      centerfarm_53: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_curve45_mossy.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_borders_long_1_curve45_mossy.w2ent"
+        transform: 
+          pos: [ -433.1799926758, -535.9826660156, 11.4228363037 ]
+          rot: [ 0.0, 0.0, -1217.6004638672 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_curve45_mossy.w2mesh"
+
+      centerfarm_54: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_curve45_mossy.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_borders_long_1_curve45_mossy.w2ent"
+        transform: 
+          pos: [ -428.5095520020, -531.8117065430, 11.4228363037 ]
+          rot: [ 0.0, 0.0, -1022.0004882813 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_curve45_mossy.w2mesh"
+
+      centerfarm_55: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_mossy.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_borders_long_1_mossy.w2ent"
+        transform: 
+          pos: [ -427.5969543457, -525.0319824219, 11.4228363037 ]
+          rot: [ 0.0, 0.0, -1342.0008544922 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_mossy.w2mesh"
+
+      centerfarm_56: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_mossy.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_borders_long_1_mossy.w2ent"
+        transform: 
+          pos: [ -428.5170593262, -518.3759155273, 10.8628234863 ]
+          rot: [ 0.0, 0.0, -1342.0008544922 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/stone_borders/stone_borders_long_1_mossy.w2mesh"
+
+      centerfarm_57: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -474.4773864746, -607.6075439453, 10.8117361069 ]
+          rot: [ 5.0, 0.0, -1470.8000488281 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_58: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -473.0042724609, -604.4959716797, 10.8117361069 ]
+          rot: [ 5.0, 0.0, -1467.8004150391 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_59: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -471.7914123535, -601.1540527344, 10.5917310715 ]
+          rot: [ 5.0, 5.0, -1648.4003906250 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_60: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -470.2316284180, -598.3364868164, 10.1431388855 ]
+          rot: [ 5.0, 5.0, -1640.4008789063 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_61: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -469.0953674316, -595.3979492188, 9.8031311035 ]
+          rot: [ 5.0, 5.0, -1636.0010986328 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_62: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -468.3311157227, -592.1206665039, 9.8231315613 ]
+          rot: [ 5.0, 5.0, -1829.0008544922 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm_63: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -466.8636779785, -588.9020385742, 9.9231338501 ]
+          rot: [ 5.0, 5.0, -1840.4006347656 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor_b.w2ent"
+        transform: 
+          pos: [ -428.3689575195, -512.6521606445, 11.4228363037 ]
+          rot: [ 0.0, 0.0, -189.3999786377 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor_b.w2mesh"
+
+      centerfence_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -427.6854553223, -509.4877624512, 11.4228363037 ]
+          rot: [ 0.0, 0.0, -186.7999877930 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_10: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -505.6769409180, -463.8093566895, 8.8818197250 ]
+          rot: [ 5.0, 355.0, -719.9999389648 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_11: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -505.8195495605, -467.0195007324, 9.0218229294 ]
+          rot: [ 5.0, 355.0, -715.7998046875 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_12: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -505.2416687012, -470.3507995605, 9.1618261337 ]
+          rot: [ 5.0, 355.0, -698.9998779297 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_13: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -504.1111450195, -473.9001159668, 9.1618261337 ]
+          rot: [ 5.0, 355.0, -713.1998901367 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_14: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -503.6177978516, -477.3285827637, 9.4018316269 ]
+          rot: [ 5.0, 355.0, -718.4000244141 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_15: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -503.3401794434, -481.1542663574, 9.5418348312 ]
+          rot: [ 0.0, 355.0, -702.5999755859 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_16: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -502.4109497070, -484.3312377930, 9.5818357468 ]
+          rot: [ 0.0, 0.0, -702.5999755859 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_17: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -502.5492858887, -487.9696044922, 9.8018407822 ]
+          rot: [ 0.0, 0.0, -743.9999389648 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_18: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -503.8259582520, -491.0776977539, 9.8018407822 ]
+          rot: [ 0.0, 0.0, -753.1999511719 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_19: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -505.2357482910, -493.8278198242, 9.8018407822 ]
+          rot: [ 0.0, 0.0, -755.2000122070 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -427.3855895996, -506.2015686035, 11.3628349304 ]
+          rot: [ 0.0, 0.0, -178.2000122070 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_20: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -506.9043273926, -496.6043090820, 9.8618421555 ]
+          rot: [ 5.0, 0.0, -755.2000122070 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_21: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -508.4714660645, -499.3472900391, 9.8618421555 ]
+          rot: [ 15.0, 0.0, -755.2000122070 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_22: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -510.4257202148, -502.0516967773, 10.1418466568 ]
+          rot: [ 10.0, 0.0, -755.2000122070 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_23: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -512.0377807617, -504.9552917480, 10.1418466568 ]
+          rot: [ 10.0, 0.0, -735.5999755859 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_24: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -512.3012695313, -508.3184814453, 10.1418466568 ]
+          rot: [ 10.0, 0.0, -726.5996704102 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_25: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -513.7425537109, -511.7444152832, 10.3018503189 ]
+          rot: [ 10.0, 0.0, -757.1998291016 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_26: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -516.5128173828, -514.2880249023, 10.0418443680 ]
+          rot: [ 10.0, 0.0, -777.9997558594 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_27: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -518.9664306641, -516.2501831055, 10.0418443680 ]
+          rot: [ 5.0, 0.0, -778.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_28: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -522.0639648438, -518.0254516602, 9.9218416214 ]
+          rot: [ 5.0, 0.0, -772.9997558594 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_29: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -524.3443603516, -520.2412109375, 9.8418397903 ]
+          rot: [ 5.0, 5.0, -773.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -427.3622741699, -503.0218200684, 11.4228363037 ]
+          rot: [ 10.0, 0.0, -357.3999328613 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_30: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -526.8278198242, -522.6718139648, 9.8418397903 ]
+          rot: [ 5.0, 355.0, -773.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_31: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -529.5241699219, -524.7841796875, 9.9818429947 ]
+          rot: [ 5.0, 355.0, -760.1998901367 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_32: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -531.5314331055, -527.5081176758, 10.1018457413 ]
+          rot: [ 5.0, 0.0, -745.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_33: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -533.1740112305, -530.3471679688, 10.1018457413 ]
+          rot: [ 5.0, 0.0, -750.6002197266 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_34: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -534.8867187500, -533.1295166016, 10.1018457413 ]
+          rot: [ 5.0, 0.0, -742.2000122070 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_35: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -520.2556152344, -429.6128234863, 9.2618465424 ]
+          rot: [ 5.0, 0.0, -639.4000244141 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_36: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -523.5632934570, -428.9754333496, 9.2618465424 ]
+          rot: [ 5.0, 0.0, -630.7996215820 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_37: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -526.8742065430, -429.0181579590, 9.2618465424 ]
+          rot: [ 355.0, 0.0, -638.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_38: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -530.1353759766, -428.0637817383, 9.2618465424 ]
+          rot: [ 355.0, 0.0, -649.2000122070 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_39: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -533.6166381836, -426.3447570801, 9.2618465424 ]
+          rot: [ 350.0, 0.0, -649.2000122070 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -427.4165344238, -499.5653991699, 11.5628395081 ]
+          rot: [ 10.0, 0.0, -351.3998718262 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_40: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -537.4505615234, -425.4750976563, 9.2618465424 ]
+          rot: [ 350.0, 350.0, -623.4000244141 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_41: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -565.9760742188, -464.7875061035, 9.8465223312 ]
+          rot: [ 0.0, 350.0, -699.9998168945 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      centerfence_42: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -569.0841064453, -466.3161926270, 10.0865221024 ]
+          rot: [ 0.0, 350.0, -687.0001220703 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      centerfence_43: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -571.3767700195, -468.5487976074, 9.8520927429 ]
+          rot: [ 0.0, 350.0, -666.7997436523 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      centerfence_44: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -573.5903320313, -470.9558410645, 9.6319904327 ]
+          rot: [ 0.0, 350.0, -674.5996704102 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      centerfence_45: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -575.5676879883, -473.7302551270, 8.5519943237 ]
+          rot: [ 0.0, 350.0, -668.1995849609 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      centerfence_46: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/palisade_long_flat.w2ent"
+        transform: 
+          pos: [ -578.5256347656, -476.0115356445, 7.9519948959 ]
+          rot: [ 0.0, 350.0, -698.3995971680 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/common/palisade/palisade_long_flat.w2mesh"
+
+      centerfence_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -428.1017150879, -496.1083679199, 11.5628395081 ]
+          rot: [ 10.0, 0.0, -337.9998474121 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -508.0871887207, -450.8046875000, 8.2323904037 ]
+          rot: [ 10.0, 0.0, -342.9998474121 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -506.6371765137, -453.9352722168, 8.2018127441 ]
+          rot: [ 10.0, 5.0, -528.7997436523 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -506.1002502441, -457.1720581055, 8.5618124008 ]
+          rot: [ 15.0, 355.0, -717.5999755859 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfence_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -505.5756225586, -460.5592956543, 8.7418165207 ]
+          rot: [ 5.0, 355.0, -717.5999755859 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -598.6641845703, -594.0695190430, 10.8350677490 ]
+          rot: [ 0.0, 0.0, -150.9999847412 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -599.7139892578, -591.0604248047, 10.8350677490 ]
+          rot: [ 0.0, 0.0, -165.1999664307 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_10: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -597.3731689453, -561.5963745117, 10.5614242554 ]
+          rot: [ 0.0, 0.0, -197.1999206543 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_11: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -596.6635742188, -558.2350463867, 10.5614242554 ]
+          rot: [ 0.0, 0.0, -179.7998504639 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_12: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -595.8424072266, -554.5558471680, 10.3821411133 ]
+          rot: [ 0.0, 0.0, -210.1998596191 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_13: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -594.4048461914, -551.3765258789, 10.4621286392 ]
+          rot: [ 5.0, 0.0, -213.1999969482 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_14: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -592.3294677734, -548.5879516602, 10.6021318436 ]
+          rot: [ 5.0, 0.0, -213.1999969482 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_15: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -590.2816162109, -545.6403808594, 10.8021364212 ]
+          rot: [ 15.0, 0.0, -222.3999938965 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_16: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -588.3017578125, -542.3689575195, 10.8021364212 ]
+          rot: [ 15.0, 0.0, -207.6000061035 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_17: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -586.4100341797, -539.2183227539, 11.0221414566 ]
+          rot: [ 15.0, 355.0, -207.6000061035 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_18: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -585.5970458984, -535.4176635742, 11.0821313858 ]
+          rot: [ 15.0, 0.0, -188.0000152588 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_19: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -584.6765747070, -531.8924560547, 11.0821313858 ]
+          rot: [ 15.0, 0.0, -188.0000152588 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -599.8403320313, -588.0892944336, 10.6950645447 ]
+          rot: [ 355.0, 5.0, -182.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_20: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -585.3456420898, -528.4998779297, 11.0821313858 ]
+          rot: [ 15.0, 0.0, -163.6000213623 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_21: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -586.7332153320, -525.8272094727, 11.1821336746 ]
+          rot: [ 15.0, 0.0, -135.0000152588 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_22: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -589.1573486328, -523.2520751953, 11.1821336746 ]
+          rot: [ 10.0, 0.0, -156.1999969482 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -599.6492919922, -584.8368530273, 10.6950645447 ]
+          rot: [ 355.0, 0.0, -178.8000030518 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -599.6811523438, -581.1881103516, 10.6950645447 ]
+          rot: [ 355.0, 0.0, -176.8000335693 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -599.4190063477, -578.2227172852, 10.6950645447 ]
+          rot: [ 355.0, 0.0, -183.9999847412 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -599.7371215820, -574.4793090820, 10.6950645447 ]
+          rot: [ 355.0, 0.0, -171.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -599.0814819336, -571.6249389648, 10.6150627136 ]
+          rot: [ 0.0, 0.0, -199.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -598.1801147461, -568.4182128906, 10.6150627136 ]
+          rot: [ 0.0, 0.0, -189.3999633789 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarm2_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -597.9489135742, -565.0311889648, 10.6150627136 ]
+          rot: [ 0.0, 0.0, -189.3999633789 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"            

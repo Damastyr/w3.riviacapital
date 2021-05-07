@@ -1,0 +1,210 @@
+layers:
+  center_farm_household: 
+    world: "riviacapital"
+    #context: ""
+    statics:
+      centerfarmhouse1_1: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\loam_houses\\entities\\poor_woodenroof_short_thatched_interior.w2ent"
+        pos: [ -516.6665039063, -608.2002563477, 11.0767211914 ]
+        rot: [ 0.0, 0.0, -109.0000152588 ]    
+    statics.shadows: 
+      centerfarmhouse: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/thatched_house_big_roof.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_house_big_roof.w2ent"
+        transform: 
+          pos: [ -516.5366821289, -608.4791870117, 12.4785385132 ]
+          rot: [ 0.0, 0.0, -19.2000007629 ]
+          scale: [ 0.8500000238, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/thatched_house_big_roof.w2mesh"
+
+      centerfarmhouse1: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\loam_houses\\entities\\poor_woodenroof_short_thatched_exterior.w2ent"
+        pos: [ -516.6665039063, -608.2002563477, 11.0767211914 ]
+        rot: [ 0.0, 0.0, -109.0000152588 ]
+
+      centerfarmhouse1_10: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -521.2712402344, -623.3906250000, 11.7588844299 ]
+          rot: [ 0.0, 0.0, -105.4000396729 ]
+          scale: [ 1.0, 0.8000000119, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarmhouse1_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/broken_thatched_houses/broken_thatched_pigsty_roof_frame.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/broken_thatched_pigsty_roof_frame.w2ent"
+        transform: 
+          pos: [ -512.8927612305, -603.9282226563, 13.6567230225 ]
+          rot: [ 0.0, 0.0, -109.4000473022 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/broken_thatched_houses/broken_thatched_pigsty_roof_frame.w2mesh"
+
+      centerfarmhouse1_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/broken_thatched_houses/broken_thatched_pigsty_roof_straw.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/broken_thatched_pigsty_roof_straw.w2ent"
+        transform: 
+          pos: [ -512.8927612305, -603.9282226563, 13.6567230225 ]
+          rot: [ 0.0, 0.0, -109.4000473022 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/broken_thatched_houses/broken_thatched_pigsty_roof_straw.w2mesh"
+
+      centerfarmhouse1_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_tall_int_fb_walll_poor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_woodenfoof_tall_int_fb_walll_poor.w2ent"
+        transform: 
+          pos: [ -516.6014404297, -601.6936645508, 4.6967315674 ]
+          rot: [ 0.0, 0.0, -22.0000514984 ]
+          scale: [ 1.0, 0.8000000119, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_tall_int_fb_walll_poor.w2mesh"
+
+      centerfarmhouse1_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_tall_int_fb_walll_poor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_woodenfoof_tall_int_fb_walll_poor.w2ent"
+        transform: 
+          pos: [ -513.3658447266, -602.6500854492, 4.6967315674 ]
+          rot: [ 0.0, 0.0, -22.0000514984 ]
+          scale: [ 1.0, 0.8000000119, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/poor_woodenfoof_tall_int_fb_walll_poor.w2mesh"
+
+      centerfarmhouse1_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -512.5848999023, -616.5438842773, 11.7188835144 ]
+          rot: [ 0.0, 0.0, -22.0000514984 ]
+          scale: [ 1.0, 0.8000000119, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarmhouse1_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -514.2130126953, -619.0595703125, 11.5588798523 ]
+          rot: [ 0.0, 0.0, -46.8000602722 ]
+          scale: [ 1.0, 0.8000000119, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarmhouse1_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -516.2189941406, -621.1154785156, 11.5588798523 ]
+          rot: [ 0.0, 0.0, -55.8000602722 ]
+          scale: [ 1.0, 0.8000000119, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarmhouse1_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor.w2ent"
+        transform: 
+          pos: [ -518.6697998047, -622.9499511719, 11.6188812256 ]
+          rot: [ 0.0, 0.0, -55.8000602722 ]
+          scale: [ 1.0, 0.8000000119, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/prolog_village/sketch_fence_hor.w2mesh"
+
+      centerfarmhouse_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/thatched_house_big_roof_frame.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_house_big_roof_frame.w2ent"
+        transform: 
+          pos: [ -516.5366821289, -608.4791870117, 12.5985355377 ]
+          rot: [ 0.0, 0.0, -19.2000007629 ]
+          scale: [ 0.8500000238, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/thatched_house_big_roof_frame.w2mesh"
