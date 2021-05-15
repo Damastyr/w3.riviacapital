@@ -208,3 +208,345 @@ layers:
             forceAutoHideDistance: 2000
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/thatched_house_big_roof_frame.w2mesh"
+            
+  experimental_river: 
+    world: "riviacapital"
+    #context: ""
+
+    statics: 
+      stream1_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -28.4358997345, -978.3640136719, 0.1154592037 ]
+          rot: [ 0.0, 0.0, 13.8000993729 ]
+          scale: [ 10.0, 10.0, 0.0010000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream1_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ 231.9241943359, -927.2167358398, 0.0754595250 ]
+          rot: [ 0.0, 0.0, 79.2001037598 ]
+          scale: [ 10.0, 10.0, 0.0010000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream1_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -308.9859924316, -953.9050292969, 0.0954592004 ]
+          rot: [ 0.0, 0.0, -43.5998992920 ]
+          scale: [ 10.0, 10.0, 0.0010000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -402.8376770020, -751.8582763672, 0.0955018029 ]
+          rot: [ 0.0, 0.0, -63.3999900818 ]
+          scale: [ 10.0, 10.0, 0.0099999998 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream2_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -613.2070922852, -901.5084838867, 0.0955018029 ]
+          rot: [ 0.0, 0.0, -13.7999763489 ]
+          scale: [ 10.0, 10.0, 0.0099999998 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream2_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -857.5120239258, -894.7369995117, 0.1005017981 ]
+          rot: [ 0.0, 0.0, -13.0 ]
+          scale: [ 10.0, 10.0, 0.0099999998 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream2_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -1024.6899414063, -922.2999877930, 0.0905018002 ]
+          rot: [ 0.0, 0.0, -1.9999785423 ]
+          scale: [ 10.0, 10.0, 0.0099999998 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream2_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -762.2229003906, -755.6658935547, 0.1005017981 ]
+          rot: [ 0.0, 0.0, 10.5999975204 ]
+          scale: [ 10.0, 10.0, 0.0099999998 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+      stream2_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/shimmering_pool_river_1.w2ent"
+        transform: 
+          pos: [ -631.1560668945, -696.3292846680, 0.0905018002 ]
+          rot: [ 0.0, 0.0, -50.3999786377 ]
+          scale: [ 10.0, 10.0, 0.0099999998 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "fx/environment/rivers/shimmering_pool_river_1.w2mesh"
+
+  center_farm_haystacks: 
+    world: "riviacapital"
+    #context: ""
+
+    statics: 
+      centerfarmhay: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/mer_farmer_haystack_b.w2ent"
+        transform: 
+          pos: [ -497.2357788086, -587.7922363281, 10.3757629395 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"
+
+      centerfarmhay_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/mer_farmer_haystack_b.w2ent"
+        transform: 
+          pos: [ -491.1300354004, -578.9962768555, 10.3163604736 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"
+
+      centerfarmhay_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/mer_farmer_haystack_b.w2ent"
+        transform: 
+          pos: [ -494.5687255859, -565.1349487305, 9.8628845215 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"
+
+      centerfarmhay_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/mer_farmer_haystack_a.w2ent"
+        transform: 
+          pos: [ -488.0351867676, -597.8037109375, 10.3105077744 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_a.w2mesh"
+
+      centerfarmhay_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/mer_farmer_haystack_a.w2ent"
+        transform: 
+          pos: [ -540.8270263672, -556.4375000000, 10.3513488770 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_a.w2mesh"
+
+      centerfarmhay_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/mer_farmer_haystack_a.w2ent"
+        transform: 
+          pos: [ -545.5886840820, -531.6583862305, 9.6106719971 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_a.w2mesh"
+
+      centerfarmhay_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/mer_farmer_haystack_b.w2ent"
+        transform: 
+          pos: [ -552.1770629883, -543.1176147461, 10.1656646729 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"
+
+      centerfarmhay_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/mer_farmer_haystack_b.w2ent"
+        transform: 
+          pos: [ -528.0556640625, -566.6876220703, 10.0749359131 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"
+
+      centerfarmhay_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/mer_farmer_haystack_b.w2ent"
+        transform: 
+          pos: [ -403.1878967285, -587.8076782227, 9.8741378784 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"
+
+      centerfarmhay_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/mer_farmer_haystack_b.w2ent"
+        transform: 
+          pos: [ -385.0279846191, -588.5094604492, 9.5708007813 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 700
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/merchant/farmer/mer_farmer_haystack_b.w2mesh"            
