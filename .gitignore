@@ -4,6 +4,7 @@
 _settings_.bat
 *.log
 _tmp/*
+_mytmp/*
 definition.quest/backups/*.zip
 strings/all.en.strings.csv
 strings/strings.quest.csv

@@ -6,6 +6,8 @@
 ---
 production:
   settings:
+    #directories:
+    #  layerbase: data/         # <- not sure if this is required
     id: riviacapital
     caption: City of Rivia
     menuvisibile: true
@@ -16,7 +18,7 @@ production:
     version: 11
     mounters:
       - ".type": CR4MappinsDLCMounter
-        worldFilePath: "dlc\\dlcriviacapital\\levels\\riviacapital\\riviacapital.w2w"
+        worldFilePath: "dlc\\dlcriviacapital\\data\\levels\\riviacapital\\riviacapital.w2w"
         mappinsFilePath: "dlc\\dlcriviacapital\\data\\hub_pins\\riviacapital.w2em"
       - ".type": CR4ScaleformContentDLCMounter
         scaleformDirectoryPath: "dlc\\dlcriviacapital\\data\\gameplay\\gui_new\\"
@@ -30,7 +32,7 @@ production:
               - 500
               - 500
             worldMapSuggestedLevel: 42
-            worldMapPath: "dlc\\dlcriviacapital\\levels\\riviacapital\\riviacapital.w2w"
+            worldMapPath: "dlc\\dlcriviacapital\\data\\levels\\riviacapital\\riviacapital.w2w"
             worldMiniMapSize: 4000.0
             worldMiniMapTileCount: 16
             worldMiniMapExteriorTextureSize: 512

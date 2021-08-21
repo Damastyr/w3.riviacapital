@@ -90,8 +90,8 @@ set DIR_OUTPUT_QUEST=%DIR_UNCOOKED%
 rem target directory for encoded w2scene file
 set DIR_OUTPUT_SCENES=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\data\%DIR_DLC_SCENES%
 
-rem target directory for encoded w2scene file
-set DIR_OUTPUT_WORLD=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\levels
+rem target directory for encoded world file
+set DIR_OUTPUT_WORLD=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\data\levels
 
 rem target directory for encoded env files
 set DIR_OUTPUT_ENVS=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\data\%DIR_DLC_ENVS%
@@ -217,7 +217,7 @@ rem set WCC_LITE="%DIR_MODKIT_BIN%\wcc_lite.exe"
 set WCC_LITE=call "%DIR_PROJECT_BIN%\wcc_lite.bat"
 
 rem game relative path to worlds for scanning depot
-set DIR_WCC_DEPOT_WORLDS=%DIR_DLC_GAMEPATH%\levels
+set DIR_WCC_DEPOT_WORLDS=%DIR_DLC_GAMEPATH%\data\levels
 rem ---------------------------------------------------
 rem --- default flags for build steps: do nothing
 SET PATCH_MODE=1

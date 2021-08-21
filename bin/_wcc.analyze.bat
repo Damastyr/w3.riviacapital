@@ -21,12 +21,12 @@ GOTO :NextAnalyze
 setlocal enableDelayedExpansion
 
 rem ---------------------------------------------------
-set WORLDPATH_WILDCARD=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\levels\*
-set WORLDPATH=%DIR_DLC_GAMEPATH%\levels\
+set WORLDPATH_WILDCARD=%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\data\levels\*
+set WORLDPATH=%DIR_DLC_GAMEPATH%\data\levels\
 
 for /D %%f in ("%WORLDPATH_WILDCARD%") do (
   set WORLDNAME=%%~nxf
-  if exist "%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\levels\!WORLDNAME!\!WORLDNAME!.w2w" (
+  if exist "%DIR_UNCOOKED%\%DIR_DLC_GAMEPATH%\data\levels\!WORLDNAME!\!WORLDNAME!.w2w" (
     echo.
     echo --------------------------------------------------------------------------
     echo -- WCC_LITE: ANALYZE WORLD FOR !WORLDNAME!
