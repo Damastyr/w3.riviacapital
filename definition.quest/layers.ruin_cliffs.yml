@@ -1,0 +1,220 @@
+  layers:
+    ruin_cliffs: 
+      world: "riviacapital"
+      #context: ""
+  
+      statics.shadows: 
+        rockruin: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_a.w2ent"
+          transform: 
+            pos: [ 45.6331596375, -599.8413085938, 6.1492080688 ]
+            rot: [ 40.0, 0.0, -254.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_a.w2mesh"
+  
+        rockruin_1: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_b.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_b.w2ent"
+          transform: 
+            pos: [ 49.9062271118, -599.4163208008, 5.9092082977 ]
+            rot: [ 40.0, 0.0, -325.7999877930 ]
+            scale: [ 2.0, 2.0, 1.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_b.w2mesh"
+  
+        rockruin_10: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_g.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_g.w2ent"
+          transform: 
+            pos: [ -23.6152248383, -641.0989379883, 7.9782991409 ]
+            rot: [ 140.0, 81.0, -2240.0 ]
+            scale: [ 4.0, 2.0, 2.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_g.w2mesh"
+  
+        rockruin_11: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_a.w2ent"
+          transform: 
+            pos: [ 58.7720527649, -616.5065307617, 9.3382902145 ]
+            rot: [ 140.0, 81.0, -2390.1999511719 ]
+            scale: [ 2.0, 1.0, 1.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_a.w2mesh"
+  
+        rockruin_2: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_c.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_c.w2ent"
+          transform: 
+            pos: [ 62.7011222839, -583.2121582031, 5.9092082977 ]
+            rot: [ 40.0, 0.0, -600.8000488281 ]
+            scale: [ 2.0, 2.0, 1.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_c.w2mesh"
+  
+        rockruin_3: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_c.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_c.w2ent"
+          transform: 
+            pos: [ 38.4854660034, -542.8007812500, 8.4292058945 ]
+            rot: [ 40.0, 0.0, -722.0000610352 ]
+            scale: [ 2.0, 2.0, 1.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_c.w2mesh"
+  
+        rockruin_4: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_d.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_d.w2ent"
+          transform: 
+            pos: [ 40.1356658936, -633.9586181641, 7.6042938232 ]
+            rot: [ 40.0, 0.0, -961.1998901367 ]
+            scale: [ 2.0, 2.0, 1.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_d.w2mesh"
+  
+        rockruin_5: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_e.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_e.w2ent"
+          transform: 
+            pos: [ 60.5410919189, -635.1693115234, 9.8298568726 ]
+            rot: [ 90.0, 0.0, -1178.6000976563 ]
+            scale: [ 2.0, 2.0, 1.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_e.w2mesh"
+  
+        rockruin_6: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_e.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_e.w2ent"
+          transform: 
+            pos: [ 18.4661960602, -624.5779418945, 9.6514329910 ]
+            rot: [ 270.0, 0.0, -1314.1999511719 ]
+            scale: [ 2.0, 2.0, 1.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_e.w2mesh"
+  
+        rockruin_7: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_e.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_e.w2ent"
+          transform: 
+            pos: [ 6.3852891922, -622.3287353516, 11.0148382187 ]
+            rot: [ 140.0, 0.0, -1766.9997558594 ]
+            scale: [ 4.0, 2.0, 2.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_e.w2mesh"
+  
+        rockruin_8: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_e.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_e.w2ent"
+          transform: 
+            pos: [ 49.7095184326, -568.4366455078, 7.8948411942 ]
+            rot: [ 140.0, 0.0, -2041.3994140625 ]
+            scale: [ 4.0, 2.0, 2.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_e.w2mesh"
+  
+        rockruin_9: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_f.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_f.w2ent"
+          transform: 
+            pos: [ 35.7462425232, -587.7688598633, 10.2948389053 ]
+            rot: [ 140.0, 0.0, -2101.9990234375 ]
+            scale: [ 4.0, 2.0, 2.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_f.w2mesh"

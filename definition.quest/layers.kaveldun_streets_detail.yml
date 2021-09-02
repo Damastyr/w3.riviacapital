@@ -1,0 +1,570 @@
+layers:
+   kaveldun_street_detail: 
+     world: "riviacapital"
+     #context: ""
+ 
+     statics: 
+       kavelddetail2: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_doors_stone_c.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_frame_doors_stone_c.w2ent"
+         transform: 
+           pos: [ -538.5036010742, -818.8555297852, 10.8107786179 ]
+           rot: [ 0.0, 0.0, 7.1999979019 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_doors_stone_c.w2mesh"
+ 
+       kavelddetail2_1: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_doors_stone_c.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_frame_doors_stone_c.w2ent"
+         transform: 
+           pos: [ -536.3638305664, -813.2848510742, 11.3907918930 ]
+           rot: [ 0.0, 0.0, 7.1999979019 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_doors_stone_c.w2mesh"
+ 
+       kavelddetail2_10: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/shipyard/wooden_beam.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/wooden_beam.w2ent"
+         transform: 
+           pos: [ -551.8830566406, -791.3316040039, 10.9152336121 ]
+           rot: [ 0.0, 0.0, 78.8000106812 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/shipyard/wooden_beam.w2mesh"
+ 
+       kavelddetail2_11: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/shipyard/wooden_beam.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/wooden_beam.w2ent"
+         transform: 
+           pos: [ -551.6486816406, -791.6098632813, 11.2752332687 ]
+           rot: [ 0.0, 0.0, 90.0000610352 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/shipyard/wooden_beam.w2mesh"
+ 
+       kavelddetail2_12: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/shipyard/wooden_beam.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/wooden_beam.w2ent"
+         transform: 
+           pos: [ -551.6002807617, -790.6927490234, 11.3539619446 ]
+           rot: [ 10.0, 5.0, 90.0000991821 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/shipyard/wooden_beam.w2mesh"
+ 
+       kavelddetail2_13: 
+         template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_junk_poor__crate_pile_j.w2ent"
+         pos: [ -548.7766723633, -792.9841918945, 10.6339569092 ]
+         rot: [ 0.0, 0.0, -86.3999023438 ]
+ 
+       kavelddetail2_14: 
+         template: "W3AnimatedContainer:dlc\\bob\\data\\gameplay\\container_definitions\\ep2_loot_junk_poor__crate_pile_m.w2ent"
+         pos: [ -549.6394042969, -797.0404052734, 10.5253047943 ]
+         rot: [ 0.0, 5.0, 4.6000852585 ]
+ 
+       kavelddetail2_15: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/decorations/vehicles/cart/wheel_cart.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/wheel_cart.w2ent"
+         transform: 
+           pos: [ -547.6129150391, -799.3169555664, 11.2739572525 ]
+           rot: [ 10.0, 10.0, -90.7999801636 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/decorations/vehicles/cart/wheel_cart.w2mesh"
+ 
+       kavelddetail2_16: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/decorations/vehicles/cart/wheel_cart.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/wheel_cart.w2ent"
+         transform: 
+           pos: [ -547.5104370117, -799.9417114258, 11.2739572525 ]
+           rot: [ 10.0, 10.0, -105.3999710083 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/decorations/vehicles/cart/wheel_cart.w2mesh"
+ 
+       kavelddetail2_17: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/decorations/vehicles/cart/wheel_cart.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/wheel_cart.w2ent"
+         transform: 
+           pos: [ -546.7131347656, -800.7836303711, 10.7339448929 ]
+           rot: [ 90.0, 90.0, -105.4000015259 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/decorations/vehicles/cart/wheel_cart.w2mesh"
+ 
+       kavelddetail2_18: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/decorations/vehicles/cart/cart_long_base.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/cart_long_base.w2ent"
+         transform: 
+           pos: [ -546.7249755859, -803.7476806641, 10.2196044922 ]
+           rot: [ 0.0, 0.0, -282.2000427246 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/decorations/vehicles/cart/cart_long_base.w2mesh"
+ 
+       kavelddetail2_19: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_stairs_wood_a.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stairs_wood_a.w2ent"
+         transform: 
+           pos: [ -505.3959960938, -783.5016479492, 10.5907564163 ]
+           rot: [ 0.0, 0.0, -180.3999938965 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_stairs_wood_a.w2mesh"
+ 
+       kavelddetail2_2: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_j.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_frame_window_stone_j.w2ent"
+         transform: 
+           pos: [ -533.5258178711, -813.0238647461, 13.4307956696 ]
+           rot: [ 0.0, 0.0, 7.1999979019 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_j.w2mesh"
+ 
+       kavelddetail2_20: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/decorations/decals/hay/hay.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/hay.w2ent"
+         transform: 
+           pos: [ -541.8690185547, -795.2336425781, 10.5707502365 ]
+           rot: [ 0.0, 0.0, -180.3999938965 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 50
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/decorations/decals/hay/hay.w2mesh"
+ 
+       kavelddetail2_21: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/decorations/decals/hay/hay.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/hay.w2ent"
+         transform: 
+           pos: [ -537.0815429688, -786.2941284180, 10.3953065872 ]
+           rot: [ 0.0, 0.0, -180.3999938965 ]
+           scale: [ 2.0, 2.0, 1.0 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 50
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/decorations/decals/hay/hay.w2mesh"
+ 
+       kavelddetail2_22: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/decorations/decals/hay/hay.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/hay.w2ent"
+         transform: 
+           pos: [ -545.8817749023, -798.9379272461, 10.5952882767 ]
+           rot: [ 0.0, 0.0, -136.5999908447 ]
+           scale: [ 2.0, 2.0, 1.0 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 50
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/decorations/decals/hay/hay.w2mesh"
+ 
+       kavelddetail2_23: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_stairs_wood_a.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stairs_wood_a.w2ent"
+         transform: 
+           pos: [ -550.2224121094, -758.1250000000, 13.6695842743 ]
+           rot: [ 0.0, 0.0, -179.8999633789 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_stairs_wood_a.w2mesh"
+ 
+       kavelddetail2_24: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/novigrad_harbour_shore_set/nvg_harbour_wood_stairs_long.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/nvg_harbour_wood_stairs_long.w2ent"
+         transform: 
+           pos: [ -550.8300781250, -764.8203125000, 13.0161628723 ]
+           rot: [ 0.0, 0.0, -91.2998962402 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/novigrad_harbour_shore_set/nvg_harbour_wood_stairs_long.w2mesh"
+ 
+       kavelddetail2_26: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/decorations/vehicles/prison_cart/prison_cart_back_wheels.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/prison_cart_back_wheels.w2ent"
+         transform: 
+           pos: [ -544.4204711914, -767.9354248047, 11.4576787949 ]
+           rot: [ 2.5000000000, 0.0, -363.7000122070 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/decorations/vehicles/prison_cart/prison_cart_back_wheels.w2mesh"
+ 
+       kavelddetail2_3: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_j.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_frame_window_stone_j.w2ent"
+         transform: 
+           pos: [ -534.8131103516, -818.5089721680, 13.1707897186 ]
+           rot: [ 0.0, 0.0, -178.3999328613 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_j.w2mesh"
+ 
+       kavelddetail2_4: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_j.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_frame_window_stone_j.w2ent"
+         transform: 
+           pos: [ -542.5291137695, -819.2642211914, 13.1707897186 ]
+           rot: [ 0.0, 0.0, -175.7999725342 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_j.w2mesh"
+ 
+       kavelddetail2_5: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_stairs_stone_a.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stairs_stone_a.w2ent"
+         transform: 
+           pos: [ -538.5910644531, -818.9868164063, 10.2907638550 ]
+           rot: [ 0.0, 0.0, -172.7999877930 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_stairs_stone_a.w2mesh"
+ 
+       kavelddetail2_6: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_stairs_wood_a.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stairs_wood_a.w2ent"
+         transform: 
+           pos: [ -548.3406982422, -795.4226684570, 11.0307664871 ]
+           rot: [ 0.0, 0.0, -85.3999862671 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_stairs_wood_a.w2mesh"
+ 
+       kavelddetail2_7: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/prolog_village/sketch_fence_hor_short.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor_short.w2ent"
+         transform: 
+           pos: [ -550.8270263672, -791.9590454102, 12.1752223969 ]
+           rot: [ 0.0, 0.0, 90.0 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/prolog_village/sketch_fence_hor_short.w2mesh"
+ 
+       kavelddetail2_8: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/prolog_village/sketch_fence_hor_short.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor_short.w2ent"
+         transform: 
+           pos: [ -549.9342041016, -792.9542236328, 12.1752109528 ]
+           rot: [ 0.0, 0.0, 3.6000103951 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/prolog_village/sketch_fence_hor_short.w2mesh"
+ 
+       kavelddetail2_9: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/prolog_village/sketch_fence_hor_short.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/sketch_fence_hor_short.w2ent"
+         transform: 
+           pos: [ -550.4217529297, -796.7329711914, 12.1752223969 ]
+           rot: [ 0.0, 0.0, 90.9999923706 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/prolog_village/sketch_fence_hor_short.w2mesh"
+ 
+       kavelddetail2_wheel: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/decorations/vehicles/prison_cart/prison_cart_front_wheels.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/prison_cart_front_wheels.w2ent"
+         transform: 
+           pos: [ -544.7032470703, -771.9186401367, 11.0176887512 ]
+           rot: [ 2.5000000000, 0.0, -363.7000122070 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/decorations/vehicles/prison_cart/prison_cart_front_wheels.w2mesh"
+ 
+       kavelddetail2_wheel_1: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/decorations/vehicles/prison_cart/prison_cart_door_left.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/prison_cart_door_left.w2ent"
+         transform: 
+           pos: [ -543.6330566406, -767.0904541016, 12.8376846313 ]
+           rot: [ 2.5000000000, 0.0, -363.7000122070 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/decorations/vehicles/prison_cart/prison_cart_door_left.w2mesh"
+ 
+       kavelddetail2_wheel_2: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/decorations/vehicles/prison_cart/prison_cart_door_right.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/prison_cart_door_right.w2ent"
+         transform: 
+           pos: [ -545.1716308594, -766.9810791016, 12.9176864624 ]
+           rot: [ 0.0, 0.0, -290.5000000000 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/decorations/vehicles/prison_cart/prison_cart_door_right.w2mesh"
+ 
+       kavelddetail2_wheel_3: 
+         template: "CEntity:environment\\decorations\\vehicles\\cart\\cart_big_fx.w2ent"
+         pos: [ -542.4929809570, -763.3881225586, 10.3549499512 ]
+         rot: [ 0.0, 10.0, -238.1000061035 ]
+ 
+       kavelddetail2_wheel_4: 
+         template: "W3AnimatedContainer:gameplay\\containers\\_container_definitions\\autogen\\bundle__weaponsmith_area__skelige.w2ent"
+         pos: [ -542.7155151367, -763.4951782227, 11.2749538422 ]
+         rot: [ 0.0, 10.0, -238.1000061035 ]
+ 
+       kavelddetail2_wheel_5: 
+         template: "W3AnimatedContainer:gameplay\\containers\\_container_definitions\\autogen\\old_chest_container__weaponsmith_area__novigad.w2ent"
+         pos: [ -542.1407470703, -762.7305297852, 11.0349483490 ]
+         rot: [ 0.0, 10.0, -238.1000061035 ]
+ 
+     statics.shadows: 
+       kavelddetail2_1: 
+         template: "CEntity:environment\\decorations\\wooden_parts\\platform_slim_fence.w2ent"
+         pos: [ -553.1059570313, -755.9429321289, 13.3411884308 ]
+         rot: [ 0.0, 0.0, -2.5999541283 ]
+ 
+       kavelddetail2_2: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "dlc/ep1/environment/architecture/human/redania/q605/q605_well_entrance.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/q605_well_entrance.w2ent"
+         transform: 
+           pos: [ -514.5485839844, -819.4850463867, 10.6950559616 ]
+           rot: [ 0.0, 0.0, -38.0 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "dlc/ep1/environment/architecture/human/redania/q605/q605_well_entrance.w2mesh"
+ 
+       kavelddetail2_23: 
+         template: "CEntity:environment\\decorations\\wooden_parts\\platform_slim_fence.w2ent"
+         pos: [ -550.2326049805, -760.9202270508, 11.7811527252 ]
+         rot: [ 0.0, 0.0, -91.0 ]
+ 
+       kavelddetail2_25: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/decorations/vehicles/prison_cart/prison_cart.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/prison_cart.w2ent"
+         transform: 
+           pos: [ -544.7208251953, -771.2454833984, 10.3376731873 ]
+           rot: [ 2.5000000000, 0.0, -363.7000122070 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/decorations/vehicles/prison_cart/prison_cart.w2mesh"
+ 
+       kavelddetail2_3: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "dlc/ep1/environment/architecture/human/redania/q605/q605_well_step.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/q605_well_step.w2ent"
+         transform: 
+           pos: [ -514.5485839844, -819.4850463867, 10.6950559616 ]
+           rot: [ 0.0, 0.0, -180.7999572754 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "dlc/ep1/environment/architecture/human/redania/q605/q605_well_step.w2mesh"
+ 
+       kavelddetail2_4: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "dlc/ep1/environment/architecture/human/redania/q605/q605_well_entrance.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/q605_well_entrance.w2ent"
+         transform: 
+           pos: [ -514.5485839844, -819.4850463867, 10.6950559616 ]
+           rot: [ 0.0, 0.0, -180.7999572754 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 300
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "dlc/ep1/environment/architecture/human/redania/q605/q605_well_entrance.w2mesh"

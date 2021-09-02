@@ -1,0 +1,668 @@
+layers:
+  elven_tower: 
+    world: "riviacapital"
+    #context: ""
+
+    statics.shadows: 
+      elfruin: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_platform.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/elven_ruins_bridge_platform.w2ent"
+        transform: 
+          pos: [ 83.7620544434, -629.2640991211, 14.1667385101 ]
+          rot: [ 0.0, 0.0, -18.1999988556 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_platform.w2mesh"
+
+      elfruin_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_straight_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/elven_ruins_bridge_straight_b.w2ent"
+        transform: 
+          pos: [ 83.3905487061, -623.0110473633, 14.1467409134 ]
+          rot: [ 0.0, 0.0, -465.9997558594 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_straight_b.w2mesh"
+
+      elfruin_10: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_stairs_broken_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/elven_ruins_bridge_stairs_broken_b.w2ent"
+        transform: 
+          pos: [ 73.7809753418, -633.0487670898, 9.5585298538 ]
+          rot: [ 0.0, 0.0, -999.0003662109 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_stairs_broken_b.w2mesh"
+
+      elfruin_11: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/elven_ruins/elven_ruins_tower/bob_tower_face_dest_c.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_tower_face_dest_c.w2ent"
+        transform: 
+          pos: [ 84.4954986572, -610.3629760742, 24.3589992523 ]
+          rot: [ 0.0, 0.0, -1137.5997314453 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/elven_ruins/elven_ruins_tower/bob_tower_face_dest_c.w2mesh"
+
+      elfruin_12: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_straight_broken.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/elven_ruins_bridge_straight_broken.w2ent"
+        transform: 
+          pos: [ 90.7527542114, -613.5824584961, 14.3667373657 ]
+          rot: [ 0.0, 0.0, -643.9996337891 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_straight_broken.w2mesh"
+
+      elfruin_13: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/elven_ruins/elven_ruins_tower/bob_tower_face_dest_d.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_tower_face_dest_d.w2ent"
+        transform: 
+          pos: [ 83.8795013428, -605.1019897461, 24.2785987854 ]
+          rot: [ 0.0, 0.0, -1188.1998291016 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/elven_ruins/elven_ruins_tower/bob_tower_face_dest_d.w2mesh"
+
+      elfruin_14: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/elven_ruins/elven_ruins_tower/bob_tower_face_dest_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_tower_face_dest_a.w2ent"
+        transform: 
+          pos: [ 88.6076965332, -601.0650024414, 24.0006999969 ]
+          rot: [ 0.0, 0.0, -1243.5996093750 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/elven_ruins/elven_ruins_tower/bob_tower_face_dest_a.w2mesh"
+
+      elfruin_15: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/elven_ruins/elven_ruins_tower/bob_tower_face_dest_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_tower_face_dest_b.w2ent"
+        transform: 
+          pos: [ 94.5630035400, -603.1190185547, 24.1350002289 ]
+          rot: [ 0.0, 0.0, -1485.7995605469 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/elven_ruins/elven_ruins_tower/bob_tower_face_dest_b.w2mesh"
+
+      elfruin_16: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/elven_ruins/elven_ruins_tower/bob_tower_face_dest_b_no_center_part.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_tower_face_dest_b_no_center_part.w2ent"
+        transform: 
+          pos: [ 96.4690017700, -608.2990112305, 24.3180007935 ]
+          rot: [ 0.0, 0.0, -1546.1982421875 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/elven_ruins/elven_ruins_tower/bob_tower_face_dest_b_no_center_part.w2mesh"
+
+      elfruin_17: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/elven_ruins/elven_ruins_tower/bob_tower_face_dest_d.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_tower_face_dest_d.w2ent"
+        transform: 
+          pos: [ 93.3074035645, -612.4110107422, 24.3180999756 ]
+          rot: [ 0.0, 0.0, -1591.8000488281 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/elven_ruins/elven_ruins_tower/bob_tower_face_dest_d.w2mesh"
+
+      elfruin_18: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/elven_ruins/bob_elven_ruins_wall_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_elven_ruins_wall_a.w2ent"
+        transform: 
+          pos: [ 83.7880020142, -605.2254638672, 4.2502675056 ]
+          rot: [ 0.0, 0.0, -1547.3980712891 ]
+          scale: [ 1.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/elven_ruins/bob_elven_ruins_wall_a.w2mesh"
+
+      elfruin_19: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/elven_ruins/bob_elven_ruins_wall_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_elven_ruins_wall_a.w2ent"
+        transform: 
+          pos: [ 84.3836593628, -610.3139038086, 4.2502675056 ]
+          rot: [ 0.0, 0.0, -1497.3985595703 ]
+          scale: [ 1.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/elven_ruins/bob_elven_ruins_wall_a.w2mesh"
+
+      elfruin_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_straight_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/elven_ruins_bridge_straight_b.w2ent"
+        transform: 
+          pos: [ 78.2521209717, -639.3196411133, 14.1467409134 ]
+          rot: [ 0.0, 0.0, -465.9997558594 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_straight_b.w2mesh"
+
+      elfruin_20: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/elven_ruins/bob_elven_ruins_wall_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_elven_ruins_wall_a.w2ent"
+        transform: 
+          pos: [ 93.4033508301, -612.8027954102, 4.2502675056 ]
+          rot: [ 0.0, 0.0, -1412.3984375000 ]
+          scale: [ 1.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/elven_ruins/bob_elven_ruins_wall_a.w2mesh"
+
+      elfruin_21: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/elven_ruins/bob_elven_ruins_wall_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_elven_ruins_wall_a.w2ent"
+        transform: 
+          pos: [ 96.8403701782, -608.3370971680, 4.2502675056 ]
+          rot: [ 0.0, 0.0, -1362.3981933594 ]
+          scale: [ 1.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/elven_ruins/bob_elven_ruins_wall_a.w2mesh"
+
+      elfruin_22: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/elven_ruins/bob_elven_ruins_wall_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_elven_ruins_wall_a.w2ent"
+        transform: 
+          pos: [ 95.1027755737, -602.6674804688, 4.2502675056 ]
+          rot: [ 0.0, 0.0, -1305.5971679688 ]
+          scale: [ 1.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/elven_ruins/bob_elven_ruins_wall_a.w2mesh"
+
+      elfruin_23: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/elven_ruins/bob_elven_ruins_wall_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_elven_ruins_wall_a.w2ent"
+        transform: 
+          pos: [ 88.4377441406, -600.8605957031, 3.9902677536 ]
+          rot: [ 0.0, 0.0, -1242.3962402344 ]
+          scale: [ 1.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/elven_ruins/bob_elven_ruins_wall_a.w2mesh"
+
+      elfruin_24: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/tower_pillar_hi.w2ent"
+        transform: 
+          pos: [ 85.4313049316, -602.1172485352, 5.0502777100 ]
+          rot: [ 0.0, 0.0, -1135.5954589844 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+
+      elfruin_25: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/tower_pillar_hi.w2ent"
+        transform: 
+          pos: [ 92.2348022461, -600.6167602539, 5.0502777100 ]
+          rot: [ 0.0, 0.0, -1182.5953369141 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+
+      elfruin_26: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/tower_pillar_hi.w2ent"
+        transform: 
+          pos: [ 96.9853210449, -605.4105224609, 5.0502777100 ]
+          rot: [ 0.0, 0.0, -1245.5952148438 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+
+      elfruin_27: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/tower_pillar_hi.w2ent"
+        transform: 
+          pos: [ 95.6692810059, -611.2971801758, 5.0502777100 ]
+          rot: [ 0.0, 0.0, -1304.9957275391 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+
+      elfruin_28: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/tower_pillar_hi.w2ent"
+        transform: 
+          pos: [ 82.9437713623, -607.7644042969, 5.2502775192 ]
+          rot: [ 0.0, 0.0, -1433.3962402344 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+
+      elfruin_29: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/tower_pillar_hi.w2ent"
+        transform: 
+          pos: [ 85.5417633057, -612.3804321289, 5.2502775192 ]
+          rot: [ 0.0, 0.0, -1389.5966796875 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+
+      elfruin_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_straight_broken.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/elven_ruins_bridge_straight_broken.w2ent"
+        transform: 
+          pos: [ 90.1355667114, -628.9403686523, 14.1347208023 ]
+          rot: [ 0.0, 0.0, -560.8001708984 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_straight_broken.w2mesh"
+
+      elfruin_30: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/tower_pillar_hi.w2ent"
+        transform: 
+          pos: [ 91.2704391479, -613.6688842773, 5.0302777290 ]
+          rot: [ 0.0, 0.0, -1331.3963623047 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_tower_set/tower_pillar_hi.w2mesh"
+
+      elfruin_31: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_rubble.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_ruins_rubble.w2ent"
+        transform: 
+          pos: [ 72.8377685547, -626.8679809570, 9.8902578354 ]
+          rot: [ 0.0, 0.0, -1396.1964111328 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_rubble.w2mesh"
+
+      elfruin_32: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_rubble.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_ruins_rubble.w2ent"
+        transform: 
+          pos: [ 74.8058624268, -627.6717529297, 10.0902338028 ]
+          rot: [ 0.0, 0.0, -1512.9967041016 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_rubble.w2mesh"
+
+      elfruin_33: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_rubble.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_ruins_rubble.w2ent"
+        transform: 
+          pos: [ 70.6821289063, -624.6180419922, 9.5502214432 ]
+          rot: [ 0.0, 0.0, -1291.5966796875 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_rubble.w2mesh"
+
+      elfruin_34: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_rubble.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_ruins_rubble.w2ent"
+        transform: 
+          pos: [ 75.9703140259, -646.9970092773, 9.8333740234 ]
+          rot: [ 0.0, 0.0, -1328.3967285156 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_rubble.w2mesh"
+
+      elfruin_35: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_rubble.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_ruins_rubble.w2ent"
+        transform: 
+          pos: [ 94.5310058594, -635.2196655273, 7.6881828308 ]
+          rot: [ 0.0, 0.0, -1328.3967285156 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_rubble.w2mesh"
+
+      elfruin_36: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_gate_01_rubble_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_gate_01_rubble_a.w2ent"
+        transform: 
+          pos: [ 98.0940093994, -633.3822631836, 7.4893255234 ]
+          rot: [ 0.0, 0.0, -1222.1967773438 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_gate_01_rubble_a.w2mesh"
+
+      elfruin_37: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_rubble.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_ruins_rubble.w2ent"
+        transform: 
+          pos: [ 88.6919631958, -617.2590332031, 7.3081707954 ]
+          rot: [ 0.0, 0.0, -1416.7966308594 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_rubble.w2mesh"
+
+      elfruin_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_straight_broken.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/elven_ruins_bridge_straight_broken.w2ent"
+        transform: 
+          pos: [ 82.7841644287, -639.9878540039, 14.1347208023 ]
+          rot: [ 0.0, 0.0, -643.0001220703 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_straight_broken.w2mesh"
+
+      elfruin_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_straight_broken_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/elven_ruins_bridge_straight_broken_b.w2ent"
+        transform: 
+          pos: [ 84.7319946289, -618.4568481445, 14.1185655594 ]
+          rot: [ 0.0, 0.0, -826.1999511719 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_straight_broken_b.w2mesh"
+
+      elfruin_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_stairs_broken.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/elven_ruins_bridge_stairs_broken.w2ent"
+        transform: 
+          pos: [ 77.3864212036, -629.6119384766, 14.1185655594 ]
+          rot: [ 0.0, 0.0, -738.6008911133 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_stairs_broken.w2mesh"
+
+      elfruin_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_platform.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/elven_ruins_bridge_platform.w2ent"
+        transform: 
+          pos: [ 72.4090118408, -626.6242065430, 9.5385379791 ]
+          rot: [ 0.0, 0.0, -1088.6003417969 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_platform.w2mesh"
+
+      elfruin_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_stairs_broken_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/elven_ruins_bridge_stairs_broken_b.w2ent"
+        transform: 
+          pos: [ 71.0299453735, -620.0852050781, 9.5385379791 ]
+          rot: [ 0.0, 0.0, -1180.2005615234 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_stairs_broken_b.w2mesh"
+
+      elfruin_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_stairs_broken_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/elven_ruins_bridge_stairs_broken_b.w2ent"
+        transform: 
+          pos: [ 66.0954055786, -627.8175659180, 9.4585361481 ]
+          rot: [ 0.0, 0.0, -1087.2005615234 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/elven/common/elven_ruin_set/elven_ruins_bridge_stairs_broken_b.w2mesh"

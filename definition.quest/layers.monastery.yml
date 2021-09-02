@@ -1,0 +1,381 @@
+layers:
+  monastery_rivia: 
+    world: "riviacapital"
+    #context: ""
+    statics: 
+      belltowerdetail: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_h_fi.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_frame_window_stone_h_fi.w2ent"
+        transform: 
+          pos: [ 164.7710876465, -218.4023284912, 16.8365249634 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+          scale: [ 1.5000000000, 1.5000000000, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_h_fi.w2mesh"
+
+      belltowerdetail_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_h_fi.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_frame_window_stone_h_fi.w2ent"
+        transform: 
+          pos: [ 168.0552520752, -218.3760833740, 16.8365249634 ]
+          rot: [ 0.0, 0.0, 270.0 ]
+          scale: [ 1.5000000000, 1.5000000000, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_h_fi.w2mesh"
+
+      belltowerdetail_10: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_05/bob_house_rich_05_a_corner_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_house_rich_05_a_corner_long.w2ent"
+        transform: 
+          pos: [ 163.5160064697, -219.8403778076, 8.0426368713 ]
+          rot: [ 0.0, 0.0, 180.0 ]
+          scale: [ 0.8999999762, 0.8999999762, 0.8999999762 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_05/bob_house_rich_05_a_corner_long.w2mesh"
+
+      belltowerdetail_11: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/ep1/environment/architecture/human/redania/q605/605_fancy_plaster.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/605_fancy_plaster.w2ent"
+        transform: 
+          pos: [ 164.5187530518, -218.4499359131, 11.4026536942 ]
+          rot: [ 180.0, 0.0, 180.0 ]
+          scale: [ 0.5000000000, 0.6499999762, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/ep1/environment/architecture/human/redania/q605/605_fancy_plaster.w2mesh"
+
+      belltowerdetail_12: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_stairs_stone_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_stairs_stone_b.w2ent"
+        transform: 
+          pos: [ 162.2755279541, -218.4741210938, 6.8864526749 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+          scale: [ 1.2999999523, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_stairs_stone_b.w2mesh"
+
+      belltowerdetail_13: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/kaer_morhen/kaer_morhen_woods/kaer_morhen_wooden_door_interior.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/kaer_morhen_wooden_door_interior.w2ent"
+        transform: 
+          pos: [ 163.5579528809, -217.8361511230, 7.3101210594 ]
+          rot: [ 0.0, 0.0, 270.0 ]
+          scale: [ 0.8999999762, 0.8999999762, 0.8999999762 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/kaer_morhen/kaer_morhen_woods/kaer_morhen_wooden_door_interior.w2mesh"
+
+      belltowerdetail_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_h_fi.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_frame_window_stone_h_fi.w2ent"
+        transform: 
+          pos: [ 166.3888244629, -219.9577178955, 16.8365249634 ]
+          rot: [ 0.0, 0.0, 180.0 ]
+          scale: [ 1.5000000000, 1.5000000000, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_h_fi.w2mesh"
+
+      belltowerdetail_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_h_fi.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_frame_window_stone_h_fi.w2ent"
+        transform: 
+          pos: [ 166.4159698486, -216.8791656494, 16.8365249634 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+          scale: [ 1.5000000000, 1.5000000000, 1.5000000000 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/poor_houses_parts/poor_frame_window_stone_h_fi.w2mesh"
+
+      belltowerdetail_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/crypt/bob_crypt_walls_01.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_crypt_walls_01.w2ent"
+        transform: 
+          pos: [ 165.0189819336, -218.4508209229, 7.8365278244 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/crypt/bob_crypt_walls_01.w2mesh"
+
+      belltowerdetail_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_04/bob_house_rich_04_roof_addon_trim_01.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_house_rich_04_roof_addon_trim_01.w2ent"
+        transform: 
+          pos: [ 163.3740081787, -218.3844909668, 11.6365404129 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+          scale: [ 0.3199999928, 0.3000000119, 0.3000000119 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_04/bob_house_rich_04_roof_addon_trim_01.w2mesh"
+
+      belltowerdetail_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_04/bob_house_rich_04_roof_addon_trim_01.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_house_rich_04_roof_addon_trim_01.w2ent"
+        transform: 
+          pos: [ 164.9460906982, -216.9138488770, 11.6365404129 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+          scale: [ 0.3199999928, 0.3000000119, 0.3000000119 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_04/bob_house_rich_04_roof_addon_trim_01.w2mesh"
+
+      belltowerdetail_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_04/bob_house_rich_04_roof_addon_trim_01.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_house_rich_04_roof_addon_trim_01.w2ent"
+        transform: 
+          pos: [ 164.9560394287, -219.9897613525, 11.6365404129 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+          scale: [ 0.3199999928, 0.3000000119, 0.3000000119 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_04/bob_house_rich_04_roof_addon_trim_01.w2mesh"
+
+      belltowerdetail_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_door_frame_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_ruins_door_frame_a.w2ent"
+        transform: 
+          pos: [ 163.4517822266, -218.4352264404, 7.8426523209 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+          scale: [ 0.8999999762, 0.8999999762, 0.8999999762 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/bob_ruins_set/bob_ruins_door_frame_a.w2mesh"
+
+      belltowerdetail_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_05/bob_house_rich_05_a_corner_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_house_rich_05_a_corner_long.w2ent"
+        transform: 
+          pos: [ 163.5197448730, -217.0613098145, 8.0426368713 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+          scale: [ 0.8999999762, 0.8999999762, 0.8999999762 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_05/bob_house_rich_05_a_corner_long.w2mesh"
+    statics.shadows: 
+      monastery1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/custom_buildings/bob_city_inn/bob_city_inn_pillar_01.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_city_inn_pillar_01.w2ent"
+        transform: 
+          pos: [ 166.4022369385, -218.4167022705, 19.5691452026 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+          scale: [ 3.0, 3.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 10000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/custom_buildings/bob_city_inn/bob_city_inn_pillar_01.w2mesh"
+
+      monastery1_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/palace/bob_palace_pillar_base.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_palace_pillar_base.w2ent"
+        transform: 
+          pos: [ 166.3854370117, -218.3769989014, 7.0491323471 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 10000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/palace/bob_palace_pillar_base.w2mesh"
+
+      monastery1_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_addons/bob_house_rich_addons_balustrade_01.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_house_rich_addons_balustrade_01.w2ent"
+        transform: 
+          pos: [ 166.4486846924, -217.1118469238, 19.2890930176 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+          scale: [ 1.2000000477, 1.1000000238, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 10000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_addons/bob_house_rich_addons_balustrade_01.w2mesh"
+
+      monastery1_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_addons/bob_house_rich_addons_balustrade_01.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_house_rich_addons_balustrade_01.w2ent"
+        transform: 
+          pos: [ 166.4530639648, -219.7581787109, 19.2890930176 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+          scale: [ 1.2000000477, 1.1000000238, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 10000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_addons/bob_house_rich_addons_balustrade_01.w2mesh"
+
+      monastery1_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_addons/bob_house_rich_addons_balustrade_01.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_house_rich_addons_balustrade_01.w2ent"
+        transform: 
+          pos: [ 164.8950653076, -218.3794708252, 19.2890930176 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+          scale: [ 1.2000000477, 1.1000000238, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 10000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_addons/bob_house_rich_addons_balustrade_01.w2mesh"
+
+      monastery1_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_addons/bob_house_rich_addons_balustrade_01.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_house_rich_addons_balustrade_01.w2ent"
+        transform: 
+          pos: [ 167.8996429443, -218.6217346191, 19.2890930176 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+          scale: [ 1.2000000477, 1.1000000238, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 10000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_addons/bob_house_rich_addons_balustrade_01.w2mesh"
+
+      monastery1_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/decorations/gameplay/generic/bells/bell_px.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bell_px.w2ent"
+        transform: 
+          pos: [ 166.4075775146, -218.4350891113, 24.0891208649 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+          scale: [ 1.2000000477, 1.1000000238, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 10000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/decorations/gameplay/generic/bells/bell_px.w2mesh"
