@@ -22855,6 +22855,20 @@ entities:
             - CastShadows
           mesh: environment\decorations\flags\nilfgaardian\nilfgaardian_flag_pick.w2mesh     
 
+  volume_testing:
+    entityObject:
+      .type: CGameplayEntity
+      streamingDistance: 200    
+      components:
+        bridge:
+          .type: CStaticMeshComponent
+          isStreamed: true         
+          drawableFlags:
+            - IsVisible
+            - CastShadows
+          mesh: environment/architecture/human/redania/novigrad/poor/poor_woodenroof/poor_woodenroof_short_int_fa_interiorvolume.w2mesh
+
+          
   bob_tower_top_volume:
     entityObject:
       .type: CGameplayEntity

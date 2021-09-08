@@ -1199,11 +1199,6 @@ layers:
         pos: [ -660.92578125, 576.9753418, 0.0385621861 ]
         rot: [ 0.0, 0.0, 0.0 ]
 
-      rabies_5: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -663.042358398, 571.99975586, -0.5299975276 ]
-        rot: [ 0.0, 0.0, 0.0 ]
-
       rabies_6: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\alnus_cluster_big.w2ent"
         pos: [ -679.384277344, 563.08691406, 7.7100024223 ]
@@ -1284,78 +1279,6 @@ layers:
         pos: [ -679.718261719, 556.75268555, 0.5988657475 ]
         rot: [ 0.0, 0.0, 0.0 ]
 
-      rabies_17: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -763.842529297, 529.73999023, -0.316318363 ]
-        rot: [ 0.0, 0.0, 0.0 ]
-
-      rabies_18: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -763.084960938, 534.81469727, 0.4815478325 ]
-        rot: [ 0.0, 0.0, 41.7999954224 ]
-        scale: [ 1.7000000477, 1.7000000477, 1.7000000477 ]
-
-      rabies_19: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -768.29309082, 539.11181641, 0.5919457674 ]
-        rot: [ 0.0, 0.0, 61.5999946594 ]
-
-      rabies_20: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -768.164794922, 533.50341797, 0.4164794683 ]
-        rot: [ 0.0, 0.0, 61.5999946594 ]
-
-      rabies_21: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -768.218994141, 529.68603516, 0.2108007669 ]
-        rot: [ 0.0, 0.0, 61.5999946594 ]
-
-      rabies_22: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -770.973266602, 534.88354492, 0.5634105206 ]
-        rot: [ 0.0, 0.0, 61.5999946594 ]
-
-      rabies_23: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -771.907470703, 529.57177734, -1.2772387266 ]
-        rot: [ 0.0, 0.0, 61.5999946594 ]
-
-      rabies_24: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -770.941894531, 537.51733398, 1.0723876953 ]
-        rot: [ 0.0, 0.0, 10.5999965668 ]
-        scale: [ 1.5000000000, 1.5000000000, 1.5000000000 ]
-
-      rabies_25: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -774.40637207, 538.04541016, 0.4900366068 ]
-        rot: [ 0.0, 0.0, 10.5999965668 ]
-        scale: [ 2.0, 2.0, 2.0 ]
-
-      rabies_26: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -777.187011719, 542.24121094, -1.1081664562 ]
-        rot: [ 0.0, 0.0, 10.5999965668 ]
-
-      rabies_27: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -772.930664062, 542.06762695, 0.9563500881 ]
-        rot: [ 0.0, 0.0, 10.5999965668 ]
-
-      rabies_28: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -778.110107422, 547.79394531, -0.1431201398 ]
-        rot: [ 0.0, 0.0, 10.5999965668 ]
-
-      rabies_29: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -781.348999023, 552.13476562, 0.8541674614 ]
-        rot: [ 0.0, 0.0, 10.5999965668 ]
-
-      rabies_30: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\pinus_forest_big.w2ent"
-        pos: [ -788.06262207, 548.6887207, -1.4579125643 ]
-        rot: [ 0.0, 0.0, 10.5999965668 ]
       rmarsh_1: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\marsh_big.w2ent"
         pos: [ -579.286010742, 522.19140625, 0.2575627565 ]
@@ -5688,17 +5611,8 @@ layers:
         pos: [ -629.353393555, 697.31713867, 11.9886045456 ]
         rot: [ 90.0, 0.0, -885.7999267578 ]
         scale: [ 3.0, 3.0, 1.7999999523 ]
+   
 
-      rcito_71: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_curved_large_a.w2ent"
-        pos: [ -691.029174805, 627.28100586, 17.2686061859 ]
-        rot: [ 0.0, 0.0, -767.0 ]
-
-      rcito_72: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_base.w2ent"
-        pos: [ -707.654785156, 633.9621582, 30.1486358643 ]
-        rot: [ 0.0, 0.0, -805.4000854492 ]
-        scale: [ 2.5000000000, 2.5000000000, 2.0 ]    
       rcittu: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_stone_window_medium.w2ent"
         pos: [ -618.942260742, 624.03588867, 7.8748841286 ]
@@ -7080,140 +6994,41 @@ layers:
         pos: [ -630.090209961, 576.99267578, 7.9629774094 ]
         rot: [ 0.0, 0.0, -355.8000183105 ]
     
-      rsup: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_pillar_square.w2ent"
-        pos: [ -688.031982422, 558.97460938, 32.8957366943 ]
-        rot: [ 180.0, 0.0, -1.3999994993 ]
-        scale: [ 3.5000000000, 3.5000000000, 2.0 ]
+      rbridge_5: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
+        pos: [ -704.997070312, 517.78027344, 4.8750090599 ]
+        rot: [ 0.0, 0.0, 103.3999938965 ]
 
-      rsup_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_pillar_square.w2ent"
-        pos: [ -701.431152344, 559.19165039, 32.8957366943 ]
-        rot: [ 180.0, 0.0, -1.3999994993 ]
-        scale: [ 3.5000000000, 3.5000000000, 2.0 ]
+      rbridgearch: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
+        pos: [ -693.13671875, 466.17016602, 4.8657331467 ]
+        rot: [ 0.0, 0.0, -76.8000106812 ]
+        scale: [ 1.5000000000, 1.0, 1.0 ]
 
-      rsup_2: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_pillar_square.w2ent"
-        pos: [ -688.292480469, 575.54907227, 32.8957366943 ]
-        rot: [ 180.0, 0.0, -1.3999994993 ]
-        scale: [ 3.5000000000, 3.5000000000, 2.0 ]
+      rbridgearch_2: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
+        pos: [ -685.031494141, 431.02441406, 4.9282932281 ]
+        rot: [ 0.0, 0.0, -76.5999984741 ]
+        scale: [ 1.5000000000, 1.0, 1.0 ]
 
-      rtowfacad: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_wall_b_corner.w2ent"
-        pos: [ -688.415527344, 559.01049805, 13.8087053299 ]
-        rot: [ 0.0, 0.0, 0.0 ]
+      rbridgearch_3: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_c.w2ent"
+        pos: [ -698.354492188, 488.94482422, 4.8682928085 ]
+        rot: [ 0.0, 0.0, -77.5999755859 ]
+        scale: [ 1.5000000000, 1.0, 1.0 ]
 
-      rtowfacad_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_wall_b_corner.w2ent"
-        pos: [ -703.25769043, 560.62573242, 13.828701973 ]
-        rot: [ 0.0, 0.0, -89.7999954224 ]
+      rbridgearch_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_c.w2ent"
+        pos: [ -690.312011719, 453.43994141, 4.8682928085 ]
+        rot: [ 0.0, 0.0, -77.5999755859 ]
+        scale: [ 1.5000000000, 1.0, 1.0 ]
 
-      rtowfacad_2: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_wall_b.w2ent"
-        pos: [ -697.262329102, 558.82641602, 13.8686971664 ]
-        rot: [ 0.0, 0.0, 3.8000133038 ]
+      rbridgearch_4: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_c.w2ent"
+        pos: [ -682.236206055, 418.55102539, 4.8682928085 ]
+        rot: [ 0.0, 0.0, -77.5999755859 ]
+        scale: [ 1.5000000000, 1.0, 1.0 ]
 
-      rtowfacad_3: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_wall_b.w2ent"
-        pos: [ -693.107666016, 558.96606445, 13.8327569962 ]
-        rot: [ 0.0, 0.0, 0.6000130177 ]
-        scale: [ 1.2999999523, 1.0, 1.0 ]
-
-      rtowfacad_4: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square_block_wall.w2ent"
-        pos: [ -703.336669922, 563.79199219, 14.2287149429 ]
-        rot: [ 0.0, 0.0, 2.7999997139 ]
-        scale: [ 2.0, 2.0, 1.0 ]
-
-      rtowfacad_5: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_wall_b.w2ent"
-        pos: [ -706.2734375, 563.71557617, 13.8686971664 ]
-        rot: [ 0.0, 0.0, 7.4000134468 ]
-
-      rtowfacad_6: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_wall_b.w2ent"
-        pos: [ -710.272338867, 563.15917969, 13.8686971664 ]
-        rot: [ 0.0, 0.0, 7.4000134468 ]
-
-      rtowfacad_7: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_wall_b.w2ent"
-        pos: [ -714.32409668, 562.64038086, 13.8686971664 ]
-        rot: [ 0.0, 0.0, 7.4000134468 ]
-
-      rtowfacad_8: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_wall_b.w2ent"
-        pos: [ -718.25390625, 562.17382812, 13.8686971664 ]
-        rot: [ 0.0, 0.0, 5.8000140190 ]
-
-      rtowfacad_9: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_wall_b.w2ent"
-        pos: [ -686.483398438, 564.94677734, 13.8686971664 ]
-        rot: [ 0.0, 0.0, 91.5999908447 ]
-
-      rtowfacad_10: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_wall_b.w2ent"
-        pos: [ -686.609741211, 568.85131836, 13.8686971664 ]
-        rot: [ 0.0, 0.0, 91.5999908447 ]
-
-      rtowfacad_11: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square_block_wall.w2ent"
-        pos: [ -686.95690918, 570.22827148, 14.2287149429 ]
-        rot: [ 0.0, 0.0, 2.7999997139 ]
-        scale: [ 2.0, 2.0, 1.0 ]
-
-      rtowfacad_12: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square_block_wall.w2ent"
-        pos: [ -681.475830078, 556.41357422, 9.0687198639 ]
-        rot: [ 180.0, 0.0, 2.7999999523 ]
-
-      rtowfacad_13: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square_block_wall.w2ent"
-        pos: [ -681.765258789, 562.75830078, 9.0687198639 ]
-        rot: [ 180.0, 0.0, 2.7999999523 ]
-
-      rtowfacad_14: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square_block_wall.w2ent"
-        pos: [ -682.019042969, 568.45922852, 9.0687198639 ]
-        rot: [ 180.0, 0.0, 2.7999999523 ]
-
-      rtowfacad_15: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_wall_high_ramp_long_l.w2ent"
-        pos: [ -715.018188477, 544.76953125, 11.1880559921 ]
-        rot: [ 350.0, 0.0, 97.8000030518 ]
-        scale: [ 2.5999999046, 1.0, 1.0 ]
-
-      rtowfacad_16: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square_block_wall.w2ent"
-        pos: [ -716.52355957, 554.41650391, 14.4331932068 ]
-        rot: [ 0.0, 0.0, 13.6000003815 ]
-
-      rtowfacad_17: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square_block_wall.w2ent"
-        pos: [ -714.884887695, 543.68725586, 12.1531953812 ]
-        rot: [ 0.0, 0.0, 13.6000003815 ]
-
-      rtowfacad_18: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_harbour_shore_pillar_square_block_wall.w2ent"
-        pos: [ -713.62487793, 534.140625, 9.8731975555 ]
-        rot: [ 0.0, 0.0, 13.6000003815 ]
-
-      rtowfacad_19: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wall_low.w2ent"
-        pos: [ -681.368896484, 559.55004883, 13.33319664 ]
-        rot: [ 0.0, 0.0, 93.4000244141 ]
-        scale: [ 2.0, 2.0, 2.0 ]
-
-      rtowfacad_20: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wall_low.w2ent"
-        pos: [ -681.73449707, 565.72290039, 13.33319664 ]
-        rot: [ 0.0, 0.0, 93.8000259399 ]
-        scale: [ 2.0, 2.0, 2.0 ]
-
-      rtowfacad_21: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wood_house_extension.w2ent"
-        pos: [ -695.026123047, 558.49438477, 26.8771419525 ]
-        rot: [ 0.0, 0.0, 0.6000347137 ]
-        scale: [ 2.0, 2.0, 2.0 ]
 
       rtowfacad_22: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\solid_stairs.w2ent"
@@ -7234,69 +7049,6 @@ layers:
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_stone_arc_window_c.w2ent"
         pos: [ -693.744262695, 551.12597656, 9.9814720154 ]
         rot: [ 0.0, 0.0, 153.6002197266 ]
-
-      rtowfacad_26: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_stone_house_corner_b_long.w2ent"
-        pos: [ -713.737060547, 534.3581543, 14.2814388275 ]
-        rot: [ 0.0, 0.0, 464.6002807617 ]
-        scale: [ 2.0, 2.0, 3.0 ]
-
-      rtowfacad_27: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_stone_house_corner_b_long.w2ent"
-        pos: [ -714.400756836, 533.69384766, 14.3214511871 ]
-        rot: [ 0.0, 0.0, 189.6003417969 ]
-        scale: [ 2.0, 2.0, 3.0 ]
-
-      rtowfacad_28: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_stone_house_corner_b_long.w2ent"
-        pos: [ -713.737060547, 534.3581543, 1.2614446878 ]
-        rot: [ 0.0, 0.0, 464.6002807617 ]
-        scale: [ 2.0, 2.0, 2.0 ]
-
-      rtowfacad_29: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_stone_house_corner_b_long.w2ent"
-        pos: [ -714.678344727, 533.58789062, 1.4414504766 ]
-        rot: [ 0.0, 0.0, 552.0002441406 ]
-        scale: [ 2.0, 2.0, 2.0 ]
-
-      rtowfacad_30: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_stone_house_corner_b_long.w2ent"
-        pos: [ -716.723510742, 552.81713867, 14.3214511871 ]
-        rot: [ 0.0, 0.0, 278.8004455566 ]
-        scale: [ 2.0, 2.0, 3.0 ]
-
-      rtowfacad_31: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_stone_house_corner_b_long.w2ent"
-        pos: [ -728.895141602, 531.40112305, 7.7214574814 ]
-        rot: [ 0.0, 0.0, 370.2004699707 ]
-        scale: [ 2.0, 2.0, 4.0 ]
-
-      rtowfacad_32: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_stone_house_corner_b_long.w2ent"
-        pos: [ -729.581665039, 532.421875, 7.7214574814 ]
-        rot: [ 0.0, 0.0, 465.2005310059 ]
-        scale: [ 2.0, 2.0, 4.0 ]
-
-      rtowfacad_34: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\nov_square_tunnel.w2ent"
-        pos: [ -726.152832031, 578.99682617, 23.7455654144 ]
-        rot: [ 0.0, 0.0, 545.0007324219 ]
-        scale: [ 2.0, 2.0, 2.0 ]
-
-      rtowfacad_35: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\main_square_tower_building_left.w2ent"
-        pos: [ -744.032104492, 568.37304688, 23.8655662537 ]
-        rot: [ 0.0, 0.0, 456.0008239746 ]
-
-      rtowfacad_36: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\main_square_tower_building_right.w2ent"
-        pos: [ -746.713745117, 577.83081055, 20.5255432129 ]
-        rot: [ 0.0, 0.0, 471.4008178711 ]
-
-      rtowfacad_37: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_tower_a_taller_wall_entrance.w2ent"
-        pos: [ -744.789428711, 565.68041992, 16.3255367279 ]
-        rot: [ 0.0, 0.0, 551.2007446289 ]
 
       rramp2: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bridge_bended_ramp.w2ent"
@@ -7347,26 +7099,6 @@ layers:
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_stairs.w2ent"
         pos: [ -691.725952148, 516.51245117, -0.3837784529 ]
         rot: [ 0.0, 0.0, -601.4000244141 ]
-
-      rfacc: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wall_medium_flat_stone.w2ent"
-        pos: [ -715.677001953, 543.16259766, 18.9580440521 ]
-        rot: [ 0.0, 0.0, -263.3998107910 ]
-
-      rfacc_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wall_medium_flat_stone.w2ent"
-        pos: [ -687.698974609, 567.97192383, 28.1981086731 ]
-        rot: [ 0.0, 0.0, -268.7997741699 ]
-
-      rfacc_2: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wall_medium_flat_stone.w2ent"
-        pos: [ -676.1171875, 605.69042969, 37.3980941772 ]
-        rot: [ 0.0, 0.0, -268.7997741699 ]
-
-      rfacc_3: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wall_medium_flat_stone.w2ent"
-        pos: [ -676.103027344, 605.85961914, 13.7181129456 ]
-        rot: [ 0.0, 0.0, -268.7997741699 ]
 
       rpieeer: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_frame_door_stone_a.w2ent"
@@ -7596,110 +7328,6 @@ layers:
         pos: [ -656.449707031, 585.54980469, 3.3733887672 ]
         rot: [ 0.0, 0.0, -95.6000061035 ]
 
-      rcitystuff_4: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -670.682861328, 558.37719727, 4.533141613 ]
-        rot: [ 0.0, 0.0, -2.7999885082 ]
-
-      rcitystuff_5: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -656.601318359, 584.49536133, 6.3331398964 ]
-        rot: [ 0.0, 0.0, 72.5999832153 ]
-
-      rcitystuff_6: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -655.898193359, 592.68481445, 6.3331398964 ]
-        rot: [ 0.0, 0.0, 72.5999832153 ]
-
-      rcitystuff_7: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -702.406494141, 520.76782227, 9.3331375122 ]
-        rot: [ 0.0, 0.0, 176.9999847412 ]
-
-      rcitystuff_8: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -709.334960938, 519.20166016, 9.3331375122 ]
-        rot: [ 0.0, 0.0, 196.7999725342 ]
-
-      rcitystuff_9: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -700.165039062, 511.80224609, 9.3331375122 ]
-        rot: [ 0.0, 0.0, 367.5999755859 ]
-
-      rcitystuff_10: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_only_3lights.w2ent"
-        pos: [ -704.709106445, 513.02246094, 10.7116508484 ]
-        rot: [ 0.0, 0.0, 453.1999511719 ]
-
-      rcitystuff_11: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_only_3lights.w2ent"
-        pos: [ -705.812866211, 518.00439453, 10.7116508484 ]
-        rot: [ 0.0, 0.0, 453.1999511719 ]
-
-      rcitystuff_12: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_only_3lights.w2ent"
-        pos: [ -705.149414062, 515.57910156, 10.7116508484 ]
-        rot: [ 0.0, 0.0, 453.1999511719 ]
-
-      rcitystuff_13: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -717.90637207, 526.64135742, 9.3331375122 ]
-        rot: [ 0.0, 0.0, 6.7999711037 ]
-
-      rcitystuff_14: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -726.763183594, 525.99316406, 9.6094245911 ]
-        rot: [ 0.0, 0.0, 6.7999711037 ]
-
-      rcitystuff_15: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -734.486450195, 526.31762695, 10.0531368256 ]
-        rot: [ 0.0, 0.0, 6.7999711037 ]
-
-      rcitystuff_16: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -743.943969727, 526.7590332, 10.0531368256 ]
-        rot: [ 0.0, 0.0, 87.1999740601 ]
-
-      rcitystuff_17: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -750.667236328, 526.86181641, 9.6931371689 ]
-        rot: [ 0.0, 0.0, -21.8000259399 ]
-
-      rcitystuff_18: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -753.158935547, 516.13330078, 3.6931428909 ]
-        rot: [ 0.0, 0.0, -110.0000457764 ]
-
-      rcitystuff_19: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -707.261962891, 510.2265625, 9.3331375122 ]
-        rot: [ 0.0, 0.0, 19.3999500275 ]
-
-      rcitystuff_20: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -678.995117188, 589.29516602, 11.1331357956 ]
-        rot: [ 0.0, 0.0, 89.9999389648 ]
-
-      rcitystuff_21: 
-        template: "W3FireSource:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\lightsources\\braziers\\gen_hanging_brazier_3lights.w2ent"
-        pos: [ -669.687744141, 594.39135742, 11.8851184845 ]
-        rot: [ 0.0, 0.0, -101.4000701904 ]
-
-      rcitystuff_22: 
-        template: "CGameplayEntity:environment\\decorations\\light_sources\\braziers\\braziers_wall_chain.w2ent"
-        pos: [ -713.280517578, 534.38818359, 12.5114221573 ]
-        rot: [ 0.0, 0.0, -175.8000488281 ]
-
-      rcitystuff_23: 
-        template: "CGameplayEntity:environment\\decorations\\light_sources\\braziers\\braziers_wall_chain.w2ent"
-        pos: [ -714.522827148, 543.68164062, 14.7914199829 ]
-        rot: [ 0.0, 0.0, -175.8000488281 ]
-
-      rcitystuff_24: 
-        template: "CGameplayEntity:environment\\decorations\\light_sources\\braziers\\braziers_wall_chain.w2ent"
-        pos: [ -716.086303711, 554.42114258, 16.9514255524 ]
-        rot: [ 0.0, 0.0, -175.8000488281 ]
 
       rcitystuff_25: 
         template: "W3FireSource:environment\\decorations\\light_sources\\braziers\\braziers_floor_square.w2ent"
@@ -7741,69 +7369,12 @@ layers:
         pos: [ -713.819946289, 561.79931641, 13.8541030884 ]
         rot: [ 0.0, 0.0, -150.4000396729 ]
 
-      rcitystuff_33: 
-        template: "W3NewDoor:gameplay\\interactive_objects\\doors\\animated\\anim_castle_archway_door_a.w2ent"
-        pos: [ -719.812133789, 561.2890625, 13.8093481064 ]
-        rot: [ 0.0, 0.0, -85.0000686646 ]
-        scale: [ 1.7500000000, 1.0, 2.7000000477 ]
-
-      rcitystuff_34: 
-        template: "W3NewDoor:gameplay\\interactive_objects\\doors\\animated\\anim_castle_archway_door_a.w2ent"
-        pos: [ -719.293579102, 555.89306641, 13.8093481064 ]
-        rot: [ 0.0, 0.0, -262.0000610352 ]
-        scale: [ 1.7500000000, 1.0, 2.7000000477 ]
-
-      rcitystuff_35: 
-        template: "CGameplayEntity:quests\\part_2\\quest_files\\q403_battle\\entities\\main_gate_kaer_morhen.w2ent"
-        pos: [ -718.608886719, 559.07543945, 13.074631691 ]
-        rot: [ 0.0, 0.0, -85.0000686646 ]
-        scale: [ 1.5000000000, 1.5000000000, 1.1000000238 ]
 
       rcliff2: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rock_cliff_e.w2ent"
         pos: [ -639.896362305, 561.45410156, -0.6695556641 ]
         rot: [ 270.0, 0.0, 0.0 ]
         scale: [ 3.0, 3.0, 3.0 ]
-
-      rtow: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_tower_a_taller_wall_entrance.w2ent"
-        pos: [ -776.171630859, 600.18969727, 5.5699028969 ]
-        rot: [ 0.0, 0.0, 76.8000183105 ]
-
-      rtow_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_tower_a_taller_wall_entrance_interior.w2ent"
-        pos: [ -776.171630859, 600.18969727, 5.5699028969 ]
-        rot: [ 0.0, 0.0, 76.8000183105 ]
-
-      rtow_2: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_tower_a_taller_detail.w2ent"
-        pos: [ -776.171630859, 600.18969727, 5.5699028969 ]
-        rot: [ 0.0, 0.0, 76.8000183105 ]
-
-      rwal: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_curved_large_a.w2ent"
-        pos: [ -767.024414062, 616.27270508, 13.868024826 ]
-        rot: [ 0.0, 0.0, 44.9999847412 ]
-
-      rwal_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_curved_large_a.w2ent"
-        pos: [ -739.004516602, 628.50952148, 13.868024826 ]
-        rot: [ 0.0, 0.0, 2.1999855042 ]
-
-      rtow_3: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_tower_a_taller_wall_entrance.w2ent"
-        pos: [ -724.330566406, 628.10986328, 5.4499034882 ]
-        rot: [ 0.0, 0.0, 191.3999786377 ]
-
-      rtow_4: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_tower_a_taller_wall_entrance_interior.w2ent"
-        pos: [ -724.330566406, 628.10986328, 5.4499034882 ]
-        rot: [ 0.0, 0.0, 191.3999786377 ]
-
-      rtow_5: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_tower_a_taller_detail.w2ent"
-        pos: [ -724.330566406, 628.10986328, 5.4499034882 ]
-        rot: [ 0.0, 0.0, 191.3999786377 ]
 
 
       rcliff1: 
@@ -7993,12 +7564,6 @@ layers:
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wall_medium_flat_stone.w2ent"
         pos: [ -752.186889648, 518.65991211, -3.4415612221 ]
         rot: [ 0.0, 0.0, -640.8002319336 ]
-
-      rdojon_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\main_square_tower_f3.w2ent"
-        pos: [ -707.59375, 634.14208984, 17.921787262 ]
-        rot: [ 0.0, 0.0, 4.8000001907 ]
-        scale: [ 1.8999999762, 2.0, 2.0 ]
 
       rcity2a: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\rich_wood_house_small_f1.w2ent"
@@ -8379,161 +7944,6 @@ layers:
         rot: [ 0.0, 0.0, 168.0000610352 ]
         scale: [ 1.0, 1.0, 1.0 ]
 
-      rdojon_2: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\temple_of_ethernal_fire_f4.w2ent"
-        pos: [ -706.146240234, 629.95605469, -7.4382209778 ]
-        rot: [ 0.0, 0.0, 4.8000001907 ]
-
-      rdojon_3: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\temple_of_ethernal_fire_f4.w2ent"
-        pos: [ -694.18762207, 621.42480469, 74.641960144 ]
-        rot: [ 0.0, 0.0, 4.8000001907 ]
-        scale: [ 0.3000000119, 0.3000000119, 0.3000000119 ]
-
-      rdojon_4: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\temple_of_ethernal_fire_f4.w2ent"
-        pos: [ -696.064941406, 644.02685547, 74.641960144 ]
-        rot: [ 0.0, 0.0, 4.8000001907 ]
-        scale: [ 0.3000000119, 0.3000000119, 0.3000000119 ]
-
-      rdojon_5: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\temple_of_ethernal_fire_f4.w2ent"
-        pos: [ -719.193969727, 642.31469727, 74.641960144 ]
-        rot: [ 0.0, 0.0, 4.8000001907 ]
-        scale: [ 0.3000000119, 0.3000000119, 0.3000000119 ]
-
-      rdojon_6: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\temple_of_ethernal_fire_f4.w2ent"
-        pos: [ -717.332885742, 619.89233398, 74.641960144 ]
-        rot: [ 0.0, 0.0, 4.8000001907 ]
-        scale: [ 0.3000000119, 0.3000000119, 0.3000000119 ]
-
-      rdojon_7: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_roof.w2ent"
-        pos: [ -694.732910156, 622.66357422, 68.7419891357 ]
-        rot: [ 0.0, 0.0, 4.8000001907 ]
-        scale: [ 0.8999999762, 0.8999999762, 1.5000000000 ]
-
-      rdojon_8: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_roof.w2ent"
-        pos: [ -696.548828125, 645.41650391, 68.7419891357 ]
-        rot: [ 0.0, 0.0, 4.8000001907 ]
-        scale: [ 0.8999999762, 0.8999999762, 1.5000000000 ]
-
-      rdojon_9: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_roof.w2ent"
-        pos: [ -719.284790039, 643.87353516, 68.7419891357 ]
-        rot: [ 0.0, 0.0, 4.8000001907 ]
-        scale: [ 0.8999999762, 0.8999999762, 1.5000000000 ]
-
-      rdojon_10: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_roof.w2ent"
-        pos: [ -717.627441406, 621.07177734, 68.7419891357 ]
-        rot: [ 0.0, 0.0, 4.8000001907 ]
-        scale: [ 0.8999999762, 0.8999999762, 1.5000000000 ]
-
-      rdojon_11: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_pillar_square.w2ent"
-        pos: [ -717.656616211, 621.26171875, 85.9820480347 ]
-        rot: [ 180.0, 0.0, 4.1999998093 ]
-        scale: [ 3.4000000954, 3.4000000954, 2.0 ]
-
-      rdojon_12: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_pillar_square.w2ent"
-        pos: [ -694.383911133, 622.70288086, 85.9820480347 ]
-        rot: [ 180.0, 0.0, 4.1999998093 ]
-        scale: [ 3.4000000954, 3.4000000954, 2.0 ]
-
-      rdojon_13: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_pillar_square.w2ent"
-        pos: [ -696.284545898, 645.33886719, 85.9820480347 ]
-        rot: [ 180.0, 0.0, 4.1999998093 ]
-        scale: [ 3.4000000954, 3.4000000954, 2.0 ]
-
-      rdojon_14: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\estate_pillar_square.w2ent"
-        pos: [ -719.670288086, 643.71362305, 85.9820480347 ]
-        rot: [ 180.0, 0.0, 4.1999998093 ]
-        scale: [ 3.4000000954, 3.4000000954, 2.0 ]
-
-      recastler_3: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\temple_of_ethernal_fire_f4b.w2ent"
-        pos: [ -708.615722656, 638.59423828, -71.6796722412 ]
-        rot: [ 0.0, 0.0, -175.4000091553 ]
-        scale: [ 1.0000000000, 1.0000000000, 1.0000000000 ]
-      rcastlee: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized.w2ent"
-        pos: [ -723.193725586, 542.56005859, 2.877204895 ]
-        rot: [ 0.0, 0.0, 188.1999816895 ]
-        scale: [ 2.0, 2.5000000000, 2.0 ]
-
-      rcastlee_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll_poor.w2ent"
-        pos: [ -721.426879883, 525.45922852, 21.3105831146 ]
-        rot: [ 0.0, 0.0, -260.4000549316 ]
-        scale: [ 3.0, 3.4000000954, 2.0 ]
-
-      rcastlee_2: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_woodenfoof_tall_int_fb_walll_poor.w2ent"
-        pos: [ -707.927368164, 543.6081543, 21.3105831146 ]
-        rot: [ 0.0, 0.0, -171.7999420166 ]
-        scale: [ 3.0, 4.0, 2.0 ]
-
-      rcastlee_3: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_detail.w2ent"
-        pos: [ -723.189941406, 542.56005859, 2.8771998882 ]
-        rot: [ 0.0, 0.0, 188.1999816895 ]
-        scale: [ 2.0, 2.5000000000, 2.0 ]
-
-      rcastlee_4: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_small_windows.w2ent"
-        pos: [ -723.189941406, 542.56005859, 2.8771998882 ]
-        rot: [ 0.0, 0.0, 188.1999816895 ]
-        scale: [ 2.0, 2.5000000000, 2.0 ]
-
-      rcastlee_5: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_roof.w2ent"
-        pos: [ -723.189941406, 542.56005859, -0.2427993417 ]
-        rot: [ 0.0, 0.0, 188.1999816895 ]
-        scale: [ 2.2000000477, 2.7000000477, 2.0 ]
-
-
-      rbridge_5: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
-        pos: [ -704.997070312, 517.78027344, 4.8750090599 ]
-        rot: [ 0.0, 0.0, 103.3999938965 ]
-
-      rbridgearch: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
-        pos: [ -693.13671875, 466.17016602, 4.8657331467 ]
-        rot: [ 0.0, 0.0, -76.8000106812 ]
-        scale: [ 1.5000000000, 1.0, 1.0 ]
-
-      rbridgearch_2: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_b.w2ent"
-        pos: [ -685.031494141, 431.02441406, 4.9282932281 ]
-        rot: [ 0.0, 0.0, -76.5999984741 ]
-        scale: [ 1.5000000000, 1.0, 1.0 ]
-
-      rbridgearch_3: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_c.w2ent"
-        pos: [ -698.354492188, 488.94482422, 4.8682928085 ]
-        rot: [ 0.0, 0.0, -77.5999755859 ]
-        scale: [ 1.5000000000, 1.0, 1.0 ]
-
-      rbridgearch_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_c.w2ent"
-        pos: [ -690.312011719, 453.43994141, 4.8682928085 ]
-        rot: [ 0.0, 0.0, -77.5999755859 ]
-        scale: [ 1.5000000000, 1.0, 1.0 ]
-
-      rbridgearch_4: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\white_bridge_pt_c.w2ent"
-        pos: [ -682.236206055, 418.55102539, 4.8682928085 ]
-        rot: [ 0.0, 0.0, -77.5999755859 ]
-        scale: [ 1.5000000000, 1.0, 1.0 ]
-
-
       rbridgearch_7: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\oxenfurt_bridge_support.w2ent"
         pos: [ -685.902099609, 420.22607422, 14.1131153107 ]
@@ -8621,23 +8031,6 @@ layers:
         rot: [ 0.0, 0.0, -116.2000503540 ]
         scale: [ 0.8999999762, 0.8999999762, 1.0 ]
   
-      rgatestower: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_tower_a_taller_wall_entrance.w2ent"
-        pos: [ -694.996337891, 567.18432617, 5.5800638199 ]
-        rot: [ 0.0, 0.0, 1.4000015259 ]
-        scale: [ 2.0, 2.0, 1.5000000000 ]
-  
-      rwall: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_gate_b.w2ent"
-        pos: [ -720.786499023, 558.33227539, 14.2653799057 ]
-        rot: [ 0.0, 0.0, -443.8000488281 ]
-        scale: [ 1.0, 1.0, 2.0 ]
-  
-      rwall_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_gate_interior_b.w2ent"
-        pos: [ -720.786499023, 558.33227539, 14.2653799057 ]
-        rot: [ 0.0, 0.0, -443.8000488281 ]
-        scale: [ 1.0, 1.0, 2.0 ]
   
       rampr_1: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bridge_bended_ramp.w2ent"
@@ -8662,30 +8055,7 @@ layers:
         rot: [ 0.0, 0.0, 181.7999877930 ]
         scale: [ 2.0, 2.0, 1.0 ]
   
-      rwall_2: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_large.w2ent"
-        pos: [ -711.684448242, 564.89526367, 11.6453485489 ]
-        rot: [ 0.0, 0.0, -532.7999877930 ]
-        scale: [ 1.0, 1.0, 2.0 ]
-  
-      rwall_3: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_large_detail.w2ent"
-        pos: [ -711.684448242, 564.89526367, 11.6453485489 ]
-        rot: [ 0.0, 0.0, -532.7999877930 ]
-        scale: [ 1.0, 1.0, 2.0 ]
-  
-      rwall_4: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_large.w2ent"
-        pos: [ -688.883056641, 587.58886719, 9.6053504944 ]
-        rot: [ 0.0, 0.0, -458.0000305176 ]
-        scale: [ 1.0, 1.0, 2.0 ]
-  
-      rwall_5: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_large_detail.w2ent"
-        pos: [ -688.883056641, 587.58886719, 9.6053504944 ]
-        rot: [ 0.0, 0.0, -458.0000305176 ]
-        scale: [ 1.0, 1.0, 2.0 ]
-  
+ 
       rgatestower_1: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_tower_a_taller_wall_entrance.w2ent"
         pos: [ -683.414306641, 605.60229492, 5.5800638199 ]
@@ -8698,126 +8068,6 @@ layers:
         rot: [ 0.0, 0.0, 1.4000015259 ]
         scale: [ 2.2000000477, 2.2000000477, 2.0 ]
   
-      rgatestower_3: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\bridge_gate_roof.w2ent"
-        pos: [ -699.633666992, 610.32568359, -14.4199352264 ]
-        rot: [ 0.0, 0.0, 0.0 ]
-        scale: [ 1.5000000000, 1.0, 2.0 ]    
 
-      rwallz: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_curved_large_a.w2ent"
-        pos: [ -744.489013672, 536.17895508, 13.9555873871 ]
-        rot: [ 0.0, 0.0, -191.3999328613 ]
-
-      rwallz_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_curved_large_a.w2ent"
-        pos: [ -770.408813477, 552.15380859, 13.9555873871 ]
-        rot: [ 0.0, 0.0, -231.9999084473 ]
-
-      outhose: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\poor_loamwood_outhouse.w2ent"
-        pos: [ -694.98046875, 559.54296875, 21.8676872253 ]
-        rot: [ 0.0, 0.0, 0.0 ]
-        scale: [ 1.5000000000, 1.3999999762, 1.3999999762 ]
-
-      smalltower: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized.w2ent"
-        pos: [ -688.05859375, 558.93359375, 31.8855113983 ]
-        rot: [ 0.0, 0.0, 0.0 ]
-        scale: [ 0.6999999881, 0.6999999881, 0.5000000000 ]
-
-      smalltower_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized.w2ent"
-        pos: [ -701.45703125, 559.23803711, 31.8855113983 ]
-        rot: [ 0.0, 0.0, 0.0 ]
-        scale: [ 0.6999999881, 0.6999999881, 0.5000000000 ]
-
-      smalltower_2: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_ground_mount_debris.w2ent"
-        pos: [ -701.445800781, 559.5715332, 31.6242313385 ]
-        rot: [ 180.0, 0.0, 0.0 ]
-        scale: [ 0.6999999881, 0.8000000119, 1.0 ]
-
-      smalltower_3: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_ground_mount_debris.w2ent"
-        pos: [ -687.996948242, 559.28710938, 31.6242313385 ]
-        rot: [ 180.0, 0.0, 0.0 ]
-        scale: [ 0.6999999881, 0.8000000119, 1.0 ]
-
-      smalltower_4: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\cave_ground_small_ground_mount_debris.w2ent"
-        pos: [ -688.444580078, 575.40478516, 31.6242313385 ]
-        rot: [ 180.0, 0.0, 0.0 ]
-        scale: [ 0.6999999881, 0.8000000119, 1.0 ]
-
-      smalltower_5: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized.w2ent"
-        pos: [ -688.504272461, 575.46459961, 31.8855113983 ]
-        rot: [ 0.0, 0.0, 0.0 ]
-        scale: [ 0.6999999881, 0.6999999881, 0.5000000000 ]
-
-      smalltowertop: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_top.w2ent"
-        pos: [ -701.381591797, 560.52734375, 21.2494068146 ]
-        rot: [ 0.0, 0.0, -90.8000030518 ]
-        scale: [ 1.0, 0.6999999881, 1.0 ]
-
-      smalltowertop_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_top.w2ent"
-        pos: [ -702.672973633, 559.22680664, 21.2494068146 ]
-        rot: [ 0.0, 0.0, -0.3999995887 ]
-        scale: [ 1.0, 0.6999999881, 1.0 ]
-
-      smalltowertop_2: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_top.w2ent"
-        pos: [ -700.212890625, 559.20776367, 21.2494068146 ]
-        rot: [ 0.0, 0.0, -180.1999511719 ]
-        scale: [ 1.0, 0.6999999881, 1.0 ]
-
-      smalltowertop_3: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_top.w2ent"
-        pos: [ -687.996459961, 560.21777344, 21.2494068146 ]
-        rot: [ 0.0, 0.0, -90.8000030518 ]
-        scale: [ 1.0, 0.6999999881, 1.0 ]
-
-      smalltowertop_4: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_top.w2ent"
-        pos: [ -688.560791016, 576.75561523, 21.2494068146 ]
-        rot: [ 0.0, 0.0, -90.8000030518 ]
-        scale: [ 1.0, 0.6999999881, 1.0 ]
-
-      smalltowertop_5: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_top.w2ent"
-        pos: [ -686.827270508, 558.9934082, 21.2494068146 ]
-        rot: [ 0.0, 0.0, -180.1999511719 ]
-        scale: [ 1.0, 0.6999999881, 1.0 ]
-
-      smalltowertop_6: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_top.w2ent"
-        pos: [ -689.29309082, 558.96777344, 21.2494068146 ]
-        rot: [ 0.0, 0.0, -0.3999995887 ]
-        scale: [ 1.0, 0.6999999881, 1.0 ]
-
-      smalltowertop_7: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_top.w2ent"
-        pos: [ -689.821044922, 575.48901367, 21.2494068146 ]
-        rot: [ 0.0, 0.0, -0.3999995887 ]
-        scale: [ 1.0, 0.6999999881, 1.0 ]
-
-      smalltowertop_8: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_top.w2ent"
-        pos: [ -688.64855957, 574.27661133, 21.2494068146 ]
-        rot: [ 0.0, 0.0, 88.3999786377 ]
-        scale: [ 1.0, 0.6999999881, 1.0 ]
-
-      smalltowertop_9: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\tower_a_optimized_top.w2ent"
-        pos: [ -688.064086914, 557.69677734, 21.2494068146 ]
-        rot: [ 0.0, 0.0, 89.5999755859 ]
-        scale: [ 1.0, 0.6999999881, 1.0 ]
-
-      rwallz_2: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\novigrad_city_wall_curved_large_a.w2ent"
-        pos: [ -780.419311523, 581.22143555, 13.9555873871 ]
-        rot: [ 0.0, 0.0, -269.9998474121 ]     
+     
 

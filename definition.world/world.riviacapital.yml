@@ -375,6 +375,7 @@ WorldDefinition:
         strengthFar: 0.15
     localWindDampers: "levels\\prolog_village\\local_wind_dampers.w3simplex"
   soundBanksDependency:
+    - amb_sk_global.bnk      
     - amb_nml_global.bnk
   soundEventsOnAttach:
     - amb_nml_G_WIND_and_RAIN_START

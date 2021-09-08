@@ -1,0 +1,39 @@
+layers:
+  navmesh_aps: 
+    world: "riviacapital"
+    #context: ""
+
+    actionpoints: 
+      ap1: [ -735.7342529297, -74.9234313965, 10.5155944824, 0.0, "work_woman/stand_w_dancing_jt" ]
+
+      ap2: 
+        pos: [ -739.4339599609, -39.5743789673, 10.0801849365 ]
+        rot: [ 0.0, 0.0, 0.0 ]
+        action: "sleeping_woman/lie_mwdc_bed_still_no_mesh_jt"
+        ignoreCollisions: true
+
+      testfem: [ -502.4782409668, -823.1814575195, 11.0944118500, -67.4000015259, "household_woman/stand_w_washing_cloths_jt" ]
+
+      testfem2: [ -493.1056213379, -829.8994140625, 10.5682220459, 109.3999786377, "household_woman/q401_yennefer_inspecting_megascope" ]
+
+      testfem3: [ -519.1981201172, -786.1450805664, 10.6339569092, 4.3999781609, "household_woman/stand_mwd_looking_at_goods_jt" ]
+
+      testfem4: 
+        pos: [ -514.5744628906, -796.2022705078, 10.6381788254 ]
+        rot: [ 0.0, 0.0, 79.1999816895 ]
+        action: "resting_woman/sit_mwd_chair_jt"
+        ignoreCollisions: true
+
+      testfem5: [ -520.7089233398, -797.7753295898, 10.6381788254, 96.0, "work_woman/stand_mw_praying_jt" ]
+
+      testfem6: [ -532.7600708008, -798.4686889648, 10.5242919922, 263.7999572754, "work_woman/stand_mw_cheering_loud_jt" ]
+      
+    waypoints:
+      ap1: [ -735.7342529297, -74.9234313965, 10.5155944824, 0.0]
+      ap2: [ -739.4339599609, -39.5743789673, 10.0801849365, 0.0 ]
+      testfem: [ -502.4782409668, -823.1814575195, 11.0944118500, 0.0]
+      testfem2: [ -493.1056213379, -829.8994140625, 10.5682220459, 0.0]
+      testfem3: [ -519.1981201172, -786.1450805664, 10.6339569092, 0.0]
+      testfem4: [ -514.5744628906, -796.2022705078, 10.6381788254, 0.0]
+      testfem5: [ -520.7089233398, -797.7753295898, 10.6381788254, 0.0]
+      testfem6: [ -532.7600708008, -798.4686889648, 10.5242919922, 0.0]

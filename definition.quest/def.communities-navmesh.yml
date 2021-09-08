@@ -1,0 +1,59 @@
+communities:
+  test: 
+    actors:
+      actor1: characters/npc_entities/main_npc/triss.w2ent
+            
+    phases:
+      one:
+        actor1:
+          use_last_ap: false
+          start_in_ap: false
+          # spawn_hidden: true
+          spawn_at: riviacapital/testfem
+          actionpoints:
+            "12:00": riviacapital/testfem
+
+      two:
+        actor1:
+          use_last_ap: false
+          start_in_ap: false
+          # spawn_hidden: true
+          spawn_at: riviacapital/testfem2
+          actionpoints:
+            "13:00": riviacapital/testfem2      
+            
+      three:
+        actor1:
+          use_last_ap: false
+          start_in_ap: false
+          # spawn_hidden: true
+          spawn_at: riviacapital/testfem3
+          actionpoints:
+            "14:00": riviacapital/testfem3
+
+      four:
+        actor1:
+          use_last_ap: false
+          start_in_ap: false
+          # spawn_hidden: true
+          spawn_at: riviacapital/testfem4
+          actionpoints:
+            "15:00": riviacapital/testfem4
+
+      five:
+        actor1:
+          use_last_ap: false
+          start_in_ap: false
+          # spawn_hidden: true
+          spawn_at: riviacapital/testfem5
+          actionpoints:
+            "16:00": riviacapital/testfem5
+
+      six:
+        actor1:
+          use_last_ap: false
+          start_in_ap: false
+          # spawn_hidden: true
+          spawn_at: riviacapital/testfem6
+          actionpoints:
+            "17:00": riviacapital/testfem6            

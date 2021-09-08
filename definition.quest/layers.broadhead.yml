@@ -1,0 +1,273 @@
+layers:
+  broadhead1:
+    world: "riviacapital"
+    #context: ""
+    statics:
+
+      broadhead1_7: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\loam_houses\\entities\\poor_woodenroof_short_thatched_interior.w2ent"
+        pos: [ -596.5856323242, -390.7813415527, 9.5128593445 ]
+        rot: [ 0.0, 0.0, -32.2000122070 ]
+        
+    statics.shadows: 
+      broadhead1_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_short_mixed.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_palisade_short_mixed.w2ent"
+        transform: 
+          pos: [ -587.5113525391, -384.8255004883, 10.6728878021 ]
+          rot: [ 0.0, 0.0, -108.4000091553 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_short_mixed.w2mesh"
+
+      broadhead1_10: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_short_mixed.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_palisade_short_mixed.w2ent"
+        transform: 
+          pos: [ -684.0751953125, -316.6796569824, 10.0728883743 ]
+          rot: [ 0.0, 0.0, -150.4000091553 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_short_mixed.w2mesh"
+
+      broadhead1_11: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_short_mixed.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_palisade_short_mixed.w2ent"
+        transform: 
+          pos: [ -689.8493041992, -319.9381103516, 9.2128686905 ]
+          rot: [ 0.0, 0.0, -150.4000091553 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_short_mixed.w2mesh"
+
+      broadhead1_12: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/favela_kiln_roof.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/favela_kiln_roof.w2ent"
+        transform: 
+          pos: [ -690.6204223633, -324.8725891113, 10.2928676605 ]
+          rot: [ 0.0, 0.0, -64.2001190186 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/favela_kiln_roof.w2mesh"
+
+      broadhead1_13: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/favela_kiln_roof.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/favela_kiln_roof.w2ent"
+        transform: 
+          pos: [ -693.4824218750, -326.2829589844, 10.2928676605 ]
+          rot: [ 0.0, 0.0, -64.2001190186 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/favela_kiln_roof.w2mesh"
+
+      broadhead1_14: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/favela_kiln_roof.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/favela_kiln_roof.w2ent"
+        transform: 
+          pos: [ -696.3417968750, -327.6923828125, 10.2928676605 ]
+          rot: [ 0.0, 0.0, -64.2001190186 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/favela_kiln_roof.w2mesh"
+
+      broadhead1_15: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/favela_kiln_roof.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/favela_kiln_roof.w2ent"
+        transform: 
+          pos: [ -699.1784057617, -329.0867004395, 10.2928676605 ]
+          rot: [ 0.0, 0.0, -64.2001190186 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/favela_kiln_roof.w2mesh"
+
+      broadhead1_16: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/favela_kiln_roof.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/favela_kiln_roof.w2ent"
+        transform: 
+          pos: [ -695.6812744141, -329.5030517578, 9.8728580475 ]
+          rot: [ 0.0, 0.0, -156.2001342773 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/favela_kiln_roof.w2mesh"
+
+      broadhead1_17: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/favela_kiln_roof.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/favela_kiln_roof.w2ent"
+        transform: 
+          pos: [ -694.3938598633, -332.4205932617, 9.8728580475 ]
+          rot: [ 0.0, 0.0, -156.2001342773 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses/favela_kiln_roof.w2mesh"
+
+      broadhead1_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_short_mixed.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_palisade_short_mixed.w2ent"
+        transform: 
+          pos: [ -587.7273559570, -386.3672790527, 9.4328594208 ]
+          rot: [ 0.0, 0.0, -84.6000213623 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_short_mixed.w2mesh"
+
+      broadhead1_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_short_mixed.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_palisade_short_mixed.w2ent"
+        transform: 
+          pos: [ -583.7314453125, -379.3304748535, 11.1128578186 ]
+          rot: [ 0.0, 0.0, -133.9999847412 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_short_mixed.w2mesh"
+
+      broadhead1_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_short_mixed.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_palisade_short_mixed.w2ent"
+        transform: 
+          pos: [ -582.6921386719, -377.9869384766, 9.4328594208 ]
+          rot: [ 0.0, 0.0, -119.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_short_mixed.w2mesh"
+
+      broadhead1_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_roof.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_floor_roof.w2ent"
+        transform: 
+          pos: [ -598.5100097656, -393.9425048828, 16.4753437042 ]
+          rot: [ 0.0, 0.0, -301.4001159668 ]
+          scale: [ 1.1000000238, 1.2999999523, 1.7000000477 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_roof.w2mesh"
+
+      broadhead1_6: 
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\loam_houses\\entities\\poor_woodenroof_short_thatched_exterior.w2ent"
+        pos: [ -596.5856323242, -390.7813415527, 9.5128593445 ]
+        rot: [ 0.0, 0.0, -32.2000122070 ]
+
+      broadhead1_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_roof.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_floor_roof.w2ent"
+        transform: 
+          pos: [ -594.5664062500, -387.5120544434, 16.4753437042 ]
+          rot: [ 0.0, 0.0, -479.4002075195 ]
+          scale: [ 1.1000000238, 1.2999999523, 1.7000000477 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_roof.w2mesh"
+
+      broadhead1_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_gate.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_palisade_gate.w2ent"
+        transform: 
+          pos: [ -687.0877075195, -318.2892456055, 9.9963073730 ]
+          rot: [ 0.0, 0.0, 28.5999698639 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/terrain_surroundings/palisade/bob_palisade_gate.w2mesh"

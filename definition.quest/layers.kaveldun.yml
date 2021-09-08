@@ -1,4 +1,66 @@
 layers:
+  kaveldun_interiors:
+    world: "riviacapital"
+    #context: ""
+
+    areas.env: 
+      kavelchurch: 
+        .type: "CGameplayEntity"
+        transform: 
+          pos: [ -515.0636596680, -800.1728515625, 9.6782236099 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          env: 
+            .type: "CR4InteriorAreaComponent"
+            texture: "poor_woodenroof_short_thatched_interior"           
+            allowHorseInThisInterior: false
+            height: 6.0
+            localPoints: 
+              - [ 10.0166015625, 1.1602172852, 0.0, 1.0 ]
+              - [ 10.8172607422, 5.2151489258, 0.0, 1.0 ]
+              - [ -12.4739379883, 6.2233276367, 0.0, 1.0 ]
+              - [ -12.3105468750, -2.9496459961, 0.0, 1.0 ]
+              - [ 10.3989562988, -3.7760009766, 0.0, 1.0 ]
+
+    areas.sound: 
+      kavelchurch: 
+        .type: "CEntity"
+        transform: 
+          pos: [ -515.0636596680, -800.1728515625, 9.6782236099 ]
+          scale: [ 1.0, 1.0, 1.0 ]
+        components: 
+          soundarea: 
+            .debug: 
+              soundEvent: "amb_g_in_wooden_village_house"
+              reverbName: "env_int_room_wooden_medium"
+              paramName: "amb_interior"
+            .type: "CSoundAmbientAreaComponent"
+            triggerPriority: 5
+            soundEvents: amb_g_in_wooden_village_house
+            reverb:  #SReverbDefinition
+              reverbName: env_int_room_wooden_medium
+              enabled: true
+            maxDistance: 5.0
+            maxDistanceVertical: 1.0
+            parameters:  #array:2,0,SSoundGameParameterValue
+              - ".type": SSoundGameParameterValue
+                gameParameterName: amb_interior
+                gameParameterValue: 1.2
+            height: 6.0
+            localPoints: 
+              - [ 10.0166015625, 1.1602172852, 0.0, 1.0 ]
+              - [ 10.8172607422, 5.2151489258, 0.0, 1.0 ]
+              - [ -12.4739379883, 6.2233276367, 0.0, 1.0 ]
+              - [ -12.3105468750, -2.9496459961, 0.0, 1.0 ]
+              - [ 10.3989562988, -3.7760009766, 0.0, 1.0 ]
+
+    statics: 
+      kavelchurchvolumemain_1: 
+        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\volume_testing.w2ent"
+        pos: [ -517.3690185547, -798.6580200195, 10.4006996155 ]
+        rot: [ 0.0, 0.0, 89.3000793457 ]
+        scale: [ 1.2100000381, 1.5499999523, 1.0 ]  
+        
   kaveldun_HQ: 
     world: "riviacapital"
     #context: ""
