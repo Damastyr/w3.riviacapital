@@ -2,6 +2,32 @@ layers:
   lower_fort: 
     world: "riviacapital"
     #context: ""
+    statics: 
+      lowerfort_big_tent: 
+        template: "CEntity:environment\\architecture\\human\\common\\tents\\entities\\big_tent.w2ent"
+        pos: [ -825.0775756836, -88.3933334351, 13.7597198486 ]
+        rot: [ 0.0, 0.0, -15.4000015259 ]
+
+      lowerfort_deco_crate_1: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\crates\\deco_gen_crate_pile_m.w2ent"
+        pos: [ -832.7816162109, -80.7913742065, 13.7638244629 ]
+        rot: [ 0.0, 0.0, -195.5998992920 ]
+
+      lowerfort_small_tent_1: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\tents\\bob_tent_small_a.w2ent"
+        pos: [ -839.7355957031, -101.8116302490, 13.6929168701 ]
+        rot: [ 0.0, 0.0, 164.8000183105 ]
+
+      lowerfort_small_tent_2: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\tents\\bob_tent_small_a.w2ent"
+        pos: [ -851.1904907227, -110.8405303955, 13.7205352783 ]
+        rot: [ 0.0, 0.0, -113.7999725342 ]
+
+      lowerfort_stall_tent_1: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\merchant\\traders\\bob_stall_tent_single_a_px_no_volume.w2ent"
+        pos: [ -848.3375854492, -103.9890441895, 13.6797790527 ]
+        rot: [ 0.0, 0.0, -114.9999771118 ]
+
     statics.shadows:
       lowerfort1: 
         .type: "CEntity"
