@@ -3,30 +3,76 @@ layers:
     world: "riviacapital"
     #context: ""
     statics: 
-      lowerfort_big_tent: 
+      big_tent: 
         template: "CEntity:environment\\architecture\\human\\common\\tents\\entities\\big_tent.w2ent"
         pos: [ -825.0775756836, -88.3933334351, 13.7597198486 ]
         rot: [ 0.0, 0.0, -15.4000015259 ]
 
-      lowerfort_deco_crate_1: 
+      deco_crate_1: 
         template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\decoration_set\\crates\\deco_gen_crate_pile_m.w2ent"
         pos: [ -832.7816162109, -80.7913742065, 13.7638244629 ]
         rot: [ 0.0, 0.0, -195.5998992920 ]
 
-      lowerfort_small_tent_1: 
+      small_tent_2a: 
         template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\tents\\bob_tent_small_a.w2ent"
-        pos: [ -839.7355957031, -101.8116302490, 13.6929168701 ]
-        rot: [ 0.0, 0.0, 164.8000183105 ]
+        pos: [ -842.8945312500, -101.6007995605, 13.6876068115 ]
+        rot: [ 0.0, 0.0, -196.1999969482 ]
 
-      lowerfort_small_tent_2: 
+      small_tent_2b: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\tents\\bob_tent_small_a.w2ent"
+        pos: [ -837.6260375977, -107.2507629395, 13.6667327881 ]
+        rot: [ 0.0, 0.0, 77.3999862671 ]
+
+      small_tent_2c: 
         template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\tents\\bob_tent_small_a.w2ent"
         pos: [ -851.1904907227, -110.8405303955, 13.7205352783 ]
         rot: [ 0.0, 0.0, -113.7999725342 ]
 
-      lowerfort_stall_tent_1: 
+      stall_tent_2: 
         template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\merchant\\traders\\bob_stall_tent_single_a_px_no_volume.w2ent"
         pos: [ -848.3375854492, -103.9890441895, 13.6797790527 ]
         rot: [ 0.0, 0.0, -114.9999771118 ]
+
+      caravan: 
+        template: "CEntity:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q704_truth\\entities\\q704_deco_cart.w2ent"
+        pos: [ -833.8668212891, -147.9961395264, 13.7300720215 ]
+        rot: [ 0.0, 0.0, -19.0 ]
+        scale: [ 1.5000000000, 1.5000000000, 1.5000000000 ]
+
+      merchant_tent_5b: 
+        template: "CEntity:environment\\decorations\\trade\\market_stand_poor\\stall_tent_high_twoside_px.w2ent"
+        pos: [ -816.0109863281, -120.6184158325, 13.7751770020 ]
+        rot: [ 0.0, 0.0, -109.1999893188 ]
+
+      merchant_tent_5a: 
+        template: "CEntity:environment\\decorations\\trade\\market_stand_poor\\stall_tent_high_twoside_px.w2ent"
+        pos: [ -818.0458374023, -126.0438308716, 13.7614898682 ]
+        rot: [ 0.0, 0.0, -109.1999893188 ]
+
+      small_tent_3a: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\tents\\bob_tent_small_a.w2ent"
+        pos: [ -858.1431884766, -126.9326477051, 13.7026786804 ]
+        rot: [ 0.0, 0.0, -151.4000701904 ]
+
+      small_tent_3b: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\tents\\bob_tent_small_a.w2ent"
+        pos: [ -849.9091796875, -128.8544616699, 13.7517976761 ]
+        rot: [ 0.0, 0.0, -215.8001251221 ]
+
+      small_tent_3c: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\tents\\bob_tent_small_a.w2ent"
+        pos: [ -856.5131225586, -140.9113006592, 13.3147583008 ]
+        rot: [ 0.0, 0.0, -377.2001953125 ]
+
+      stall_tent_3: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\merchant\\traders\\bob_stall_tent_single_a_px_no_volume.w2ent"
+        pos: [ -862.4346923828, -139.6698455811, 13.6697998047 ]
+        rot: [ 0.0, 0.0, -23.9999771118 ]
+
+      small_tent_4: 
+        template: "CEntity:dlc\\bob\\data\\environment\\decorations\\gameplay\\generic\\tents\\bob_tent_small_a_dynamic.w2ent"
+        pos: [ -841.4290771484, -142.9779205322, 13.7450685501 ]
+        rot: [ 0.0, 0.0, 31.6000003815 ]
 
     statics.shadows:
       lowerfort1: 
