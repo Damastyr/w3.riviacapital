@@ -5,6 +5,27 @@ layers:
     #context: ""
 
     statics:
+      #House Interior Reforming
+      #Downstairs house Fixing
+      floordoor: 
+        template: "W3NewDoor:dlc\\bob\\data\\quests\\main_quests\\quest_files\\q704b_fairy_tale\\entities\\bedroom_clues\\q704_ft_wardrobe_door.w2ent"
+        pos: [ -735.4216308594, 648.9047241211, 4.6970968246 ]
+        rot: [ 0.0, 270.0, -96.0 ]
+        scale: [ 12.5000000000, 1.0, 6.5000000000 ]
+
+      downstairfloor: 
+        template: "CEntity:dlc\\bob\\data\\environment\\architecture\\houses\\bob_house_rich_04\\entities\\bob_house_rich_04_a_int_ground_floor.w2ent"
+        pos: [ -728.0146484375, 644.1372070313, 2.7201399803 ]
+        rot: [ 0.0, 0.0, -5.7999992371 ]
+        # pos: [ -728.1310424805, 644.2029418945, 2.8036162853 ]
+        # rot: [ 0.0, 0.0, -5.3999991417 ]
+      #Downstairs house Fixing
+      interior_woodhouse1:
+        template: "CEntity:environment\\architecture\\human\\redania\\novigrad\\poor\\poor_woodenroof\\entities\\poor_woodenroof_med_interior.w2ent"
+        pos: [ -752.1491699219, 654.2518310547, 4.3232917786 ]
+        rot: [ 0.0, 0.0, 140.7999725342 ]
+        scale: [ 0.8000000119, 1.2000000477, 0.8999999762 ]
+      #House Interior Reforming
    
       rcisidf_2: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\very_rich_wooden_window_double_b.w2ent"
