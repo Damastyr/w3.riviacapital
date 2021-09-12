@@ -1,16 +1,16 @@
 import os
 
-file = open("layers.delete.yml", "r")
+file = open("layers.rivia_dojon.yml", "r")
 
 lines = file.read().splitlines()
 
-offsetX = 0
-offsetY = 5
-offsetZ = 0
+offsetX = -24
+offsetY = 0
+offsetZ = -10
 
-with open('layers.delete.yml', 'w') as u:
+with open('layers.rivia_dojon.yml', 'w') as u:
     u = u
-with open('layers.delete.new.yml', 'a') as the_file:
+with open('layers.rivia_dojon_new.yml', 'a') as the_file:
     for i in lines:
         line = i#.strip()
         if "pos: " in line:

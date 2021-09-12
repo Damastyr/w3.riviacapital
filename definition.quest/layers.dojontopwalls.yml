@@ -1,0 +1,798 @@
+layers:
+    dojon_frame_top: 
+      world: "riviacapital"
+      #context: ""
+  
+      statics: 
+        dojontop2: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -722.6621704102, 641.4950561523, 103.7183303833 ]
+            rot: [ 90.0, 0.0, 0.0 ]
+            scale: [ 2.0, 2.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
+        dojontop2_1: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -743.0338134766, 631.2077636719, 103.7183303833 ]
+            rot: [ 90.0, 0.0, 90.0 ]
+            scale: [ 2.0, 2.0, 2.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
+        dojontop2_10: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -727.1984863281, 640.4113159180, 108.6185150146 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 2.0, 2.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
+        dojontop2_11: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -722.2579956055, 640.4161987305, 108.6185150146 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 2.0, 2.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
+        dojontop2_12: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -712.5249023438, 631.3755493164, 109.0384445190 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 2.0, 2.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
+        dojontop2_13: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -743.0601196289, 630.1840209961, 109.0384445190 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 2.0, 2.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
+        dojontop2_14: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_wood_window_double_a.w2ent"
+          transform: 
+            pos: [ -719.6624755859, 620.4708862305, 110.3785400391 ]
+            rot: [ 0.0, 0.0, 180.0 ]
+            scale: [ 2.5000000000, 1.0, 3.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 2000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+  
+        dojontop2_15: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_wood_window_double_a.w2ent"
+          transform: 
+            pos: [ -724.7593994141, 620.5159301758, 110.3785400391 ]
+            rot: [ 0.0, 0.0, 180.0 ]
+            scale: [ 2.5000000000, 1.0, 3.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 2000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+  
+        dojontop2_16: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_rich_house_02_window_01_non_emisiv.w2ent"
+          transform: 
+            pos: [ -724.8088378906, 620.7684936523, 110.5185165405 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 4.1999998093, 1.0, 3.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+  
+        dojontop2_17: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_rich_house_02_window_01_non_emisiv.w2ent"
+          transform: 
+            pos: [ -719.8154296875, 620.6439208984, 110.5185165405 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 4.1999998093, 1.0, 3.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+  
+        dojontop2_18: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_rich_house_02_window_01_non_emisiv.w2ent"
+          transform: 
+            pos: [ -729.6580200195, 620.9600219727, 110.5185165405 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 4.1999998093, 1.0, 3.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+  
+        dojontop2_19: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_rich_house_02_window_01_non_emisiv.w2ent"
+          transform: 
+            pos: [ -734.6650390625, 620.9884033203, 110.5185165405 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 4.1999998093, 1.0, 3.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+  
+        dojontop2_2: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -732.2285156250, 641.4902343750, 103.7183303833 ]
+            rot: [ 90.0, 0.0, 0.0 ]
+            scale: [ 2.0, 2.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
+        dojontop2_20: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_wood_window_double_a.w2ent"
+          transform: 
+            pos: [ -729.5847167969, 620.5823974609, 110.3785400391 ]
+            rot: [ 0.0, 0.0, 180.0 ]
+            scale: [ 2.5000000000, 1.0, 3.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 2000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+  
+        dojontop2_21: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_wood_window_double_a.w2ent"
+          transform: 
+            pos: [ -734.5767822266, 620.5527954102, 110.3785400391 ]
+            rot: [ 0.0, 0.0, 180.0 ]
+            scale: [ 2.5000000000, 1.0, 3.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 2000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+  
+        dojontop2_22: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_wood_window_double_a.w2ent"
+          transform: 
+            pos: [ -734.8438720703, 640.6865234375, 110.3785400391 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 2.5000000000, 1.0, 3.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 2000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+  
+        dojontop2_23: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_wood_window_double_a.w2ent"
+          transform: 
+            pos: [ -729.8589477539, 640.7440185547, 110.3785400391 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 2.5000000000, 1.0, 3.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 2000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+  
+        dojontop2_24: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_wood_window_double_a.w2ent"
+          transform: 
+            pos: [ -724.8865356445, 640.6721801758, 110.3785400391 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 2.5000000000, 1.0, 3.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 2000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+  
+        dojontop2_25: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_wood_window_double_a.w2ent"
+          transform: 
+            pos: [ -719.8367309570, 640.7052001953, 110.3785400391 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 2.5000000000, 1.0, 3.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 2000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+  
+        dojontop2_26: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_wood_window_double_a.w2ent"
+          transform: 
+            pos: [ -743.0080566406, 633.0272827148, 110.3785400391 ]
+            rot: [ 0.0, 0.0, 90.0 ]
+            scale: [ 2.7000000477, 1.0, 3.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 2000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+  
+        dojontop2_27: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_wood_window_double_a.w2ent"
+          transform: 
+            pos: [ -743.2023315430, 627.4259643555, 110.3785400391 ]
+            rot: [ 0.0, 0.0, 90.0 ]
+            scale: [ 2.7000000477, 1.0, 3.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 2000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+  
+        dojontop2_28: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_wood_window_double_a.w2ent"
+          transform: 
+            pos: [ -712.2338867188, 634.3449707031, 110.3785400391 ]
+            rot: [ 0.0, 0.0, 270.0 ]
+            scale: [ 2.7000000477, 1.0, 3.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 2000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+  
+        dojontop2_29: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/rich_wood_window_double_a.w2ent"
+          transform: 
+            pos: [ -712.1791992188, 628.6464843750, 110.3785400391 ]
+            rot: [ 0.0, 0.0, 270.0 ]
+            scale: [ 2.7000000477, 1.0, 3.0 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 2000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/redania/novigrad/rich/rich_stone_house_pieces/rich_wood_window_double_a.w2mesh"
+  
+        dojontop2_3: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -722.4035644531, 620.8178710938, 103.7183303833 ]
+            rot: [ 90.0, 0.0, 0.0 ]
+            scale: [ 2.0, 2.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
+        dojontop2_30: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_rich_house_02_window_01_non_emisiv.w2ent"
+          transform: 
+            pos: [ -734.7277221680, 640.3510131836, 110.5185165405 ]
+            rot: [ 0.0, 0.0, 180.0 ]
+            scale: [ 4.1999998093, 1.0, 3.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+  
+        dojontop2_31: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_rich_house_02_window_01_non_emisiv.w2ent"
+          transform: 
+            pos: [ -729.6740112305, 640.0620727539, 110.5185165405 ]
+            rot: [ 0.0, 0.0, 180.0 ]
+            scale: [ 4.1999998093, 1.0, 3.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+  
+        dojontop2_32: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_rich_house_02_window_01_non_emisiv.w2ent"
+          transform: 
+            pos: [ -724.7153320313, 640.2164306641, 110.5185165405 ]
+            rot: [ 0.0, 0.0, 180.0 ]
+            scale: [ 4.1999998093, 1.0, 3.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+  
+        dojontop2_33: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_rich_house_02_window_01_non_emisiv.w2ent"
+          transform: 
+            pos: [ -719.7328491211, 640.2861938477, 110.5185165405 ]
+            rot: [ 0.0, 0.0, 180.0 ]
+            scale: [ 4.1999998093, 1.0, 3.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+  
+        dojontop2_34: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_rich_house_02_window_01_non_emisiv.w2ent"
+          transform: 
+            pos: [ -712.4635009766, 634.2634277344, 110.5185165405 ]
+            rot: [ 0.0, 0.0, 90.0 ]
+            scale: [ 4.8000001907, 1.0, 3.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+  
+        dojontop2_35: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_rich_house_02_window_01_non_emisiv.w2ent"
+          transform: 
+            pos: [ -712.4218139648, 628.4905395508, 110.5185165405 ]
+            rot: [ 0.0, 0.0, 90.0 ]
+            scale: [ 4.8000001907, 1.0, 3.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+  
+        dojontop2_36: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_rich_house_02_window_01_non_emisiv.w2ent"
+          transform: 
+            pos: [ -742.9730834961, 627.5142211914, 110.5185165405 ]
+            rot: [ 0.0, 0.0, 270.0 ]
+            scale: [ 4.8000001907, 1.0, 3.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+  
+        dojontop2_37: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_rich_house_02_window_01_non_emisiv.w2ent"
+          transform: 
+            pos: [ -742.8346557617, 633.1488037109, 110.5185165405 ]
+            rot: [ 0.0, 0.0, 270.0 ]
+            scale: [ 4.8000001907, 1.0, 3.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "dlc/bob/data/environment/architecture/houses/bob_house_rich_02/bob_rich_house_02_window_01_non_emisiv.w2mesh"
+  
+        dojontop2_38: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam_long.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam_long.w2ent"
+          transform: 
+            pos: [ -727.6451416016, 640.6052246094, 113.4185333252 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 3.0, 3.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam_long.w2mesh"
+  
+        dojontop2_39: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam_long.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam_long.w2ent"
+          transform: 
+            pos: [ -728.4985961914, 620.8245239258, 113.4185333252 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 3.0, 3.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam_long.w2mesh"
+  
+        dojontop2_4: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -731.9904785156, 620.8168945313, 103.7183303833 ]
+            rot: [ 90.0, 0.0, 0.0 ]
+            scale: [ 2.0, 2.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
+        dojontop2_40: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam_long.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam_long.w2ent"
+          transform: 
+            pos: [ -728.4985961914, 620.8245239258, 107.5984802246 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 3.0, 3.0, 1.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam_long.w2mesh"
+  
+        dojontop2_41: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam_long.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam_long.w2ent"
+          transform: 
+            pos: [ -728.5754394531, 640.2344360352, 107.5584869385 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 3.0, 3.0, 1.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam_long.w2mesh"
+  
+        dojontop2_42: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam_long.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam_long.w2ent"
+          transform: 
+            pos: [ -712.7792358398, 631.3267211914, 107.6784667969 ]
+            rot: [ 0.0, 180.0, 90.0 ]
+            scale: [ 1.5000000000, 3.0, 1.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam_long.w2mesh"
+  
+        dojontop2_43: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam_long.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam_long.w2ent"
+          transform: 
+            pos: [ -742.9453125000, 630.5600585938, 107.6784667969 ]
+            rot: [ 0.0, 180.0, 90.0 ]
+            scale: [ 1.5000000000, 3.0, 1.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam_long.w2mesh"
+  
+        dojontop2_5: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -712.0999755859, 631.1033935547, 103.7183303833 ]
+            rot: [ 90.0, 0.0, 90.0 ]
+            scale: [ 2.0, 2.0, 2.5000000000 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
+        dojontop2_6: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -722.4035644531, 620.8178710938, 108.5185317993 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 2.0, 2.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
+        dojontop2_7: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -727.2474365234, 620.8876342773, 108.5185317993 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 2.0, 2.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
+        dojontop2_8: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -732.0758056641, 620.9328002930, 108.5185317993 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 2.0, 2.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
+        dojontop2_9: 
+          .type: "CEntity"
+          .debug: 
+            mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+            meshpreview: "dlc/modtemplates/radishquestui/meshes/mine_support_beam.w2ent"
+          transform: 
+            pos: [ -732.2232055664, 640.3285522461, 108.6185150146 ]
+            rot: [ 0.0, 0.0, 0.0 ]
+            scale: [ 2.0, 2.0, 2.2999999523 ]
+          streamingDistance: 200
+          components: 
+            mesh: 
+              .type: "CStaticMeshComponent"
+              isStreamed: true
+              forceAutoHideDistance: 1000
+              drawableFlags: [ "IsVisible", "CastShadows" ]
+              mesh: "environment/architecture/human/common/mines/wooden_supports/mine_support_beam.w2mesh"
+  
