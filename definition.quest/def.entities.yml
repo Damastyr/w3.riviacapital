@@ -22779,7 +22779,7 @@ entities:
         bridge:
           .type: CClothComponent
           isStreamed: true
-          forceAutoHideDistance: 1000          
+          forceAutoHideDistance: 2000          
           drawableFlags:
             - IsVisible
             - CastShadows
