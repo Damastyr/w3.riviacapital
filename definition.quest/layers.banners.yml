@@ -1,21 +1,4 @@
 layers:
-  dojon_banner: 
-    world: "riviacapital"
-    #context: ""
-
-    statics:  
-        
-      dojonbanner: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\lavalette_flag_big_px.w2ent"
-        pos: [ -732.8709716797, 630.5806274414, 172.9930267334 ]
-        rot: [ 270.0, 0.0, 0.0 ]
-        scale: [ 2.0, 2.0, 2.0 ]
-
-      dojonbanner_1: 
-        template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\flag_racing_pole.w2ent"
-        pos: [ -732.8709716797, 630.5806274414, 154.9535980225 ]
-        rot: [ 0.0, 0.0, 0.0 ]
-        scale: [ 4.5000000000, 4.5000000000, 4.5000000000 ]
   banners_bridge: 
     world: "riviacapital"
     #context: ""
