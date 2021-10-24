@@ -349,7 +349,7 @@ WorldDefinition:
       alphaScalarGrassDistFar: 15.0
       alphaScalarBillboards: 0.25
       grassNormalsVariation: 0.1000000015
-    weatherTemplate: "engine\\environments\\weather_prolog.csv"
+    weatherTemplate: engine/environments/weather_novigrad.csv
     disableWaterShaders: false
     skybox:
       sunMesh: "environment\\skyboxes\\sun\\sun.w2mesh"
@@ -373,7 +373,7 @@ WorldDefinition:
       motionBlurSettings:
         strengthNear: 0.10
         strengthFar: 0.15
-    localWindDampers: "levels\\prolog_village\\local_wind_dampers.w3simplex"
+    localWindDampers: levels/novigrad/novigrad.w3simplex
   soundBanksDependency:
     - amb_sk_global.bnk      
     - amb_nml_global.bnk

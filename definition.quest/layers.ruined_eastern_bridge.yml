@@ -1,0 +1,482 @@
+layers:
+  ruined_eastern_bridge: 
+    world: "riviacapital"
+    #context: ""
+
+    statics.shadows: 
+      eastern_broken_bridge: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main_broken.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_bridge_main_broken.w2ent"
+        transform: 
+          pos: [ 312.2312622070, -367.8561401367, 27.9028434753 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main_broken.w2mesh"
+
+      eastern_broken_bridge_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_bridge_main.w2ent"
+        transform: 
+          pos: [ 305.2393188477, -367.9099426270, 27.8828487396 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+
+      eastern_broken_bridge_10: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/custom_buildings/bob_city_temple/bob_city_temple_broken_pillar_03.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_city_temple_broken_pillar_03.w2ent"
+        transform: 
+          pos: [ 366.1036682129, -368.6529541016, -12.4827480316 ]
+          rot: [ 0.0, 0.0, -3.6000180244 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/custom_buildings/bob_city_temple/bob_city_temple_broken_pillar_03.w2mesh"
+
+      eastern_broken_bridge_11: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_thin.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_taper_thin.w2ent"
+        transform: 
+          pos: [ 312.6565856934, -365.2192382813, 22.2042636871 ]
+          rot: [ 0.0, 0.0, -270.2001037598 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_thin.w2mesh"
+
+      eastern_broken_bridge_12: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_square.w2ent"
+        transform: 
+          pos: [ 312.2781066895, -370.6028137207, 16.0242061615 ]
+          rot: [ 0.0, 0.0, -84.4000244141 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+
+      eastern_broken_bridge_13: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_square.w2ent"
+        transform: 
+          pos: [ 312.2781066895, -370.6028137207, 22.2042636871 ]
+          rot: [ 0.0, 0.0, -84.4000244141 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+
+      eastern_broken_bridge_14: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_chunky.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_taper_chunky.w2ent"
+        transform: 
+          pos: [ 305.0108337402, -364.8479003906, 22.1442413330 ]
+          rot: [ 0.0, 0.0, -265.3999938965 ]
+          scale: [ 2.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_chunky.w2mesh"
+
+      eastern_broken_bridge_15: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_chunky.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_taper_chunky.w2ent"
+        transform: 
+          pos: [ 305.3775939941, -371.0313720703, 21.4242362976 ]
+          rot: [ 0.0, 0.0, -353.7999267578 ]
+          scale: [ 2.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_chunky.w2mesh"
+
+      eastern_broken_bridge_16: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_chunky.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_taper_chunky.w2ent"
+        transform: 
+          pos: [ 297.8921203613, -366.3509216309, 19.8642253876 ]
+          rot: [ 0.0, 0.0, -353.7999267578 ]
+          scale: [ 2.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_chunky.w2mesh"
+
+      eastern_broken_bridge_17: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_chunky.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_taper_chunky.w2ent"
+        transform: 
+          pos: [ 299.2865295410, -371.6551818848, 20.9442462921 ]
+          rot: [ 0.0, 0.0, -435.2000122070 ]
+          scale: [ 2.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_chunky.w2mesh"
+
+      eastern_broken_bridge_18: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_chunky.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_taper_chunky.w2ent"
+        transform: 
+          pos: [ 391.5134277344, -370.5698242188, 24.4242706299 ]
+          rot: [ 180.0, 0.0, -446.0000610352 ]
+          scale: [ 2.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_chunky.w2mesh"
+
+      eastern_broken_bridge_19: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_chunky.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_taper_chunky.w2ent"
+        transform: 
+          pos: [ 391.0276794434, -364.8141784668, 16.0242118835 ]
+          rot: [ 0.0, 0.0, -533.7996826172 ]
+          scale: [ 2.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_chunky.w2mesh"
+
+      eastern_broken_bridge_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main_broken.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_bridge_main_broken.w2ent"
+        transform: 
+          pos: [ 384.1373291016, -367.8142395020, 23.2828197479 ]
+          rot: [ 355.0, 0.0, 180.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main_broken.w2mesh"
+
+      eastern_broken_bridge_20: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_square.w2ent"
+        transform: 
+          pos: [ 384.0531311035, -364.9394531250, 18.3042278290 ]
+          rot: [ 0.0, 0.0, -446.0 ]
+          scale: [ 2.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+
+      eastern_broken_bridge_21: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_square.w2ent"
+        transform: 
+          pos: [ 384.4890441895, -370.8272705078, 25.1442756653 ]
+          rot: [ 180.0, 0.0, -446.0 ]
+          scale: [ 2.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+
+      eastern_broken_bridge_22: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_square.w2ent"
+        transform: 
+          pos: [ 384.4436340332, -370.7776794434, 18.7842311859 ]
+          rot: [ 180.0, 0.0, -441.8000183105 ]
+          scale: [ 2.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_square.w2mesh"
+
+      eastern_broken_bridge_23: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_thin.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_taper_thin.w2ent"
+        transform: 
+          pos: [ 397.7914123535, -370.0613098145, 15.3042125702 ]
+          rot: [ 0.0, 0.0, -537.4000244141 ]
+          scale: [ 2.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_thin.w2mesh"
+
+      eastern_broken_bridge_24: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_thin.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_taper_thin.w2ent"
+        transform: 
+          pos: [ 397.2624206543, -364.5098876953, 22.1964282990 ]
+          rot: [ 180.0, 0.0, -534.6004638672 ]
+          scale: [ 2.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_thin.w2mesh"
+
+      eastern_broken_bridge_25: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_thin.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_taper_thin.w2ent"
+        transform: 
+          pos: [ 404.1335754395, -363.2468261719, 12.1442232132 ]
+          rot: [ 0.0, 0.0, -439.4001159668 ]
+          scale: [ 2.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_thin.w2mesh"
+
+      eastern_broken_bridge_26: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_thin.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/pillar_taper_thin.w2ent"
+        transform: 
+          pos: [ 405.1958618164, -369.3527832031, 20.1680393219 ]
+          rot: [ 180.0, 0.0, -352.5997619629 ]
+          scale: [ 2.0, 1.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/buildings/inn_decoration/pillar_taper_thin.w2mesh"
+
+      eastern_broken_bridge_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_bridge_main.w2ent"
+        transform: 
+          pos: [ 384.2227783203, -367.8838195801, 23.3428211212 ]
+          rot: [ 5.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+
+      eastern_broken_bridge_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_bridge_main.w2ent"
+        transform: 
+          pos: [ 391.0148620605, -367.9427490234, 22.7428073883 ]
+          rot: [ 10.0, 0.0, 5.5999989510 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+
+      eastern_broken_bridge_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_bridge_main.w2ent"
+        transform: 
+          pos: [ 397.9795227051, -367.2979431152, 21.5027790070 ]
+          rot: [ 20.0, 0.0, 5.5999999046 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+
+      eastern_broken_bridge_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_bridge_main.w2ent"
+        transform: 
+          pos: [ 404.6071472168, -366.5818481445, 19.1027240753 ]
+          rot: [ 20.0, 0.0, 5.5999999046 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+
+      eastern_broken_bridge_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_bridge_main.w2ent"
+        transform: 
+          pos: [ 298.2560119629, -368.7284851074, 26.7428035736 ]
+          rot: [ 350.0, 0.0, 6.4000000954 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+
+      eastern_broken_bridge_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/stone_bridge_main.w2ent"
+        transform: 
+          pos: [ 292.0062561035, -371.0383605957, 26.2372627258 ]
+          rot: [ 355.0, 0.0, 19.6000003815 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/skellige/common/bridge_stone/stone_bridge_main.w2mesh"
+
+      eastern_broken_bridge_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "dlc/bob/data/environment/architecture/custom_buildings/bob_city_temple/bob_city_temple_broken_pillar_02.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/bob_city_temple_broken_pillar_02.w2ent"
+        transform: 
+          pos: [ 335.7677001953, -367.6301574707, -13.2027463913 ]
+          rot: [ 0.0, 0.0, 45.9999771118 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 1000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "dlc/bob/data/environment/architecture/custom_buildings/bob_city_temple/bob_city_temple_broken_pillar_02.w2mesh"

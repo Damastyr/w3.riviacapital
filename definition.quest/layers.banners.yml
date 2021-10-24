@@ -7,10 +7,36 @@ layers:
         
       dojonbanner: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\lavalette_flag_big_px.w2ent"
-        pos: [ -732.8709716797, 630.5806274414, 172.9930267334 ]
+        pos: [ -732.8709716797, 630.5806274414, -172.9930267334 ]
         rot: [ 270.0, 0.0, 0.0 ]
         scale: [ 2.0, 2.0, 2.0 ]
-
+        
+      dojonbanner_wave:
+        .type: "CEntity"
+        transform: 
+          pos: [ -732.8709716797, 630.5806274414, 172.9930267334 ]
+          rot: [ 270.0, 0.0, 0.0 ]
+          scale: [ 4.0, 4.0, 4.0 ]
+        streamingDistance: 200
+        components: 
+          resource: 
+            .type: "CClothComponent"
+            isStreamed: true
+            forceAutoHideDistance: 2000
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            resource: environment\decorations\flags\redania\novigrad\lavalette\lavalette_flag_big_px.redcloth
+            slowStart: true
+            pressure: -1.0
+            lodWeights.maxDistance: 2000.0
+            maxDistanceScale.Multipliable: false
+            collisionResponseCoefficient: 0.2
+            triggeringCollisionGroupNames:  #array:2,0,CName
+              - ClothCollider
+              - Ragdoll
+            triggerType: TS_Box
+            triggerDimensions: [ 5.0, 5.0, 5.0, 1.0 ]
+            triggerLocalOffset.V[ 3 ]: [ 0.0, 0.0, -1.927728, 1.0 ]
+            
       dojonbanner_1: 
         template: "CGameplayEntity:dlc\\dlcriviacapital\\data\\entities\\flag_racing_pole.w2ent"
         pos: [ -732.8709716797, 630.5806274414, 154.9535980225 ]

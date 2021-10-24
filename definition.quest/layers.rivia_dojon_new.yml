@@ -29,7 +29,7 @@ layers:
           meshpreview: "dlc/modtemplates/radishquestui/meshes/basement_floor_tiles.w2ent"
         transform: 
           pos: [ -720.3516845703, 636.7660522461, 89.3185195923 ]
-          rot: [ 180.0, 0.0, 0.0 ]
+          rot: [ -179.9999847412, 0.0, 0.0 ]
           scale: [ 1.1000000238, 1.1000000238, 1.0 ]
         streamingDistance: 200
         components: 
@@ -408,7 +408,7 @@ layers:
           meshpreview: "dlc/modtemplates/radishquestui/meshes/bathhouse_ledge.w2ent"
         transform: 
           pos: [ -717.7547607422, 637.1087646484, 89.6786651611 ]
-          rot: [ 0.0, 90.0, 90.0 ]
+          rot: [ 90.0, 90.0, 0.0 ]
           scale: [ 1.5000000000, 1.5000000000, 1.0 ]
         streamingDistance: 200
         components: 
@@ -489,6 +489,108 @@ layers:
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
 
+      dojontopint_34: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/polished_wood_ceiling_long.w2ent"
+        transform: 
+          pos: [ -733.6160888672, 631.0295410156, 93.0381698608 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+
+      dojontopint_35: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/polished_wood_ceiling_long.w2ent"
+        transform: 
+          pos: [ -735.2955932617, 630.9945068359, 93.0381698608 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+
+      dojontopint_36: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/polished_wood_ceiling_long.w2ent"
+        transform: 
+          pos: [ -736.9667358398, 631.0147094727, 93.0381698608 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+
+      dojontopint_37: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/polished_wood_ceiling_long.w2ent"
+        transform: 
+          pos: [ -738.6484375000, 631.0693969727, 93.0381698608 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+
+      dojontopint_38: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/polished_wood_ceiling_long.w2ent"
+        transform: 
+          pos: [ -740.3372802734, 631.0186767578, 93.0381698608 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+
+      dojontopint_39: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/polished_wood_ceiling_long.w2ent"
+        transform: 
+          pos: [ -740.3363647461, 625.8139038086, 93.0381698608 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+
       dojontopint_4: 
         .type: "CEntity"
         .debug: 
@@ -507,6 +609,177 @@ layers:
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/architecture/human/common/basement/basement_round_column.w2mesh"
 
+      dojontopint_40: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/polished_wood_ceiling_long.w2ent"
+        transform: 
+          pos: [ -738.6588745117, 625.8621215820, 93.0381698608 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+
+      dojontopint_41: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/polished_wood_ceiling_long.w2ent"
+        transform: 
+          pos: [ -736.9846191406, 625.8056030273, 93.0381698608 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+
+      dojontopint_42: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/polished_wood_ceiling_long.w2ent"
+        transform: 
+          pos: [ -735.2994995117, 625.7839355469, 93.0381698608 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+
+      dojontopint_43: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/polished_wood_ceiling_long.w2ent"
+        transform: 
+          pos: [ -733.6220703125, 625.8167724609, 93.0381698608 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+
+      dojontopint_44: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/polished_wood_ceiling_long.w2ent"
+        transform: 
+          pos: [ -731.8527832031, 625.8515625000, 93.0381698608 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+          scale: [ 1.1000000238, 1.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/common/ceiling/polished_wood_ceiling/polished_wood_ceiling_long.w2mesh"
+
+      dojontopint_45: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_tall_stairs_house_a_f3_wall_b.w2ent"
+        transform: 
+          pos: [ -736.2667236328, 637.2097778320, 92.8755264282 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+
+      dojontopint_46: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_tall_stairs_house_a_f3_wall_b.w2ent"
+        transform: 
+          pos: [ -738.7421875000, 634.5802001953, 92.8755264282 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+
+      dojontopint_47: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_tall_stairs_house_a_f3_wall_b.w2ent"
+        transform: 
+          pos: [ -741.2086181641, 631.8970336914, 92.8755264282 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+
+      dojontopint_48: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_tall_stairs_house_a_f3_wall_b.w2ent"
+        transform: 
+          pos: [ -741.1620483398, 626.6264038086, 92.8755264282 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+
+      dojontopint_49: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_tall_stairs_house_a_f3_wall_b.w2ent"
+        transform: 
+          pos: [ -738.9546508789, 625.8059692383, 92.8755264282 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+
       dojontopint_5: 
         .type: "CEntity"
         .debug: 
@@ -524,6 +797,159 @@ layers:
             forceAutoHideDistance: 200
             drawableFlags: [ "IsVisible", "CastShadows" ]
             mesh: "environment/terrain_surroundings/common/cave/druid_cave_floor_wood.w2mesh"
+
+      dojontopint_50: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_tall_stairs_house_a_f3_wall_b.w2ent"
+        transform: 
+          pos: [ -726.1546630859, 624.2343139648, 92.8755264282 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+
+      dojontopint_51: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_tall_stairs_house_a_f3_wall_b.w2ent"
+        transform: 
+          pos: [ -731.4192504883, 624.1629028320, 92.8755264282 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+
+      dojontopint_52: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_tall_stairs_house_a_f3_wall_b.w2ent"
+        transform: 
+          pos: [ -736.7271728516, 624.0914306641, 92.8755264282 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+
+      dojontopint_53: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_tall_stairs_house_a_f3_wall_b.w2ent"
+        transform: 
+          pos: [ -733.5269165039, 639.0393066406, 92.8755264282 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+
+      dojontopint_54: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_tall_stairs_house_a_f3_wall_b.w2ent"
+        transform: 
+          pos: [ -728.2269897461, 639.0612182617, 92.8755264282 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+
+      dojontopint_55: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_tall_stairs_house_a_f3_wall_b.w2ent"
+        transform: 
+          pos: [ -722.9051513672, 639.1071166992, 92.8955230713 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+
+      dojontopint_56: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+        transform: 
+          pos: [ -736.4406127930, 625.0540161133, 92.9956665039 ]
+          rot: [ 0.0, 0.0, 0.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+
+      dojontopint_57: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_house_medium_wall_interior_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_house_medium_wall_interior_b.w2ent"
+        transform: 
+          pos: [ -738.8601684570, 634.5802001953, 90.1355285645 ]
+          rot: [ 0.0, 0.0, -90.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_house_medium_wall_interior_b.w2mesh"
+
+      dojontopint_58: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_tall_stairs_house_a_f3_wall_b.w2ent"
+        transform: 
+          pos: [ -735.4024658203, 634.3868408203, 90.3354949951 ]
+          rot: [ 0.0, 0.0, 90.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/decorations/decoration_sets/houses/novigrad_houses/poor_tall/decoration_set_poor_tall_stairs_house/meshes/poor_tall_stairs_house_a_f3_wall_b.w2mesh"
 
       dojontopint_6: 
         .type: "CEntity"

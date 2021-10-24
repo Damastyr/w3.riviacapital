@@ -10,13 +10,14 @@ layers:
           pos: [ -1195.9820556641, 650.5045776367, -1.2266454697 ]
           rot: [ 0.0, 0.0, 44.9000244141 ]
           scale: [ 1.0, 1.0, 1.0 ]
+        streamingDistance: 200          
         components: 
           particles: 
             .debug: 
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true    
 
       fog2: 
         .type: "CEntity"
@@ -24,13 +25,14 @@ layers:
           pos: [ -1227.8968505859, 583.4996948242, -1.2266454697 ]
           rot: [ 0.0, 0.0, 44.9000244141 ]
           scale: [ 1.0, 1.0, 1.0 ]
+        streamingDistance: 200          
         components: 
           particles: 
             .debug: 
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3: 
         .type: "CEntity"
@@ -44,7 +46,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_1: 
         .type: "CEntity"
@@ -58,7 +60,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_10: 
         .type: "CEntity"
@@ -72,7 +74,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_11: 
         .type: "CEntity"
@@ -86,7 +88,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_12: 
         .type: "CEntity"
@@ -100,7 +102,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_13: 
         .type: "CEntity"
@@ -114,7 +116,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_14: 
         .type: "CEntity"
@@ -128,7 +130,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_15: 
         .type: "CEntity"
@@ -142,7 +144,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_16: 
         .type: "CEntity"
@@ -156,7 +158,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_17: 
         .type: "CEntity"
@@ -170,7 +172,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_18: 
         .type: "CEntity"
@@ -184,7 +186,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_19: 
         .type: "CEntity"
@@ -198,7 +200,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_2: 
         .type: "CEntity"
@@ -212,7 +214,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_20: 
         .type: "CEntity"
@@ -226,7 +228,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_21: 
         .type: "CEntity"
@@ -240,7 +242,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_22: 
         .type: "CEntity"
@@ -254,7 +256,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_23: 
         .type: "CEntity"
@@ -268,7 +270,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_24: 
         .type: "CEntity"
@@ -282,7 +284,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_25: 
         .type: "CEntity"
@@ -296,7 +298,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_26: 
         .type: "CEntity"
@@ -310,7 +312,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_27: 
         .type: "CEntity"
@@ -324,7 +326,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_28: 
         .type: "CEntity"
@@ -338,7 +340,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_29: 
         .type: "CEntity"
@@ -352,7 +354,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_3: 
         .type: "CEntity"
@@ -366,7 +368,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_30: 
         .type: "CEntity"
@@ -380,7 +382,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_31: 
         .type: "CEntity"
@@ -394,7 +396,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_32: 
         .type: "CEntity"
@@ -408,7 +410,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_33: 
         .type: "CEntity"
@@ -422,7 +424,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_34: 
         .type: "CEntity"
@@ -436,7 +438,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_35: 
         .type: "CEntity"
@@ -450,7 +452,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_36: 
         .type: "CEntity"
@@ -464,7 +466,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_37: 
         .type: "CEntity"
@@ -478,7 +480,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_38: 
         .type: "CEntity"
@@ -492,7 +494,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_39: 
         .type: "CEntity"
@@ -506,7 +508,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_4: 
         .type: "CEntity"
@@ -520,7 +522,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_40: 
         .type: "CEntity"
@@ -534,7 +536,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_41: 
         .type: "CEntity"
@@ -548,7 +550,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_42: 
         .type: "CEntity"
@@ -562,7 +564,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_43: 
         .type: "CEntity"
@@ -576,7 +578,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_44: 
         .type: "CEntity"
@@ -590,7 +592,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_5: 
         .type: "CEntity"
@@ -604,7 +606,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_6: 
         .type: "CEntity"
@@ -618,7 +620,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_7: 
         .type: "CEntity"
@@ -632,7 +634,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_8: 
         .type: "CEntity"
@@ -646,7 +648,7 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true
 
       fog3_9: 
         .type: "CEntity"
@@ -660,4 +662,4 @@ layers:
               proxytemplate: "q311_fog_area_huge.w2ent"
             .type: "CParticleComponent"
             particleSystem: "fx\\quest\\q311\\q311_fog_area_huge.w2p"
-            isStreamed: false
+            isStreamed: true

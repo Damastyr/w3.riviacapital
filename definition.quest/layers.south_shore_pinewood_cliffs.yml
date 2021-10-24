@@ -1,0 +1,418 @@
+layers:
+  south_shore_pinewood_cliffs1: 
+    world: "riviacapital"
+    #context: ""
+
+    statics.shadows: 
+      southshorepinewoodcliffs: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/dirt_wall_round_cap_moss.w2ent"
+        transform: 
+          pos: [ 188.3213043213, -129.0332489014, 6.6741094589 ]
+          rot: [ 0.0, 0.0, -162.5999908447 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+
+      southshorepinewoodcliffs_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/dirt_wall_round_cap_moss.w2ent"
+        transform: 
+          pos: [ 197.6674499512, -125.0894699097, 0.9141137600 ]
+          rot: [ 3.0, 0.0, -178.6000518799 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+
+      southshorepinewoodcliffs_10: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_long_druid.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/dirt_wall_long_druid.w2ent"
+        transform: 
+          pos: [ 213.6701507568, -105.1563949585, -2.3359262943 ]
+          rot: [ 340.0, 340.0, -165.7999725342 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_long_druid.w2mesh"
+
+      southshorepinewoodcliffs_11: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_d.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_d.w2ent"
+        transform: 
+          pos: [ 202.5345611572, -117.6900024414, 3.6640720367 ]
+          rot: [ 40.0, 340.0, -383.2001037598 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_d.w2mesh"
+
+      southshorepinewoodcliffs_12: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_e.w2ent"
+        transform: 
+          pos: [ 183.1416931152, -126.0550765991, 2.4640731812 ]
+          rot: [ 40.0, 340.0, -121.0001373291 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_e.w2mesh"
+
+      southshorepinewoodcliffs_13: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_e.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_e.w2ent"
+        transform: 
+          pos: [ 177.4756622314, -141.3167114258, -0.4159265459 ]
+          rot: [ 40.0, 340.0, -27.2001228333 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_e.w2mesh"
+
+      southshorepinewoodcliffs_14: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_f.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_f.w2ent"
+        transform: 
+          pos: [ 200.3020782471, -155.6970825195, 6.3440761566 ]
+          rot: [ 90.0, 340.0, -143.0001068115 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_f.w2mesh"
+
+      southshorepinewoodcliffs_15: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_f.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_f.w2ent"
+        transform: 
+          pos: [ 189.4626922607, -119.4790802002, 8.6330690384 ]
+          rot: [ 90.0, 340.0, -33.4001045227 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_f.w2mesh"
+
+      southshorepinewoodcliffs_16: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_f.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_f.w2ent"
+        transform: 
+          pos: [ 211.1756439209, -98.5545196533, 7.5730714798 ]
+          rot: [ 90.0, 340.0, -54.6000747681 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_f.w2mesh"
+
+      southshorepinewoodcliffs_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/dirt_wall_round_cap_moss.w2ent"
+        transform: 
+          pos: [ 206.5623168945, -120.8829345703, 1.8741137981 ]
+          rot: [ 3.0, 0.0, -178.6000518799 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+
+      southshorepinewoodcliffs_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/dirt_wall_round_cap_moss.w2ent"
+        transform: 
+          pos: [ 212.4070281982, -113.7736282349, -0.5258861780 ]
+          rot: [ 350.0, 0.0, -123.5999984741 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+
+      southshorepinewoodcliffs_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/dirt_wall_round_cap_moss.w2ent"
+        transform: 
+          pos: [ 188.0602416992, -138.3940124512, 0.9141138196 ]
+          rot: [ 350.0, 0.0, -80.5999984741 ]
+          scale: [ 2.0, 3.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+
+      southshorepinewoodcliffs_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/dirt_wall_round_cap_moss.w2ent"
+        transform: 
+          pos: [ 188.4937896729, -146.6699676514, 0.4341137409 ]
+          rot: [ 0.0, 0.0, -30.6000003815 ]
+          scale: [ 2.0, 3.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+
+      southshorepinewoodcliffs_6: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/dirt_wall_round_cap_moss.w2ent"
+        transform: 
+          pos: [ 203.3640594482, -149.5026245117, 1.5141137838 ]
+          rot: [ 0.0, 20.0, -45.2000007629 ]
+          scale: [ 2.0, 3.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+
+      southshorepinewoodcliffs_7: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/dirt_wall_round_cap_moss.w2ent"
+        transform: 
+          pos: [ 196.2691955566, -156.9995727539, -0.8858862519 ]
+          rot: [ 0.0, 340.0, -142.4000396729 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_round_cap_moss.w2mesh"
+
+      southshorepinewoodcliffs_8: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_long_druid.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/dirt_wall_long_druid.w2ent"
+        transform: 
+          pos: [ 188.6276702881, -124.2389221191, -0.0458861664 ]
+          rot: [ 0.0, 340.0, -147.6000823975 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_long_druid.w2mesh"
+
+      southshorepinewoodcliffs_9: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_long_druid.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/dirt_wall_long_druid.w2ent"
+        transform: 
+          pos: [ 183.8923339844, -140.7662963867, 0.2240732908 ]
+          rot: [ 0.0, 340.0, -59.6000747681 ]
+          scale: [ 2.0, 2.0, 2.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 500
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/dirt_wall_long_druid.w2mesh"
+            
+      southshorepinewoodcliffs2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/sand_wall_round_cap_moss.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sand_wall_round_cap_moss.w2ent"
+        transform: 
+          pos: [ 166.0262908936, -109.5842437744, -1.5313093662 ]
+          rot: [ 0.0, 0.0, -149.3999938965 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/sand_wall_round_cap_moss.w2mesh"
+
+      southshorepinewoodcliffs2_1: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/sand_wall_round_cap_moss.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sand_wall_round_cap_moss.w2ent"
+        transform: 
+          pos: [ 171.0512542725, -105.8245162964, -1.5313093662 ]
+          rot: [ 0.0, 0.0, -200.7999572754 ]
+          scale: [ 1.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/sand_wall_round_cap_moss.w2mesh"
+
+      southshorepinewoodcliffs2_2: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/sand_wall_round_cap_moss.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sand_wall_round_cap_moss.w2ent"
+        transform: 
+          pos: [ 174.6005401611, -103.6625747681, -1.4913090467 ]
+          rot: [ 0.0, 0.0, -221.5999450684 ]
+          scale: [ 1.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/sand_wall_round_cap_moss.w2mesh"
+
+      southshorepinewoodcliffs2_3: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/sand_wall_round_cap_moss.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sand_wall_round_cap_moss.w2ent"
+        transform: 
+          pos: [ 185.0467071533, -99.7405929565, -1.6113089323 ]
+          rot: [ 0.0, 0.0, -148.5999145508 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/sand_wall_round_cap_moss.w2mesh"
+
+      southshorepinewoodcliffs2_4: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/common/dirt_wall/sand_wall_round_cap_moss.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/sand_wall_round_cap_moss.w2ent"
+        transform: 
+          pos: [ 192.0314941406, -95.8387222290, -1.6113089323 ]
+          rot: [ 0.0, 0.0, -118.1999053955 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/common/dirt_wall/sand_wall_round_cap_moss.w2mesh"
+
+      southshorepinewoodcliffs2_5: 
+        .type: "CEntity"
+        .debug: 
+          mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_a.w2mesh"
+          meshpreview: "dlc/modtemplates/radishquestui/meshes/rock_cliff_a.w2ent"
+        transform: 
+          pos: [ 177.8207702637, -98.0158233643, -2.7913081646 ]
+          rot: [ 0.0, 0.0, -170.9998779297 ]
+          scale: [ 2.0, 2.0, 1.0 ]
+        streamingDistance: 200
+        components: 
+          mesh: 
+            .type: "CStaticMeshComponent"
+            isStreamed: true
+            forceAutoHideDistance: 200
+            drawableFlags: [ "IsVisible", "CastShadows" ]
+            mesh: "environment/terrain_surroundings/skellige/rocks_cliff/rock_cliff_a.w2mesh"            

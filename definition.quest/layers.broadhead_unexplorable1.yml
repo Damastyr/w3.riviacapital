@@ -1,0 +1,598 @@
+layers:
+   broadhead_unex1: 
+     world: "riviacapital"
+     #context: ""
+ 
+     statics: 
+       bharchi1_20: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_roof.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loam_floor_roof.w2ent"
+         transform: 
+           pos: [ -590.8865966797, -365.9046630859, 15.0094089508 ]
+           rot: [ 0.0, 0.0, 63.8000679016 ]
+           scale: [ 0.8999999762, 0.5000000000, 0.8999999762 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loam_floor_roof.w2mesh"     
+             
+       bharchi1_26: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_roof_outhouse_a.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_loamred_floor_roof_outhouse_a.w2ent"
+         transform: 
+           pos: [ -591.3076171875, -371.2972717285, 14.9482994080 ]
+           rot: [ 0.0, 0.0, -25.3999462128 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_loamred_floor_roof_outhouse_a.w2mesh"     
+       bharchi1_5: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_wooden_roof_half_small.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_wooden_roof_half_small.w2ent"
+         transform: 
+           pos: [ -592.5187377930, -368.8573303223, 13.8293819427 ]
+           rot: [ 0.0, 0.0, -21.1999378204 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_wooden_roof_half_small.w2mesh"
+ 
+       bharchi1_6: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_wooden_roof_half_small.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/poor_wooden_roof_half_small.w2ent"
+         transform: 
+           pos: [ -592.5231323242, -369.1947326660, 13.7693805695 ]
+           rot: [ 0.0, 0.0, 158.6000518799 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/novigrad/poor/loam_houses_parts/poor_wooden_roof_half_small.w2mesh"
+                     
+     statics.shadows: 
+       bharchi1: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_house_medium_wall_interior.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_house_medium_wall_interior.w2ent"
+         transform: 
+           pos: [ -593.7510986328, -372.1743774414, 11.1893959045 ]
+           rot: [ 0.0, 0.0, -110.3999557495 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_house_medium_wall_interior.w2mesh"
+ 
+       bharchi1_1: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -590.3139038086, -373.3846435547, 11.1893959045 ]
+           rot: [ 0.0, 0.0, -110.3999557495 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_10: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -592.9114990234, -372.4226379395, 9.6004772186 ]
+           rot: [ 0.0, 0.0, -110.3999557495 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_11: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_house_medium_wall_interior.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_house_medium_wall_interior.w2ent"
+         transform: 
+           pos: [ -596.6687011719, -367.9385375977, 11.1293716431 ]
+           rot: [ 0.0, 0.0, -201.3998870850 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_house_medium_wall_interior.w2mesh"
+ 
+       bharchi1_12: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -595.5353393555, -364.8735961914, 11.1621437073 ]
+           rot: [ 0.0, 0.0, -21.5999450684 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_13: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -587.9323730469, -367.1057128906, 11.1893959045 ]
+           rot: [ 0.0, 0.0, -110.3999557495 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_14: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -589.1729125977, -366.6266784668, 11.1893959045 ]
+           rot: [ 0.0, 0.0, -110.3999557495 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_15: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -590.3656005859, -366.1675109863, 11.1893959045 ]
+           rot: [ 0.0, 0.0, -110.3999557495 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_16: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -591.5463867188, -365.7178039551, 11.1893959045 ]
+           rot: [ 0.0, 0.0, -110.3999557495 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_17: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -592.8060913086, -365.1643371582, 11.1893959045 ]
+           rot: [ 0.0, 0.0, -110.3999557495 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_18: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -594.0403442383, -364.8631896973, 10.9166717529 ]
+           rot: [ 0.0, 0.0, -110.3999557495 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_19: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -594.7337036133, -364.5519104004, 10.9166717529 ]
+           rot: [ 0.0, 0.0, -110.3999557495 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_2: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -589.5321044922, -372.8366394043, 11.1621437073 ]
+           rot: [ 0.0, 0.0, -21.5999450684 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+
+ 
+       bharchi1_21: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -590.3911743164, -362.8852539063, 10.5093803406 ]
+           rot: [ 0.0, 0.0, -110.3999557495 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_22: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -588.8773193359, -363.6241760254, 10.5093803406 ]
+           rot: [ 0.0, 0.0, -115.9999084473 ]
+           scale: [ 1.0, 1.5000000000, 1.0 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_23: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -588.8099975586, -365.6943359375, 10.5893964767 ]
+           rot: [ 0.0, 0.0, -205.3998565674 ]
+           scale: [ 1.0, 2.5000000000, 1.0 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_24: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -596.9141235352, -368.7317504883, 9.1494035721 ]
+           rot: [ 0.0, 0.0, -201.3999176025 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_25: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_house_medium_wall_interior.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_house_medium_wall_interior.w2ent"
+         transform: 
+           pos: [ -592.2142333984, -365.4510498047, 10.7493858337 ]
+           rot: [ 0.0, 0.0, -24.3999576569 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_house_medium_wall_interior.w2mesh"
+ 
+
+ 
+       bharchi1_27: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/tunnel_support_beam.w2ent"
+         transform: 
+           pos: [ -596.7561035156, -367.5429992676, 10.9679145813 ]
+           rot: [ 90.0, 0.0, -110.3999862671 ]
+           scale: [ 2.0, 2.0, 0.6999999881 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+ 
+       bharchi1_28: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/tunnel_support_beam.w2ent"
+         transform: 
+           pos: [ -593.8475952148, -372.2689514160, 10.9427957535 ]
+           rot: [ 90.0, 0.0, -21.1999874115 ]
+           scale: [ 2.0, 2.0, 0.9599999785 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+ 
+       bharchi1_29: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/tunnel_support_beam.w2ent"
+         transform: 
+           pos: [ -588.4584960938, -370.6371765137, 10.9693546295 ]
+           rot: [ 90.0, 0.0, -110.3999862671 ]
+           scale: [ 2.0, 2.0, 0.7599999905 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+ 
+       bharchi1_3: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -589.0352172852, -371.5393371582, 11.1621437073 ]
+           rot: [ 0.0, 0.0, -21.5999450684 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_30: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/tunnel_support_beam.w2ent"
+         transform: 
+           pos: [ -591.4494018555, -365.7720336914, 11.0027971268 ]
+           rot: [ 90.0, 0.0, -20.5999889374 ]
+           scale: [ 2.0, 2.0, 0.9499999881 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+ 
+       bharchi1_31: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/tunnel_support_beam.w2ent"
+         transform: 
+           pos: [ -592.9998779297, -366.5563354492, 10.7027902603 ]
+           rot: [ 90.0, 0.0, 64.8000717163 ]
+           scale: [ 2.0, 2.0, 0.9499999881 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+ 
+       bharchi1_32: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/tunnel_support_beam.w2ent"
+         transform: 
+           pos: [ -589.7198486328, -368.1015625000, 10.7027902603 ]
+           rot: [ 90.0, 0.0, 66.6000137329 ]
+           scale: [ 2.0, 2.0, 0.9499999881 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+ 
+       bharchi1_33: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/tunnel_support_beam.w2ent"
+         transform: 
+           pos: [ -589.5277099609, -363.2496032715, 10.6595058441 ]
+           rot: [ 90.0, 0.0, -24.1999282837 ]
+           scale: [ 2.0, 2.0, 0.4000000060 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/skellige/ard_skellig/kaer_trolde/castle/tunnel_support_beam.w2mesh"
+ 
+       bharchi1_4: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -588.5137939453, -370.2341003418, 11.1621437073 ]
+           rot: [ 0.0, 0.0, -21.5999450684 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+
+       bharchi1_7: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -588.0004882813, -368.8916931152, 11.1621437073 ]
+           rot: [ 0.0, 0.0, -21.5999450684 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_8: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -587.6179199219, -367.8876953125, 11.1621437073 ]
+           rot: [ 0.0, 0.0, -21.5999450684 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+ 
+       bharchi1_9: 
+         .type: "CEntity"
+         .debug: 
+           mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
+           meshpreview: "dlc/modtemplates/radishquestui/meshes/thatched_wall_procedural.w2ent"
+         transform: 
+           pos: [ -597.1103515625, -370.9281616211, 11.0005092621 ]
+           rot: [ 0.0, 0.0, -110.3999557495 ]
+         streamingDistance: 200
+         components: 
+           mesh: 
+             .type: "CStaticMeshComponent"
+             isStreamed: true
+             forceAutoHideDistance: 1000
+             drawableFlags: [ "IsVisible", "CastShadows" ]
+             mesh: "environment/architecture/human/redania/nomans_land/thatched_buildings/interiors/thatched_wall_procedural.w2mesh"
